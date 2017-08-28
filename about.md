@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+A final year undergrade from India studying Computer Science and Engineering. A coding enthusiast and Linux lover who loves to read books. Also you can find him playing and talking about football in his free time. He is a FOSS lover and coding enthusiast. He shares most of his knowledge through this blog.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Ranvir Singh is firm beliver of deep work and like to stays under the radar for most of his work. Because of this ability of his, he was able to crack **Google Summer of Code-2017**. You can find all my projects on GitHub.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+**email:** [ranvir.singh1114@gmail.com](mailto:ranvir.singh1114@gmail
