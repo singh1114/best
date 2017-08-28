@@ -12,4 +12,4 @@ Ranvir Singh is firm beliver of deep work and like to stays under the radar for 
 
 ### Contact me
 
-**email:** [ranvir.singh1114@gmail.com](mailto:ranvir.singh1114@gmail
+**email:** [ranvir.singh1114@gmail.com](mailto:ranvir.singh1114@gmail.com)
