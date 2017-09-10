@@ -4,6 +4,9 @@ layout: default
 
 <article class="post">
   <h1>{{ page.title }}</h1>
+  <div class="date">
+    Written on {{ page.date | date: "%B %e, %Y" }}
+  </div>
   <div class="post-categories">
     {% if post %}
       {% assign categories = post.categories %}
@@ -15,7 +18,7 @@ layout: default
     </strong>
     {% for category in categories %}
         <a href="{{site.baseurl}}/categories/#{{category|slugize}}"> {{category}}</a>
-      {% unless forloop.last %}&nbsp;{% endunless %}
+      {% unless forloop.last %}&nbsp;{% endunless %} <strong>|</strong>
     {% endfor %}
   </div>
 
@@ -23,9 +26,6 @@ layout: default
     {{ content }}
   </div>
 
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
 
   {% include disqus.html %}
 </article>
