@@ -13,6 +13,7 @@ avatar: https://avatars3.githubusercontent.com/u/11356398?v=4&s=460
 
 plugins:
     - jekyll-seo-tag
+    - jekyll-sitemap
 #
 # Flags below are optional
 #
