@@ -11,9 +11,6 @@ description: Open-source enthusiast from India
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars3.githubusercontent.com/u/11356398?v=4&s=460
 
-plugins:
-    - jekyll-seo-tag
-    - jekyll-sitemap
 #
 # Flags below are optional
 #
@@ -26,7 +23,7 @@ footer-links:
   flickr:
   github: singh1114
   instagram:
-  linkedin: ranvir.singh14/
+  linkedin: ranvir-singh-153a21b0/
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: jekyllrb
@@ -76,7 +73,9 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-gems:
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
