@@ -22,6 +22,7 @@ Here is the link to the solution for generating permutation having small complex
 
 I used the same approach to solve the problem. Most of the stuff is shared and is readable inside the code.
 
+{% highlight python linenos %}
 ```
 #include<bits/stdc++.h>                                                                             
 using namespace std;                                                                                
@@ -115,6 +116,7 @@ int main()
     return 0;                                                                                       
 }                                                                                                   
 ```
+{% endhighlight %}
 
 This is the working code for the small numbers. I am getting `time limit exceeding` for the large set. I have to make some optimizations to make it work for large numbers.
 
