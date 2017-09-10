@@ -22,7 +22,7 @@ Here is the link to the solution for generating permutation having small complex
 
 I used the same approach to solve the problem. Most of the stuff is shared and is readable inside the code in the form of comments.
 
-{% highlight python linenos %}
+{% highlight cpp linenos %}
 #include<bits/stdc++.h>
 
 using namespace std;
