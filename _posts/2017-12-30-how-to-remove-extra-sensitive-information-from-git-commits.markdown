@@ -5,12 +5,17 @@ date: 2017-12-30 07:46:54.178447
 layout: post
 title: How to remove extra sensitive information from git commits
 slug: how-to-remove-extra-sensitive-information-from-git-commits
+categories:
+- GitHub
+- GitHub Pages
+- Jekyll
+- Remove commits
 ---
 Many times we out of knowledge give extra sensitive information to files and directories and send them into Git. Git being the version control system saves everything into the system. So if you add a password to a file which you can't really change in the future, Git will store the password forever. This way the hackers can take down your system.&nbsp;
 
 &nbsp;
 
-Such thing happened to me when I launched&nbsp;JekLog&nbsp;which is a blog creating platform using Jekyll and GitHub pages. I was using GitHub API for the web application. As the app was made by using Django( web development app of python), everything was needed&nbsp;to be saved in the settings.py file. I accidentally committed the files and pushed them to the GitHub pages. The files contained the password of my Gmail account. Thanks to google who saved my account from being hacked by sending a message to me about the suspense activity.&nbsp;
+Such thing happened to me when I launched [JekLog](http://jeklog.com), which is a blog creating platform using Jekyll and GitHub pages. I was using GitHub API for the web application. As the app was made by using Django( web development app of python), everything was needed&nbsp;to be saved in the settings.py file. I accidentally committed the files and pushed them to the GitHub pages. The files contained the password of my Gmail account. Thanks to google who saved my account from being hacked by sending a message to me about the suspense activity.&nbsp;
 
 &nbsp;
 
