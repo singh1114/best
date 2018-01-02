@@ -73,6 +73,8 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
+gems:
+  - jekyll-sitemap
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
