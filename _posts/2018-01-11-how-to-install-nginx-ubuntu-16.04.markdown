@@ -4,7 +4,7 @@ comments: true
 date: 2018-01-11 07:46:54.178447
 layout: post
 title: How to install nginx in Ubuntu 16.04
-slug: how-to-remove-extra-sensitive-information-from-git-commits
+slug: how-to-install-nginx-in-ubuntu
 categories:
 - nginx
 - apache2
