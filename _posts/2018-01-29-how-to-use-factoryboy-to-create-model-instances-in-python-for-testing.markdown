@@ -14,8 +14,7 @@ The name 'Factory Boy' is inspired by the Factory Girl testing tool for Ruby on 
 
 Without the use of factories, this is how your tests will look like:
 
-```
-
+```python
 from django.test import TestCase
 from my_app.models import Person
 class DataBaseStore(TestCase):
@@ -24,7 +23,6 @@ class DataBaseStore(TestCase):
         Person.objects.create(gender='male', age=20, name='ranvir')  
     def test_something(self):
         # test all the things that you want to.
-
 ```
  
 
@@ -35,7 +33,7 @@ We can write factories anywhere but it's always a good idea to write it in a fil
 Write following in the factories.py file inside your root directory.
 
  
-```
+```python
 from factory.django import DjangoModelFactory  
 from my_app.models import Person  
 class PersonFactory(DjangoModelFactory):  
