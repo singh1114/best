@@ -12,6 +12,8 @@ category:
 ---
 Environment variables are very important for setting up important variables that you don't want to share in code. In my project, I have to set up some important variable that I require all over my project for the development. For example database names, email passwords, private keys and all other such things. But the problem with the environment variables is that you need to set them again and again. Everytime you come back to your shell, you have to create them again.
 
+![python logo](http://dashh.in/wp-content/uploads/2017/03/the-python-programming-language-explained.gif "Python Logo")
+
 First of all, Let's discuss the way in which we can set enviorment variables without using direnv. The easiest way of creating these variables is as follows:
 
 ```bash
