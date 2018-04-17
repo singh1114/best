@@ -27,4 +27,4 @@ This one looked good to me on the first look. The documentation showed every pos
 
 <https://github.com/bigjason/django-choices>
 
-I am going to use these for my current project.&nbsp;
+I am going to use this for my current project.&nbsp;
