@@ -11,9 +11,9 @@ Implementing Django choices in models is not very sophisticated. While writing m
     
     
     animal = (
-    		('cat', '0'),
-    		('lizard', '1'),
-    		('dog', '2'),
+        ('cat', '0'),
+    	('lizard', '1'),
+    	('dog', '2'),
     	)
     animal_type = models.CharField(choices = animal, max_length = 2)
 
@@ -49,6 +49,4 @@ You can use this module as follows.&nbsp;
         type = models.CharField(max_length=1, choices=PersonType.choices)
     
 
-
-
-Hope you find this useful.
+Hope you find this useful.
