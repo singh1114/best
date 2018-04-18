@@ -27,4 +27,28 @@ This one looked good to me on the first look. The documentation showed every pos
 
 <https://github.com/bigjason/django-choices>
 
-I am going to use this for my current project.&nbsp;
+You can use this module as follows.&nbsp;
+
+    
+    
+    
+    # choices.py
+    from djchoices import DjangoChoices, ChoiceItem
+    
+    class PersonType(DjangoChoices):
+        customer = ChoiceItem("C")
+        employee = ChoiceItem("E")
+        groundhog = ChoiceItem("G")
+    
+    
+    # models.py
+    
+    from .choices import PersonType
+    
+    class Person(models.Model):
+        type = models.CharField(max_length=1, choices=PersonType.choices)
+    
+
+
+
+Hope you find this useful.
