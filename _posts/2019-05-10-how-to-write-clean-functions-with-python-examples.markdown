@@ -1,7 +1,7 @@
 ---
 author: Ranvir Singh
 comments: true
-date: 2019-05-10 10:52:55.424727
+date: 2019-05-20 10:52:55.424727
 layout: post
 title: How to write clean functions with Python examples
 slug: how-to-write-clean-functions-with-python-examples
