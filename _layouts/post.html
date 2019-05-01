@@ -4,6 +4,16 @@ layout: default
 
 <article class="post">
   <h1>{{ page.title }}</h1>
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <ins class="adsbygoogle"
+       style="display:block; text-align:center;"
+       data-ad-layout="in-article"
+       data-ad-format="fluid"
+       data-ad-client="ca-pub-1291724895555434"
+       data-ad-slot="5516822896"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
@@ -20,30 +30,10 @@ layout: default
         <a href="{{site.baseurl}}/categories/#{{category|slugize}}"> {{category}}</a>
       {% unless forloop.last %}&nbsp;{% endunless %} <strong>|</strong>
     {% endfor %}
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <!-- ranvirsingh.me -->
-    <ins class="adsbygoogle"
-        style="display:block"
-        data-ad-client="ca-pub-1291724895555434"
-        data-ad-slot="5835253640"
-        data-ad-format="auto"></ins>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
   </div>
 
   <div class="entry">
     {{ content }}
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <!-- ranvirsingh.com -->
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-1291724895555434"
-         data-ad-slot="1544464588"
-         data-ad-format="auto"></ins>
-    <script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
   </div>
 
 
