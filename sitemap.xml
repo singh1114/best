@@ -8,345 +8,691 @@
 
 
 <url>
-  <loc>http://blog.ranvirsingh.me/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/hire_me/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/how-to-write-clean-functions-with-python-examples/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/gsoc_2017/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/intermediate-guide-for-node.js-developers/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/about/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/working-properly-with-django-choices/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/working-properly-with-django-choices/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/dir-env-to-create-environment-variables-in-ubuntu/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/dir-env-to-create-environment-variables-in-ubuntu/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/how-to-use-factoryboy-to-create-model-instances-in-python-for-testing/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/how-to-use-factoryboy-to-create-model-instances-in-python-for-testing/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/how-to-install-nginx-in-ubuntu/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/how-to-install-nginx-in-ubuntu/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/how-to-remove-extra-sensitive-information-from-git-commits/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/how-to-remove-extra-sensitive-information-from-git-commits/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/copy_paste_from_system_clipboard/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/copy_paste_from_system_clipboard/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/permutations_smallest/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/permutations_smallest/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/export_wordpress_blog_to_jekyll/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/export_wordpress_blog_to_jekyll/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/importance-of-logging-in-python/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/importance-of-logging-in-python/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/serialization-a-week-long-struggle/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/serialization-a-week-long-struggle/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/writing-unit-tests-for-the-models/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/writing-unit-tests-for-the-models/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/updating-the-models/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/updating-the-models/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/using-celery-to-run-long-running-task-asynchronously/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/using-celery-to-run-long-running-task-asynchronously/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/using-requests-library-to-grab-code-present-at-an-url/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/using-requests-library-to-grab-code-present-at-an-url/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/a-word-about-character-sets-ascii-unicode-utf-8/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/a-word-about-character-sets-ascii-unicode-utf-8/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/a-word-about-subprocess-module/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/a-word-about-subprocess-module/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/using-dynamic-ip-updater-to-connect-two-machines-on-different-network/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/using-dynamic-ip-updater-to-connect-two-machines-on-different-network/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/models-for-the-scancode-project-app/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/models-for-the-scancode-project-app/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/using-tightvnc-to-attach-desktop-to-the-server/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/using-tightvnc-to-attach-desktop-to-the-server/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/getting-started-with-c-boost-library/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/getting-started-with-c-boost-library/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/django-keeping-your-directory-structure-clean/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/django-keeping-your-directory-structure-clean/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/using-mutt-to-send-a-few-hundred-of-emails-using-python-script/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/using-mutt-to-send-a-few-hundred-of-emails-using-python-script/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/changing-the-commit-messages-that-are-already-pushed/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/changing-the-commit-messages-that-are-already-pushed/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/automating-the-action-of-creating-the-presentations/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/automating-the-action-of-creating-the-presentations/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/sorting-the-messages-in-the-_postmessage-function/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/sorting-the-messages-in-the-_postmessage-function/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/some-features-of-xmpp/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/some-features-of-xmpp/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/data-structure-stack/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/data-structure-stack/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/converse-js-and-candy-js-functionalities/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/converse-js-and-candy-js-functionalities/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/creating-graphs-using-data-form-csv-file/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/creating-graphs-using-data-form-csv-file/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/php-the-basics/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/php-the-basics/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/how-to-create-a-session-variable-in-django/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/how-to-create-a-session-variable-in-django/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/javascript-program-that-handle-arrow-keyboard-events/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/javascript-program-that-handle-arrow-keyboard-events/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/adding-a-tuple-to-the-end-of-the-basic-tuple-in-python/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/adding-a-tuple-to-the-end-of-the-basic-tuple-in-python/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/creating-a-header-which-changes-style-on-scrolling-from-transparent-to-colored/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/creating-a-header-which-changes-style-on-scrolling-from-transparent-to-colored/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/how-to-install-django-using-virtual-environment/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/how-to-install-django-using-virtual-environment/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/creating-documentation-using-doxygen-in-ubuntu/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/creating-documentation-using-doxygen-in-ubuntu/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/using-my-own-coded-software-to-study-for-exams/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/using-my-own-coded-software-to-study-for-exams/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/necessity-of-documentation-while-programming/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/necessity-of-documentation-while-programming/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/how-to-simplify-commands-name-in-ubutnu/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/how-to-simplify-commands-name-in-ubutnu/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/todo-list-app-in-meteor-completed/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/todo-list-app-in-meteor-completed/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/designing-ui-for-sim/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/designing-ui-for-sim/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/how-to-show-html-on-the-browser/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/how-to-show-html-on-the-browser/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/meteor-js-working-with-routes/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/meteor-js-working-with-routes/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/bakaplan-baithne-ka-plan-generate-seating-plan/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/bakaplan-baithne-ka-plan-generate-seating-plan/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/creating-a-design-with-media-queries/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/creating-a-design-with-media-queries/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/merge-sort-program-using-javascript/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/merge-sort-program-using-javascript/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/cgi-make-it-work-for-public_html-directory/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/cgi-make-it-work-for-public_html-directory/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/cgi-make-it-work-in-the-default-directory/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/cgi-make-it-work-in-the-default-directory/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/learning-latex/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/learning-latex/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/learning-meteor/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/learning-meteor/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/learning-bootstrap/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/learning-bootstrap/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/basic-commands-in-github/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/basic-commands-in-github/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/vim-the-best-text-editor/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/vim-the-best-text-editor/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/mathjax-write-math-on-the-browser/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/mathjax-write-math-on-the-browser/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/installing-sagemath-and-biber-into-the-system/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/installing-sagemath-and-biber-into-the-system/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/installing-latex-to-your-system/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/installing-latex-to-your-system/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/new-task-designaids/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/new-task-designaids/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/making-a-presentation-in-reveal-js/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/making-a-presentation-in-reveal-js/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/meteors-the-full-stack-javascript-framework/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/meteors-the-full-stack-javascript-framework/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/frameworks-make-my-task-easier/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/frameworks-make-my-task-easier/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/newer-version-of-projection-project/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/newer-version-of-projection-project/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/project-1-projection-of-a-table/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/project-1-projection-of-a-table/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/hello-world/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blog.ranvirsingh.me/hello-world/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://blog.ranvirsingh.me/categories/</loc>
-  <lastmod>2018-04-18T18:45:27+00:00</lastmod>
+  <loc>https://singh1114.github.io/blog/categories/</loc>
+  <lastmod>2019-05-01T11:59:20+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
 
 </urlset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
