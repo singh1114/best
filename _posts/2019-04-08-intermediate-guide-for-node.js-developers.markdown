@@ -6,7 +6,7 @@ layout: post
 title: Intermediate Guide for Node.js developers
 slug: intermediate-guide-for-node.js-developers
 ---
-<img alt="Node Js image" src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png" style="height:429px; width:700px"/>
+<img alt="" src="https://cdn-images-1.medium.com/max/2400/1*LSfLSMQ1kPuHnyCPLNEKgQ.png" style="height:373px; width:600px"/>
 
 &nbsp;
 
