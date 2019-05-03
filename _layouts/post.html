@@ -14,9 +14,16 @@ layout: default
   <script>
        (adsbygoogle = window.adsbygoogle || []).push({});
   </script>
+  
+  <div class="entry">
+    {% include share-bar.html %}
+    {{ content }}
+  </div>
+
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
+
   <div class="post-categories">
     {% if post %}
       {% assign categories = post.categories %}
@@ -36,6 +43,10 @@ layout: default
     {{ content }}
   </div>
 
-
+  <hr><br>
+  <div class="entry" style="border: 1px solid grey;">
+    <h1>Want to have your own space on the internet?</h1>
+    <h3>Contact me: <a href="mailto:ranvir.singh1114@gmail.com">Send a Mail</a></h3>
+  </div>
   {% include disqus.html %}
 </article>
