@@ -37,7 +37,7 @@ Although Under the hood, Promises are being used in Async-Await,&nbsp;it almost 
 > 
 >     
 >     
->     const add = async (a, b) =&gt; {
+>     const add = async function(a, b) {
 >         return a + b;
 >     }
 > 
@@ -51,11 +51,12 @@ Inside an Async function, you can use the await keyword to make a synchronous ca
 > 
 >     
 >     
->     add(1, 2)<code>.then(value =&gt; {</code>
+>     add(1, 2)
+>       <code>.then(function(value) {</code>
 > 
 > `` &nbsp; &nbsp; console.log(value); ``
 > 
-> `` }); ``
+> `` &nbsp; }); ``
 > 
 &nbsp;
 
@@ -87,12 +88,12 @@ Handling errors are also very easy and feel very much pythonic with async await 
 > 
 >     
 >     
->     const add = async (a, b) =&gt; {
+>     const add = async function (a, b) {
 >         try {
 >              return a + b;
 >         } catch {
 >              // Do something!
->              raise new Error('Some error!')
+>              raise new Error("Some error!")
 >         }
 >     }
 > 
