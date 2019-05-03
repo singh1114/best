@@ -51,11 +51,11 @@ Inside an Async function, you can use the await keyword to make a synchronous ca
 > 
 >     
 >     
->     add(1, 2).then(function(value) {
->     
->       console.log(value);
->     
+>     add(1, 2)
+>       .then(function(value) {
+>          console.log(value); 
 >     });
+>     
 > 
 > 
 &nbsp;
