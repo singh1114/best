@@ -42,7 +42,7 @@ Let's start by writing a simple middleware.
 
 &nbsp;
 
-&lt;script src="https://gist.github.com/singh1114/766113f61c4f61b8357e4ff0223ec3c1.js"&gt;&lt;/script&gt;
+<script src="https://gist.github.com/singh1114/766113f61c4f61b8357e4ff0223ec3c1.js"></script>
 
 &nbsp;
 &nbsp;
