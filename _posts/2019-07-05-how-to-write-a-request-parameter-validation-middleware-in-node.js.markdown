@@ -6,9 +6,9 @@ layout: post
 title: How to write a request parameter validation middleware in node.js
 slug: how-to-write-a-request-parameter-validation-middleware-in-node.js
 ---
-I get it! You don't want to repeat that code again and again. Maybe you are sick of writing it again and again. Every time you have to create a new route or new API endpoint you have to write the same code.
+I get it! You don't want to repeat that code again and again. Maybe you are sick of copying those&nbsp;little function calls all over your code with some change in the parameters. Every time you have to create a new route or new API endpoint you have to write the same code.
 
-&nbsp;
+If you want to wrap all your requests with some special data this tutorial is for you.
 
 In terms of web development, we call them middleware... Just a fancy name( makes sense though). Middleware is something which is used to make changes to request or response data.
 
