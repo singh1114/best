@@ -1,6 +1,7 @@
 ---
 title: Using Pladio app to convert and save your reading material to audio
-date: 2019-07-07 17:30:44.634000000 Z
+date: 2019-07-07 17:30:00 Z
+published: false
 author: Ranvir Singh
 comments: true
 layout: post
