@@ -1,11 +1,10 @@
 ---
+title: 'MathJax : Write math on the browser'
+date: 2016-06-08 08:52:26 Z
 author: ranvirsingh1114
 comments: true
-date: 2016-06-08 08:52:26+00:00
 layout: post
 link: https://ranvirsinghprojects.wordpress.com/2016/06/08/mathjax-write-math-on-the-browser/
-slug: mathjax-write-math-on-the-browser
-title: 'MathJax : Write math on the browser'
 wordpress_id: 121
 ---
 

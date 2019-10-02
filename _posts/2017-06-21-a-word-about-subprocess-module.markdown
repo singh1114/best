@@ -1,14 +1,13 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2017-06-21 10:17:31+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2017/06/21/a-word-about-subprocess-module/
-slug: a-word-about-subprocess-module
 title: A word about subprocess module
-wordpress_id: 715
+date: 2017-06-21 10:17:31 Z
 categories:
 - GSoC-2017
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2017/06/21/a-word-about-subprocess-module/
+wordpress_id: 715
 ---
 
 It has been a few days since I have been working on the GSoC project. Although I haven't been able to write about all the things going on that side. From now on probably I will talk about it more often. Yesterday I managed to upload the code on our local experimental server and show the results to the mentor. Thank god, it didn't break( I haven't written any code to handle the errors) and everything worked as expected. Next thing is to attach celery so that the actions happens in the background. Now both celery thing and the server are for the other day. Today I will be talking about subprocess, a module of python that we are going to use for running bash commands.

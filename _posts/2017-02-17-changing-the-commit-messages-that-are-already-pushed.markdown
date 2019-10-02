@@ -1,14 +1,13 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2017-02-17 09:45:33+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2017/02/17/changing-the-commit-messages-that-are-already-pushed/
-slug: changing-the-commit-messages-that-are-already-pushed
 title: Changing the commit messages that are already pushed
-wordpress_id: 633
+date: 2017-02-17 09:45:33 Z
 categories:
 - Git
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2017/02/17/changing-the-commit-messages-that-are-already-pushed/
+wordpress_id: 633
 ---
 
 So in this post, we will be talking about the process of changing the commit messages that are already pushed into the remote. But, before talking about changing those messages we must know about the basics commands of GitHub. Please refer to [this post](https://ranvirsinghprojects.wordpress.com/2016/06/10/basic-commands-in-github/), if you have less knowledge about the Git.

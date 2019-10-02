@@ -1,14 +1,13 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2016-06-09 20:31:50+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2016/06/10/basic-commands-in-github/
-slug: basic-commands-in-github
 title: Basic commands in GitHub
-wordpress_id: 109
+date: 2016-06-09 20:31:50 Z
 categories:
 - Git
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2016/06/10/basic-commands-in-github/
+wordpress_id: 109
 ---
 
 Git is the open source distributed version control system that facilitates GitHub activities on your laptop or desktop. The

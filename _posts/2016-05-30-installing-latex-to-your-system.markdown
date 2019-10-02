@@ -1,14 +1,13 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2016-05-30 20:38:15+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2016/05/31/installing-latex-to-your-system/
-slug: installing-latex-to-your-system
 title: Installing LaTex to your system
-wordpress_id: 114
+date: 2016-05-30 20:38:15 Z
 categories:
 - DesignAids
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2016/05/31/installing-latex-to-your-system/
+wordpress_id: 114
 ---
 
 Installing LaTex was a fairly easy task to accomplish but was very time consuming because of the slow speed of the internet. It took me more then five hours to install this software into the system. The command used was :

@@ -1,11 +1,11 @@
 ---
+title: Working properly with Django Choices
+date: 2018-04-17 19:57:59.564000000 Z
 author: Ranvir Singh
 comments: true
-date: 2018-04-17 19:57:59.564352
 layout: post
-title: Working properly with Django Choices
-slug: working-properly-with-django-choices
 ---
+
 Implementing Django choices in models is not very sophisticated. While writing models you expect that you might be looking neat fields that are used to store data. But when you introduce choices in Django it becomes cumbersome. Django choices are written as tuples inside tuples. A simple example of such thing can be the fancy animal problem.
 
     

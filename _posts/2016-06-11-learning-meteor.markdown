@@ -1,11 +1,10 @@
 ---
+title: Learning Meteor
+date: 2016-06-11 20:37:09 Z
 author: ranvirsingh1114
 comments: true
-date: 2016-06-11 20:37:09+00:00
 layout: post
 link: https://ranvirsinghprojects.wordpress.com/2016/06/12/learning-meteor/
-slug: learning-meteor
-title: Learning Meteor
 wordpress_id: 293
 ---
 

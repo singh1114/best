@@ -1,15 +1,14 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2016-06-09 17:51:41+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2016/06/09/vim-the-best-text-editor/
-slug: vim-the-best-text-editor
 title: 'Vim : The best text Editor'
-wordpress_id: 123
+date: 2016-06-09 17:51:41 Z
 categories:
 - Six weeks training
 - Vim
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2016/06/09/vim-the-best-text-editor/
+wordpress_id: 123
 ---
 
 Before talking about the training I want to tell about the various things that I am using while writing about them.

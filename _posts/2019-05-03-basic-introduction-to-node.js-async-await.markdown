@@ -1,11 +1,11 @@
 ---
+title: Basic Introduction to Node.js Async Await
+date: 2019-05-03 22:23:29.307000000 Z
 author: Ranvir Singh
 comments: true
-date: 2019-05-03 22:23:29.307671
 layout: post
-title: Basic Introduction to Node.js Async Await
-slug: basic-introduction-to-node.js-async-await
 ---
+
 <img alt="Image by HTML and js code by Ilya Pavlov from unsplash" src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60" style="height:467px; width:700px"/>
 
 &nbsp;

@@ -1,15 +1,14 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2016-07-01 11:44:46+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2016/07/01/todo-list-app-in-meteor-completed/
-slug: todo-list-app-in-meteor-completed
 title: Todo list app in meteor completed
-wordpress_id: 218
+date: 2016-07-01 11:44:46 Z
 categories:
 - Meteor.js
 - Six weeks training
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2016/07/01/todo-list-app-in-meteor-completed/
+wordpress_id: 218
 ---
 
 Today I finally completed my to-do app using meteor framework. There are some discrepancies in the security which will be removed soon.

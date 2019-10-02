@@ -1,15 +1,14 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2016-07-30 20:50:03+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2016/07/31/adding-a-tuple-to-the-end-of-the-basic-tuple-in-python/
-slug: adding-a-tuple-to-the-end-of-the-basic-tuple-in-python
 title: Adding a tuple to the end of the basic tuple in python
-wordpress_id: 239
+date: 2016-07-30 20:50:03 Z
 categories:
 - Django
 - Six weeks training
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2016/07/31/adding-a-tuple-to-the-end-of-the-basic-tuple-in-python/
+wordpress_id: 239
 ---
 
 Another problem was encountered while working on the python web framework, Django. But this time the problem was more of the language oriented rather than being framework oriented. As I am not a python programmer so I never knew these basic things. So, first of all I was getting an error, whose statement went like this :

@@ -1,11 +1,11 @@
 ---
+title: Using Pladio app to convert and save your reading material to audio
+date: 2019-07-07 17:30:44.634000000 Z
 author: Ranvir Singh
 comments: true
-date: 2019-07-07 17:30:44.634424
 layout: post
-title: Using Pladio app to convert and save your reading material to audio
-slug: using-pladio-app-to-convert-and-save-your-reading-material-to-audio
 ---
+
 What if I told you there is a tool with which you can save your reading material and convert it into the voice for future usage. Exciting right.
 
 [Pladio](https://pladio.co)&nbsp;came up with a similar product. They have created an android app which you can download from the play store.

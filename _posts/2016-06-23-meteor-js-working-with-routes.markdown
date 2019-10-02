@@ -1,15 +1,14 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2016-06-23 22:46:58+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2016/06/24/meteor-js-working-with-routes/
-slug: meteor-js-working-with-routes
 title: 'Meteor.js : Working with routes'
-wordpress_id: 165
+date: 2016-06-23 22:46:58 Z
 categories:
 - Meteor.js
 - Six weeks training
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2016/06/24/meteor-js-working-with-routes/
+wordpress_id: 165
 ---
 
 As we all know that meteor can only be used to create a single page web apps. Still there are many instances when one want to work with different URL's on a web applications.

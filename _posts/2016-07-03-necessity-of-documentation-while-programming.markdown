@@ -1,11 +1,10 @@
 ---
+title: Necessity of documentation while programming
+date: 2016-07-03 21:09:02 Z
 author: ranvirsingh1114
 comments: true
-date: 2016-07-03 21:09:02+00:00
 layout: post
 link: https://ranvirsinghprojects.wordpress.com/2016/07/04/necessity-of-documentation-while-programming/
-slug: necessity-of-documentation-while-programming
-title: Necessity of documentation while programming
 wordpress_id: 226
 ---
 

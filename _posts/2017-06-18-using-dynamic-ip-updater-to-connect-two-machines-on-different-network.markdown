@@ -1,14 +1,13 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2017-06-18 22:51:41+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2017/06/19/using-dynamic-ip-updater-to-connect-two-machines-on-different-network/
-slug: using-dynamic-ip-updater-to-connect-two-machines-on-different-network
 title: Using Dynamic IP updater to connect two machines on different network
-wordpress_id: 713
+date: 2017-06-18 22:51:41 Z
 categories:
 - Networking
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2017/06/19/using-dynamic-ip-updater-to-connect-two-machines-on-different-network/
+wordpress_id: 713
 ---
 
 From a few days, we are working on a problem which is related to reaching two machines that are connected to different networks. This post is the update to the earlier post in which we talked about the [installation of TightVNC](http://wp.me/p7kUg1-bn). In that post, we have talked about the problem that we are facing in lot detail. You can read it if you want to.

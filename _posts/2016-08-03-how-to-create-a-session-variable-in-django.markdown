@@ -1,15 +1,14 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2016-08-03 17:45:34+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2016/08/03/how-to-create-a-session-variable-in-django/
-slug: how-to-create-a-session-variable-in-django
 title: How to create a session variable in Django
-wordpress_id: 246
+date: 2016-08-03 17:45:34 Z
 categories:
 - Django
 - Six weeks training
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2016/08/03/how-to-create-a-session-variable-in-django/
+wordpress_id: 246
 ---
 
 Long time ago browser developers recognized that we need to store the data produced during a user session so that we can refer to that data in the future. The user actions can lead to some calculations and after doing this cumbersome calculations we don't want to do the calculations again and again.

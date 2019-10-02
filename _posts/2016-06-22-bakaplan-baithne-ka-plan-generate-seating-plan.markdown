@@ -1,15 +1,14 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2016-06-22 21:39:17+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2016/06/23/bakaplan-baithne-ka-plan-generate-seating-plan/
-slug: bakaplan-baithne-ka-plan-generate-seating-plan
 title: 'BakaPlan : Baithne ka plan (Generate Seating Plan)'
-wordpress_id: 130
+date: 2016-06-22 21:39:17 Z
 categories:
 - BaKaplan
 - Six weeks training
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2016/06/23/bakaplan-baithne-ka-plan-generate-seating-plan/
+wordpress_id: 130
 ---
 
 Hello everyone,

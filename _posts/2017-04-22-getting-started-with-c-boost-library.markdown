@@ -1,14 +1,13 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2017-04-22 20:33:42+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2017/04/23/getting-started-with-c-boost-library/
-slug: getting-started-with-c-boost-library
 title: Getting started with C++ boost library
-wordpress_id: 646
+date: 2017-04-22 20:33:42 Z
 categories:
 - c++
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2017/04/23/getting-started-with-c-boost-library/
+wordpress_id: 646
 ---
 
 Last few days were well spent with the C++ library boost. It was a great learning experience. I was introduced to the one of best-kept code and some new coding paradigms. Along with that it was the first time I was coding with the new standards of C++11 and C++14.

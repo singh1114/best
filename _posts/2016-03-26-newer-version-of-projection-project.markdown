@@ -1,11 +1,10 @@
 ---
+title: Newer version of Projection Project
+date: 2016-03-26 14:24:46 Z
 author: ranvirsingh1114
 comments: true
-date: 2016-03-26 14:24:46+00:00
 layout: post
 link: https://ranvirsinghprojects.wordpress.com/2016/03/26/newer-version-of-projection-project/
-slug: newer-version-of-projection-project
-title: Newer version of Projection Project
 wordpress_id: 42
 ---
 

@@ -1,11 +1,10 @@
 ---
+title: 'Frameworks : Make my task easier'
+date: 2016-04-07 09:07:17 Z
 author: ranvirsingh1114
 comments: true
-date: 2016-04-07 09:07:17+00:00
 layout: post
 link: https://ranvirsinghprojects.wordpress.com/2016/04/07/frameworks-make-my-task-easier/
-slug: frameworks-make-my-task-easier
-title: 'Frameworks : Make my task easier'
 wordpress_id: 47
 ---
 

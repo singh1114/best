@@ -1,14 +1,13 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2017-01-13 07:50:06+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2017/01/13/some-features-of-xmpp/
-slug: some-features-of-xmpp
 title: Some features of XMPP
-wordpress_id: 561
+date: 2017-01-13 07:50:06 Z
 categories:
 - JavaScript
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2017/01/13/some-features-of-xmpp/
+wordpress_id: 561
 ---
 
 Hello guys,

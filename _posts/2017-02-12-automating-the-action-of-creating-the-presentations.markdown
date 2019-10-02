@@ -1,14 +1,13 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2017-02-12 16:20:20+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2017/02/12/automating-the-action-of-creating-the-presentations/
-slug: automating-the-action-of-creating-the-presentations
 title: Automating the action of creating the presentations
-wordpress_id: 625
+date: 2017-02-12 16:20:20 Z
 categories:
 - python
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2017/02/12/automating-the-action-of-creating-the-presentations/
+wordpress_id: 625
 ---
 
 GitHub repository : [https://github.com/singh1114/automatingPresentations/](https://github.com/singh1114/automatingPresentations/)

@@ -1,14 +1,13 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2017-06-22 12:06:17+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2017/06/22/a-word-about-character-sets-ascii-unicode-utf-8/
-slug: a-word-about-character-sets-ascii-unicode-utf-8
 title: A word about character sets - ASCII, unicode, UTF-8
-wordpress_id: 798
+date: 2017-06-22 12:06:17 Z
 categories:
 - GSoC-2017
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2017/06/22/a-word-about-character-sets-ascii-unicode-utf-8/
+wordpress_id: 798
 ---
 
 Let's talk about everything as it happened in the history. It was the time when UNIX was being built. ASCII came into the existence at that time. More such features were used before that but they are not being used now so talking about them is not valid anymore.

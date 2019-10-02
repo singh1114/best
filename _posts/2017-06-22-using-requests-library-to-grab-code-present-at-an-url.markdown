@@ -1,14 +1,13 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2017-06-22 12:09:39+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2017/06/22/using-requests-library-to-grab-code-present-at-an-url/
-slug: using-requests-library-to-grab-code-present-at-an-url
 title: Using requests library to grab code present at an URL
-wordpress_id: 796
+date: 2017-06-22 12:09:39 Z
 categories:
 - GSoC-2017
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2017/06/22/using-requests-library-to-grab-code-present-at-an-url/
+wordpress_id: 796
 ---
 
 Finally, we were on the stage to build the main module of the project i.e. the module to get the URL's from the users and return the scan results. As the first part, we are picking whatever is present at the URL, scanning the retrieved thing and showing the results.

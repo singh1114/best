@@ -1,16 +1,15 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2016-06-18 20:30:18+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2016/06/19/cgi-make-it-work-in-the-default-directory/
-slug: cgi-make-it-work-in-the-default-directory
 title: 'CGI : Make it work in the default directory'
-wordpress_id: 131
+date: 2016-06-18 20:30:18 Z
 categories:
 - BaKaplan
 - cgi
 - Six weeks training
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2016/06/19/cgi-make-it-work-in-the-default-directory/
+wordpress_id: 131
 ---
 
 Hello everyone,

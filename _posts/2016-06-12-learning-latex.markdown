@@ -1,11 +1,10 @@
 ---
+title: Learning LaTex
+date: 2016-06-12 20:40:53 Z
 author: ranvirsingh1114
 comments: true
-date: 2016-06-12 20:40:53+00:00
 layout: post
 link: https://ranvirsinghprojects.wordpress.com/2016/06/13/learning-latex/
-slug: learning-latex
-title: Learning LaTex
 wordpress_id: 298
 ---
 

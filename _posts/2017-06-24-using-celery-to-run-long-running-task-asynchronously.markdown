@@ -1,14 +1,13 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2017-06-24 18:41:18+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2017/06/25/using-celery-to-run-long-running-task-asynchronously/
-slug: using-celery-to-run-long-running-task-asynchronously
 title: Using celery to run long running task asynchronously
-wordpress_id: 805
+date: 2017-06-24 18:41:18 Z
 categories:
 - GSoC-2017
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2017/06/25/using-celery-to-run-long-running-task-asynchronously/
+wordpress_id: 805
 ---
 
 The heading itself is a bit confusing. So, let's try to break it down by taking the example of what we wanted to achieve with this.

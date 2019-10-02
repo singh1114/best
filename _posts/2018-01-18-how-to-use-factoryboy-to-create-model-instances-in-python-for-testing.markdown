@@ -1,15 +1,15 @@
 ---
-author: Ranvir Singh
-comments: true
-date: 2018-01-18 18:43:36.868837
-layout: post
 title: How to use FactoryBoy to create model instances in python for testing
-slug: how-to-use-factoryboy-to-create-model-instances-in-python-for-testing
-category:
+date: 2018-01-18 18:43:36.868000000 Z
+categories:
 - Django
 - Python
 - FactoryBoy
+author: Ranvir Singh
+comments: true
+layout: post
 ---
+
 Testing is one of the basic and most important things that are needed to be done. Also, it is one of the most important developmental phases. I have already discussed testing in one of my earlier posts. In that post, I talked about the way in which we can write tests for models. Today I am going to talk about using FactoryBoy for testing Django application.
 
 

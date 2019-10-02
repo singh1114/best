@@ -1,15 +1,14 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2016-07-31 13:31:15+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2016/07/31/javascript-program-that-handle-arrow-keyboard-events/
-slug: javascript-program-that-handle-arrow-keyboard-events
 title: Simple JavaScript program that handle Keyboard events
-wordpress_id: 244
+date: 2016-07-31 13:31:15 Z
 categories:
 - JavaScript
 - Six weeks training
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2016/07/31/javascript-program-that-handle-arrow-keyboard-events/
+wordpress_id: 244
 ---
 
 In this post I am going to talk about one of important aspect in programming i.e. handling keyboard events. Now being important doesn't mean that it is difficult but I have to admit that I haven't tried it from the day I had started programming. Now I was working with one of my [friend](http://amisha2016.wordpress.com) and she wanted me to do it for her. I found the task interesting as I haven't done it earlier.

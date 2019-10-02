@@ -1,11 +1,10 @@
 ---
+title: Sorting the messages in the _postMessage function
+date: 2017-02-03 10:06:06 Z
 author: ranvirsingh1114
 comments: true
-date: 2017-02-03 10:06:06+00:00
 layout: post
 link: https://ranvirsinghprojects.wordpress.com/2017/02/03/sorting-the-messages-in-the-_postmessage-function/
-slug: sorting-the-messages-in-the-_postmessage-function
-title: Sorting the messages in the _postMessage function
 wordpress_id: 623
 ---
 

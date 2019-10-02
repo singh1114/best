@@ -1,14 +1,13 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2017-01-05 17:34:47+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2017/01/05/data-structure-stack/
-slug: data-structure-stack
 title: 'Data structure: stack'
-wordpress_id: 523
+date: 2017-01-05 17:34:47 Z
 categories:
 - data structures
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2017/01/05/data-structure-stack/
+wordpress_id: 523
 ---
 
 Welcome back guys,

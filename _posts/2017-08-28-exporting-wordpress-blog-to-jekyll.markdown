@@ -1,13 +1,12 @@
 ---
-author: Ranvir Singh
-comments: true
-date: 2017-08-28 23:08:37+00:00
-layout: post
-slug: export_wordpress_blog_to_jekyll
 title: Export Wordpress Blog to Jekyll
+date: 2017-08-28 23:08:37 Z
 categories:
 - GitHub
 - Jekyll
+author: Ranvir Singh
+comments: true
+layout: post
 ---
 
 This is the first time I am posting on this blog. All the posts before this date have been exported from WordPress so you will find some mistakes in them. But I am sure from now onward, this is the new home for all my blog posts. I am very new to the Jekyll but I will like to learn it as fast as possible.

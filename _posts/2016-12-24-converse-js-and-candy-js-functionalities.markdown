@@ -1,11 +1,10 @@
 ---
+title: converse.js and candy.js Functionalities
+date: 2016-12-24 07:56:51 Z
 author: ranvirsingh1114
 comments: true
-date: 2016-12-24 07:56:51+00:00
 layout: post
 link: https://ranvirsinghprojects.wordpress.com/2016/12/24/converse-js-and-candy-js-functionalities/
-slug: converse-js-and-candy-js-functionalities
-title: converse.js and candy.js Functionalities
 wordpress_id: 517
 ---
 

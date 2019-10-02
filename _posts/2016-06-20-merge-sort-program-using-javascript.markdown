@@ -1,14 +1,13 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2016-06-20 05:25:53+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2016/06/20/merge-sort-program-using-javascript/
-slug: merge-sort-program-using-javascript
 title: Merge Sort Program using JavaScript
-wordpress_id: 144
+date: 2016-06-20 05:25:53 Z
 categories:
 - Six weeks training
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2016/06/20/merge-sort-program-using-javascript/
+wordpress_id: 144
 ---
 
 So I was trying to create a Merge sort program using JS. Before trying to make the program we first have to understand what is the concept of merge Sort. To get a good example I went to wikipedia where I found very interesting GIF which explained the the basics of Merge sort.

@@ -1,7 +1,7 @@
 ---
-layout: page
 title: About
-permalink: /about/
+permalink: "/about/"
+layout: page
 ---
 
 A final year undergrade from India studying Computer Science and Engineering. A coding enthusiast and Linux lover who loves to read books. Also you can find him playing and talking about football in his free time. He is a FOSS lover and coding enthusiast. He shares most of his knowledge through this blog.

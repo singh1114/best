@@ -1,11 +1,10 @@
 ---
+title: 'PHP : The Basics'
+date: 2016-10-26 20:36:34 Z
 author: ranvirsingh1114
 comments: true
-date: 2016-10-26 20:36:34+00:00
 layout: post
 link: https://ranvirsinghprojects.wordpress.com/2016/10/27/php-the-basics/
-slug: php-the-basics
-title: 'PHP : The Basics'
 wordpress_id: 306
 ---
 

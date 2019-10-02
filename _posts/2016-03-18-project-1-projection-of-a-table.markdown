@@ -1,11 +1,10 @@
 ---
+title: 'Project 1 : Projection of a table'
+date: 2016-03-18 13:43:50 Z
 author: ranvirsingh1114
 comments: true
-date: 2016-03-18 13:43:50+00:00
 layout: post
 link: https://ranvirsinghprojects.wordpress.com/2016/03/18/project-1-projection-of-a-table/
-slug: project-1-projection-of-a-table
-title: 'Project 1 : Projection of a table'
 wordpress_id: 12
 ---
 

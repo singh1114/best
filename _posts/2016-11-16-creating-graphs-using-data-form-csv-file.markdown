@@ -1,14 +1,13 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2016-11-16 20:59:33+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2016/11/17/creating-graphs-using-data-form-csv-file/
-slug: creating-graphs-using-data-form-csv-file
 title: Creating graphs using data form .csv file
-wordpress_id: 479
+date: 2016-11-16 20:59:33 Z
 categories:
 - JavaScript
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2016/11/17/creating-graphs-using-data-form-csv-file/
+wordpress_id: 479
 ---
 
 Yesterday I was talking to a friend and he told me that he has some work that he needs to complete by the following night. He asked me for the help and I decided to help as my exam was postponed. He said that he had a .csv file( comma separated values) and want to shift the whole data into postgresql database.

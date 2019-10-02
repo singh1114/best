@@ -1,14 +1,13 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2017-06-12 14:39:56+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2017/06/12/using-tightvnc-to-attach-desktop-to-the-server/
-slug: using-tightvnc-to-attach-desktop-to-the-server
 title: Using tightvnc to attach desktop to the server
-wordpress_id: 705
+date: 2017-06-12 14:39:56 Z
 categories:
 - server
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2017/06/12/using-tightvnc-to-attach-desktop-to-the-server/
+wordpress_id: 705
 ---
 
 **INTRODUCTION:**

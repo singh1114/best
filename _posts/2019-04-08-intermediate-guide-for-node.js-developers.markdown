@@ -1,11 +1,11 @@
 ---
+title: Intermediate Guide for Node.js developers
+date: 2019-04-08 06:40:32.455000000 Z
 author: Ranvir Singh
 comments: true
-date: 2019-04-08 06:40:32.455763
 layout: post
-title: Intermediate Guide for Node.js developers
-slug: intermediate-guide-for-node.js-developers
 ---
+
 <img alt="" src="https://cdn-images-1.medium.com/max/2400/1*LSfLSMQ1kPuHnyCPLNEKgQ.png" style="height:373px; width:600px"/>
 
 &nbsp;

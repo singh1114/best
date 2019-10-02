@@ -1,14 +1,13 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2016-07-18 10:27:27+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2016/07/18/how-to-install-django-using-virtual-environment/
-slug: how-to-install-django-using-virtual-environment
 title: How to install django using virtual environment
-wordpress_id: 214
+date: 2016-07-18 10:27:27 Z
 categories:
 - Six weeks training
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2016/07/18/how-to-install-django-using-virtual-environment/
+wordpress_id: 214
 ---
 
 Virtual environment is made when you want to run different version on single system. In this example I am going to setup a virtualenv for installing django 1.9. This is because the default version of python in the ubuntu system is 2.7(approx.) and the django is in the version 1.7. And the python is very important in the case of Ubuntu graphics. (If you want to test this try to remove python from your system and get ready to waste 2-3 hours of your time trying to figure out what happened. You might have to install Ubuntu again).

@@ -1,14 +1,13 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2017-06-28 21:15:53+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2017/06/29/updating-the-models/
-slug: updating-the-models
 title: Updating the models
-wordpress_id: 807
+date: 2017-06-28 21:15:53 Z
 categories:
 - GSoC-2017
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2017/06/29/updating-the-models/
+wordpress_id: 807
 ---
 
 Today I was working on another branch to write the code that can fill the database. I scanned some code and saved copied the results to open them in clean JSON format because I wanted to iterate over the results. I used the online the following JSON parser.

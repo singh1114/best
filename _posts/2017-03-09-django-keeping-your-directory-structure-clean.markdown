@@ -1,11 +1,10 @@
 ---
+title: 'Django: Keeping your directory structure clean'
+date: 2017-03-09 12:50:22 Z
 author: ranvirsingh1114
 comments: true
-date: 2017-03-09 12:50:22+00:00
 layout: post
 link: https://ranvirsinghprojects.wordpress.com/2017/03/09/django-keeping-your-directory-structure-clean/
-slug: django-keeping-your-directory-structure-clean
-title: 'Django: Keeping your directory structure clean'
 wordpress_id: 643
 ---
 

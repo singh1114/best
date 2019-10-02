@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Hire me
-permalink: /hire_me/
+permalink: "/hire_me/"
+layout: page
 ---
 
 Following is my Resume. If you want to hire you can have the further discussion using my email ID. You can find the email ID in the about section.

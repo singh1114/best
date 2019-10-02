@@ -1,15 +1,14 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2016-07-19 18:26:58+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2016/07/19/creating-a-header-which-changes-style-on-scrolling-from-transparent-to-colored/
-slug: creating-a-header-which-changes-style-on-scrolling-from-transparent-to-colored
 title: Creating a header which changes style on scrolling | From transparent to colored
-wordpress_id: 234
+date: 2016-07-19 18:26:58 Z
 categories:
 - CSS
 - Six weeks training
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2016/07/19/creating-a-header-which-changes-style-on-scrolling-from-transparent-to-colored/
+wordpress_id: 234
 ---
 
 Hello everyone, I am back with one more exciting post. In this post we are going to discuss something great. This is something that I always wanted to learn but waiting for someone who can force me search through the Google and create the desired results.

@@ -1,11 +1,10 @@
 ---
+title: Learning Bootstrap
+date: 2016-06-10 20:35:03 Z
 author: ranvirsingh1114
 comments: true
-date: 2016-06-10 20:35:03+00:00
 layout: post
 link: https://ranvirsinghprojects.wordpress.com/2016/06/11/learning-bootstrap/
-slug: learning-bootstrap
-title: Learning Bootstrap
 wordpress_id: 289
 ---
 

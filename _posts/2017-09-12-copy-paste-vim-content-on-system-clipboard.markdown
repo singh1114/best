@@ -1,14 +1,14 @@
 ---
-author: Ranvir Singh
-comments: true
-date: 2017-09-12 00:08:37+00:00
-layout: post
-slug: copy_paste_from_system_clipboard
 title: How to copy paste vim content to system clipboard
+date: 2017-09-12 00:08:37 Z
 categories:
 - Vim
 - bash
+author: Ranvir Singh
+comments: true
+layout: post
 ---
+
 Hello folks,
 
 Today I am going to share the solution for the problem which I was facing for a long time. I have been using Vim editor from a long time now. With Vim we can work on our things without other interruptions. In other words it is the tool for increasing the productivity of the developer. If you haven't heard about Vim. [Here]({{ site.baseurl }}/categories/#Vim) are some relevant content about Vim which you can read to get more insight of the great text editor.

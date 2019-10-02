@@ -1,11 +1,10 @@
 ---
+title: Hello World
+date: 2016-03-14 18:55:29 Z
 author: ranvirsingh1114
 comments: true
-date: 2016-03-14 18:55:29+00:00
 layout: post
 link: https://ranvirsinghprojects.wordpress.com/2016/03/14/hello-world/
-slug: hello-world
-title: Hello World
 wordpress_id: 2
 ---
 

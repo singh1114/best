@@ -1,14 +1,13 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2016-06-27 22:09:33+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2016/06/28/how-to-show-html-on-the-browser/
-slug: how-to-show-html-on-the-browser
 title: How to show html on the browser
-wordpress_id: 211
+date: 2016-06-27 22:09:33 Z
 categories:
 - Six weeks training
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2016/06/28/how-to-show-html-on-the-browser/
+wordpress_id: 211
 ---
 
 Sometimes we want to share html code on the browser for example today I wanted to give a presentation. This presentation was made with the help of reveal.js. Now reveal.js uses html to make presentations. There was some html code that I wanted to show on the browser. I searched on the web and found pre and code tag along with blockquote to show html on browser but it wasn't working as it was taking some of the html tags in the code and executing them.

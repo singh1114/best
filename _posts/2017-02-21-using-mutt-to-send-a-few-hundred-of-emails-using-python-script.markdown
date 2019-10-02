@@ -1,14 +1,13 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2017-02-21 23:32:21+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2017/02/22/using-mutt-to-send-a-few-hundred-of-emails-using-python-script/
-slug: using-mutt-to-send-a-few-hundred-of-emails-using-python-script
 title: Using mutt to send a few hundred of emails using python script
-wordpress_id: 638
+date: 2017-02-21 23:32:21 Z
 categories:
 - python
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2017/02/22/using-mutt-to-send-a-few-hundred-of-emails-using-python-script/
+wordpress_id: 638
 ---
 
 GitHub repository:

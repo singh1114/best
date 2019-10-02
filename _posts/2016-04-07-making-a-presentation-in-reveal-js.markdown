@@ -1,11 +1,10 @@
 ---
+title: Making a presentation in reveal.js
+date: 2016-04-07 09:51:25 Z
 author: ranvirsingh1114
 comments: true
-date: 2016-04-07 09:51:25+00:00
 layout: post
 link: https://ranvirsinghprojects.wordpress.com/2016/04/07/making-a-presentation-in-reveal-js/
-slug: making-a-presentation-in-reveal-js
-title: Making a presentation in reveal.js
 wordpress_id: 77
 ---
 

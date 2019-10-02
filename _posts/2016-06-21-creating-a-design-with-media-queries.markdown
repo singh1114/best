@@ -1,14 +1,13 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2016-06-21 22:04:01+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2016/06/22/creating-a-design-with-media-queries/
-slug: creating-a-design-with-media-queries
 title: Creating a design with media queries
-wordpress_id: 153
+date: 2016-06-21 22:04:01 Z
 categories:
 - Six weeks training
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2016/06/22/creating-a-design-with-media-queries/
+wordpress_id: 153
 ---
 
 Media queries are used to tell the browser about the various breaking points in the website so that we can give a different css styling for all those breaking points. This type of CSS is used to make the website responsive. Breaking points are the widths at which the design breaks or is damaged.

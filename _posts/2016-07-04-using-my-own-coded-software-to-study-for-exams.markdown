@@ -1,15 +1,14 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2016-07-04 20:25:48+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2016/07/05/using-my-own-coded-software-to-study-for-exams/
-slug: using-my-own-coded-software-to-study-for-exams
 title: Using my own coded software to study for Exams
-wordpress_id: 261
+date: 2016-07-04 20:25:48 Z
 categories:
 - JavaScript
 - Six weeks training
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2016/07/05/using-my-own-coded-software-to-study-for-exams/
+wordpress_id: 261
 ---
 
 Some time ago sir hosted a hackathon to make some progress to enhance the ebook software that he was using on his website. Everyone was given a specific task on that day. My task was to read the script and make some changes in the script. But some reason we had to drop that idea. So I decided to start building something new instead.

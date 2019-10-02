@@ -1,14 +1,13 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2016-05-30 09:58:17+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2016/05/30/new-task-designaids/
-slug: new-task-designaids
 title: 'New Task : DesignAids'
-wordpress_id: 112
+date: 2016-05-30 09:58:17 Z
 categories:
 - DesignAids
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2016/05/30/new-task-designaids/
+wordpress_id: 112
 ---
 
 I was given a new task to run and use DesignAids on my system.

@@ -1,14 +1,13 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2017-06-12 22:11:25+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2017/06/13/models-for-the-scancode-project-app/
-slug: models-for-the-scancode-project-app
 title: Models for the scancode project app
-wordpress_id: 708
+date: 2017-06-12 22:11:25 Z
 categories:
 - GSoC-2017
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2017/06/13/models-for-the-scancode-project-app/
+wordpress_id: 708
 ---
 
 code: https://github.com/nexB/scancode-server/commit/5b2ee1bfbff478dcd720b0797e30838b53fcddae

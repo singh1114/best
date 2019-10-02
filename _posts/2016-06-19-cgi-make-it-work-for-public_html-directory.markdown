@@ -1,16 +1,15 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2016-06-19 09:53:49+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2016/06/19/cgi-make-it-work-for-public_html-directory/
-slug: cgi-make-it-work-for-public_html-directory
 title: 'CGI : Make it work for public_html directory'
-wordpress_id: 136
+date: 2016-06-19 09:53:49 Z
 categories:
 - BaKaplan
 - cgi
 - Six weeks training
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2016/06/19/cgi-make-it-work-for-public_html-directory/
+wordpress_id: 136
 ---
 
 Hello everyone,

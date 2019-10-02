@@ -1,20 +1,15 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2016-04-07 09:17:53+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2016/04/07/meteors-the-full-stack-javascript-framework/
-slug: meteors-the-full-stack-javascript-framework
 title: 'Meteors : The full stack JavaScript framework'
-wordpress_id: 64
+date: 2016-04-07 09:17:53 Z
 categories:
 - Meteor.js
 - Six weeks training
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2016/04/07/meteors-the-full-stack-javascript-framework/
+wordpress_id: 64
 ---
-
-
-
-
 
 So, first framework that I came across was Meteor.js
 

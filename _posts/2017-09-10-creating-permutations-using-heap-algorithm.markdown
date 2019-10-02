@@ -1,13 +1,12 @@
 ---
-author: Ranvir Singh
-comments: true
-date: 2017-09-10 23:08:37+00:00
-layout: post
-slug: permutations_smallest
 title: Generating Lexographically smallest permutations
+date: 2017-09-10 23:08:37 Z
 categories:
 - Algorithm
 - C/C++
+author: Ranvir Singh
+comments: true
+layout: post
 ---
 
 Hello friends,

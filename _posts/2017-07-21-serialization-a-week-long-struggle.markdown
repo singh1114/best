@@ -1,15 +1,14 @@
 ---
-author: ranvirsingh1114
-comments: true
-date: 2017-07-21 22:53:14+00:00
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2017/07/22/serialization-a-week-long-struggle/
-slug: serialization-a-week-long-struggle
 title: 'Serialization: A week long struggle'
-wordpress_id: 812
+date: 2017-07-21 22:53:14 Z
 categories:
 - GSoC-2017
 - python
+author: ranvirsingh1114
+comments: true
+layout: post
+link: https://ranvirsinghprojects.wordpress.com/2017/07/22/serialization-a-week-long-struggle/
+wordpress_id: 812
 ---
 
 Hello folks,

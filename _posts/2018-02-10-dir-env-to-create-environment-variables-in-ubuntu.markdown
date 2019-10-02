@@ -1,15 +1,15 @@
 ---
-author: Ranvir Singh
-comments: true
-date: 2018-02-10 18:43:36.868837
-layout: post
 title: How to use direnv to create environment variables in ubuntu
-slug: dir-env-to-create-environment-variables-in-ubuntu
-category:
+date: 2018-02-10 18:43:36.868000000 Z
+categories:
 - Python
 - Direnv
 - Environment variables
+author: Ranvir Singh
+comments: true
+layout: post
 ---
+
 ![python logo](http://dashh.in/wp-content/uploads/2017/03/the-python-programming-language-explained.gif "Python Logo")
 
 Environment variables are very important for setting up important variables that you don't want to share in code. In my project, I have to set up some important variable that I require all over my project for the development. For example database names, email passwords, private keys and all other such things. But the problem with the environment variables is that you need to set them again and again. Everytime you come back to your shell, you have to create them again.
