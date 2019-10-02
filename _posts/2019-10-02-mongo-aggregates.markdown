@@ -1,6 +1,7 @@
 ---
 title: Mongo Aggregates
 date: 2019-10-02 12:03:00 Z
+published: false
 categories:
 - mongo
 - nosql
