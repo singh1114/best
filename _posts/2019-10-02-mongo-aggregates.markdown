@@ -43,4 +43,4 @@ Let's discuss a few of these aggregate queries.
 
 **Match**
 
-The match query can be called as the where query. You tell the aggregate to get the data that follows the given condition.
+The match query can be called as the where query in SQL terms. You tell the aggregate to get the data that follows the given condition.
