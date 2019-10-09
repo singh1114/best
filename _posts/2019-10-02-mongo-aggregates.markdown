@@ -63,6 +63,7 @@ Following are the commands that you can use in the aggregate pipeline.
 
 ## Match
 
+
 The match query can be called as the where query in SQL terms. You tell the aggregate to get the data that follows the given condition. It is recommended to keep the match query as soon as possible in the pipeline.
 
 
@@ -104,10 +105,13 @@ db.students.aggregate([
 ```
 
 
-[Here is the link to the mongo query.](https://mongoplayground.net/p/-1e-TS53Tzf)
+[Here is the link to the mongo query.](https://mongoplayground.net/p/-1e-TS53Tzf). You can use all different types of aggregate queries like average, min and max.
 
 
 ## Lookup
 
-Lookup is one of the most important
+
+Lookup is one of the most important aggregate queries which you can use. This allows us to join different collections together and get data from the other collections as well.
+
+[Here is the query of the lookup.](https://mongoplayground.net/p/rY_VqBk_XXE)
 
