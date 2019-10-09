@@ -115,3 +115,43 @@ Lookup is one of the most important aggregate queries which you can use. This al
 
 [Here is the query of the lookup.](https://mongoplayground.net/p/rY_VqBk_XXE)
 
+The lookup can be used with the pipeline as well. With this type of lookup, you can apply a check and tell the pipeline, when the given lookup will run.
+
+```
+{
+      $lookup:
+         {
+           from: "students",
+           let: { studentId: "$_id", age: "$age" },
+           pipeline: [
+              { $match:
+                 { $expr:
+                     { $eq: [ "$student_id",  "$$studentId" ] }
+                 }
+              },
+              { $project: { student_id: 1, age: 1 } }
+           ],
+           as: "data"
+         }
+    }
+```
+
+## Project
+
+Project is the part where you tell the query which keys to pick from the given document.
+
+```
+{
+    $project: {
+        student_name: 1,
+    }
+}
+```
+
+This will pick up only the fields with value `1` in the document.
+
+There are a few more options to choose from. Aggregate is one of the most important parts of the Mongo Database.
+
+If you are dealing with this Database daily, then it would be useful to know a little about it as well.
+
+Thanks for stopping by, Let me know if you want to know about something else as well. I love to write about tech topics.
