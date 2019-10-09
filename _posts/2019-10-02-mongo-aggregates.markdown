@@ -93,6 +93,7 @@ For all further parts of the pipeline, you can keep adding it to the main array 
 
 ## Group
 
+
 Group is used to group different things together, for example, if you want to calculate the sum of the age of students in different standards, the query will look something like this.
 
 
