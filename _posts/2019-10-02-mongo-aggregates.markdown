@@ -12,6 +12,8 @@ tags:
 - nosql
 ---
 
+![](https://webassets.mongodb.com/_com_assets/cms/mongodb_logo1-76twgcu2dm.png)
+
 Today we are going to talk about Mongo Aggregates. One of the best things that happened to Mongo.
 
 
@@ -100,5 +102,11 @@ db.students.aggregate([
 ])
 ```
 
-[Here is the link to the mongo query](https://mongoplayground.net/p/-1e-TS53Tzf)
+
+[Here is the link to the mongo query.](https://mongoplayground.net/p/-1e-TS53Tzf)
+
+
+## Lookup
+
+Lookup is one of the most important
 
