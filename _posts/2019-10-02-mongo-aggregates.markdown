@@ -12,7 +12,7 @@ tags:
 - nosql
 ---
 
-![](https://webassets.mongodb.com/_com_assets/cms/mongodb_logo1-76twgcu2dm.png)
+![Mongo DB](https://webassets.mongodb.com/_com_assets/cms/mongodb_logo1-76twgcu2dm.png)
 
 Today we are going to talk about Mongo Aggregates. One of the best things that happened to Mongo.
 
