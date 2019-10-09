@@ -155,3 +155,5 @@ There are a few more options to choose from. Aggregate is one of the most import
 If you are dealing with this Database daily, then it would be useful to know a little about it as well.
 
 Thanks for stopping by, Let me know if you want to know about something else as well. I love to write about tech topics.
+
+Also, let me know if I have made any mistake in this post.
