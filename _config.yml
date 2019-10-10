@@ -53,3 +53,5 @@ exclude:
 - README.md
 - CNAME
 theme: jekyll-theme-cayman
+paginate: 10
+paginate_path: "/posts/page:num/"
