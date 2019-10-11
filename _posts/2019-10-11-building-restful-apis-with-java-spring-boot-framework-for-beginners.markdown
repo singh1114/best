@@ -23,4 +23,12 @@ With that definition, you might be feeling that this framework is just for small
 
 ## Why not use Spring directly?
 
+There are a lot of reasons why people started moving on from the Spring framework to the smaller level frameworks. One of them which makes the most sense is the complexity.
+
+As Spring itself is a huge framework, its not always easy to get started and build the application.
+
+You need to know a lot of things before you can start building the application.
+
+Spring framework was originated to solve the commonly occurring problems in the Companies and providing a single framework that can solve them all. But as the time went on, building a simple CRUD based application become pretty hard in the case of Spring framework and Spring Boot came to the rescue.
+
 
