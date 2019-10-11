@@ -1,5 +1,5 @@
 ---
-title: Mongo Aggregates | With Examples
+title: Mongo Aggregates(Match, Group, Lookup, Project etc.) | With Examples
 date: 2019-10-02 12:03:00 Z
 categories:
 - mongo
