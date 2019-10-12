@@ -87,4 +87,4 @@ Result for MAC will be,
 
 Open up your IDE and create a Maven project with basic defaults selected. Choose some random GroupId and Artifact ID.
 
-![Screenshot 2019-10-12 at 4.28.01 PM.png](/uploads/Screenshot%202019-10-12%20at%204.28.01%20PM.png)
+![java_choose_project]({{ site.baseurl }}/images/java_new_project.png "Java New project")
