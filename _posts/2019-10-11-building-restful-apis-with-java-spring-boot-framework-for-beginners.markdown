@@ -143,4 +143,14 @@ Spring Boot allows us to simply create controllers where we can specify which UR
 
 <script src="https://gist.github.com/singh1114/0aa7c518315f1009f5c7825e65f30e1a.js"></script>
 
-Create a file called ``
+Create a file called `StatusController.java` in `io.singh1114.springboottut.status` package and add the following code.
+
+`RestController` is the part of the code that tells the Spring Boot that this class should be treated as a controller.
+
+Once we have this, we can use the methods which can be used by any controller and written in RestController static class.
+
+`RequestMapping` takes two arguments, where you have to specify path and API Method( GET, POST, PUT). But if you don't specify anything, it takes GET by default.
+
+Rerun the application and head to http://localhost:8080/status/.
+
+You will get the **We are up!** message.
