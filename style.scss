@@ -304,6 +304,7 @@ footer {
   padding: 2rem 1rem;
   overflow: auto;
   min-width: 310px;
+  border-left: 1px solid #ccc;
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -319,6 +320,7 @@ footer {
 /* Sidebar linkshttps://github.com/karloespiritu/BlackDoc/blob/master/public/css/blackdoc.css */
 .sidebar a {
   color: #43a16f;
+  
 }
 
 /* About section https://github.com/karloespiritu/BlackDoc/blob/master/public/css/blackdoc.css*/
@@ -328,6 +330,10 @@ footer {
   font-family: 'Noto Serif', serif;
   font-size: 2.25rem;
 
+}
+
+.sidebar-about h3 {
+  color: #c0c3c2;
 }
 
 /* Sidebar nav https://github.com/karloespiritu/BlackDoc/blob/master/public/css/blackdoc.css*/
