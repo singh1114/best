@@ -53,5 +53,38 @@ Without Maven, you will have to download each and every dependency and download 
 
 Maven does it by introducing an XML file that contains the name and version of the package that you need for the development of the given project. This file is known as `pom.xml`.
 
+**3. Java 8 or Above**
+
+I will be working on Java 8 in this tutorial. You will also have to JAVA_HOME environment variable as well.
+
+Try running these two commands to find if you are set up properly or not.
+
+```bash
+java -version
+```
+
+It should give you output like as follows:
+
+```bash
+java version "1.8.0_221"
+Java(TM) SE Runtime Environment (build 1.8.0_221-b11)
+Java HotSpot(TM) 64-Bit Server VM (build 25.221-b11, mixed mode)
+```
+
+For setting `JAVA_HOME`, try this:
+
+```bash
+echo $JAVA_HOME
+```
+
+Result for MAC will be,
+
+```bash
+/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home
+```
+
 ## Let's start
 
+Open up your IDE and create a Maven project with basic defaults selected. Choose some random GroupId and Artifact ID.
+
+![Screenshot 2019-10-12 at 4.28.01 PM.png](/uploads/Screenshot%202019-10-12%20at%204.28.01%20PM.png)
