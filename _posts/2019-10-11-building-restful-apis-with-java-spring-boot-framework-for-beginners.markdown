@@ -133,4 +133,14 @@ You will get the following error message.
 
 That was really easy. It's really easy to setup a server using the Spring Boot framework. Now we will work to create Controllers and various other things to create a proper set of Rest APIs.
 
+## Let's add a controller
 
+Now that we have a simple server set up, let's move forward and create a valid URL that we can hit and get the response back. For the testing purpose, I am going to create the status API. This API will tell us whether the services of the server are up or not.
+
+For this purpose, you will need to have a class annotated with `RestController`. For more information, you can learn more about the MVC framework.
+
+Spring Boot allows us to simply create controllers where we can specify which URL is going to be used to run this particular code.
+
+<script src="https://gist.github.com/singh1114/0aa7c518315f1009f5c7825e65f30e1a.js"></script>
+
+Create a file called ``
