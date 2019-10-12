@@ -123,3 +123,14 @@ This is all that was required to build the initial server in Spring Boot.
 
 You can click on the `Run` button. This will run the application. You will see the following output.
 
+![compilation_response](https://i.imgur.com/dxAohR4.png "spring boot compilation response")
+
+Now that the server is started, you can head out to the browser and type in `http://localhost:8080` to find the server.
+
+You will get the following error message.
+
+![browser](https://i.imgur.com/tj7u8lU.png "localhost response")
+
+That was really easy. It's really easy to setup a server using the Spring Boot framework. Now we will work to create Controllers and various other things to create a proper set of Rest APIs.
+
+
