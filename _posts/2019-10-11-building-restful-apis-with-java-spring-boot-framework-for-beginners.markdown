@@ -97,6 +97,10 @@ Open up your IDE and create a Maven project with basic defaults selected. Choose
 
 ## Setting up pom.xml
 
-You can add up a your pom.xml with the following configuration.
+Find the `pom.xml` file and add the following configuration.
 
 <script src="https://gist.github.com/singh1114/ff9bd0764f03168b4b6276d1f5079459.js"></script>
+
+The `parent` part in the file tells that we are going to use given parent and include all the jars that are present in the given group and given version.
+
+After adding this data to your `pom.xml` file you will have to update the Maven. In most of the cases, you will see a notification in the IDE itself to update it. Otherwise, you can find it in the top bar.
