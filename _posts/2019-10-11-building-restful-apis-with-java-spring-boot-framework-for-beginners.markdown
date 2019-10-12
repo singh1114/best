@@ -94,3 +94,9 @@ Open up your IDE and create a Maven project with basic defaults selected. Choose
 ![java_choose_group](https://i.imgur.com/LRzxxES.jpg "Java New project")
 
 ![java_finish](https://i.imgur.com/NEWTCbN.jpg "Java New project Finish setup")
+
+## Setting up pom.xml
+
+You can add up a your pom.xml with the following configuration.
+
+<script src="https://gist.github.com/singh1114/ff9bd0764f03168b4b6276d1f5079459.js"></script>
