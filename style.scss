@@ -303,6 +303,7 @@ footer {
   text-align: center;
   padding: 2rem 1rem;
   overflow: auto;
+  min-width: 310px;
 }
 @media (min-width: 48em) {
   .sidebar {
