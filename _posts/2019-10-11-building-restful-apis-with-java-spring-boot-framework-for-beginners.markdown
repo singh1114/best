@@ -2,9 +2,9 @@
 title: Building RESTful APIs with Java Spring Boot framework | For Beginners
 date: 2019-10-11 21:14:00 Z
 categories:
-- java
 - API
 - Spring Boot
+- Java
 tags:
 - java
 - programming
@@ -103,4 +103,23 @@ Find the `pom.xml` file and add the following configuration.
 
 The `parent` part in the file tells that we are going to use given parent and include all the jars that are present in the given group and given version.
 
-After adding this data to your `pom.xml` file you will have to update the Maven. In most of the cases, you will see a notification in the IDE itself to update it. Otherwise, you can find it in the top bar.
+After adding this data to your `pom.xml` file you will have to update the Maven. In most of the cases, you will see a notification in the IDE itself to update it. Otherwise, you can find it in the IDE's navbar.
+
+## Setting up the entry point of the spring boot project.
+
+Now that our dependencies are sorted, let's start by building the entry point to the project.
+
+To set up the entry point, create a package in the directory `src/main/java` with whatever name. In the package create a Java class with a name of your choice.
+
+<script src="https://gist.github.com/singh1114/960d3f4147cfee37d6d5599fbf50c489.js"></script>
+
+First line contains the name of the package that you created. In the 6th line, you are letting the Spring Boot framework know that this entry point of the project by annotating the class which contains the main class.
+
+For starting the server you have to call a server starting function with the following line.
+
+`SpringApplication.run(RestAPI.class, args);`
+
+This is all that was required to build the initial server in Spring Boot.
+
+You can click on the `Run` button. This will run the application. You will see the following output.
+
