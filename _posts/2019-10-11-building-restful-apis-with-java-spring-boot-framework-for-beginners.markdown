@@ -37,6 +37,21 @@ As Spring itself is a huge framework, its not always easy to get started and bui
 
 You need to know a lot of things before you can start building the application.
 
-Spring framework was originated to solve the commonly occurring problems in the Companies and providing a single framework that can solve them all. But as the time went on, building a simple CRUD based application become pretty hard in the case of Spring framework and Spring Boot came to the rescue.
+Spring framework was originated to solve the commonly occurring problems in the Companies and providing a single framework that can solve them all. But as time went by, building a simple CRUD based application become pretty hard in the case of Spring framework and Spring Boot came to the rescue.
 
+### What do we need?
+
+**1. Text Editor (IntelliJ Idea: Community Version)**
+
+Most of the Java developers make use of the official IDE provided by the IntelliJ community for carrying out the development work of there project. We are going to use this as well.
+
+**2. Maven**
+
+Maven is used for handling the packages required to run the application and other basic requirements to make it work. This helps us to handle all the dependencies easily.
+
+Without Maven, you will have to download each and every dependency and download all the jar files and handle the full cycle of updates which itself is a quite hectic process.
+
+Maven does it by introducing an XML file that contains the name and version of the package that you need for the development of the given project. This file is known as `pom.xml`.
+
+## Let's start
 
