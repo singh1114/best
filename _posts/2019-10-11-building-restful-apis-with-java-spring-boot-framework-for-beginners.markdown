@@ -19,7 +19,7 @@ This tutorial will help you to create a CRUD(Create, Retrieve, Update and Delete
 
 After going through this guide, you will be able to build complex applications using Spring Boot framework.
 
-I would encourage you guys to create a small project of your own as well as we move forward in this guide.
+I would encourage you guys to create a small project of your own as well, as we move forward in this guide.
 
 ## Why Spring Boot?
 
