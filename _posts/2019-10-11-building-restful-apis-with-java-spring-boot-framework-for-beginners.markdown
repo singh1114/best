@@ -168,3 +168,7 @@ In the `Standard.java` file, we are defining the schema of the standard class al
 In the `StandardController.java` file, we are using the same method that we used last time to create an API that allows the `GET` method with `/standards` endpoint.
 
 This time the function is returning back the List data to the endpoint. `Spring Boot` helps us convert the data in the List to valid `JSON` and sends back the data.
+
+Here is how it is going to look on the browser.
+
+![standards_api_response](https://i.imgur.com/S6O8NnB.png "standards api response")
