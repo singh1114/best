@@ -180,6 +180,7 @@ As we have already know how to set up a basic Rest API, we now are going to thin
 For the sake of this tutorial, we are going to work with three entities `School`, `Standard` and `Students`.
 
 **1. Each school can have multiple standards.**
+
 **2. Each Standard can have multiple Students.**
 
 Let's start with the `School` entity.
