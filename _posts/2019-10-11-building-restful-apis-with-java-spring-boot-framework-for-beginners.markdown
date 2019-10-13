@@ -154,3 +154,17 @@ Once we have this, we can use the methods which can be used by any controller an
 Rerun the application and head to http://localhost:8080/status/.
 
 You will get the **We are up!** message.
+
+## Return Data from the Controller
+
+Now, let's try to pass back data from the Controller.
+
+We are going to start with a basic `StandardController.java` and `Standard.java` class in the `io.singh1114.springboottut.standard` package.
+
+<script src="https://gist.github.com/singh1114/30a01779d59b1f40e03a9da5e8dbf777.js"></script>
+
+In the `Standard.java` file, we are defining the schema of the standard class along with the `getter`, `setter` and `constructor` functions. These functions will help us to set and get the data for various class variables.
+
+In the `StandardController.java` file, we are using the same method that we used last time to create an API that allows the `GET` method with `/standards` endpoint.
+
+This time the function is returning back the List data to the endpoint. `Spring Boot` helps us convert the data in the List to valid `JSON` and sends back the data.
