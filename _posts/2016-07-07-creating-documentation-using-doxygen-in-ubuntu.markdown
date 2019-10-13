@@ -1,20 +1,22 @@
 ---
 title: Creating documentation using Doxygen in Ubuntu
-date: 2016-07-07 21:45:36 Z
+date: 2016-07-07 21:45:00 Z
 categories:
 - Six weeks training
-author: ranvirsingh1114
+author: Ranvir Singh
 comments: true
-layout: post
 link: https://ranvirsinghprojects.wordpress.com/2016/07/08/creating-documentation-using-doxygen-in-ubuntu/
 wordpress_id: 223
+layout: post
 ---
 
-Doxygen is a tool to create a documentation for your program/project written in the languages like C, C++, Java, python and so on. It reads the well formatted and special doxygen comments to create the required documentation. This documentation is very important for the new developers who want to help in the development of the project. Documentation is one of the main pillar of an open-source project.
+Doxygen is a tool to create documentation for your program/project written in languages like C, C++, Java, python and so on. It reads the well-formatted and special Doxygen comments to create the required documentation. This documentation is very important for the new developers who want to help in the development of the project. 
 
-Read [this post](http://wp.me/p7kUg1-3E) to more about the importance of  documentation in software development.
+Documentation is one of the main pillars of an open-source project.
 
-Let us discuss how to create documentation using doxygen. First of all you need to have doxygen installed on your system. For that you can type these commands in the terminal.
+Read [this post](http://wp.me/p7kUg1-3E) to know more about the importance of documentation in software development.
+
+Let us discuss how to create documentation using Doxygen. First of all, you need to have Doxygen installed on your system. For that, you can type these commands in the terminal.
 
 
 <blockquote>sudo apt-get update
@@ -22,7 +24,7 @@ Let us discuss how to create documentation using doxygen. First of all you need 
 sudo apt-get install doxygen</blockquote>
 
 
-This is good for the beginning. But if you want to create the documentation using the graphical user interface then you can use this command. I will not be discussing this method so you have to figure it out yourself. I am taking this method to be fairly easy that you can figure it out yourself.
+This is good for the beginning. But if you want to create the documentation using the graphical user interface then you can use this command. I will not be discussing this method so you have to figure it out yourself.
 
 
 <blockquote>sudo apt-get install doxygen-gui</blockquote>
@@ -34,7 +36,9 @@ Now you can run the GUI using the command.
 <blockquote>doxywizard</blockquote>
 
 
-Now that's it for the GUI we are going to create the documentation using the terminal. Excited... so am I. So, let's start. For the example purpose I am going to create a simple hello world program in C++(The strategy is different for python but is similar to many other languages whose support is present).
+Now that's it for the GUI. In this guide, we are going to create the documentation using the terminal. Excited... so am I.
+
+So, let's start. For the example purpose, I am going to create a simple `hello world` program in C++(The strategy is different for python but is similar to many other languages whose support is present).
 
 This is what program looks like :-
 
@@ -75,7 +79,7 @@ This is what program looks like :-
     </code>
 
 
-Is this the basic context of a C++ file. No, it contain some extra components written in the a block of comment section. These are the Doxygen comments and they are used by this tool to depict the various parts of the program. According to the official site of [Doxygen](http://doxygen.org), there are many ways to start a comment in a file. For eg:- We can do it by these ways:-
+Is this the basic context of a C++ file. No, it contains some extra components written in the block of the comment section. These are the Doxygen comments and they are used by this tool to depict the various parts of the program. According to the official site of [Doxygen](http://doxygen.org), there are many ways to start a comment in a file. For eg:- We can do it in these ways:-
 
 
 
@@ -103,15 +107,15 @@ While writing the comments we have to follow a pattern with the tags i.e. before
 
 We have used @ in the shown example. We can also use \ in place of @.
 
-Now we need to generate the configuration file for the project. The configuration file contain the content in which the various variables of the Doxygen file are defined. While you are in the directory where your project is present. You can also create a separate folder for the doxygen content.For this purpose use this command.
+Now we need to generate the configuration file for the project. The configuration file contains the content in which the various variables of the Doxygen file are defined. While you are in the directory where your project is present. You can also create a separate folder for the Doxygen content. For this purpose use this command.
 
 
 <blockquote>$ doxygen -g filename</blockquote>
 
 
-From above command filename is optional, if no filename is given a file named Doxygen is generated. Now I will assume that you have not used any file name.
+From the above command, the filename is optional, if no filename is given a file named Doxygen is generated. Now I will assume that you have not used any file name.
 
-Next you can edit this file and add the content according to your needs. For example you can give a name to your project using this file. For editing use this command.
+Next, you can edit this file and add the content according to your needs. For example, you can give a name to your project using this file. For editing use this command.
 
 
 <blockquote>$ vim Doxygen</blockquote>
@@ -125,7 +129,7 @@ Great now this is the time to generate the Documentation. Go on and type this co
 <blockquote>$ doxygen Doxygen</blockquote>
 
 
-Where Doxygen is the name of file we generated earlier. Now you will find two directories in the place where your files were present. Use these commands to see the generated html documentation.
+Where Doxygen is the name of file we generated earlier. Now you will find two directories in the place where your files were present. Use these commands to see the generated HTML documentation.
 
 
 <blockquote>$ cd html
