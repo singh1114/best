@@ -172,3 +172,22 @@ This time the function is returning back the List data to the endpoint. `Spring 
 Here is how it is going to look on the browser.
 
 ![standards_api_response](https://i.imgur.com/S6O8NnB.png "standards api response")
+
+## Let's think about data
+
+As we have already know how to set up a basic Rest API, we now are going to think about the system that we are going to create in this guide.
+
+For the sake of this tutorial, we are going to work with three entities `School`, `Standard` and `Students`.
+
+**1. Each school can have multiple standards.**
+**2. Each Standard can have multiple Students.**
+
+Let's start with the `School` entity.
+
+For all operations of a **School**, we will need the following methods.
+
+1. `GET` - `/schools` - Get all schools.
+2. `GET` - `/school/id` - Get info of the given school.
+3. `POST` - `/school` - Create new School.
+4. `PUT` - `/school/id` - Update info of the school.
+5. `DELETE` - `/school/id` - Delete the school.
