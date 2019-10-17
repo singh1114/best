@@ -194,3 +194,8 @@ For all operations of a **School**, we will need the following methods.
 5. `DELETE` - `/school/id` - Delete the school.
 
 That's all for this part of the guide. We will come back with another part in a few days. Until then, keep sharing and keep liking.
+
+You are awesome.
+
+
+
