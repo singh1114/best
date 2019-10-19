@@ -252,6 +252,25 @@ The fourth line is the setting that will help you to auto-generate the tables in
 
 Just try to build the application once done with the setting. It should build without any error.
 
+## Build the school Model.
+
+Here is what `io.singh1114.springboottut.school/School.java` file looks like.
+
+<script src="https://gist.github.com/singh1114/bf5ca2f2f1bfbbf5daeb78f09f56260f.js"></script>
+
+After writing this down, run the application and check the MySQL shell to find the table created.
+
+![mysql shell](https://i.imgur.com/NFGMhfq.png "MySQL shell")
+
+`Entity` is the keyword that tells the Spring Boot that the following class should be considered as a table class. Class parameters are fields of the table.
+
+```bash
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name="id")
+```
+
+With these lines, we are letting Spring Boot know that the field which is annotated with `Id` keyword, will be treated as `Primary key`. `GeneratedValue(strategy = GenerationType.AUTO)` tells Spring Boot to autogenerate the value of id field( By incrementing the field)and `Column` field specifies the column name. These are required only we are doing something else than the normal stuff.
 
 
 That's all for this part of the guide. We will come back with another part in a few days. Until then, keep sharing and keep liking.
