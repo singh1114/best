@@ -193,6 +193,14 @@ For all operations of a **School**, we will need the following methods.
 4. `PUT` - `/school/id` - Update info of the school.
 5. `DELETE` - `/school/id` - Delete the school.
 
+## Let's add a persistence layer: Database
+
+Now that we have agreed upon the basics of the APIs that we are going to develop, let's just add a persistent layer that can persist data.
+
+We are going to use `MySQL` for the tutorial purpose.
+
+
+
 That's all for this part of the guide. We will come back with another part in a few days. Until then, keep sharing and keep liking.
 
 You are awesome.
