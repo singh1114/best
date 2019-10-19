@@ -270,8 +270,24 @@ After writing this down, run the application and check the MySQL shell to find t
     @Column(name="id")
 ```
 
-With these lines, we are letting Spring Boot know that the field which is annotated with `Id` keyword, will be treated as `Primary key`. `GeneratedValue(strategy = GenerationType.AUTO)` tells Spring Boot to autogenerate the value of id field( By incrementing the field)and `Column` field specifies the column name. These are required only we are doing something else than the normal stuff.
+With these lines, we are letting the Spring Boot know that the field which is annotated with `Id` keyword, will be treated as `Primary key`. `GeneratedValue(strategy = GenerationType.AUTO)` tells Spring Boot to autogenerate the value of id field( By incrementing the field)and `Column` field specifies the column name. These are required only if we are doing something else than the normal stuff.
 
+## Let's make the Db Access layer (Repository)
+
+The database Access layer is Java is given the name of the Repository. A simple repository provides all the basic methods required to find, create and delete entries in the database.
+
+Add this code to `io.singh1114.springtut.school/SchoolRepository.java`
+
+```bash
+package io.singh1114.springboottut.school;
+
+import org.springframework.data.repository.CrudRepository;
+
+public interface SchoolRepository extends CrudRepository<School, Long> {
+}
+```
+
+Basically you have to extend the `CrudRepository` and create an interface of that. In the params, you have to pass the name of the Java class that you want to extend and type of the primary key being passed. (`<School, Long>`)
 
 That's all for this part of the guide. We will come back with another part in a few days. Until then, keep sharing and keep liking.
 
