@@ -195,9 +195,62 @@ For all operations of a **School**, we will need the following methods.
 
 ## Let's add a persistence layer: Database
 
-Now that we have agreed upon the basics of the APIs that we are going to develop, let's just add a persistent layer that can persist data.
+Now that we have agreed upon the basics of the APIs that we are going to develop, let's just add a persistent layer that can persist data. There is a name for adding this persistence layer to the Java, called [Java Persistence Layer( JPA)](https://docs.oracle.com/javaee/6/tutorial/doc/bnbpz.html).
 
-We are going to use `MySQL` for the tutorial purpose.
+JPA is a type of ORM( Operation Relational Manager). If you have worked on some other framework, you might have heard about this term. An ORM helps us to reduce our effort by providing build-in methods to query data from the database.
+
+We are going to use `MySQL` for the tutorial purpose. You can go forward and choose any of the databases out there. The only thing that you will have to change is the libraries that you are importing, everything else should stay as it is.
+
+## Setting up MySQL
+
+1. You can install MySQL using a simple `brew` command in MAC.
+
+```bash
+brew install mysql
+```
+
+For Linux, you can try this command.
+
+```bash
+sudo apt install mysql
+```
+
+2. Then you can start the MySQL server using the command.
+
+```bash
+brew services start mysql
+```
+
+3. Now you will have to create a database for the Spring Boot application to interact with.
+
+```bash
+mysql -u root --password
+```
+
+4. Once, you are inside the MySQL shell, you can create the database using this command.
+
+```bash
+create database springguide;
+```
+
+5. Once you are done with database creation, you can add this content to the file `src/main/resources/application.properties`.
+
+```bash
+spring.datasource.url=jdbc:mysql://localhost:3306/springguide
+spring.datasource.username=root
+spring.datasource.password=<Your password>
+spring.jpa.hibernate.ddl-auto=update
+```
+
+**Note:** The first line tells the URL at which Spring could find the database connection. 
+
+Second-line gives the username of MySQL who is the owner of the database.
+
+The third line is the password of the database.
+
+The fourth line is the setting that will help you to auto-generate the tables in the database.
+
+Just try to build the application once done with the setting. It should build without any error.
 
 
 
