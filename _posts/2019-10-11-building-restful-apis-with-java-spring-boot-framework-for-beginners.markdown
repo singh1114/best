@@ -287,11 +287,28 @@ public interface SchoolRepository extends CrudRepository<School, Long> {
 }
 ```
 
-Basically you have to extend the `CrudRepository` and create an interface of that. In the params, you have to pass the name of the Java class that you want to extend and type of the primary key being passed. (`<School, Long>`)
+Basically you have to extend the `CrudRepository` and create an interface of that. In the params, you have to pass the name of the Java class that you want to extend and type of the primary key being passed (`<School, Long>`).
 
-That's all for this part of the guide. We will come back with another part in a few days. Until then, keep sharing and keep liking.
+We can create another file to handle interactions with the DataBase by creating a Service layer. In Java, it is generally done to separate the business logic from `Controllers`.
+
+The advantage of using such a service is that Java while building will load all the classes marked as business services as a `Singleton` and it will not have to create an object again and again.
+
+We can do that by using the `@Service` annotation. Here is the content of `io.singh1114.springboottut.School/SchoolService.java` and corresponding `Controller` code.
+
+<script src="https://gist.github.com/singh1114/5f21641afd022ce975f9ba38e5601f1d.js"></script>
+
+Looks like we have already discussed most of the stuff in here. Please drop your comments if you are stuck somewhere.
+
+Now you are ready to run your application with DataBase connected.
+
+![Empty Schools response Postman](https://i.imgur.com/E4e1h4F.png "Empty Schools response Postman")
+
+![Add School Postman](https://i.imgur.com/BGbQfq0.png "Add School Postman")
+
+![Schools response Postman](https://i.imgur.com/dBUVcgY.png "Schools response Postman")
+
+That's all for this part of the guide. With this much knowledge of Spring Boot, you can create any level of complex project( With a bit of googling).
+
+Your reviews are very important. Please leave your reviews in comments section below.
 
 You are awesome.
-
-
-
