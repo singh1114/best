@@ -12,13 +12,11 @@ tags:
 - nosql
 ---
 
-![Mongo DB](https://webassets.mongodb.com/_com_assets/cms/mongodb_logo1-76twgcu2dm.png)
-
 Today we are going to talk about Mongo Aggregates. One of the best things that happened to Mongo.
 
+![Mongo DB](https://webassets.mongodb.com/_com_assets/cms/mongodb_logo1-76twgcu2dm.png)
 
 Let's start by pulling out a few differences between the normal and Mongo database.
-
 
 Mongo belongs to one of those NoSQL databases which disrupted the internet a few years ago. Everyone in the industry was talking about them. Everyone wanted to move there stack to these flexible databases.
 
