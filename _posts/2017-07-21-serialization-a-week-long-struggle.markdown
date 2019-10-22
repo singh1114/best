@@ -4,7 +4,7 @@ date: 2017-07-21 22:53:00 Z
 categories:
 - GSoC-2017
 - python
-author: ranvirsingh1114
+author: Ranvir Singh
 comments: true
 link: https://ranvirsinghprojects.wordpress.com/2017/07/22/serialization-a-week-long-struggle/
 wordpress_id: 812
