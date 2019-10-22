@@ -1,6 +1,6 @@
 ---
 title: Basic Introduction to Node.js Async Await
-date: 2019-05-03 22:23:29.307000000 Z
+date: 2019-05-03 22:23:00 Z
 author: Ranvir Singh
 comments: true
 layout: post
@@ -11,14 +11,10 @@ layout: post
 &nbsp;
 
 Hey there,
-
-&nbsp;
->  
+ 
 > Have you encountered a situation while writing JS code when you say, Why is the output of line 90 coming before the output of line 30.
-> 
-&nbsp;
 
-Welcome back to yet another blog post. Today we are going to dive into one of the&nbsp;most talked subjects in the case of Node.js i.e. Async-Await.
+Welcome back to yet another blog post. Today we are going to dive into one of the most talked subjects in the case of Node.js i.e. Async-Await.
 
 &nbsp;
 
