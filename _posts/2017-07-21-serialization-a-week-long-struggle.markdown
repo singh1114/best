@@ -1,14 +1,14 @@
 ---
-title: 'Serialization: A week long struggle'
-date: 2017-07-21 22:53:14 Z
+title: 'Serialization in Django: A week-long struggle'
+date: 2017-07-21 22:53:00 Z
 categories:
 - GSoC-2017
 - python
 author: ranvirsingh1114
 comments: true
-layout: post
 link: https://ranvirsinghprojects.wordpress.com/2017/07/22/serialization-a-week-long-struggle/
 wordpress_id: 812
+layout: post
 ---
 
 Hello folks,
@@ -19,9 +19,9 @@ So as a whole, this month was well spent learning new stuff, first unit tests an
 
 First things first, **Why do we need serializers?**
 
-To answer this question, we need to know why were the serializers created anyway.
+To answer this question, we need to know what serialization is?
 
-According to some reliable sources like Wikipedia, serialization is the process by which we convert the data into such a format so that it can be transferred easily through the different layers of electronic components.
+According to Wikipedia, serialization is the process by which we convert the data into such a format so that it can be transferred easily through the different layers of electronic components.
 
 We know that our data is present in the models. We also know that we cannot ship that data easily to different formats through our models. So, we use the simple concept of serialization that converts the models' data **or any other data **into JSON, XML or YAML format which can be easily transmitted over the network.
 
