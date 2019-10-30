@@ -4,11 +4,11 @@ permalink: "/about/"
 layout: page
 ---
 
-A final year undergrade from India studying Computer Science and Engineering. A coding enthusiast and Linux lover who loves to read books. Also you can find him playing and talking about football in his free time. He is a FOSS lover and coding enthusiast. He shares most of his knowledge through this blog.
+An Open-source enthusiast and a quick learner with a love toward debugging who loves to read. Also you can find him playing and talking about football in his free time. He shares most of his knowledge through this blog.
 
 ### More Information
 
-Ranvir Singh is firm beliver of deep work and like to stays under the radar for most of his work. Because of this ability of his, he was able to crack **Google Summer of Code-2017**. You can find all his projects on GitHub.
+Ranvir Singh is a firm believer in deep work and likes to stay under the radar for most of his work. Because of this ability of his, he was able to crack **Google Summer of Code-2017**. You can find all his projects on GitHub.
 
 ### Contact Ranvir
 
