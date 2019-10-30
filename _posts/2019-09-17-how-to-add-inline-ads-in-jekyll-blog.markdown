@@ -1,6 +1,6 @@
 ---
 title: How to add Inline Ads in Jekyll blog | And increase your CTR
-date: 2019-10-30 17:05:00 Z
+date: 2019-09-17 17:05:00 Z
 categories:
 - Jekyll
 - Blog
