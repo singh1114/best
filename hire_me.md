@@ -1,6 +1,7 @@
 ---
 title: Hire me
 permalink: "/hire_me/"
+published: false
 layout: page
 ---
 
