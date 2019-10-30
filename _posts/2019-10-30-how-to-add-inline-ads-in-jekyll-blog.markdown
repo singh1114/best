@@ -1,5 +1,5 @@
 ---
-title: How to add inline Ads in Jekyll blog
+title: How to add Inline Ads in Jekyll blog
 date: 2019-10-30 17:05:00 Z
 categories:
 - Jekyll
