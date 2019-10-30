@@ -41,7 +41,7 @@ Here is the old content of the file.
 * Split the blog content on the basis of `<p>` tags.
 * After every 10 Paras, add an ad.
 
-Here is the code with that change
+Here is the code with that change, Just replace the `div` with `class` `entry` with this code.
 
 <script src="https://gist.github.com/singh1114/46164f4d478a1be063c2ee4636357f52.js"></script>
 
