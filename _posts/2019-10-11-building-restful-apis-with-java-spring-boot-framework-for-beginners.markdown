@@ -274,7 +274,7 @@ With these lines, we are letting the Spring Boot know that the field which is an
 
 ## Let's make the Db Access layer (Repository)
 
-The database Access layer is Java is given the name of the Repository. A simple repository provides all the basic methods required to find, create and delete entries in the database.
+The database Access layer in Java is given the name of the Repository. A simple repository provides all the basic methods required to find, create and delete entries in the database.
 
 Add this code to `io.singh1114.springtut.school/SchoolRepository.java`
 
