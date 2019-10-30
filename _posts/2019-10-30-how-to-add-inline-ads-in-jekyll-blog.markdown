@@ -59,4 +59,4 @@ That's it for today, I hope you liked the post. Please share it with your friend
 
 Also, it would help us if you leave a comment and appreciate if this helped you.
 
-Also, if you have some doubt feel free to reach out using the comments section.
+If you have some doubt feel free to reach out using the comments section.
