@@ -31,3 +31,35 @@ In this blog, we will try to add ads somewhere in-between the post content.
 
 The strategy here is pretty simple, we want to show a Google ad after every `ten` paragraphs of the content.
 
+For accomplishing this, we will have to concentrate on the file, `_layout/post.html`
+
+Here is the old content of the file.
+
+<script src="https://gist.github.com/singh1114/ab15bb136a32c0724f9a861d375a9c52.js"></script>
+
+`29`th line the most important line is responsible for showing the content of the post.
+
+## Adding inline ads in Jekyll blog: Tech Strategy
+
+* Split the blog content on the basis of `<p>` tags.
+* After every 10 Paras, add an ad.
+
+Here is the code with that change
+
+<script src="https://gist.github.com/singh1114/46164f4d478a1be063c2ee4636357f52.js"></script>
+
+On the 4th line, we split the `content` variable using `<p>` tag and assigned it another variable `content_para`.
+
+Then we are looping over this `content_para` and start printing it one by one.
+
+Inside each loop, we are checking the loop index and finding its `modulo 10` which will give its remainder value and assigning the value to a variable `para_number`.
+
+The value of `para_number` will be 0 when loop index is multiple of 10 i.e. 10, 20, 30 and so on.
+
+You can add whatever you want to in the place. If you want to publicize your new course, you can do it.
+
+I hope you liked the post. Please share it with your friends.
+
+Also, it would help us if you leave a comment and appreciate if this helped you.
+
+Also, if you have some doubt feel free to reach out using the comments section.
