@@ -6,10 +6,12 @@ categories:
 - NoSQL
 - Database
 - Aggregates
+- Technology
 tags:
 - database
 - mongo
 - nosql
+- Technology
 ---
 
 Today we are going to talk about Mongo Aggregates. One of the best things that happened to Mongo.
