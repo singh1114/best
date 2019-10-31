@@ -66,7 +66,7 @@ layout: default
               console.log({{page.categories}}, {{category}}, {{contains_data}}, 'page post url');
             </script>
             {% assign sameTagCount = sameTagCount | plus: 1 %}
-            {% capture tagmarkup %} <span class="label label-default">{{ category }}</span> {% endcapture %}
+            {% assign tagmarkup = category %}
             {% assign commonTags = commonTags | append: tagmarkup %}
           {% endif %}
         {% endif %}
