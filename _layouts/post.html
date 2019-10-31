@@ -60,6 +60,9 @@ layout: default
 
       {% for category in post.categories %}
         {% if post.url != page.url %}
+          <script>
+            console.log({{post.url}}, {{page.url}}, 'page post url');
+          </script>
           {% if page.categories contains category %}
             {% assign sameTagCount = sameTagCount | plus: 1 %}
             {% capture tagmarkup %} <span class="label label-default">{{ category }}</span> {% endcapture %}
