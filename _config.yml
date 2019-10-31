@@ -10,7 +10,7 @@ collections:
     output: true
 name: Ranvir Singh
 description: Open-source enthusiast.
-avatar: images/project-management.svg
+avatar: /images/project-management.svg
 footer-links:
   dribbble: 
   email: ranvir.singh1114@gmail.com
