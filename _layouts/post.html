@@ -62,9 +62,6 @@ layout: default
         {% if post.url != page.url %}
           {% assign contains_data = page.categories contains category %}
           {% if page.categories contains category %}
-            <script>
-              console.log({{page.categories}}, {{category}}, {{contains_data}}, 'page post url');
-            </script>
             {% assign sameTagCount = sameTagCount | plus: 1 %}
             {% assign tagmarkup = category %}
             {% assign commonTags = commonTags | append: tagmarkup %}
