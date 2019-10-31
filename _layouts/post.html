@@ -61,7 +61,7 @@ layout: default
       {% for category in post.categories %}
         {% if post.url != page.url %}
           <script>
-            console.log({{post.url}}, {{page.url}}, 'page post url');
+            console.log({{page.categories}}, {{category}}, 'page post url');
           </script>
           {% if page.categories contains category %}
             {% assign sameTagCount = sameTagCount | plus: 1 %}
