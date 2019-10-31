@@ -5,6 +5,7 @@ categories:
 - GSoC-2017
 - Testing
 - Django
+- Python
 author: ranvirsingh1114
 comments: true
 link: https://ranvirsinghprojects.wordpress.com/2017/07/06/writing-unit-tests-for-the-models/
