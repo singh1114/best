@@ -1,13 +1,15 @@
 ---
-title: Writing unit tests for the models
-date: 2017-07-05 19:41:52 Z
+title: Writing unit tests for the Django models
+date: 2017-07-05 19:41:00 Z
 categories:
 - GSoC-2017
+- Testing
+- Django
 author: ranvirsingh1114
 comments: true
-layout: post
 link: https://ranvirsinghprojects.wordpress.com/2017/07/06/writing-unit-tests-for-the-models/
 wordpress_id: 810
+layout: post
 ---
 
 You must have heard about the term test-driven-development if you are into the developmental works. It is the development in which you write tests before writing the logic. That means first you write the stuff that can break the code and then you write the real code that doesn't break which is unbreakable from that point of view.
