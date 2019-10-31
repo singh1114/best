@@ -60,8 +60,9 @@ layout: default
 
       {% for category in post.categories %}
         {% if post.url != page.url %}
+          {% assign contains_data = page.categories contains category %}
           <script>
-            console.log({{page.categories}}, {{category}}, 'page post url');
+            console.log({{page.categories}}, {{category}}, {{contains_data}}, 'page post url');
           </script>
           {% if page.categories contains category %}
             {% assign sameTagCount = sameTagCount | plus: 1 %}
