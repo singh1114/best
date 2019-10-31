@@ -1,5 +1,5 @@
 ---
-title: How to use FactoryBoy to create model instances in python for testing
+title: How to use FactoryBoy to create model instances in Django for testing
 date: 2018-01-18 18:43:00 Z
 categories:
 - Django
