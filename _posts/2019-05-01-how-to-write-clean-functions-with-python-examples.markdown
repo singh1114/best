@@ -6,7 +6,7 @@ comments: true
 layout: post
 ---
 
-I bet you have, every once in a while, gone through a small piece of code trying to figure out the why was the given function written in a way it is written. Almost all companies have this service which just works and nobody wants to touch it.
+I bet you have, every once in awhile, gone through a small piece of code trying to figure out that why was the given function written in a way it is written. Almost all companies have this service which just works and nobody wants to touch it and most of the times it is due to the bad way in which the code was written.
 
 In this post, we are going to talk about writing clean functions and eventually reducing the tech overhead.
 
