@@ -1,5 +1,5 @@
 ---
-title: Apply These 8 Secret Techniques your functions With Python Examples
+title: Apply These Secret Techniques to write clean functions | Python Examples
 date: 2019-05-01 10:52:00 Z
 author: Ranvir Singh
 comments: true
