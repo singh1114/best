@@ -68,7 +68,7 @@ Function with two arguments
     
 ## Triads
 
-Functions with three arguments. Try not to write as much as possible. It's better to wrap those arguments in their own class if the number of arguments start increasing a given number.
+Functions with three arguments. Try not to write as much as possible. It's better to wrap those arguments in their own class if the number of arguments starts increasing a given number.
 
 For example:
 
