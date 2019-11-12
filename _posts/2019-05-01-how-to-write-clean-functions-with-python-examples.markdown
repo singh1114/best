@@ -8,7 +8,7 @@ layout: post
 
 I bet you have, every once in awhile, gone through a small piece of code trying to figure out that why was the given function written in a way it is written. Almost all companies have this service which just works and nobody wants to touch it and most of the time it is due to the bad way in which the code was written.
 
-In this post, we are going to talk about writing clean functions and eventually reducing the tech overhead.
+In this post, we are going to talk about writing clean functions and eventually reducing the technical overhead.
 
 <img alt="" src="https://images-na.ssl-images-amazon.com/images/I/515iEcDr1GL._SX385_BO1,204,203,200_.jpg" style="height:499px; width:387px"/>
 
