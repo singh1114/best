@@ -1,6 +1,14 @@
 ---
 title: Apply These Secret Techniques to write clean functions | Python Examples
 date: 2019-05-01 10:52:00 Z
+categories:
+- python
+- clean-code
+- JavaScript
+tags:
+- Python
+- Clean-Code
+- JavaScript
 author: Ranvir Singh
 comments: true
 layout: post
