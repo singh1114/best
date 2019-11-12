@@ -12,9 +12,11 @@ In this post, we are going to talk about writing clean functions and eventually 
 
 <img alt="" src="https://images-na.ssl-images-amazon.com/images/I/515iEcDr1GL._SX385_BO1,204,203,200_.jpg" style="height:499px; width:387px"/>
 
-A few days ago I went through a book called, Clean code. Although I was not able to complete the full book, I was able to go through a few of the chapters one of which was,
+A few days ago I went through a book called, **Clean code**. Although I was not able to complete the full book, I was able to go through a few of the chapters one of which was,
 
 **How to write clean functions.**
+
+Here are the learnings of the chapter.
 
 ## Functions should not be large.
 
