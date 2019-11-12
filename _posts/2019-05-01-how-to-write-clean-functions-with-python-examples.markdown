@@ -50,7 +50,7 @@ While reviewing the code people tend to start from the top slowly move toward th
 
 We have already discussed this. We should always choose better names for the functions. Descriptive names will go a long way rather than some random docstring for the function.
     
-## A lesser number of function arguments should be there. Better to make-instance variable.
+## A lesser number of function arguments should be there.
 
 The number of arguments should be lower. And if you are writing the class method, better to make it an instance variable.
     
