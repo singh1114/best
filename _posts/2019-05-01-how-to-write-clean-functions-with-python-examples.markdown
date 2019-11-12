@@ -54,7 +54,7 @@ We have already discussed this. We should always choose better names for the fun
 
 The number of arguments should be lower. And if you are writing the class method, better to make it an instance variable.
     
-## Try to avoid flag arguments. This means function does more than one thing.
+**Note: Try to avoid flag arguments. This means function does more than one thing.**
     
 ## Monadic function
 
