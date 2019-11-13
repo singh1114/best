@@ -1,5 +1,5 @@
 ---
-title: Apply These Secret Techniques to write clean functions | Python Examples
+title: Apply These Secret Techniques to write clean functions | With Examples
 date: 2019-05-01 10:52:00 Z
 categories:
 - python
@@ -33,6 +33,26 @@ Functions should not be bigger than a few lines. Keeping a rule of thumb is to d
 ## Creating blocks and proper indentation is very helpful.
 
 Proper indentation and usage of blocks will take to long-distance while programming in a production system. Although this part is very much imposed in Python but keeping a style guide for a company is a good way to go.
+
+
+```javascript
+const function = makeChanges() {
+const a = 10;
+ const b = 20;
+  return a + b;
+  }
+```
+
+```javascript
+const function = makeChanges() {
+  const a = 10;
+  const b = 20;
+  return a + b;
+}
+```
+
+You can feel the difference in the above examples.
+
     
 ## Every function should do only one thing.
 
@@ -55,6 +75,35 @@ I know this is hard for a number of people. Initially, even I used to follow the
 While reviewing the code people tend to start from the top slowly move toward the end. So it makes sense to start everything from the top and move down as you keep writing it.
     
 ## Switch statements should be avoided.
+
+It's good to avoid `switch` statements as much as you can. Better to use `dict`( Python), `Map`/ `Object` (Javascript).
+
+
+```javascript
+const monthObj = {
+  jan: function_1,
+  feb: function_2,
+  mar: function_3
+};
+
+const month = 'jan';
+
+monthObj[month]();
+```
+
+```python
+month_obj = {
+  'jan': function_1,
+  'feb': function_2,
+  'mar': function_3
+};
+
+month = 'jan';
+
+monthObj[month]();
+```
+
+Although sometimes it's hard to change switch statements to something like this. Always prefer readability over speed if the differences in the speed are not that large.
     
 ## Use descriptive names.
 
@@ -82,13 +131,13 @@ For example:
 
 converting,
 
-```
+```python
 makeCircle(x, y, radius)
 ```
 
 to
 
-```
+```python
 makeCircle(center, radius)
 ```
 where a center is an object of the class Centre, makes a lot of sense.
@@ -119,23 +168,17 @@ This is called Command Query Separation.
     
 Example:
 
-```
-> try {
-> 
->    trythisfunc();
-> 
-> }
-> 
-> Catch (Exception e) {
-> 
->    logError(); // this function do only error logging.
-> 
-> }
+```python
+try:
+   trythisfunc();
+
+except:
+   logError(); // this function do only error logging.
 ```
 
 ## DRY: Don’t repeat yourself.
     
-**One great idea is to write long and bad function first, then writing tests for every line of code. Then refining the code and still not allowing the tests to fail.**
+**Note: One great idea is to write long and bad function first, then writing tests for every line of code. Then refining the code and still not allowing the tests to fail.**
 
 I hope you liked some of the points over there. Also, there might be a few things that you don't agree upon. Do share them in the comment section of this post.
 
