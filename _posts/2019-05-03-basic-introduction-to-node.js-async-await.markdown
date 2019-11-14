@@ -1,6 +1,10 @@
 ---
 title: Basic Introduction to Node.js Async Await
 date: 2019-05-03 22:23:00 Z
+categories:
+- javascript
+tags:
+- javascript
 author: Ranvir Singh
 comments: true
 layout: post
