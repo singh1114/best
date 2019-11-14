@@ -1,6 +1,10 @@
 ---
 title: Intermediate Guide for Node.js developers
-date: 2019-04-08 06:40:32.455000000 Z
+date: 2019-04-08 06:40:00 Z
+categories:
+- javascript
+tags:
+- javascript
 author: Ranvir Singh
 comments: true
 layout: post
