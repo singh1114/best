@@ -16,6 +16,17 @@ layout: post
 
 I get it! You don't want to repeat that code again and again. Maybe you are sick of copying those little function calls all over your code with some change in the parameters. Every time you have to create a new route or new API endpoint you have to write the same code.
 
+For example:
+
+```javascript
+
+// Inside the route.
+
+if (!request.phone_number) {
+    throw new Error('Main request parameter not present.')
+}
+```
+
 If you want to wrap all your requests with some special data this tutorial is for you.
 
 In terms of web development, we call them middleware... Just a fancy name( makes sense though). Middleware is something that is used to make changes to request or response data.
