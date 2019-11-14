@@ -29,6 +29,8 @@ if (!request.phone_number) {
 
 If you want to wrap all your requests with some special data this tutorial is for you.
 
+This will also be helpful for your developers to know which parameters are required for the given route and which of them are optional.
+
 In terms of web development, we call them middleware... Just a fancy name( makes sense though). Middleware is something that is used to make changes to request or response data.
 
 I have seen people doing a lot of things in the middlewares. The best thing that one can do in the middlewares is logging. You can log your request parameters, headers, response data to wherever you want to log it.
