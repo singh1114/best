@@ -19,7 +19,6 @@ I get it! You don't want to repeat that code again and again. Maybe you are sick
 For example:
 
 ```javascript
-
 // Inside the route.
 
 if (!request.phone_number) {
