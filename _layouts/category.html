@@ -28,19 +28,18 @@ layout: default
             <div class="col-lg-8 col-md-10 mx-auto">
                 <h2>{{page.category_name}} Posts</h2>
                 {% if site.categories[page.category_name] %}
-                {% for post in site.categories[page.category_name] %}
-                <div class="card">
-                    <a href="{{ site.baseurl }}{{ post.url }}" class="container">
-                        <h4><strong>{{post.title}}</strong></h4>
-                        <p><strong>{{ post.subtitle }}</strong></p>
-                        <p>{{ post.excerpt | strip_html | truncatewords: 60 }}</p>
-                    </a>
-                </div>
-                {% endfor %}
+                    {% for post in site.categories[page.category_name] %}
+                        <div class="card" style="border: 1px solid #ccc; padding: 0px 20px 0px 20px; border-radius: 5px; font-size: 18px;">
+                            <a href="{{ site.baseurl }}{{ post.url }}" class="container">
+                                <h4><strong>{{post.title}}</strong></h4>
+                                <p><strong>{{ post.subtitle }}</strong></p>
+                                <p>{{ post.excerpt | strip_html | truncatewords: 60 }}</p>
+                            </a>
+                        </div>
+                    {% endfor %}
                 {% else %}
-                <br>
-                <p>No posts for this category. If you have something in mind, check <a href="/write">Write For Us</a>
-                    page.</p>
+                    <br>
+                    <p>No posts for this category.</p>
                 {% endif %}
 
             </div>
