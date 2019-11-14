@@ -6,9 +6,9 @@ categories:
 - clean-code
 - JavaScript
 tags:
-- Python
 - Clean-Code
-- JavaScript
+- python
+- javascript
 author: Ranvir Singh
 comments: true
 layout: post
