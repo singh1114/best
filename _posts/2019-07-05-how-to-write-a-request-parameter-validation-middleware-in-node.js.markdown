@@ -2,13 +2,13 @@
 title: How to write a request parameter validation middleware in node.js
 date: 2019-07-05 15:55:00 Z
 categories:
-- JavaScript
 - Nodejs
 - Technology
+- javascript
 tags:
-- JavaScript
 - Technology
 - Nodejs
+- javascript
 author: Ranvir Singh
 comments: true
 layout: post
