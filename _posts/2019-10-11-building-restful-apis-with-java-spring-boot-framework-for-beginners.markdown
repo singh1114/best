@@ -4,12 +4,12 @@ date: 2019-10-11 21:14:00 Z
 categories:
 - API
 - Spring Boot
-- Java
 - Technology
+- java
 tags:
-- Java
 - Programming
 - Technology
+- java
 ---
 
 Java is one of the most widely used programming languages in the world. Not only it is widely used, but it is also being used as the core part of the top software companies in the world. So, if your dream is to work for those top companies, you better know a little bit of Java.
