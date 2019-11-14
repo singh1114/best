@@ -26,7 +26,7 @@ layout: default
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
-                <h2>{{page.category_name}} Posts</h2>
+                <h2>{{page.category_name | capitalize}} Posts</h2>
                 {% if site.categories[page.category_name] %}
                     {% for post in site.categories[page.category_name] %}
                         <div class="card" style="border: 1px solid #ccc; padding: 0px 20px 0px 20px; border-radius: 5px; font-size: 18px;">
@@ -36,6 +36,7 @@ layout: default
                                 <p>{{ post.excerpt | strip_html | truncatewords: 60 }}</p>
                             </a>
                         </div>
+                        <br>
                     {% endfor %}
                 {% else %}
                     <br>
