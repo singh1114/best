@@ -4,7 +4,7 @@ date: 2019-05-01 10:52:00 Z
 categories:
 - python
 - clean-code
-- JavaScript
+- javascript
 tags:
 - Clean-Code
 - python
