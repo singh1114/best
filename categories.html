@@ -1,26 +1,29 @@
 ---
-title: Categories
-permalink: "/categories/"
 layout: page
+permalink: /categories/
+title: Categories
+description: We help you to reach your milestones and improve sales.
+background: '/img/bg-about.jpg'
 ---
 
 <div id="archives">
-{% for category in site.categories %}
+  {% for category in site.categories %}
   <div class="archive-group">
-      {% capture category_name %}{{ category | first }}{% endcapture %}
-          <div id="#{{ category_name | slugize }}"></div>
-              <p></p>
-              <h2 class="category-head">{{ category_name }}</h2>
-              <a name="{{ category_name | slugize }}"></a>
-              {% for post in site.categories[category_name] %}
-                  <article class="post">
-                    <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-                    <div class="entry">
-                      {{ post.excerpt }}
-                    </div>
-                    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-                  </article>
-              {% endfor %}
-         </div>
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <div id="#{{ category_name | slugize }}"></div>
+    <p></p>
+
+    <h1 class="category-head">{{ category_name }}</h1>
+    <a name="{{ category_name | slugize }}"></a>
+    {% for post in site.categories[category_name] %}
+    <div class="card">
+      <a href="{{ site.baseurl }}{{ post.url }}" class="container">
+        <h4><strong>{{post.title}}</strong></h4>
+        <p><strong>{{ post.subtitle }}</strong></p>
+        <p>{{ post.excerpt | strip_html | truncatewords: 60 }}</p>
+      </a>
+    </div>
     {% endfor %}
+  </div>
+  {% endfor %}
 </div>
