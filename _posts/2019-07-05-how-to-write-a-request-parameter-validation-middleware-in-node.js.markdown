@@ -32,6 +32,10 @@ Pretty awesome, right!
 
 You will never have to make any check related to the request parameters. All these checks will be transported to the middleware.
 
+## What is a middleware
+
+A middleware is simple part of code that is used to manipulate requests or response data.
+
 Let's start by writing a simple middleware.
 
 <script src="https://gist.github.com/singh1114/766113f61c4f61b8357e4ff0223ec3c1.js"></script>
