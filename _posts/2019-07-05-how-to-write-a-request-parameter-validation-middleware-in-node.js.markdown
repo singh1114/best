@@ -47,7 +47,7 @@ You will never have to make any check related to the request parameters. All the
 
 ## What is a middleware
 
-A middleware is a simple part of code that is used to manipulate requests or response data.
+A middleware is a simple part of the code that is used to manipulate requests or response data.
 
 Let's start by writing a simple middleware.
 
