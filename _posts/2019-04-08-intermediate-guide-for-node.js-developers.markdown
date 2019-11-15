@@ -14,7 +14,7 @@ layout: post
 
 &nbsp;
 
-Hello guys, Has been a while since I last posted on this platform. Will start to do that again and keep posting on new and cool things I found about.&nbsp;
+Hello guys, It has been a while since I last posted on this platform. Will start to do that again and keep posting on new and cool things I found about.&nbsp;
 
 &nbsp;
 
