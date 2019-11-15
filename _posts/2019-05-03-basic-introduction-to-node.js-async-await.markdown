@@ -67,21 +67,16 @@ There are some cases when all the function calls are mutually exclusive and are 
 
 Handling errors are also very easy and feel very much pythonic with async await functions. You can run the try-catch block of all the functions individually.
 
-&nbsp;
->  
-> 
->     
->     
->     const add = async function (a, b) {
->         try {
->              return a + b;
->         } catch {
->              // Do something!
->              raise new Error("Some error!")
->         }
->     }
-> 
-> 
+```javascript    
+const add = async function (a, b) {
+    try {
+       return a + b;
+    } catch {
+       // Do something!
+       raise new Error("Some error!")
+    }
+}
+```
 
 In the end, I just want to say that, making use of Promises is always going to be a little bit faster than async-await, But I personally like the async-await because they provide far more clarity of the code to the person who is new to the async world of JavaScript.
 
