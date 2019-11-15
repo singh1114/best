@@ -10,6 +10,8 @@ comments: true
 layout: post
 ---
 
+As soon as the people started writing JavaScript for backend, a lot of people from the frontend started writing the backend code. Node made it really easy to switch between the frontend and backend development roles.
+
 <img alt="" src="https://cdn-images-1.medium.com/max/2400/1*LSfLSMQ1kPuHnyCPLNEKgQ.png" style="height:373px; width:600px"/>
 
 Hello guys, It has been a while since I last posted on this platform. Will start to do that again and keep posting on new and cool things I found about.&nbsp;
