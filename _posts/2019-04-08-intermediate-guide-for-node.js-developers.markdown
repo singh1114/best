@@ -1,5 +1,5 @@
 ---
-title: Intermediate Guide for Node.js developers
+title: How to move become Node.js developer | Coming back from OOP background
 date: 2019-04-08 06:40:00 Z
 categories:
 - javascript
@@ -12,17 +12,11 @@ layout: post
 
 <img alt="" src="https://cdn-images-1.medium.com/max/2400/1*LSfLSMQ1kPuHnyCPLNEKgQ.png" style="height:373px; width:600px"/>
 
-&nbsp;
-
 Hello guys, It has been a while since I last posted on this platform. Will start to do that again and keep posting on new and cool things I found about.&nbsp;
 
-&nbsp;
+So, I have started working with another organization and the stack that they are using is totally different from the last one. Although the concept almost remains the same, there are always some changes involved and change of thinking patterns are required. The problem statement is totally different. The challenges involved are related to scaling things in a proper manner.
 
-So, I have started working with another organization and the stack that they are using is totally different from the last one. Although the concept almost remains the same,&nbsp;there are&nbsp;always some changes involved and change of thinking patterns are required. The problem statement is totally different. The challenges involved are related to scaling things in a proper manner.
-
-&nbsp;
-
-The stack involved extensive usage of Node.js, MongoDB and AWS. I started out by learning Node.js from various resources. The best resources that I found till date is <https://nodeschool.io/>.
+The stack involved extensive usage of Node.js, MongoDB and AWS. I started out by learning Node.js from various resources. The best resource that I found to date is [https://nodeschool.io/](https://nodeschool.io/).
 
 &nbsp;
 
