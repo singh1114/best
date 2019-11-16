@@ -15,19 +15,19 @@ comments: true
 layout: post
 ---
 
-Testing is one of the basic and most important part of the development process that is needed to be done every time you write code.
+Testing is one of the basic and most important parts of the development process that is needed to be done every time you write or change any part of the code. It gives you the authority confidence in the code that you are writing.
 
-I have already discussed testing in one of my earlier posts. In that post, I will talk about the way in which we can write tests for models.
+I have already discussed testing in one of [my earlier posts.](https://singh1114.github.io/blog/writing-unit-tests-for-the-models/) In this post, I will talk about the way in which we can write tests for models.
 
 For testing models, we need to create sample objects for this.
 
-It's pretty hard to write the same code again and again to create same object.
+It's pretty hard to write the same code again and again to create the same object.
 
-Today I am going to talk about using FactoryBoy for testing Django application.
+Today I am going to talk about using `FactoryBoy` for testing Django application.
 
-The name **FactoryBoy** is inspired by the Factory Girl testing tool for Ruby on Rails. Without Factory boy, you have to write a lot of code for the creation of test cases.
+The name **FactoryBoy** is inspired by the Factory Girl testing tool for Ruby on Rails. Without Factory boy, you will have to write a lot of code for the creation of test cases.
 
-For writing test, you have to spend a lot of time writing the setup method for the tests.
+For writing tests, you have to spend a lot of time writing the setup method for the tests.
 
 Without the use of factories, this is how your tests will look like:
 
@@ -46,9 +46,9 @@ class DataBaseStore(TestCase):
 ```
  
 
-On the other hand, it is always nice to separate your setting up `method` from the testing method. For this sometimes we have to write long code in the beginning which helps us in the future by allowing us to write smaller code in the future. 
+On the other hand, it is always nice to separate your setting up `method` from the testing method. For this sometimes we have to write long code in the beginning which helps us in the future by allowing us to write smaller code. 
 
-We can write factories anywhere but it's always a good idea to write it in a file named factories.py inside the root directory of your app.
+We can write factories anywhere but it's always a good idea to write it in a separate file named factories.py inside the root directory of your app.
 
 Write following in the factories.py file inside your root directory.
 
