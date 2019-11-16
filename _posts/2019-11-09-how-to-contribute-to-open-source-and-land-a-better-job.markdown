@@ -1,15 +1,16 @@
 ---
 title: Why and How to contribute to open-source as a beginner
 date: 2019-11-09 22:08:00 Z
-published: false
 categories:
 - open-source
-- GSoC
-- Discuss
+- beginners
+- discuss
+- gsoc
 tags:
 - open-source
 - GSoC
 - Discuss
+- beginners
 ---
 
 Open source is one of the best ways to get started with the real-world experience of the programming world and learning as quickly as possible. Also, open-source organizations are very keen and welcome new contributors to the platforms.
@@ -46,15 +47,72 @@ Sometimes you have to become the tester to test out the feature that other build
 
 Mostly you will have to architect your own solution for the problems that you are solving as well. 
 
-### Learn how to talk
+### Learn how to communicate properly with the team
 
-### Get a lot of recommendations
+Open-source involves communicating with all the people in the organizations in a public channel. This will help you a lot about how to communicate your concerns better.
+
+How to ask questions and what questions to ask is very important to learn.
+
+This skill is going to help you throughout your life.
+
+### Get recommended and increase visibility
+
+As the name suggests, your code is going to stay there for a long time to come and people can judge you with the code that you have written for these organizations.
+
+Since most of the organizations have a high standard for type of code they commit to the repository, you will be rated highly among your peers for participating in some open-source organization patches.
 
 ### Good for your career
 
+Doesn't matter what you want to after the open-source gig is done. Maybe you want to do open-source throughout your life, starting out with an organization will always be good for you.
 
+Generally, open-source organizations tend to recommend the org participators which end up helping you in your interview.
 
-* Choose the organization
-* Join all communication channels
-* Figure out the easy issues to start with
-* Just start
+Those are all the reasons why one should be doing open-source as a project over the holidays or their free time.
+
+### Sense of pride behind building something
+
+You also get a sense of pride while you build something that people use.
+
+You also get good feedback from the users who directly use the feature that you build.
+
+**Note: ** I am sure I must have missed something, do let me know about your motivation behind doing open-source.
+
+Now that we have talked about the reasons why one should do open-source development, let's talk a bit about how you start with that.
+
+### Choose the organization
+
+Choosing an organization is very important. Always try to choose the organizations whose product you might have used in the past.
+
+This helps you help you build a sense of how the product should work.
+
+This is the first part to start with. Otherwise, you can find the organization whose tech stack involves something that you know.
+
+Just go to the GitHub search page and find out the organization with the programming languages or any other thing that you want to learn about.
+
+### Join all communication channels
+
+The next step is to figure out all the communication channels which the organization uses and join all of them.
+
+Introduce yourself as quickly as possible. Communicate your intentions as quickly as possible. If you are there to participate in GSoC, best to tell them right from the start that you are doing it for the reason.
+
+Sometimes, they are thinking of not participating in the GSoC for the next season and it's always good to know as early as possible.
+
+### Setup the project
+
+Quickly set up the project on local following the instruction from the organizers or READMEs and let them if READMEs are wrong anywhere.
+
+Sometimes, people figure out the solutions at the first step itself.
+
+### Figure out the easy issues to start with
+
+Most organizations mark easy issues as `good-first` issues. You can pick any one of those issues and start solving them.
+
+Just remember to tell the organizers that you working on that issue so that no one else picks it up at the same time.
+
+### Just start
+
+My final and most important recommendation is to just start. Get up and pick up your organization and start building things that you love and make an impact.
+
+Thanks, guys for coming this long and reading through the post. Please leave your valuable comments down below and share this post with your peers and let them know that it exists.
+
+Follow me on twitter or [dev.to](https://dev.to/singh1114) for more such articles.
