@@ -14,7 +14,7 @@ Doxygen is a tool to create documentation for your program/project written in la
 
 Documentation is one of the main pillars of an open-source project.
 
-Read [this post](http://wp.me/p7kUg1-3E) to know more about the importance of documentation in software development.
+Read [this post](https://singh1114.github.io/blog/necessity-of-documentation-while-programming/) to know more about the importance of documentation in software development.
 
 Let us discuss how to create documentation using Doxygen. First of all, you need to have Doxygen installed on your system. For that, you can type these commands in the terminal.
 
