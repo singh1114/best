@@ -40,11 +40,11 @@ So, I went forward to install MUTT and started reading about it. Finally, I fou
 
 [http://nickdesaulniers.github.io/blog/2016/06/18/mutt-gmail-ubuntu/](http://nickdesaulniers.github.io/blog/2016/06/18/mutt-gmail-ubuntu/)
 
-After that, I wrote a small program in python that can read each line of CSV file and differentiate between all the values in the file and stores the email in a variable. First of all searched about how to execute bash commands in a python program. "subprocess" was the solution to my problem so I imported it.
+After that, I wrote a small program in python that can read each line of CSV file and differentiate between all the values in the file and store the email in a variable. First of all, I searched about how to execute bash commands in a python program. "subprocess" was the solution to my problem so I imported it.
 
 I tested it by sending a few emails to my friends. It worked fine. Then I wrote another file and asked my friend about the content that he wanted to send to the list. He told me a few things and I used my open source capabilities to write the content (Collaborating in a big project is initiated by a good conversation).
 
-I tested the script and found that for every mail we have to tell the system that whatever we were doing was correct and we want to go forward. So there was a lot of pressing "Enter" key. I wanted to remove that too but wasn't able to in the time. I explain my friend on how to carry out the procedure as I was in no mood of doing all that clicks.
+I tested the script and found that for every mail we have to tell the system that whatever we were doing was correct and we want to go forward. So there was a lot of pressing "Enter" key. I wanted to remove that too but wasn't able to in the time. I explain to my friend how to carry out the procedure as I was in no mood of doing all those clicks.
 
 When he ended up sending all the emails. I found the solution and corrected the single character in my file. This commit shows the way in which I solved the problem.
 
