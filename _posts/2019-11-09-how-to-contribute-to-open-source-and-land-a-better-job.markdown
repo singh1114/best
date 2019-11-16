@@ -1,5 +1,5 @@
 ---
-title: How contributing to open-source can improve you
+title: How contributing to open-source can improve your programming skills
 date: 2019-11-09 22:08:00 Z
 categories:
 - open-source
