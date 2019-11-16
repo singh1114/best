@@ -1,6 +1,12 @@
 ---
 title: Working properly with Django Choices
 date: 2018-04-17 19:57:00 Z
+categories:
+- python
+- django
+tags:
+- python
+- django
 author: Ranvir Singh
 comments: true
 layout: post
