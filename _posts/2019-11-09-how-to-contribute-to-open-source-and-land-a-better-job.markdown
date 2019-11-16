@@ -1,5 +1,5 @@
 ---
-title: Why and How to contribute to open-source as a beginner
+title: How contributing to open-source can improve you
 date: 2019-11-09 22:08:00 Z
 categories:
 - open-source
