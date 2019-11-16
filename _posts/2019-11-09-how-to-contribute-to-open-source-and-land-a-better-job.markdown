@@ -4,13 +4,13 @@ date: 2019-11-09 22:08:00 Z
 categories:
 - open-source
 - beginners
-- discuss
 - gsoc
+- advice
 tags:
 - open-source
-- GSoC
-- Discuss
 - beginners
+- advice
+- gsoc
 ---
 
 Open source is one of the best ways to get started with the real-world experience of the programming world and learning quickly. Also, open-source organizations are very keen and welcoming to the new contributors to their platforms.
@@ -39,7 +39,7 @@ Long story short, I know how to start off and write pull requests that organizat
 
 Before starting that let's discuss why we would want to do any open-source development at all.
 
-### Learn to build end to end solutions.
+### Learning to build end to end solutions.
 
 Well, the first and foremost advantage of doing open-source is that you learn different things.
 
@@ -49,27 +49,25 @@ Sometimes you have to become the tester to test out the feature that other build
 
 Mostly you will have to architect your own solution for the problems that you are solving as well. 
 
-### Learn how to communicate properly with the team
+### Learning how to communicate properly with the team
 
-Open-source involves communicating with all the people in the organizations in a public channel. This will help you a lot about how to communicate your concerns better.
+Open-source involves communicating with all the people in the organizations in a public channel. This will help you a lot on how to communicate your concerns better.
 
 How to ask questions and what questions to ask is very important to learn.
 
-This skill is going to help you throughout your life.
+This skill will help you throughout your life.
 
-### Get recommended and increase visibility
+### Getting recommended and increase visibility
 
-As the name suggests, your code is going to stay there for a long time to come and people can judge you with the code that you have written for these organizations.
+As the name suggests, your code is going to stay there for a long time to come and people will judge you with the code that you have written for these organizations.
 
-Since most of the organizations have a high standard for type of code they commit to the repository, you will be rated highly among your peers for participating in some open-source organization patches.
+Since most of the organizations have a high standard for type of code they merge to the repository, you will be rated highly among your peers for participating in some open-source organization.
 
 ### Good for your career
 
-Doesn't matter what you want to after the open-source gig is done. Maybe you want to do open-source throughout your life, starting out with an organization will always be good for you.
+Doesn't matter what you want to do after the open-source gig is over. Maybe you want to do open-source throughout your life, starting out with an organization will always be good for you.
 
-Generally, open-source organizations tend to recommend the org participators which end up helping you in your interview.
-
-Those are all the reasons why one should be doing open-source as a project over the holidays or their free time.
+Generally, open-source organizations tend to recommend the org participators which end up helping you in your interview with some big company.
 
 ### Sense of pride behind building something
 
@@ -77,7 +75,9 @@ You also get a sense of pride while you build something that people use.
 
 You also get good feedback from the users who directly use the feature that you build.
 
-**Note: ** I am sure I must have missed something, do let me know about your motivation behind doing open-source.
+Those are all the reasons why one should be doing open-source as a project over the holidays or in their free time.
+
+**Note:** I am sure I must have missed something, do let me know about your motivation behind doing open-source.
 
 ## How to start contributing to the open-source
 
@@ -87,9 +87,9 @@ Now that we have talked about the reasons why one should do open-source developm
 
 Choosing an organization is very important. Always try to choose the organizations whose product you might have used in the past.
 
-This helps you help you build a sense of how the product should work.
+This helps you to build a sense on how the product should work.
 
-This is the first part to start with. Otherwise, you can find the organization whose tech stack involves something that you know.
+Otherwise, you can find the organization whose tech stack involves something that you know.
 
 Just go to the GitHub search page and find out the organization with the programming languages or any other thing that you want to learn about.
 
@@ -97,17 +97,17 @@ Just go to the GitHub search page and find out the organization with the program
 
 The next step is to figure out all the communication channels which the organization uses and join all of them.
 
-Introduce yourself as quickly as possible. Communicate your intentions as quickly as possible. If you are there to participate in GSoC, best to tell them right from the start that you are doing it for the reason.
+Introduce yourself as quickly as possible. Communicate your intentions of joining early. If you are there to participate in GSoC, best to tell them right from the start that you are doing it for the reason.
 
-Sometimes, they are thinking of not participating in the GSoC for the next season and it's always good to know as early as possible.
+Sometimes, they are thinking of not participating in the GSoC for the next season and it's always good to know earlier rather regretting your decision later.
 
 ### Setup the project
 
-Quickly set up the project on local following the instruction from the organizers or READMEs and let them if READMEs are wrong anywhere.
+Quickly set up the project on local following the instruction from the organizers or READMEs and let them know if READMEs are wrong anywhere.
 
-Sometimes, people figure out the solutions at the first step itself.
+Sometimes, people figure out something wrong in the READMEs and its a great point to start and write a patch for them.
 
-### Figure out the easy issues to start with
+### Figure out the good-first issues to start with
 
 Most organizations mark easy issues as `good-first` issues. You can pick any one of those issues and start solving them.
 
