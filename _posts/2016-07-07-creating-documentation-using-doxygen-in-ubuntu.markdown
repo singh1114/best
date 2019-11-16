@@ -1,12 +1,8 @@
 ---
-title: Creating documentation using Doxygen in Ubuntu
+title: How to Create documentation using Doxygen in Ubuntu
 date: 2016-07-07 21:45:00 Z
 categories:
-- documentation
-- doxygen
-tags:
-- documentation
-- doxygen
+- Six weeks training
 author: Ranvir Singh
 comments: true
 link: https://ranvirsinghprojects.wordpress.com/2016/07/08/creating-documentation-using-doxygen-in-ubuntu/
@@ -18,7 +14,7 @@ Doxygen is a tool to create documentation for your program/project written in la
 
 Documentation is one of the main pillars of an open-source project.
 
-Read [this post](https://singh1114.github.io/blog/necessity-of-documentation-while-programming/) to know more about the importance of documentation in software development.
+Read [this post](http://wp.me/p7kUg1-3E) to know more about the importance of documentation in software development.
 
 Let us discuss how to create documentation using Doxygen. First of all, you need to have Doxygen installed on your system. For that, you can type these commands in the terminal.
 
@@ -85,22 +81,20 @@ This is what program looks like :-
 
 Is this the basic context of a C++ file. No, it contains some extra components written in the block of the comment section. These are the Doxygen comments and they are used by this tool to depict the various parts of the program. According to the official site of [Doxygen](http://doxygen.org), there are many ways to start a comment in a file. For eg:- We can do it in these ways:-
 
+
+
  	
-```
-/**      -----------          comments                   */
-```
+  * /**      -----------          comments                   */
 
-```	
-///      single line comment in Doxygen
-```
+ 	
+  * ///      single line comment in Doxygen
 
-``` 	
-""" special comment block for python """
-```
+ 	
+  * """ special comment block for python """
 
-```	
-/*!                  comment                                 */
-```
+ 	
+  * /*!                  comment                                 */
+
 
 While writing the comments we have to follow a pattern with the tags i.e. before every tag we should have something special so that Doxygen can understand what are we creating. Actually Doxygen read these tags and place them at special location in the generated output. So, we have to specify them explicitly. So the two common sign used are
 
