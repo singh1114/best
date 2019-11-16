@@ -12,7 +12,7 @@ comments: true
 layout: post
 ---
 
-The default implementation of choices in Django is not very intuitive and we repeat a lot of code while using them. 
+The default implementation of choices in Django is not very intuitive and we repeat a lot of code while using them. Django choices act as an `enum` for the fields. We can choose from the various options whose value can be assigned to a given field.
 
 While writing models you expect that you might be looking at neat fields that are used to store data. But when you introduce choices in Django it becomes cumbersome.
 
