@@ -13,9 +13,11 @@ tags:
 - beginners
 ---
 
-Open source is one of the best ways to get started with the real-world experience of the programming world and learning as quickly as possible. Also, open-source organizations are very keen and welcome new contributors to the platforms.
+Open source is one of the best ways to get started with the real-world experience of the programming world and learning quickly. Also, open-source organizations are very keen and welcoming to the new contributors to their platforms.
 
-I have heard a lot of people saying that contributing to open-source projects is very difficult. I know it can be hard at first but believe me, there are far more harder things in the programming world than starting contribution to open source.
+Lately, I have heard a lot of people saying that contributing to open-source projects is very difficult. So, I decided to come up with this post just to break the myth.
+
+I know it can be hard at first but believe me, there are far more harder things in the programming world than starting to contribute in the open-source.
 
 In this post, I am going to share the motivation and plan to write your first patch for the open-source organization that you love to use.
 
