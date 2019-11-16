@@ -19,23 +19,23 @@ Lately, I have heard a lot of people saying that contributing to open-source pro
 
 I know it can be hard at first but believe me, there are far more harder things in the programming world than starting to contribute in the open-source.
 
-In this post, I am going to share the motivation and plan to write your first patch for the open-source organization that you love to use.
+In this post, I am going to share the motivation and plan to write your first patch for the open-source organization that you love to use in your personal time.
 
 ## Why should you contribute to open source.
 
-I have been doing open source for quite some time now( Going on and off). My first interaction with the open-source was back in 2016-17 when I was writing my first proposal for Google summer of code.
+I have been doing open source for quite some time now( Going on and off). My first interaction with the open-source was back in 2016-17 when I was writing my first proposal for Google Summer of code-2017.
 
 I was trying a lot of organizations back then. I started out with the chat-based organization whose name I don't remember now.
 
 They were writing a chat-based client using XMPP protocol and we wanted to implement this chatting system in our college so that everyone in the college can chat with one another using the roll numbers.
 
-Although I was able to know the process of writing the code I don't think it ever got merged with the main code.
+Although I was able to know the process of writing the code I don't think it ever got merged with the main code. What I learned in there was how to read and navigate through the large codebase quickly.
 
 I tried a few others and finally, I ended up spending my summer writing code for an organization called [AboutCode](https://www.nexb.com/).
 
 You can read about the experience [here.](https://singh1114.github.io/blog/gsoc_2017/)
 
-Long story short, I know how to start off and write pull requests that organizations want to commit to there main code.
+Long story short, I know how to start off and write pull requests that organizations want to merge to there main code.
 
 Before starting that let's discuss why we would want to do any open-source development at all.
 
@@ -78,6 +78,8 @@ You also get a sense of pride while you build something that people use.
 You also get good feedback from the users who directly use the feature that you build.
 
 **Note: ** I am sure I must have missed something, do let me know about your motivation behind doing open-source.
+
+## How to start contributing to the open-source
 
 Now that we have talked about the reasons why one should do open-source development, let's talk a bit about how you start with that.
 
