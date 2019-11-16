@@ -3,8 +3,10 @@ title: How to move become Node.js developer | Coming back from OOP background
 date: 2019-04-08 06:40:00 Z
 categories:
 - javascript
+- nodejs
 tags:
 - javascript
+- nodejs
 author: Ranvir Singh
 comments: true
 layout: post
