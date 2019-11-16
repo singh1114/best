@@ -2,7 +2,11 @@
 title: How to Create documentation using Doxygen in Ubuntu
 date: 2016-07-07 21:45:00 Z
 categories:
-- Six weeks training
+- doxygen
+- documentation
+tags:
+- doxygen
+- documentation
 author: Ranvir Singh
 comments: true
 link: https://ranvirsinghprojects.wordpress.com/2016/07/08/creating-documentation-using-doxygen-in-ubuntu/
