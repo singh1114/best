@@ -2,7 +2,7 @@
 {% assign post_count = 0 %}
 {% for post in site.posts %}
     {% assign post_count = post_count | plus: 1 %}
-    {% if post_count != 10 %}
+    {% if post_count < 10 %}
         <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
         <p style="color: #ccc;">{{ post.date | date: "%B %e, %Y" }}</p>
     {% endif %}
