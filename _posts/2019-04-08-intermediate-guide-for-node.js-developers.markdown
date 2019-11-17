@@ -1,5 +1,5 @@
 ---
-title: How to move become Node.js developer | Coming back from OOP background
+title: How to become Node.js developer | Coming back from OOP background
 date: 2019-04-08 06:40:00 Z
 categories:
 - javascript
