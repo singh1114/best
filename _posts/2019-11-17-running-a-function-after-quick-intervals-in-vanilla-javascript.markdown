@@ -11,7 +11,7 @@ tags:
 - beginners
 ---
 
-There are many cases in which someone will want to run something periodically. Although there are a lot of solutions to this problem, in this post we are going to discuss one such solution in detail which will involve vanilla JavaScript.
+In a production system, we run a lot of scripts periodically either to sync data from some third-party source or spit data to some source. Although there are a lot of solutions to achieve such periodic behavior, in this post we are going to discuss one such solution using vanilla JavaScript.
 
 ## Use cases
 
