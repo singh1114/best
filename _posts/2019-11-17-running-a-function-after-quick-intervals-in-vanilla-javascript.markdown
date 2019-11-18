@@ -13,7 +13,7 @@ There are many cases in which someone will want to run something periodically. A
 
 ## Use cases
 
-* Taking backup of the database.
+* Taking backups of the database.
 
 Taking a backup of the database can be done once or twice a day depending upon the use case. 
 
