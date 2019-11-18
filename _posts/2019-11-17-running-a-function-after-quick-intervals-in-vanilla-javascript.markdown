@@ -42,11 +42,31 @@ const tellTime = async function () {
     console.log(new Date());
 }
 
-var minutes = 0.5, interval = minutes * 60 * 1000;
+const minutes = 1;
+const interval = minutes * 60 * 1000;
+
 setInterval(function() {
     // catch all the errors.
     tellTime().catch(console.log);
 }, interval);
+```
+
+First of all, we declare an `async` function `tellTime` which logs the time whenever it is called.
+
+It is important to declare this function `async` so that we can run `.then` or `.catch` after this function.
+
+`setInterval` is the inbuilt function that can run any statements after every given interval.
+
+It takes two arguments, first is the definition of the function being run itself and next is the interval after which we want to run the function again( **In milliseconds**).
+
+In this example, we have set the interval to one minute.
+
+Here is how the output is going to look like
+
+```javascript
+2019-11-18T18:40:27.286Z
+2019-11-18T18:40:57.293Z
+...
 ```
 
 Although this is a pretty straight forward example you can extend this to do anything that you want.
