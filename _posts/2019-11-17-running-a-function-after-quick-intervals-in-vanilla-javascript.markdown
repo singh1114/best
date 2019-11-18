@@ -19,7 +19,7 @@ Taking a backup of the database can be done once or twice a day depending upon t
 
 If you get a lot of users you can take this backup multiple times a day.
 
-**AWS** takes automatic backups as well.
+**AWS** takes automatic backups so you don't have to worry about it.
 
 * Sending newsletters to your customers.
 
