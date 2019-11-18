@@ -14,7 +14,16 @@ There are many cases in which someone will want to run something periodically. A
 ## Use cases
 
 * Taking the backup of the database.
+
+Taking a backup of the database can be done once or twice a day depending upon the use case. 
+
+If you get a lot of users you can take this backup multiple times a day.
+
+Using **AWS** takes automatic backups as well.
+
 * Sending newsletters to your customers.
+
+Sending newsletters to customers can also be one of the use cases of running things periodically.
 
 ## Possible Solutions
 
