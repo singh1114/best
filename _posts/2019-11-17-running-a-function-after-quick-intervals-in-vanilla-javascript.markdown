@@ -4,9 +4,11 @@ date: 2019-11-17 19:34:00 Z
 categories:
 - javascript
 - programming
+- beginners
 tags:
 - javascript
 - programming
+- beginners
 ---
 
 There are many cases in which someone will want to run something periodically. Although there are a lot of solutions to this problem, in this post we are going to discuss one such solution in detail which will involve vanilla JavaScript.
