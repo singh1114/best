@@ -77,9 +77,34 @@ Write code for something and write test cases to verify the changes that you hav
 
 All you need is to use any of the Continuous integration tools. You can use any of the tools out there. I personally have used [Travis CI](https://travis-ci.org/) and [Circle CI](https://circleci.com/). Both of them work pretty well.
 
-### Unit testing vs Integration testing
+### Unit testing
 
-Unit testing is a way to test a single unit. For example, testing a utility function that changes the `Array/List` of characters to a string. Unit testing is the best way to be sure that your functions work well.
+Unit testing is a way to test a single unit of your software. For example, testing a utility function that changes the `Array/List` of characters to a string. Unit testing is the best way to be sure that your functions work well.
+
+### Integration testing
+
+Integration testing is a type of testing where you test a few units together. For example: testing login, buying a product and checking out, whole process in a single test.
+
+A lot of people prefer a combination of both unit and integration tests for there codebase.
+
+### What do we test for?
+
+In the testing suite, we give a sample input to a given function and check if the function returns something which is expected or return something which is not expected.
+
+`test_create_string.py`
+
+```python
+def create_string(char_list):
+    return ''.join(char_list)
+
+def test_create_string():
+    abc = ['a', 'b', 'c']
+    assert 'abc' == create_string(abc)
+```
+
+Run the command `py.test` to find if the test passes or fails. (By the way you will have to install pytest before running this, use the command `pip install pytest`)
+
+`1 passed in 0.02s` - I got this response. This means the test passed for me. You can also do negative assertions that will tell you that output is not a bad one.
 
 ## Why Test your code
 
