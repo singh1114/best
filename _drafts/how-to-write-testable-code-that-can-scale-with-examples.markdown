@@ -40,9 +40,13 @@ Software testing is a procedure in which software is tested for bugs and off beh
 For a given library management software we can check for the following test cases.
 
 1. At any time admin should be able to find which books are issued to which users.
+
 2. At any time admin should be able to find which books are present in which part of the library hall.
+
 3. At a given time, admin should be able to find the fine payable by a given user.
+
 4. At a given time, the admin should be able to issue a book to the user.
+
 5. At a given time, a user should be able to return the book to the library.
 
 These are a few test cases that will be generated and shared among the stack holders who are working on the project.
@@ -50,7 +54,9 @@ These are a few test cases that will be generated and shared among the stack hol
 Now, there are a few ways to test the software once it is done.
 
 1. Use TDD.
+
 2. Use the help of a tester.
+
 3. Write a test as you move forward with the code.
 
 ### Using TDD
@@ -72,6 +78,8 @@ Write code for something and write test cases to verify the changes that you hav
 All you need is to use any of the Continuous integration tools. You can use any of the tools out there. I personally have used [Travis CI](https://travis-ci.org/) and [Circle CI](https://circleci.com/). Both of them work pretty well.
 
 ### Unit testing vs Integration testing
+
+Unit testing is a way to test a single unit. For example, testing a utility function that changes the `Array/List` of characters to a string. Unit testing is the best way to be sure that your functions work well.
 
 ## Why Test your code
 
