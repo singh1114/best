@@ -32,3 +32,7 @@ Here is the code to add testing libraries to `pom.xml`
             <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
 ```
+
+Now since we are going to test the application from end to end, let's create a controller test.
+
+...
