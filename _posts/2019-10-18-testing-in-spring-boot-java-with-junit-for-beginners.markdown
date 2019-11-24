@@ -13,7 +13,7 @@ tags:
 
 Shipping our product without testing is like selling a car without turning on the engine. We have to run a few tests again and again while the development of the product and if those tests are not automated, we will have a hard time to test our application.
 
-![Spring boot logo](https://imgur.com/BEIqT5f "Spring boot logo")
+![Spring boot logo](https://i.imgur.com/BEIqT5f.jpg "Spring boot logo")
 
 This post is in continuation of the last post we shared related to Spring boot in which we shared on how to write [Rest APIs in Spring Boot.](https://singh1114.github.io/blog/building-restful-apis-with-java-spring-boot-framework-for-beginners/). Please go through that post if you want to learn on how to create rest APIs using Spring Boot.
 
@@ -127,6 +127,6 @@ Use can use the following command to run the tests.
 
 `mvn test`
 
-![Spring boot test passing](https://imgur.com/dyU6gXj "Spring boot test passing")
+![Spring boot test passing](https://i.imgur.com/dyU6gXj.png "Spring boot test passing")
 
 I hope you liked the post. Please share your views in the comment section below.
