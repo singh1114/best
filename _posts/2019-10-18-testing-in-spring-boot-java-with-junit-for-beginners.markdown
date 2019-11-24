@@ -127,7 +127,9 @@ Here we are checking if the body of the response is equal to the expected respon
 
 Use can use the following command to run the tests.
 
-`mvn test`
+```shell
+mvn test
+```
 
 ![Spring boot test passing](https://i.imgur.com/dyU6gXj.png "Spring boot test passing")
 
