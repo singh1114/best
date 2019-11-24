@@ -31,8 +31,15 @@ Here is the code to add testing libraries to `pom.xml`
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
+        <dependency>
+        ...
 ```
 
 Now since we are going to test the application from end to end, let's create a controller test.
 
-...
+Add the following code to `src/test/java/io/singh1114/springboottut/SchoolControllerTest.java`
+
+<script src="https://gist.github.com/singh1114/a305379be45ef7924d14d776756caa55.js"></script>
+
+
+
