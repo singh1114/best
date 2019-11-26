@@ -1,6 +1,7 @@
 ---
 title: Breaking out of the SDE-1 role
 date: 2019-11-19 20:01:00 Z
+published: false
 ---
 
 This article is not for the people who are still looking for a job. This is for the people who are in their first job and want to learn things so that they can make that big transfer in their career. There must be a guide that can tell, how much work is left.
@@ -24,6 +25,8 @@ This is also applicable to the people who use the NoSQL database. It's always go
 ## Learn to write tests
 
 ## Learn about scaling issues
+
+## Learn a little bit about security
 
 ## Learn about caching
 
