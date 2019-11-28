@@ -4,7 +4,7 @@
         {% if post_url == include.url %}
             <div class="linked_post_div">
                 <article class="post">
-                    <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+                    <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
                     <p style="color: #969494; margin: 10px 0px; font-size: 18px;">
                         {{ post.date | date: "%B %e, %Y" }}
                         {% include read_time.html content=post.content %}
