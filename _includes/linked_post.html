@@ -1,19 +1,16 @@
 <div class="linked_post">
     <!-- <h1>{{ include.foo }}</h1> -->
-    {{include.url}}
     {% for post in site.posts %}
         {% assign post_url = post.url | replace: "/", "" %}
-        {{ post_url }}
         {% if post_url == include.url %}
-            <article class="post">
-                <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-                <p style="color: #969494; margin: 10px 0px; font-size: 18px;">{{ post.date | date: "%B %e, %Y" }}</p>
-                <div class="entry">
-                {{ post.excerpt }}
-                </div>
-
-                <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-            </article>
+            <div class="linked_post_div">
+                <article class="post">
+                    <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+                    <p style="color: #969494; margin: 10px 0px; font-size: 18px;">{{ post.date | date: "%B %e, %Y" }}</p>
+                    {% include read_time.html content=post.content %}
+                    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+                </article>
+            </div>
         {% endif %}
     {% endfor %}
 </div>
