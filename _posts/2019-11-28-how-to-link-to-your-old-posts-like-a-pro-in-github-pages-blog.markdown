@@ -88,4 +88,4 @@ All you have to do is something like this.
 
 Nice right, I hope it helps you to create links to your old posts. Please share this post on social media and let me know in the comments below.
 
-Also, if you found something wrong do let me know.
+Also, if you found something wrong do let me know. Thanks for reading.
