@@ -1,6 +1,6 @@
 ---
 title: How to add social sharing buttons on your Jekyll Blog using GitHub pages
-date: 2019-11-28 19:06:00 Z
+date: 2017-11-28 19:06:00 Z
 categories:
 - jekyll
 - githubpages
