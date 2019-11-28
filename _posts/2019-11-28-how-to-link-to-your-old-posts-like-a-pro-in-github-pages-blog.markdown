@@ -61,6 +61,8 @@ We loop through all the posts on the site and check which post has the same URL 
 
 Finally, we have just shown the heading and along with the date of the post. We have also added the read time widget and post categories on our website but for that, we will need to include two more widgets so, for simplicity, I have omitted it in the above code.
 
+The code above would be sufficient to help you create something of your own. Still, if you are stuck somewhere, do let me know in the comments below.
+
 ### CSS for the widget
 
 I have added the CSS separately in the `style.scss` file. Here is the CSS code for this.
