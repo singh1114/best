@@ -14,7 +14,7 @@ Caching is not straight forward. You will have to design your caching strategies
 
 This post is not for individuals who are working on getting their product right. You have to work on things like getting it right, rather than getting it fast.
 
-Also, this post is not for the people whose products provide different data to all the individuals all the time.
+Also, this post is not for the people whose products provide different data to all the individuals all the time. You will have to make that extra call to bring out the new data anyway.
 
 In this post, we will be discussing the following things.
 
