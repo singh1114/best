@@ -12,4 +12,4 @@ Hello world,
 
 This is a website where you will find different projects for different coding languages. Keep checking the website for more details.
 
-{% include linked_post.html foo=HOLA! %}
+{% include linked_post.html foo="HOLA!" %}
