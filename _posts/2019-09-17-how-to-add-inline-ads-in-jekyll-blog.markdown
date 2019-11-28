@@ -2,14 +2,13 @@
 title: How to add Inline Ads in Jekyll blog | And increase your CTR
 date: 2019-09-17 17:05:00 Z
 categories:
-- Jekyll
-- Blog
-- Technology
+- jekyll
+- blog
+- githubpages
 tags:
-- Jekyll
-- Blog
-- Ads
-- Technology
+- jekyll
+- blog
+- githubpages
 ---
 
 With the coming of new blogging tools like [dev.to](https://dev.to) and [medium](https://medium.com). People tend to post mostly on those websites. But owning a separate blog on GitHub using Jekyll can give you a lot of freedom. You can do whatever you want with it.
