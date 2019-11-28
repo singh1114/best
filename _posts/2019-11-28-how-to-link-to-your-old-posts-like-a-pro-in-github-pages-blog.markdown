@@ -59,7 +59,7 @@ Add the following code to `_includes/linked_post.html` file.
 
 We loop through all the posts on the site and check which post has the same URL as passed to the include statement which I will share very soon.
 
-Finally, we have just shown the heading and along with the date of the post. We have also added the read time on our website but for that, we will need to include one more widget so, for simplicity, I have omitted it in the above code.
+Finally, we have just shown the heading and along with the date of the post. We have also added the read time widget and post categories on our website but for that, we will need to include two more widgets so, for simplicity, I have omitted it in the above code.
 
 ### CSS for the widget
 
