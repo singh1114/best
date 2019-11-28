@@ -29,7 +29,7 @@ At the same time, you don't have to pay anything for social media channels. It's
 
 ## Get automatic natural links for your Jekyll blogs with social share buttons
 
-With each person sharing your content with there social media, you get the opportunity to increase natural links to your blogs. As you keep increasing the number of natural links to your blog, more people will be derived to your content using social media. 
+With each person sharing your content with there social media, you get the opportunity to increase natural links to your blogs. As you keep increasing the number of natural links to your blog, more people will be derived from your content using social media. 
 
 These natural links can act in deriving your Search engine status. This is because the search engine gives a lot of credit to the content which is highly shared on social media.
 
