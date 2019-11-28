@@ -39,6 +39,6 @@ Now that we know how widgets work in Jekyll blog, let's try to create something 
 
 ## Final result after creating 
 
-Let me a link to the social sharing post that I created some time back ago to show you how it will look like.
+Let me a link to the social sharing post that I created some time back to show you how the final result will look like.
 
 {% include linked_post.html url="why-and-how-to-add-social-sharing-buttons-on-your-jekyll-blog-using-github-pages" %}
