@@ -82,9 +82,7 @@ I have added the CSS separately in the `style.scss` file. Here is the CSS code f
 
 All you have to do is something like this.
 
-```
-{% include linked_post.html url="how-to-contribute-to-open-source-and-land-a-better-job" %}
-```
+<script src="https://gist.github.com/singh1114/453154690cfa88c40a4f4d7a27bd3a54.js"></script>
 
 Nice right, I hope it helps you to create links to your old posts. Please share this post on social media and let me know in the comments below.
 
