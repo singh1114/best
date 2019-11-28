@@ -13,7 +13,9 @@ tags:
 
 Shipping our product without testing is like selling a car without turning on the engine. We have to run a few tests again and again while the development of the product and if those tests are not automated, we will have a hard time to test our application.
 
-I have written a post on the [importance of writing tests](https://singh1114.github.io/blog/writing-unit-tests-for-the-models/) against your codebase.
+Please read this post where I explained the importance of writing tests.
+
+{% include linked_post.html url="writing-unit-tests-for-the-models" %}
 
 ![Spring boot logo](https://i.imgur.com/BEIqT5f.jpg "Spring boot logo")
 
