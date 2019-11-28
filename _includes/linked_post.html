@@ -2,8 +2,9 @@
     <!-- <h1>{{ include.foo }}</h1> -->
     {{include.url}}
     {% for post in site.posts %}
-        {{post.url}}
-        {% if post.url == include.url %}
+        {% assign post_url = post.url | replace: "/", "" %}
+        {{ post_url }}
+        {% if post_url == include.url %}
             <article class="post">
                 <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
                 <p style="color: #969494; margin: 10px 0px; font-size: 18px;">{{ post.date | date: "%B %e, %Y" }}</p>
