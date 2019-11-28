@@ -1,7 +1,6 @@
 ---
 title: Hello World
 date: 2016-03-14 18:55:00 Z
-published: false
 author: ranvirsingh1114
 comments: true
 link: https://ranvirsinghprojects.wordpress.com/2016/03/14/hello-world/
@@ -13,4 +12,4 @@ Hello world,
 
 This is a website where you will find different projects for different coding languages. Keep checking the website for more details.
 
-{% include linked_post.html foo="HOLA!" %}
+{% include linked_post.html url="how-to-contribute-to-open-source-and-land-a-better-job" %}
