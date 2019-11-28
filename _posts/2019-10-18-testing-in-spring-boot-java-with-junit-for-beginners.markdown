@@ -13,13 +13,19 @@ tags:
 
 Shipping our product without testing is like selling a car without turning on the engine. We have to run a few tests again and again while the development of the product and if those tests are not automated, we will have a hard time to test our application.
 
-Please read this post where I explained the importance of writing tests.
-
 {% include linked_post.html url="writing-unit-tests-for-the-models" %}
+
+Please read this post where I explained the importance of writing tests.
 
 ![Spring boot logo](https://i.imgur.com/BEIqT5f.jpg "Spring boot logo")
 
-This post is in continuation of the last post we shared related to Spring boot in which we shared on how to write [Rest APIs in Spring Boot.](https://singh1114.github.io/blog/building-restful-apis-with-java-spring-boot-framework-for-beginners/). Please go through that post if you want to learn on how to create rest APIs using Spring Boot.
+This post is in continuation of the last post we shared related to Spring boot in which we shared on how to write Rest APIs in Spring Boot.
+
+{% include linked_post.html url="building-restful-apis-with-java-spring-boot-framework-for-beginners" %}
+
+(https://singh1114.github.io/blog/building-restful-apis-with-java-spring-boot-framework-for-beginners/).
+
+Please go through that post if you want to learn how to create rest APIs using Spring Boot.
 
 In this post, we are going to discuss how we can test our spring boot application from start to end without any mocking.
 
