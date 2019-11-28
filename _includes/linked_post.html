@@ -6,6 +6,9 @@
                 <article class="post">
                     <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
                     <p style="color: #969494; margin: 10px 0px; font-size: 18px;">
+                        {% for category in post.categories %}
+                            #{{ category }}&nbsp;&nbsp;
+                        {% endfor %}
                         {{ post.date | date: "%B %e, %Y" }}
                         {% include read_time.html content=post.content %}
                     </p>
