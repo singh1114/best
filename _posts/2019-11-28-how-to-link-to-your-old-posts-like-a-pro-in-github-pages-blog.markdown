@@ -6,10 +6,12 @@ categories:
 - jekyll
 - beginners
 - githubpages
+- seo
 tags:
 - jekyll
 - beginners
 - githubpages
+- seo
 ---
 
 Linking to your old posts is very good for the SEO of your blog and help you not to write the same things again and again. It also helps you to interconnect to your old posts increasing the traffic to your website.
