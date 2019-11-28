@@ -1,3 +1,16 @@
 <div class="linked_post">
-    <h1>{{ include.foo }}</h1>
+    <!-- <h1>{{ include.foo }}</h1> -->
+    {% for post in site.posts %}
+        {% if post.url == include.url %}
+            <article class="post">
+                <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+                <p style="color: #969494; margin: 10px 0px; font-size: 18px;">{{ post.date | date: "%B %e, %Y" }}</p>
+                <div class="entry">
+                {{ post.excerpt }}
+                </div>
+
+                <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+            </article>
+        {% endif %}
+    {% endfor %}
 </div>
