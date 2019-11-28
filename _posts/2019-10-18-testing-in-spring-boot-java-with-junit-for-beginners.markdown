@@ -23,8 +23,6 @@ This post is in continuation of the last post we shared related to Spring boot i
 
 {% include linked_post.html url="building-restful-apis-with-java-spring-boot-framework-for-beginners" %}
 
-(https://singh1114.github.io/blog/building-restful-apis-with-java-spring-boot-framework-for-beginners/).
-
 Please go through that post if you want to learn how to create rest APIs using Spring Boot.
 
 In this post, we are going to discuss how we can test our spring boot application from start to end without any mocking.
