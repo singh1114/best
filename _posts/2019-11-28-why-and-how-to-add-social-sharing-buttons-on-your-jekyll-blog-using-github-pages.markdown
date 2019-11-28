@@ -1,6 +1,5 @@
 ---
-title: Why and how to add social sharing buttons on your Jekyll Blog using GitHub
-  pages
+title: How to add social sharing buttons on your Jekyll Blog using GitHub pages
 date: 2019-11-28 19:06:00 Z
 categories:
 - jekyll
@@ -12,9 +11,7 @@ tags:
 - seo
 ---
 
-Having a social share button with social media icons on your blog provides a lot of freedom to the content creators.
-
-With social share buttons or social media icons, you are asking your readers to share your content with there links on the social platforms. Social share buttons provide free and useful traffic to your website and allow you to worry less about things like whether the user will like your content or not.
+Having a social share button with social media icons on your blog provides a lot of freedom to the content creators. With social share buttons or social media icons, you are asking your readers to share your content with there links on the social platforms. Social share buttons provide free and useful traffic to your website and allow you to worry less about things like whether the user will like your content or not.
 
 If your users like your content, it will definitely be shared a lot. At the same time, social media icons provide a creative way of increasing clicks to the social share buttons.
 
