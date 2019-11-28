@@ -20,6 +20,8 @@ In this post, we will be discussing the following things.
 
 ## How caching is helpful
 
+Caching is helpful 
+
 ## At what levels we can cache data
 
 ## Nginx( Server) level caching
