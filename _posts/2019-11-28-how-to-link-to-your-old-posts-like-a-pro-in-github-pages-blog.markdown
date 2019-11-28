@@ -1,6 +1,7 @@
 ---
 title: How to link to your old posts like a pro in GitHub Pages blog
 date: 2019-11-28 18:10:00 Z
+published: false
 categories:
 - jekyll
 - beginners
