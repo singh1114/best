@@ -9,6 +9,7 @@
                         {% for category in post.categories %}
                             #{{ category }}&nbsp;&nbsp;
                         {% endfor %}
+                        <br><br>
                         {{ post.date | date: "%B %e, %Y" }}
                         {% include read_time.html content=post.content %}
                     </p>
