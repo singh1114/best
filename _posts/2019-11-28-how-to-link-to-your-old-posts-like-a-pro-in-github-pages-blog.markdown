@@ -49,7 +49,7 @@ Let me a link to the social sharing post that I created some time back to show y
 
 The first step was to create the include file so that we keep the structure of our code clean. The only requirement for this is that we need to pass some parameters so that we can find out which post is being linked to.
 
-The only thing which is unique for my blog is the URL.
+The only thing which is unique for my blog is the URL. Although I know the URLs can change but this is the only way I can accomplish this task.
 
 ### Creating the include file
 
