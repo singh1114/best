@@ -27,7 +27,7 @@ footer-links:
   googleplus: 
 disqus: singh1114-github-io
 google_analytics: 
-url: http://singh1114.github.io
+url: https://ranvir.xyz
 baseurl: "/blog"
 permalink: "/:title/"
 version: v1.2.0
