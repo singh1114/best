@@ -56,6 +56,41 @@ The basic Kafka features help us to solve all the problems that the other queue 
 
 ## Architecture of Kafka
 
+Kafka provides 4 core APIs which you can use to carry any operations related to Kafka.
+
+1. **Producer API**
+2. **Consumer API**
+3. **Stream API**
+4. **Connector API**
+
+### Topic
+
+A topic is a unique name given to the Kafka data stream so that we can easily identify it.
+
+For example, All the user click data is given a separate topic name so that the consumers who want to subscribe to the given topic can subscribe to the stream easily.
+
+Kafka stores the messages as a **partitioned log** which saves **offset** for any given message on the partition log. This offset is unique across the whole partitioned log.
+
+The performance of the Kafka is never deteriorated with the size of data being present on the Kafka this is because the only pointer that the application have to keep is the which record is being read and in case of Kafka this is handled by the consumer.
+
+Since the messages are not removed from the Kafka after they are consumed. They are only removed when a given time is reached which is again configurable. Due to this reason the consumer can read the messages in whatever way they want to.
+
+### Clustered architecture
+
+Since Kafka is a distributed system, there are a number of instances each executing a separate instance of Kafka broker. So at any given instance a group of Kafka brokers will be receiving the messages from producers and a number of broker instances will be sending the messages to Kafka producers.
+
+Due to the same reason, every Kafka topic has a few partitions. A given Kafka topic can be running on multiple machines and they can have multiple partitions.
+
+For uniquely identifying any message on the Kafka cluster, you need to know 3 things,
+
+1. Topic Name of the message.
+2. Partition number of the message on a Topic.
+3. Offset value of the message on that partition.
+
+> So, each topic has a few partitions and each partition has a few messages stored with unique offsets.
+
+
+
 ## Terms used in Kafka
 
 ## How to install and use Kafka
