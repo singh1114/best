@@ -89,9 +89,7 @@ For uniquely identifying any message on the Kafka cluster, you need to know 3 th
 
 > So, each topic has a few partitions and each partition has a few messages stored with unique offsets.
 
-
-
-## Terms used in Kafka
+On the destination side as well we can have a few consumers running to handle the consumption of messages. We have to tell the **Consumer Group** on which partitions they should be taking data from.
 
 ## How to install and use Kafka
 
