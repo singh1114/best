@@ -97,15 +97,66 @@ On the destination side as well we can have a few consumers running to handle th
 
 Zookeeper is distributed, centralized and robust coordination service which helps the Kafka nodes to coordinate between themselves. Zookeeper just helps you manage a large number of hosts with reliability.
 
+Zookeeper helps you with all the management tasks that you can think for while running any distributed system.
+
+It can help you with the availability, naming configuration management, acquiring and managing locks in the system, master-slave management and many more.
+
 ## How to install and use Kafka
+
+The installation part of Kafka is pretty straight forward. Go to the Kafka quickstart page and [download the code](https://kafka.apache.org/quickstart).
+
+For starting a dev environment, you will have to start the zookeeper.
+
+```shell
+zookeeper-server-start /usr/local/etc/kafka/zookeeper.properties
+```
+
+Now you will have to start the Kafka server.
+
+```shell
+kafka-server-start /usr/local/etc/kafka/server.properties
+```
+
+Now you will have to start the Kafka topic named test on 9092 port.
+
+```shell
+kafka-topics --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic test
+```
+
+You can list down all the Kafka topics running.
+
+```shell
+kafka-topics --list --bootstrap-server localhost:9092
+```
+
+This should show the newly created topic.
+
+Now create a consumer subscribing to the test topic in a separate shell.
+
+```shell
+kafka-console-consumer --bootstrap-server localhost:9092 --topic test --from-beginning
+```
+
+Log in to the producer console using the following command.
+
+```shell
+kafka-console-producer --broker-list localhost:9092 --topic test
+```
+
+Now pass in any message from the producer console and you will be able to see the message being delivered to the consumer on the other side.
+
+The next step is to create separate producers and consumers according to your needs in which the client-side you want to choose for yourself.
 
 ## How does Kafka handles failure
 
-## Configurations available in Kafka
+We already have discussed that Kafka is a distributed system and is highly fault-tolerant. This means that when you use Kafka it sends the data in the broker to many nodes distributed over various systems( Might be in separate geolocations).
 
-## Creating a producer and sending message to the broker
+So even if some of the nodes fail in the system your data will still be available.
 
-Handling callbacks of the messages sent.
+The number of copies made for a single message over the Kafka system (or any other distributed system) is defined using replication factor. In a Kafka system, we apply this replication factor to a given topic.
 
-## Consuming the message
+This way a Kafka system takes care of the failures and tries to minimize it. So, if your data is very critical, you can set the replication factor to some high number.
 
+Hopefully, you liked the introduction to Kafka, there is a lot more to the distributed world which you might want to explore.
+
+Please follow and share this article on social media.
