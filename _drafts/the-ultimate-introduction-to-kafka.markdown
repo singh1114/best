@@ -13,11 +13,11 @@ Other tools in the same domain at that time were giving high latency for the eve
 
 ## Introduction to Kafka
 
-According to the official documentation of [Kafka](https://kafka.apache.org/intro), it is a distributed streaming platform and is similar to a enterprise messaging system.
+According to the official documentation of [Kafka](https://kafka.apache.org/intro), it is a distributed streaming platform and is similar to an enterprise messaging system.
 
 ### What is a simple messaging system?
 
-A simple messaging system consist of 3 main parts.
+A simple messaging system consists of 3 main parts.
 
 1. **Producer**
 
@@ -71,9 +71,9 @@ For example, All the user click data is given a separate topic name so that the 
 
 Kafka stores the messages as a **partitioned log** which saves **offset** for any given message on the partition log. This offset is unique across the whole partitioned log.
 
-The performance of the Kafka is never deteriorated with the size of data being present on the Kafka this is because the only pointer that the application have to keep is the which record is being read and in case of Kafka this is handled by the consumer.
+The performance of the Kafka is never deteriorated with the size of data being present on the Kafka this is because the only pointer that the application has to keep is the which record is being read and in case of Kafka, this is handled by the consumer.
 
-Since the messages are not removed from the Kafka after they are consumed. They are only removed when a given time is reached which is again configurable. Due to this reason the consumer can read the messages in whatever way they want to.
+Since the messages are not removed from the Kafka after they are consumed. They are only removed when a given time is reached which is again configurable. Due to this reason, the consumer can read the messages in whatever way they want to.
 
 ### Clustered architecture
 
