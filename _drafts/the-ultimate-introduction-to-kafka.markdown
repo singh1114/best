@@ -91,6 +91,12 @@ For uniquely identifying any message on the Kafka cluster, you need to know 3 th
 
 On the destination side as well we can have a few consumers running to handle the consumption of messages. We have to tell the **Consumer Group** on which partitions they should be taking data from.
 
+### Zookeeper
+
+> Apache ZooKeeper is an effort to develop and maintain an open-source server which enables highly reliable distributed coordination.
+
+Zookeeper is distributed, centralized and robust coordination service which helps the Kafka nodes to coordinate between themselves. Zookeeper just helps you manage a large number of hosts with reliability.
+
 ## How to install and use Kafka
 
 ## How does Kafka handles failure
