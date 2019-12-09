@@ -73,6 +73,10 @@ Kafka stores the messages as a **partitioned log** which saves **offset** for an
 
 The performance of the Kafka is never deteriorated with the size of data being present on the Kafka this is because the only pointer that the application has to keep is the which record is being read and in case of Kafka, this is handled by the consumer.
 
+**Comparing to others `O(log N)`, read and write are done in constant time O(1) if you know the record ID.**
+
+Reading and writing are independent of one another and writing to one log don't lock it for reading or some other purposes.
+
 Since the messages are not removed from the Kafka after they are consumed. They are only removed when a given time is reached which is again configurable. Due to this reason, the consumer can read the messages in whatever way they want to.
 
 ### Clustered architecture
@@ -153,7 +157,7 @@ We already have discussed that Kafka is a distributed system and is highly fault
 
 So even if some of the nodes fail in the system your data will still be available.
 
-The number of copies made for a single message over the Kafka system (or any other distributed system) is defined using replication factor. In a Kafka system, we apply this replication factor to a given topic.
+The number of copies made for a single message over the Kafka system (or any other distributed system) is defined using the replication factor. In a Kafka system, we apply this replication factor to a given topic.
 
 This way a Kafka system takes care of the failures and tries to minimize it. So, if your data is very critical, you can set the replication factor to some high number.
 
