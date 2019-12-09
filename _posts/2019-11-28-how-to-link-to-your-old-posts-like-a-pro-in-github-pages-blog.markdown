@@ -11,6 +11,7 @@ tags:
 - beginners
 - githubpages
 - seo
+image: https://i.imgur.com/H1tqz8l.png
 ---
 
 Linking to your old posts is very good for the SEO of your blog and help you not to write the same things again and again. It also helps you to interconnect to your old posts increasing the traffic to your website.
