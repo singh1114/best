@@ -95,6 +95,8 @@ For uniquely identifying any message on the Kafka cluster, you need to know 3 th
 
 On the destination side as well we can have a few consumers running to handle the consumption of messages. We have to tell the **Consumer Group** on which partitions they should be taking data from.
 
+To stop a message being read by two consumers, each partition is at max tied to one consumer.
+
 ### Zookeeper
 
 > Apache ZooKeeper is an effort to develop and maintain an open-source server which enables highly reliable distributed coordination.
@@ -105,9 +107,25 @@ Zookeeper helps you with all the management tasks that you can think for while r
 
 It can help you with the availability, naming configuration management, acquiring and managing locks in the system, master-slave management and many more.
 
+When a producer wants to send a message to the broker, it sends a message to the broker asking for the **metadata** of the broker, this metadata will contain the information related to the leader broker.
+
+The metadata information is passed on to Kafka using the connected **Zookeeper**, which keeps the full metadata information related to the whole cluster. Once the producer knows the related information, it writes the message to the leader broker instance.
+
 ## How to install and use Kafka
 
 The installation part of Kafka is pretty straight forward. Go to the Kafka quickstart page and [download the code](https://kafka.apache.org/quickstart).
+
+If you are on MAC, you can directly do,
+
+```shell
+brew install kafka
+```
+
+and then start Kafka services
+
+```shell
+brew services start kafka
+```
 
 For starting a dev environment, you will have to start the zookeeper.
 
@@ -151,9 +169,65 @@ Now pass in any message from the producer console and you will be able to see th
 
 The next step is to create separate producers and consumers according to your needs in which the client-side you want to choose for yourself.
 
+## Creating a Kafka producer using JavaScript
+
+Let's create a simple producer application in JavaScript. [Kafka clients are present in all languages](https://cwiki.apache.org/confluence/display/KAFKA/Clients), you can choose from any one of them available on the apache website.
+
+Let's first install the following Kafka client using NPM.
+
+```shell
+npm i kafka-client
+```
+
+Write the following code in a file using the node shell, while console consumer with test topic is running
+
+```javascript
+const kafka = require('kafka-node');
+const Producer = kafka.Producer;
+const client = new kafka.KafkaClient();
+const producer = new Producer(client);
+
+const payloads = [
+    { topic: 'test', messages: 'New sale happened', partition: 0 },
+    { topic: 'test', messages: ['Refund', 'Sale'] }
+];
+
+producer.send(payloads, function(error, data) {
+    if (error) {
+        console.error(error);
+    } else {
+        console.log(data);
+    }
+```
+
+You will see the messages appeared in the consumer console.
+
+## Creating a Kafka consumer using JavaScript
+
+Stop the console consumer and create write a consumer using the following code,
+
+```javascript
+const Consumer = kafka.Consumer;
+const consumer = new Consumer(
+    client,
+        [
+            { topic: 'test', partition: 0 }, { topic: 'test', partition: 1 }
+        ],
+        {
+            autoCommit: false
+        }
+    );
+
+consumer.on('message', function (message) {
+    console.log(message);
+});
+```
+
+This will show all the messages available consoled out on the node terminal. You might have to tweak it a little to make it favorable for your use.
+
 ## How does Kafka handles failure
 
-We already have discussed that Kafka is a distributed system and is highly fault-tolerant. This means that when you use Kafka it sends the data in the broker to many nodes distributed over various systems( Might be in separate geolocations).
+We already have discussed that Kafka is a distributed system and we know that it is highly fault-tolerant. This means that when you use Kafka it sends the data in the broker to many nodes distributed over various systems( Might be in separate geolocations).
 
 So even if some of the nodes fail in the system your data will still be available.
 
