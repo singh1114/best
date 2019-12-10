@@ -16,6 +16,8 @@ layout: post
 I had never heard about this term before doing this project, but when I came to know about its features and found it excellent. LaTex is a document markup language and document preparation system for the TEX typesetting program. Within
 the typesetting system, its name is styled as `LaTex`.
 
+![Latex image](https://i.imgur.com/r5OG6IT.jpg "Latex image")
+
 Within the typesetting system, its name is styled as LATEX. The term LATEX refers only to the language in which documents are written, not to the editor used to write those documents.
 
 In order to create a document in latex, a .tex file must be created using some form of text editor. While most text editors can be used to create a LaTex document, a number of editors have been created specifically for working with LaTex.
