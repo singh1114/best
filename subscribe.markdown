@@ -13,7 +13,7 @@ date: 2019-12-10 06:27:00 Z
 <div id="mc_embed_signup">
 <form action="https://xyz.us4.list-manage.com/subscribe/post?u=3162fc2b1677f4853e7f9042b&amp;id=0ed16d7962" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<label for="mce-EMAIL">Subscribe for new updates</label>
+	<label for="mce-EMAIL">We don't share your details with others</label>
 	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3162fc2b1677f4853e7f9042b_0ed16d7962" tabindex="-1" value=""></div>
