@@ -1,6 +1,12 @@
 ---
 title: Breaking out of the Software Developer-1 role
 date: 2019-11-19 20:01:00 Z
+categories:
+- discuss
+- programming
+tags:
+- discuss
+- programming
 ---
 
 This article is not for the people who are still looking for a first job as a developer. This is for the people who are in their first job and want to learn things so that they can make that big transfer in their career. There must be a guide that can tell, how much work is left.
