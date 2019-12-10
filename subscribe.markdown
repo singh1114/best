@@ -1,5 +1,5 @@
 ---
-title: Subscribe
+title: Subscribe for new updates
 date: 2019-12-10 06:27:00 Z
 ---
 
