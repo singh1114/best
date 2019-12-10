@@ -9,6 +9,7 @@ author: ranvirsingh1114
 comments: true
 link: https://ranvirsinghprojects.wordpress.com/2016/06/13/learning-latex/
 wordpress_id: 298
+image: https://i.imgur.com/r5OG6IT.jpg
 layout: post
 ---
 
