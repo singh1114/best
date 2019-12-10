@@ -1,6 +1,10 @@
 ---
 title: 'LaTex: Format your documents like a pro'
-date: 2016-06-12 20:40:00 Z
+date: 2017-06-12 20:40:00 Z
+categories:
+- latex
+tags:
+- latex
 author: ranvirsingh1114
 comments: true
 link: https://ranvirsinghprojects.wordpress.com/2016/06/13/learning-latex/
