@@ -1,11 +1,11 @@
 ---
-title: Learning LaTex
-date: 2016-06-12 20:40:53 Z
+title: 'LaTex: Format your documents like a pro'
+date: 2016-06-12 20:40:00 Z
 author: ranvirsingh1114
 comments: true
-layout: post
 link: https://ranvirsinghprojects.wordpress.com/2016/06/13/learning-latex/
 wordpress_id: 298
+layout: post
 ---
 
 LaTex, I had never heard about this term before doing this project, but when I came to know about it’s features and found it excellent.LaTex is a document markup language and document preparation system for the TEX typesetting program. Within
