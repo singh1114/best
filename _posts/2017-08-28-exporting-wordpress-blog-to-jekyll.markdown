@@ -3,12 +3,11 @@ title: Export Wordpress Blog to Jekyll
 date: 2017-08-28 23:08:00 Z
 categories:
 - GitHub
-- Jekyll
 - Blog
 - Technology
+- jekyll
 tags:
 - GitHub
-- Jekyll
 - Blog
 - Technology
 author: Ranvir Singh
