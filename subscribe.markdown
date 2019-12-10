@@ -15,6 +15,7 @@ date: 2019-12-10 06:27:00 Z
     <div id="mc_embed_signup_scroll" style="border: 1px solid #ccc; border-radius: 5px; padding: 10px 0px 70px 0px; margin: 30px 30px 100px 30px;">
 	<label for="mce-EMAIL" style="font-size: 22px;">Subscribe for new updates</label>
 	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" style="display: inline-block;" placeholder="email address" required>
+    <br><br>
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3162fc2b1677f4853e7f9042b_0ed16d7962" tabindex="-1" value=""></div>
     <div class="clear"><input type="submit" value="Subscribe" style="display: inline-block;" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
