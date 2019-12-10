@@ -1,9 +1,17 @@
 ---
-title: The Ultimate Introduction to Kafka
+title: The Ultimate Introduction to Kafka using JavaScript
 date: 2019-12-03 17:42:00 Z
 ---
 
 Apache Kafka is an Open-source asynchronous publish-subscribe messaging system that can help you build any of the offline task handling system, streaming service or any other data pipeline service.
+
+In this article, you’ll get to know about the following things,
+
+1. Basic Introduction to Kafka
+2. Basic terms and their definitions used in Kafka
+3. Architecture of Kafka
+4. Zookeeper
+5. How to create a producer and consumer using JavaScript that can interact with Kafka broker.
 
 ## History of Kafka
 
