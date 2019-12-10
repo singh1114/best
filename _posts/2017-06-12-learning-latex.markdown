@@ -12,7 +12,7 @@ wordpress_id: 298
 layout: post
 ---
 
-LaTex, I had never heard about this term before doing this project, but when I came to know about its features and found it excellent. LaTex is a document markup language and document preparation system for the TEX typesetting program. Within
+I had never heard about this term before doing this project, but when I came to know about its features and found it excellent. LaTex is a document markup language and document preparation system for the TEX typesetting program. Within
 the typesetting system, its name is styled as `LaTex`.
 
 Within the typesetting system, its name is styled as LATEX. The term LATEX refers only to the language in which documents are written, not to the editor used to write those documents.
