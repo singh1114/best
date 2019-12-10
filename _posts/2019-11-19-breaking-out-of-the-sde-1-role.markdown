@@ -1,10 +1,10 @@
 ---
-title: Breaking out of the SDE-1 role
+title: Breaking out of the Software Developer-1 role
 date: 2019-11-19 20:01:00 Z
 published: false
 ---
 
-This article is not for the people who are still looking for a job as a developer. This is for the people who are in their first job and want to learn things so that they can make that big transfer in their career. There must be a guide that can tell, how much work is left.
+This article is not for the people who are still looking for a first job as a developer. This is for the people who are in their first job and want to learn things so that they can make that big transfer in their career. There must be a guide that can tell, how much work is left.
 
 **Note:** In this post, I am only going to share the pathway for a backend engineer. I would be happy to add if someone comes up with a similar pathway for `frontend`, `DevOps` or a `data scientist` role.
 
@@ -20,8 +20,15 @@ This is also applicable to the people who use the NoSQL database. It's always go
 
 Some of the important things that you should know are:
 
-* Indexing
-* Foreign keys
+### Indexing
+
+Indexing is a way of making your search faster while querying the data from the database. Almost all of the applications involve some interactions with the database.
+
+You want to deliver the requests as quickly as possible so that your customers can have a better user experience. We will discuss indexing in much more details in the subsequent posts.
+
+### Foreign keys
+
+
 * Primary Keys
 * Joins
 * Normalizing
