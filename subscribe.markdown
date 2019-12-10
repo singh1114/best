@@ -14,6 +14,7 @@ date: 2019-12-10 06:27:00 Z
 <form action="https://xyz.us4.list-manage.com/subscribe/post?u=3162fc2b1677f4853e7f9042b&amp;id=0ed16d7962" style="text-align:center; margin: 0 auto;" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll" style="border: 1px solid #ccc; border-radius: 5px; padding: 10px 0px 70px 0px; margin: 30px 30px 100px 30px;">
 	<label for="mce-EMAIL" style="font-size: 22px; padding-bottom: 30px;">We don't share your details with others</label>
+    <p>Subscribe for the weekly updates on the new things that I share on this page.</p>
 	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" style="display: inline-block;" placeholder="email address" required>
     <br><br>
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
