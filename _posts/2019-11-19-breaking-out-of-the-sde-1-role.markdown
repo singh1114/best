@@ -1,7 +1,6 @@
 ---
 title: Breaking out of the Software Developer-1 role
 date: 2019-11-19 20:01:00 Z
-published: false
 ---
 
 This article is not for the people who are still looking for a first job as a developer. This is for the people who are in their first job and want to learn things so that they can make that big transfer in their career. There must be a guide that can tell, how much work is left.
@@ -27,19 +26,19 @@ Indexing is a way of making your search faster while querying the data from the 
 You want to deliver the requests as quickly as possible so that your customers can have a better user experience. We will discuss indexing in much more details in the subsequent posts.
 
 ### Foreign keys
+### Primary Keys
+### Joins
+### Normalizing
 
-
-* Primary Keys
-* Joins
-* Normalizing
+All these concepts are used to structure your tables better. Most of the databases create default Primary keys in their tables/ Collections. You should learn to create relations in a better way so that you don't have to change the schema in the future.
 
 ## Learn some DevOps
 
 You don't really need to know much about the stuff but a basic understanding of things will always help. It's good to know about EC2s.
 
-Also, sometimes you have to debug stuff related to DevOps, which might take to see different logs all over the places.
+Also, sometimes you have to debug stuff related to DevOps, which might take you to see different logs all over the places.
 
-Maybe database instances are down or Redis is not working properly or Maybe `queue` is chocked or `SNS` is not being fired or maybe `lambda` is not being triggered.
+Maybe database instances are down or Redis is not working properly or Maybe `queue` is chocked or `SNS` is not being fired or a given `lambda` is not being triggered.
 
 There is a whole lot of stuff in the AWS console, you just need to know a few of the terms to get going in this case.
 
@@ -47,20 +46,58 @@ Always prefer to use shell rather than using editors for simple things to get yo
 
 ## Learn how to debug
 
-One of the most important things that working on a problem teaches you is that you learn how to debug properly. 
+One of the most important things that working on a problem teaches you is that you learn how to debug properly. Learn how to run the debugger in the language of your choice.
+
+Learning how to add breakpoints to your code can be advantages to you as well.
 
 ## Learn to write tests
 
+{% include linked_post.html url="how-to-use-factoryboy-to-create-model-instances-in-python-for-testing" %}
+
+I have written a lot of posts related to tests. It's always better to test your code using the tests rather than having a manual tester doing it for you. It's always slower than having a Continuous integration platform setup running tests every time you push new code to some branch.
+
 ## Learn about scaling issues
+
+You do have to change your solutions according to the scale that you face in the production. If you are getting a few 100 users coming to your product daily, you can keep the screws loose.
+
+On the other hand, if millions of users are visiting your product daily, you will have the change the way you are providing the solution.
+
+You might have to add caching at different places so that you can give a faster response and reduce the overhead on your database. You will have to tweak your queries a little to reduce the size of the response.
+
+> Premature optimization of the code can kill the application before it starts.
 
 ## Learn a little bit about security
 
+Learning a little bit about the security vulnerabilities can help to keep the attackers away from your application and your user data.
+
+Keep a check on the ports that are open on the EC2 on which you are running your application. I have seen people keeping all the ports open on the EC2s on which they are running their production application.
+
+Also, keep a check on your S3 buckets if you providing secure data using the S3 buckets to your customers.
+
 ## Learn about caching
+
+Learning about various places where you can cache the response for faster delivery is very important. Caching the data using Cloud front or caching it using Redis.
+
+You can do a whole lot of things with caching.
 
 ## Learn to review code properly
 
+Reviewing the code is an art that you learn over time by reading and writing a lot of code written by a variety of people. Reviewing the code is also the fastest way of learning to write the code as well.
+
 ## Maintain your personal websites
+
+Along with the personal blog, you can maintain and personal project website as well. Showing your projects to the world for reference. You can use something like [Heroku](https://www.heroku.com/) to publish your applications.
 
 ## Share your learnings
 
+Share your learnings with the world. It's a good idea to create a personal blog. With GitHub pages and Jekyll, it's fairly easy to start your personal blog as a developer.
+
+I have written a lot of posts related to [blogging with Jekyll](https://ranvir.xyz/blog/blogging/), do have a look at them.
+
 ## Help out new joinings and business guys
+
+Growing personally is not just about learning new stuff, its also about helping others who want your help as well. You should help the new joining to settle down and make them aware of the tools that you use to make your life easier.
+
+Every now and then, business guys ask you to look into the stuff they are stuck at. Help them out every now and then. They help you know your system in a better way.
+
+Thanks for reading the post. Drop a like and share the post with your friends. Also, join the subscription list if you want to read such posts every week.
