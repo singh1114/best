@@ -32,9 +32,6 @@ Indexing is a way of making your search faster while querying the data from the 
 You want to deliver the requests as quickly as possible so that your customers can have a better user experience. We will discuss indexing in much more details in the subsequent posts.
 
 ### Foreign keys
-
-
-
 ### Primary Keys
 
 The primary key is the field which should be unique for every row in your table. For example, the roll number would be unique for a class table. Also, it should be part of many vital queries while fetching data from the database. Many databases auto index the primary key field.
