@@ -89,10 +89,6 @@ You can use any of the queue handlers out there. RabbitMQ is one of my favorites
 
 I used the following sources to include celery in the project.
 
-
-
-## Sources
-
 [https://code.tutsplus.com/tutorials/using-celery-with-django-for-background-task-processing--cms-28732](https://code.tutsplus.com/tutorials/using-celery-with-django-for-background-task-processing--cms-28732)
 
 [http://docs.celeryproject.org/en/latest/django/first-steps-with-django.html](http://docs.celeryproject.org/en/latest/django/first-steps-with-django.html)
