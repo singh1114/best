@@ -5,9 +5,11 @@ categories:
 - GSoC-2017
 - celery
 - python
+- django
 tags:
 - celery
 - python
+- django
 author: ranvirsingh1114
 comments: true
 link: https://ranvirsinghprojects.wordpress.com/2017/06/25/using-celery-to-run-long-running-task-asynchronously/
@@ -86,6 +88,10 @@ You can use any of the queue handlers out there. RabbitMQ is one of my favorites
 ## How to use celery?
 
 I used the following sources to include celery in the project.
+
+
+
+## Sources
 
 [https://code.tutsplus.com/tutorials/using-celery-with-django-for-background-task-processing--cms-28732](https://code.tutsplus.com/tutorials/using-celery-with-django-for-background-task-processing--cms-28732)
 
