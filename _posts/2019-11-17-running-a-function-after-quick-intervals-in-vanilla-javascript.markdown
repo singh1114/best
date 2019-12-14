@@ -9,9 +9,13 @@ tags:
 - javascript
 - programming
 - beginners
+image: https://i.imgur.com/KX8Gign.jpg
 ---
 
 In a production system, we run a lot of scripts periodically either to sync data from some third-party source or spit data to some source. Although there are a lot of solutions to achieve such periodic behavior, in this post we are going to discuss one such solution using vanilla JavaScript.
+
+![Run a function periodically in JavaScript](https://i.imgur.com/KX8Gign.jpg "Run a function periodically in JavaScript")
+
 
 ## Use cases
 
