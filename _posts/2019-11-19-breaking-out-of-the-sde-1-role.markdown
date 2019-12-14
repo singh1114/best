@@ -12,6 +12,8 @@ image: https://i.imgur.com/aV8yfFk.jpg
 
 This article is not for the people who are still looking for a first job as a developer. This is for the people who are in their first job and want to learn things so that they can make that big transfer in their career. There must be a guide that can tell, how much work is left.
 
+![Breaking out of software development - I role](https://i.imgur.com/aV8yfFk.jpg "Breaking out of software development - I role")
+
 **Note:** In this post, I am only going to share the pathway for a backend engineer. I would be happy to add if someone comes up with a similar pathway for `frontend`, `DevOps` or a `data scientist` role.
 
 I am sure that this transformation must take some time along with your daily work. As you keep on facing new challenges every day in your day job, you should be working to learn these skills.
