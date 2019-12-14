@@ -1,5 +1,5 @@
 ---
-title: Run a function periodically in vanilla Javascript
+title: Run a function periodically in vanilla Javascript (with analysis)
 date: 2019-11-17 19:34:00 Z
 categories:
 - javascript
