@@ -7,6 +7,7 @@ categories:
 tags:
 - discuss
 - programming
+image: https://i.imgur.com/aV8yfFk.jpg
 ---
 
 This article is not for the people who are still looking for a first job as a developer. This is for the people who are in their first job and want to learn things so that they can make that big transfer in their career. There must be a guide that can tell, how much work is left.
