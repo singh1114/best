@@ -16,7 +16,6 @@ In a production system, we run a lot of scripts periodically either to sync data
 
 ![Run a function periodically in JavaScript](https://i.imgur.com/KX8Gign.jpg "Run a function periodically in JavaScript")
 
-
 ## Use cases
 
 * Taking backups of the database.
