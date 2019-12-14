@@ -38,6 +38,8 @@ You want to deliver the requests as quickly as possible so that your customers c
 
 ### Foreign keys
 
+Foreign keys are used to define the relationship between two tables. For example, a school can have multiple classes. So, we make two separate tables `School` and `Class` with the `School` table having a foreign key of `Class`.
+
 ### Primary Keys
 
 The primary key is the field which should be unique for every row in your table. For example, the roll number would be unique for a class table. Also, it should be part of many vital queries while fetching data from the database.
