@@ -15,7 +15,7 @@ image: https://i.imgur.com/aV8yfFk.jpg
 This article is not for the people who are still looking for a first job as a developer. This is for the people who are in their first job and want to learn things so that they can make that big transfer in their career. There must be a guide that can tell, how much work is left.
 
 ![Breaking out of software development - I role](https://i.imgur.com/aV8yfFk.jpg "Breaking out of software development - I role")
-
+T
 **Note:** In this post, I am only going to share the pathway for a backend engineer. I would be happy to add if someone comes up with a similar pathway for `frontend`, `DevOps` or a `data scientist` role.
 
 I am sure that this transformation must take some time along with your daily work. As you keep on facing new challenges every day in your day job, you should be working to learn these skills.
@@ -75,8 +75,6 @@ One of the most important things that working on a problem teaches you is that y
 Learning how to add breakpoints to your code can be advantages to you as well.
 
 ## Learn to write tests
-
-{% include linked_post.html url="how-to-use-factoryboy-to-create-model-instances-in-python-for-testing" %}
 
 I have written a lot of posts related to tests. It's always better to test your code using the tests rather than having a manual tester doing it for you. It's always slower than having a Continuous integration platform setup running tests every time you push new code to some branch.
 
