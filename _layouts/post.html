@@ -29,7 +29,7 @@ layout: default
     {% assign content_para = content | split: "<p>" %}
     {% for para in content_para %}
       {{para}}
-      {% assign para_number = forloop.index | modulo: 10 %}
+      {% assign para_number = forloop.index | modulo: 15 %}
       {% if para_number == 0 %}
         <div style="padding: 10px; padding-right: 20px; padding-left: 10px; border: 1px solid #ccc;">
           <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
