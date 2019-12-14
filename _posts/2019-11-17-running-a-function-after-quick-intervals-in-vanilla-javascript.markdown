@@ -115,7 +115,7 @@ Take another snapshot after 10 seconds of the initial snapshot. If the memory si
 
 Since the memory used in the given program was consistent, I believe there was no memory leak in the program.
 
-### Using `memwatch-next`
+### Using memwatch-next module
 
 The `memwatch-next` module is used to find the memory leaks in a program.
 
