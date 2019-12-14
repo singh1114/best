@@ -1,12 +1,14 @@
 ---
-title: Breaking out of the Software Developer-1 role
+title: Breaking out of Software Developer-I role as a web developer
 date: 2019-11-19 20:01:00 Z
 categories:
 - discuss
 - programming
+- webdev
 tags:
 - discuss
 - programming
+- webdev
 image: https://i.imgur.com/aV8yfFk.jpg
 ---
 
