@@ -86,9 +86,11 @@ You do have to change your solutions according to the scale that you face in the
 
 On the other hand, if millions of users are visiting your product daily, you will have the change the way you are providing the solution.
 
-You might have to add caching at different places so that you can give a faster response and reduce the overhead on your database. You will have to tweak your queries a little to reduce the size of the response.
+You might have to add caching at different places so that you can give a faster response and reduce the overhead on your database saving you a ton of money. You will have to tweak your queries a little to reduce the size of the response.
 
-> Premature optimization of the code can kill the application before it starts.
+Always keep [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth)'s words in your head before optimizing things,
+
+> The real problem is that programmers have spent far too much time worrying about efficiency in the wrong places and at the wrong times; premature optimization is the root of all evil (or at least most of it) in programming.
 
 ## Learn a little bit about security
 
