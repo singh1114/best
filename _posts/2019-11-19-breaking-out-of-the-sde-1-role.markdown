@@ -46,7 +46,7 @@ The foreign key relations can be of multiple types, `One-to-one`, `one-to-many` 
 
 The primary key is the field which should be unique for every row in your table. For example, the roll number would be unique for a class table. Also, it should be part of many vital queries while fetching data from the database.
 
-![Primary key in MySQL](https://i.imgur.com/nsWOZpD.png "Primary key in MySQL")
+![Primary key in MySQL](https://i.imgur.com/GK763MW.jpg "Primary key in MySQL")
 
 `id` is the primary key in the above picture.
 
