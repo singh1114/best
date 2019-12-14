@@ -16,4 +16,4 @@ An Open-source enthusiast and a quick learner with a love toward debugging who l
 
 ### Contact Ranvir
 
-**email:** [ranvir.singh1114@gmail.com](mailto:ranvir.singh1114@gmail.com)
+**email:** [Email](mailto:ranvir.singh1114@gmail.com)
