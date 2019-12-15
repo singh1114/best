@@ -49,5 +49,3 @@ I tested the script and found that for every mail we have to tell the system tha
 When he ended up sending all the emails. I found the solution and corrected the single character in my file. This commit shows the way in which I solved the problem.
 
 [https://github.com/singh1114/csiMuttScript/commit/75f2eccb6928fdb3994390283ebe205cf17d4bbb](https://github.com/singh1114/csiMuttScript/commit/75f2eccb6928fdb3994390283ebe205cf17d4bbb)
-
-
