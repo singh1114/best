@@ -1,5 +1,5 @@
 ---
-title: Run a function periodically in Javascript (with memory leak analysis)
+title: Call a function periodically in Javascript (with memory leak analysis)
 date: 2019-11-17 19:34:00 Z
 categories:
 - javascript
