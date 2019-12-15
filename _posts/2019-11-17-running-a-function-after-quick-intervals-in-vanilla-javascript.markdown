@@ -149,4 +149,4 @@ Run the program simply, if you see the message memory leak being printed, you wi
 
 Hopefully, this will help you to find memory leaks in your program in the future as well.
 
-Thanks for stopping by and do consider subscribing to the weekly newsletter.
+Thanks for stopping by and do consider [subscribing](https://ranvir.xyz/blog/subscribe) to the weekly newsletter.
