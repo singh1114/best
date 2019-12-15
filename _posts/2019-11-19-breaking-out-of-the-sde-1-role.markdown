@@ -52,7 +52,11 @@ The primary key is the field which should be unique for every row in your table.
 
 ### Joins
 
+Joins are used to get the data from two SQL tables at the same time.
+
 ### Normalizing
+
+Normalizing is the concept of dividing the tables into smaller tables so that it reduces redundancy and dependency on other tables.
 
 All these concepts are used to structure your tables better. Most of the databases create default Primary keys in their tables/ Collections. You should learn to create relations in a better way so that you don't have to change the schema in the future.
 
@@ -126,4 +130,4 @@ Growing personally is not just about learning new stuff, its also about helping 
 
 Every now and then, business guys ask you to look into the stuff they are stuck at. Help them out every now and then. They help you know your system in a better way.
 
-Thanks for reading the post. Drop a like and share the post with your friends. Also, join the subscription list if you want to read such posts every week.
+Thanks for reading the post. Drop a like and share the post with your friends. Also, join the [subscription list](https://ranvir.xyz/blog/subscribe/) if you want to read such posts every week.
