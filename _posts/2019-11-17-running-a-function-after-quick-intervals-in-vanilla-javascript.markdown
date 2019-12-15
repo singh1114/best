@@ -47,7 +47,7 @@ const tellTime = async function () {
     console.log(new Date());
 }
 
-const minutes = 1;
+const minutes = 0.5;
 const interval = minutes * 60 * 1000;
 
 setInterval(function() {
