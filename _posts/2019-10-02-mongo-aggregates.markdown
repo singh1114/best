@@ -2,16 +2,14 @@
 title: Mongo Aggregates(Match, Group, Lookup, Project etc.) | With Examples
 date: 2019-10-02 12:03:00 Z
 categories:
-- Mongo
-- NoSQL
-- Database
 - Aggregates
-- Technology
+- database
+- nosql
+- mongo
 tags:
 - database
 - mongo
 - nosql
-- Technology
 ---
 
 Today we are going to talk about Mongo Aggregates. One of the best things that happened to Mongo.
