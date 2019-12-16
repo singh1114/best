@@ -14,9 +14,7 @@ canonical_url: https://blog.soshace.com/follow-these-guidelines-to-write-testabl
 
 I have seen people writing code which is hard to test and later writing tests just for the sake of it. Although having some tests is better than having no tests, you should not be writing tests just to increase the test coverage of the code. In this post, we will be discussing the ways which will help you to write testable code.
 
-This article was first posted on [Soshace website](https://blog.soshace.com/?p=9123).
-
-The responsibility of a Software Engineer is not only to deliver the software that works, but also to deliver the software which is testable and maintainable. By maintainable, I mean any new person can come in and start writing the code from day one.
+The responsibility of a Software Engineer is not only to deliver the software that works but also to deliver the software which is testable and maintainable. By maintainable, I mean any new person can come in and start writing the code from day one.
 
 Most people don't like to test the code they write. There can be multiple reasons for that but almost 90% of the time it happens because the code is highly coupled with one another and programmers don't really know what should they check for in the tests.
 
@@ -99,6 +97,12 @@ Unit testing is a way to test a single unit of software. For example, testing a 
 Integration testing is a type of testing where you test a few units together. For example testing login, buying a product and checking out, the whole process in a single test.
 
 A lot of people prefer a combination of both unit and integration tests for there codebase and its preferred to have at least API level integration testing.
+
+It's very important to have these tests if you have 3rd party stuff in your codebase. Generally, people tend to mock these 3rd party calls and make sure that stuff works properly.
+
+### Functional Testing
+
+It is the type of testing, where you are testing something like a black box. If you are building a web application, it would mean to call the services via HTTP calls rather than making simple method calls using the application.
 
 ### What do we test for?
 
@@ -187,6 +191,8 @@ const createString = (charList) => {
 
 All you have to do is add new tests to check if the new functionality is working or not. You will not have to worry about the earlier features.
 
+Automated tests save us from regressions like accidental removal/ breakage of the old feature.
+
 ### Allow new joiners to write the code as quickly as they join
 
 The new joiners can start working on your software as quickly as they join in. They can run the test suite to know more about the codebase.
@@ -201,6 +207,8 @@ When you are backed by a lot of tests, you can start making changes quickly. All
 
 You can go back to the module for which you changing the codebase and quickly check the current behavior by running the tests, write your changes with new tests and boom! You are done.
 
+Tests give you fast feedback when building new features and changing old ones. Automated tests are far quicker than manual tests and can be repeated every time we want a new build of our application.
+
 ### Feel more confident in the changes that you make
 
 This is the biggest achievement that tests give you as a developer. I myself have used the term like, `This module is thoroughly tested, we don't have to worry about it breaking`.
@@ -209,11 +217,11 @@ This much confidence can only come if your code is backed by a lot of good quali
 
 ## What makes your code testable
 
-Writing testable code is an art. Differentiating the testable code from a non-testable one is very important. Mixing them up leads to a mix up of code which you can't test.
+Writing testable code is an art. Differentiating the testable code from a non-testable one is very important. Mixing them up leads to a mix up of code that you can't test.
 
 ### Write cleaner function
 
-Well, the first and foremost thing that you can start doing is to start writing cleaner functions. I have written an article on [How to write clean function.](https://singh1114.github.io/blog/how-to-write-clean-functions-with-python-examples/). Hope this article will help you to write cleaner functions.
+Well, the first and foremost thing that you can start doing is to start writing cleaner functions. I have written an article on [How to write clean function.](https://ranvir.xyz/blog/how-to-write-clean-functions-with-python-examples/). Hope this article will help you to write cleaner functions.
 
 When you start writing a function that does only one thing, you will end up with the codebase which is entirely testable. You can simply write unit tests for all the functions separately.
 
@@ -251,7 +259,7 @@ I have seen people writing a separate module for all these third-party calls. Al
 
 ### Using Factories/ Faker for object initialization
 
-A lot of your time while testing can go in initializing objects for testing. You can generate random objects using these [factories in Python](https://singh1114.github.io/blog/how-to-use-factoryboy-to-create-model-instances-in-python-for-testing/).
+A lot of your time while testing can go in initializing objects for testing. You can generate random objects using these [factories in Python](https://ranvir.xyz/blog/how-to-use-factoryboy-to-create-model-instances-in-python-for-testing/).
 
 [Faker](https://github.com/marak/Faker.js/) is the javascript module that can do the same thing in JavaScript.
 
@@ -285,7 +293,7 @@ There is a definite guideline on how you should build the CI pipeline for your p
 
 It's always good to have a combination of both unit tests and integration tests. Whenever you write a new feature write the test cases along with the code.
 
-What I prefer is to write all the test cases in simple words and ask them to be verified by the stakeholders. Once all of them are verified, I write code to solve the problem.
+What I prefer is to write all the test cases in simple words and ask them to be verified by the stakeholders( the business guys and team members). Once all of them are verified, I write code to solve the problem.
 
 Once this is done, I pick up all the test cases and write them down in the code to check if they are passing or not. A lot of times, tests tell you a lot of places where the code can break which you might not have thought of.
 
