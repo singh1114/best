@@ -21,7 +21,7 @@ The responsibility of a Software Engineer is not only to deliver the software th
 
 Most people don't like to test the code they write. There can be multiple reasons for that but almost 90% of the time it happens because the code is highly coupled with one another and programmers don't really know what should they check for in the tests.
 
-The first time I was introduced to test-driven development when I was writing code for my [Google Summer of Code Project.](https://ranvir.xyz/blog/gsoc_2017/). My first impression of the TDD( Test-driven development) was not a very pleasant one. I would write the software with a great sense of pride but when it came to testing, I tried ways to escape it.
+The first time I was introduced to test-driven development when I was writing code for my [Google Summer of Code Project.](https://ranvir.xyz/blog/gsoc_2017/) My first impression of the TDD( Test-driven development) was not a very pleasant one. I would write the software with a great sense of pride but when it came to testing, I tried ways to escape it.
 
 Why would someone write tests that were so dumb was the question in my mind. But as soon as I realized the importance of these test suite, I have never written any piece of code which is not tested( Scripts excluded).
 
