@@ -4,6 +4,9 @@ date: 2016-04-07 09:17:00 Z
 categories:
 - Meteor.js
 - Six weeks training
+- javascript
+tags:
+- javascript
 author: ranvirsingh1114
 comments: true
 link: https://ranvirsinghprojects.wordpress.com/2016/04/07/meteors-the-full-stack-javascript-framework/
