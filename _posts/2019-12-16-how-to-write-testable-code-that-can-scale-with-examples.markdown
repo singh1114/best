@@ -10,9 +10,12 @@ tags:
 - python
 - javascript
 canonical_url: https://blog.soshace.com/follow-these-guidelines-to-write-testable-code-that-can-scale-with-examples/
+image: https://i.imgur.com/OQXgcRy.jpg
 ---
 
 I have seen people writing code which is hard to test and later writing tests just for the sake of it. Although having some tests is better than having no tests, you should not be writing tests just to increase the test coverage of the code. In this post, we will be discussing the ways which will help you to write testable code.
+
+![How to write testable code that can scale](https://i.imgur.com/OQXgcRy.jpg "How to write testable code that can scale")
 
 The responsibility of a Software Engineer is not only to deliver the software that works but also to deliver the software which is testable and maintainable. By maintainable, I mean any new person can come in and start writing the code from day one.
 
