@@ -255,7 +255,7 @@ A lot of your time while testing can go in initializing objects for testing. You
 
 [Faker](https://github.com/marak/Faker.js/) is the javascript module that can do the same thing in JavaScript.
 
-### Stop circular dependencies
+### Remove circular dependencies
 
 Circular dependency is a state in which module 1 is required by module 2 and module 2 is required by module 1. This is a very bad state to be in and is against the Dependency Inversion Principle.
 
