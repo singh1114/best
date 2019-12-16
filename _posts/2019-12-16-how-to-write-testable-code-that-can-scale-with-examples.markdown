@@ -286,7 +286,7 @@ It's pretty hard to follow the conditional statements after some time. You can h
 
 Following up on the example of a library management system if the user is admin, he/she can see the book details and if the user is a simple one he/she won't be able to see the details.
 
-A simple function which when passed with the object of admin user should return back the details whereas when passed with simple user should raise an error.
+A simple function which when passed with the object of admin user should return back the details whereas when passed with the simple user should raise an error.
 
 ## How to test your Software properly
 
