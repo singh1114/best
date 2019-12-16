@@ -1,6 +1,12 @@
 ---
 title: HTML presentation framework reveal.js and why I am a big fan?
-date: 2016-04-07 09:51:00 Z
+date: 2018-04-10 09:51:00 Z
+categories:
+- html
+- javascript
+tags:
+- html
+- javascript
 author: ranvirsingh1114
 comments: true
 link: https://ranvirsinghprojects.wordpress.com/2016/04/07/making-a-presentation-in-reveal-js/
