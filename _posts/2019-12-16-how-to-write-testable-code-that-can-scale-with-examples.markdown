@@ -1,6 +1,6 @@
 ---
 title: How to write testable code that can scale | With Examples
-date: 2019-11-20 17:44:00 Z
+date: 2019-12-16 00:00:00 Z
 categories:
 - testing
 - python
