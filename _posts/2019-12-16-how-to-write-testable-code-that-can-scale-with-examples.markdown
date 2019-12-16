@@ -1,5 +1,5 @@
 ---
-title: How to write testable code that can scale | With Examples
+title: What have I learned about testing | With examples
 date: 2019-12-16 00:00:00 Z
 categories:
 - testing
@@ -259,6 +259,12 @@ Depend on abstractions, not on concretions. That is, the modules that encapsulat
 Third-party calls the main things which make your testing life a little bit difficult. You always have to mock these third party calls unless you really are performance testing something.
 
 I have seen people writing a separate module for all these third-party calls. All you have to pass is the endpoint and credentials to use for making the call. It will spit out the response without worrying about the details.
+
+### Mocking/ Stubbing
+
+Mocking/ Stubbing is the process in which you mock the third party call assuming that it is already implemented correctly and there would be no fault in the given part.
+
+Read more about mocking on [Martin Fowler's website](https://martinfowler.com/articles/mocksArentStubs.html)
 
 ### Using Factories/ Faker for object initialization
 
