@@ -36,7 +36,7 @@ My mentor at that time suggested me to use reveal for creating the presentation.
 
 I went home and thought that it would be a difficult task but in the end, I ended up doing it just in two hours.
 
-## setting up reveal.js
+## Setting up reveal.js
 
 All you need to run reveal powered presentation in your local system is to have javascript up and running and if you reading this post, you definitely have it running.
 
@@ -58,6 +58,8 @@ Otherwise, if you prefer, you can `fork` the code from the https://revealjs.com/
 
 After unzip open the folder and you will find an `index.html` file inside.
 
+## Creating presentations using reveal.js
+
 Open this file in your text editor. Inside the body, tags delete every section.
 
 Now create each section using beginning and ending section tag. Each section is equivalent to one slide.
@@ -67,3 +69,5 @@ Here is the reference of one equivalent slide.
 <script src="https://gist.github.com/singh1114/47444f83e62a50160d78791720c461c6.js"></script>
 
 You can do a whole lot of things using reveal.js presentation creator. You can create a style of your own if you want to.
+
+Please subscribe to the blog for more such updates and leave your comments if you are using something similar or you don't like something like with your whys.
