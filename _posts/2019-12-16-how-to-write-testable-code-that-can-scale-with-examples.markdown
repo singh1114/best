@@ -1,5 +1,5 @@
 ---
-title: What have I learned about testing | With examples
+title: What have I learned about testing as a full-stack developer
 date: 2019-12-16 00:00:00 Z
 categories:
 - testing
