@@ -54,7 +54,7 @@ Then use this code to unzip the file by giving a name of the destination folder.
 
 `unzip file.zip -d destination_folder`
 
-Otherwise, if you prefer, you can `fork` the code from the https://revealjs.com/)
+Otherwise, if you prefer, you can `fork` the code from the https://revealjs.com/
 
 After unzip open the folder and you will find an `index.html` file inside.
 
