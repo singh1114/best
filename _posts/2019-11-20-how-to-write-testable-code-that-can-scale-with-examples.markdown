@@ -1,6 +1,14 @@
 ---
 title: How to write testable code that can scale | With Examples
 date: 2019-11-20 17:44:00 Z
+categories:
+- testing
+- python
+- javascript
+tags:
+- testing
+- python
+- javascript
 canonical_url: https://blog.soshace.com/follow-these-guidelines-to-write-testable-code-that-can-scale-with-examples/
 ---
 
