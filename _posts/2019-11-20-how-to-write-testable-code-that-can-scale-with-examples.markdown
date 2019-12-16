@@ -3,9 +3,9 @@ title: How to write testable code that can scale | With Examples
 date: 2019-11-20 17:44:00 Z
 ---
 
-This article was first posted on [Soshace website](https://blog.soshace.com/?p=9123).
-
 I have seen people writing code which is hard to test and later writing tests just for the sake of it. Although having some tests is better than having no tests, you should not be writing tests just to increase the test coverage of the code. In this post, we will be discussing the ways which will help you to write testable code.
+
+This article was first posted on [Soshace website](https://blog.soshace.com/?p=9123).
 
 The responsibility of a Software Engineer is not only to deliver the software that works, but also to deliver the software which is testable and maintainable. By maintainable, I mean any new person can come in and start writing the code from day one.
 
