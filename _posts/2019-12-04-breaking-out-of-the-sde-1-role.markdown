@@ -1,6 +1,6 @@
 ---
 title: Breaking out of Software Developer-I role as a web developer
-date: 2019-11-19 20:01:00 Z
+date: 2019-12-04 20:01:00 Z
 categories:
 - discuss
 - programming
