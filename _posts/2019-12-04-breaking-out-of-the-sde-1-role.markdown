@@ -56,7 +56,7 @@ Joins are used to get the data from two SQL tables at the same time.
 
 ### Normalizing
 
-Normalizing is the concept of dividing the tables into smaller tables so that it reduces redundancy and dependency on other tables.
+> Normalizing is the concept of dividing the tables into smaller tables so that it reduces redundancy and dependency on other tables.
 
 All these concepts are used to structure your tables better. Most of the databases create default Primary keys in their tables/ Collections. You should learn to create relations in a better way so that you don't have to change the schema in the future.
 
