@@ -1,11 +1,11 @@
 ---
 title: 'MathJax : Write math on the browser'
-date: 2016-06-08 08:52:26 Z
+date: 2016-06-08 08:52:00 Z
 author: ranvirsingh1114
 comments: true
-layout: post
 link: https://ranvirsinghprojects.wordpress.com/2016/06/08/mathjax-write-math-on-the-browser/
 wordpress_id: 121
+layout: post
 ---
 
 First of all I would like to link to the presentation which you can check. This presentation will let you more about the MathJax.
@@ -19,15 +19,9 @@ MathJax is a JavaScript library which can be used in collaboration with Tex, Lat
 Prior from MathJax images were used to put a mathematical formulas on the browser which was quite a big deal to lay them out properly on the browser. Also these images were headache for the visually impaired people as screen reader were not able to guess what was written on the image. To solve all these problems MathJax was introduced.
 
 There are two ways to implement Mathjax.
-
-
-
  	
-  1. Through CDN (content delivery network)
-
- 	
+  1. Through CDN (content delivery network)	
   2. By downloading the files
-
 
 Now let us discuss about the CDN implementation. This implementation is discussed properly in the documentation on the MathJax official website. Here is the link for it.
 
