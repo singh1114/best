@@ -48,11 +48,11 @@ While creating the foreign keys you can specify, what you want to do when the ro
 
 In a framework like Django, you can choose from a [number of options.](https://docs.djangoproject.com/en/3.0/ref/models/fields/#django.db.models.ForeignKey.on_delete)
 
-* CASCADE: Deletes the child rows as well.
-* SET_NULL: Set the value to null.
-* PROTECT: Stops you from deleting the parent row.
-* SET_DEFAULT: Set to a default value of the column.
-* SET: Set to the given value.
+* `CASCADE`: Deletes the child rows as well.
+* `SET_NULL`: Set the value to null.
+* `PROTECT`: Stops you from deleting the parent row.
+* `SET_DEFAULT`: Set to a default value of the column.
+* `SET`: Set to the given value.
 
 ### Primary Keys
 
