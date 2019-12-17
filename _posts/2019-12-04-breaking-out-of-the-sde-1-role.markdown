@@ -14,13 +14,13 @@ tags:
 image: https://i.imgur.com/aV8yfFk.jpg
 ---
 
-This article is not for the people who are still looking for a first job as a developer. This is for the people who are in their first job and want to learn things so that they can make that big transfer in their career. There must be a guide that can tell, how much work is left.
+This article is not for the people who are still looking for a first job as a developer. This is for the people who are in their first job and want to learn things so that they can make that big shift in their career. There must be a guide that can tell, how much work is left.
 
 ![Breaking out of software development - I role](https://i.imgur.com/aV8yfFk.jpg "Breaking out of software development - I role")
 
 **Note:** In this post, I am only going to share the pathway for a backend engineer. I would be happy to add if someone comes up with a similar pathway for `frontend`, `DevOps` or a `data scientist` role.
 
-I am sure that this transformation must take some time along with your daily work. As you keep on facing new challenges every day in your day job, you should be working to learn these skills.
+I am sure that this transformation will take some time along with your daily work. As you keep on facing new challenges every day in your day job, you should be working to learn these skills.
 
 ## Learn Database designing
 
@@ -42,7 +42,17 @@ You want to deliver the requests as quickly as possible so that your customers c
 
 Foreign keys are used to define the relationship between two tables. For example, a school can have multiple classes. So, we make two separate tables `School` and `Class` with the `School` table having a foreign key of `Class`.
 
-The foreign key relations can be of multiple types, `One-to-one`, `one-to-many` or `many-to-many`.
+The foreign key relations can be of multiple types, `One-to-one`, `one-to-many` or `many-to-many`. The foreign key creates a new column in the child table and saves an `address` of the corresponding row of the parent table.
+
+While creating the foreign keys you can specify, what you want to do when the rows in the parent table are deleted.
+
+In a framework like Django, you can choose from a [number of options.](https://docs.djangoproject.com/en/3.0/ref/models/fields/#django.db.models.ForeignKey.on_delete)
+
+* CASCADE: Deletes the child rows as well.
+* SET_NULL: Set the value to null.
+* PROTECT: Stops you from deleting the parent row.
+* SET_DEFAULT: Set to a default value of the column.
+* SET: Set to the given value.
 
 ### Primary Keys
 
@@ -126,10 +136,10 @@ Share your learnings with the world. It's a good idea to create a personal blog.
 
 I have written a lot of posts related to [blogging with Jekyll](https://ranvir.xyz/blog/blogging/), do have a look at them.
 
-## Help out new joinings and business guys
+## Help out new joiners and business guys
 
-Growing personally is not just about learning new stuff, its also about helping others who want your help as well. You should help the new joining to settle down and make them aware of the tools that you use to make your life easier.
+Growing personally is not just about learning new stuff, its also about helping others as well. You should help the new joining to settle down and make them aware of the tools that you use to make your life easier.
 
 Every now and then, business guys ask you to look into the stuff they are stuck at. Help them out every now and then. They help you know your system in a better way.
 
-Thanks for reading the post. Drop a like and share the post with your friends. Also, join the [subscription list](https://ranvir.xyz/blog/subscribe/) if you want to read such posts every week.
+Thanks for reading the post. Drop a like and share the post with your friends. Also, join the subscription if you want to read such posts every week.
