@@ -5,10 +5,12 @@ categories:
 - discuss
 - programming
 - webdev
+- career
 tags:
 - discuss
 - programming
 - webdev
+- career
 image: https://i.imgur.com/aV8yfFk.jpg
 ---
 
