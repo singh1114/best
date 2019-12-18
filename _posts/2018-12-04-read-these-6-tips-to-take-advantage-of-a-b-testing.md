@@ -12,7 +12,7 @@ comments: true
 
 A/B testing is the procedure of finding out which design works and which doesn't.
 
-![Firebase Image for A/B testing](/img/posts/ab-testing.png)
+![Firebase Image for A/B testing](https://jeklog.github.io/seoleal/img/posts/ab-testing.png)
 
 AB testing is also known as bucket testing or split testing.
 
@@ -38,7 +38,7 @@ This is the main guideline through which the A/B testing works. You can leave th
 
 After this, we are going to discuss various things related to A/B testing in detail.
 
-![Hubspot image of A/B testing](/img/posts/ab-testing-1.jpg)
+![Hubspot image of A/B testing](https://jeklog.github.io/seoleal/img/posts/ab-testing-1.jpg)
 
 ## Why you should do A/B testing
 

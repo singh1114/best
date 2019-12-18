@@ -18,9 +18,6 @@ Obviously, ranking in 1st place (or a lot of high rankings) can mean various thi
 
 However, during this article, I need to explore what proportion price high rankings in Google augment the general price of your online business if you select to sell it.
 
-For example, seoleal.com owns many high rankings in Google per the SEO Backlinks Checker, Ahrefs.com. several of those high rankings square measure quite competitive.
-
-
 ## Overdependence on Organic Traffic seems to harm a Website’s price
 
 I’ve noticed one thing odd concerning web site valuation. If a website’s traffic is too passionate about traffic from Google, it will build the worth of the positioning declined slightly.
@@ -113,7 +110,7 @@ That doesn’t tell the total story either. After all, what's therefore nice con
 
 It’s free! (relatively speaking)
 
-For seoleal, Herbert Spencer Hawes (the owner) doesn’t need to purchase each click or on a CPM basis. The traffic is ‘free’ within the sense that it's earned, not bought.
+Herbert Spencer Hawes (the owner) doesn’t need to purchase each click or on a CPM basis. The traffic is ‘free’ within the sense that it's earned, not bought.
 
 And this contains a vast impact on valuations.
 

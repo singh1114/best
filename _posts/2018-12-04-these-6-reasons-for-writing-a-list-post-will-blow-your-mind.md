@@ -20,7 +20,7 @@ After reading this post you will definitely be going to write posts in a list fo
 
 Following are the 6 reasons you should be writing a blog post in a listed format.
 
-## 1\. List Posts are good for [SEO](/seo/)
+## 1\. List Posts are good for [SEO](/blogging/)
 
 Take out your pen and paper( which you might have left somewhere in your store) and start writing the something on two separate pages. One with lists and the other without them.
 
@@ -65,8 +65,6 @@ List Posts allow you to spend lesser time to understand the topic. With the List
 Write List Posts and save the time of the reader.
 
 You might think, that it would increase the bounce rate of the website. This is partially true.
-
-We at SEOLeal, believe that the most important metric for judging the success of the website is the reader satisfaction.
 
 ## 6\. List Posts leave your reader Satisfied
 

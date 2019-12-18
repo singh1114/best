@@ -74,9 +74,9 @@ Take the learning from the gig and add to your experience. It would be beneficia
 
 In some of the cases, the copy will not perform as expected. In those cases, you have to find the reason.
 
-At a basic level, you need to know [how Google analytics work.](https://seoleal.com/2019/05/05/google-analytics-for-seo.html)
+At a basic level, you need to know [how Google analytics work.](https://ranvir.xyz/blog/google-analytics-for-search-engine-optimisation/)
 
-You can [use A/B testing](https://seoleal.com/2019/05/22/everything-about-a-b-testing.html) to check how changes work in smaller sets of the market.
+You can [use A/B testing](https://ranvir.xyz/blog/read-these-6-tips-to-take-advantage-of-a-b-testing/) to check how changes work in smaller sets of the market.
 
 A copywriter needs to know how to cut out the noise from the data and base their decisions on them.
 

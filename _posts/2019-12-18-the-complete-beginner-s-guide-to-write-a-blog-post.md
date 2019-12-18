@@ -74,8 +74,6 @@ Another good idea is to find quotes around a topic. Quotes are the best way to a
 
 I recently, read a book called, The deep work (I recommend it), in which the writer recommends the readers to go as deep as possible on any topic in life. Going deep always helps.
 
-Apparently, for the same reason, Google loves the [posts with more than 3000 words](https://seoleal.com/2019/05/14/keyword-stemming-in-long-tail-seo.html) and gives them extra credits for being long.
-
 Your post should always be giving the answer to these 3 Ws and an H also a famous post by [Richard Nordquist](https://www.thoughtco.com/journalists-questions-5-ws-and-h-1691205). Although he wrote the post in term of journalism, we can use it for blog posts as well.
 
 ## Who?
@@ -106,7 +104,7 @@ After making an outline, you can start writing your post. We will discuss the pr
 
 ## Write a non-resistable headline
 
-The first and foremost thing that you write in a blog post is the headline. The headline is the most important part of your [Search Engine Optimization( SEO)](/seo/) process. This title is visible to anyone who is searching for a keyword on the search engine. If your headline is not great your CTR would be low. We wrote a [smart tactic guide](https://seoleal.com/2019/05/08/increase-CTR-by-38-percent.html) which you can follow to write good and clickable titles.
+The first and foremost thing that you write in a blog post is the headline. The headline is the most important part of your Search Engine Optimization( SEO) process. This title is visible to anyone who is searching for a keyword on the search engine. If your headline is not great your CTR would be low. We wrote a [smart tactic guide](https://ranvir.xyz/blog/how-to-increase-your-ctr-by-more-than-34/) which you can follow to write good and clickable titles.
 
 There are some tricks that you can use to make your headlines better.
 

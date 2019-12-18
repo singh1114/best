@@ -14,11 +14,11 @@ No single SEO factor will ensure web index rankings. Having an incredible HTML t
 
 ## Try to target smaller search Engines
 
-I recently, wrote a post related to top 10 search engines. You can target some of the smaller ones which people tend to skip [Top 10 search engines to target](https://seoleal.com/2019/05/06/top-10-search-engines.html)
+I recently, wrote a post related to top 10 search engines. You can target some of the smaller ones which people tend to skip [Top 10 search engines to target](https://ranvir.xyz/blog/top-10-search-engines-to-target-in-2019/)
 
 ## Make Google Analytics your friend
 
-Google analytics should be your new friend. Read more about the topic [Google Analytics for search engine optimisation.](https://seoleal.com/2019/05/05/google-analytics-for-seo.html)
+Google analytics should be your new friend. Read more about the topic [Google Analytics for search engine optimisation.](https://ranvir.xyz/blog/google-analytics-for-search-engine-optimisation/)
 
 ## On-the-page achievement factors
 

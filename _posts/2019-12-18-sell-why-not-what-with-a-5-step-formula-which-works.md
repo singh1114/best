@@ -12,10 +12,6 @@ tags:
 
 > Selling is a combination of using good tactics and having good knowledge of the problem being solved.
 
-My last post on playing with the subconscious mind gained a lot of interaction from the community. Most of them tend to agree with the post.
-
-[How to write a successful marketing copy that sells( with examples)](https://seoleal.com/2019/05/09/a-copy-written-to-sell.html)
-
 Today, I am going to talk on similar lines along with the strategy you should use to drive that subconscious brain. I am going to come up with a 5 process formula that always works.
 
 1.  **Introduction**
