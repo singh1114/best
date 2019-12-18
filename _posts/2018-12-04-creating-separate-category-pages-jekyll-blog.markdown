@@ -21,17 +21,7 @@ This blog is hosted by GitHub Pages and built using Jekyll. I took the domain na
 
 It's fairly easy to define categories in a Jekyll blog post. We have to write category/ categories in the frontmatter of the post. This is the front matter of the post that you are reading.
 
-```markdown
----
-layout: post
-comments: true
-title: "How to create separate category pages in Jekyll Blog"
-subtitle: "Allow users to discover your blog more"
-date: 2019-05-06 23:55:13 -0400
-background: '/img/posts/books.jpg'
-category: blogging
----
-```
+
 
 Sweet, right.
 
@@ -63,16 +53,7 @@ So, if you want Jekyll to discover files in the new directories, you have to add
 
 Finally, you can create the category pages. Let's see the content of the Technology page.
 
-```markdown
----
-layout: category
-title: Technology
-description: For automating the boring tasks.
-background: '/img/posts/printer.jpg'
-permalink: /technology/
-category_name: Technology
----
-```
+
 
 So only thing that you have to write is the frontmatter of the file and you are done. You can create as many separate categories as you want to.
 
