@@ -1,6 +1,6 @@
 ---
 title: Building RESTful APIs with Java Spring Boot framework | For Beginners
-date: 2019-10-11 21:14:00 Z
+date: 2019-10-28 21:14:00 Z
 categories:
 - API
 - Spring Boot
@@ -243,7 +243,7 @@ spring.datasource.password=<Your password>
 spring.jpa.hibernate.ddl-auto=update
 ```
 
-**Note:** The first line tells the URL at which Spring could find the database connection. 
+**Note:** The first line tells the URL at which Spring could find the database connection.
 
 Second-line gives the username of MySQL who is the owner of the database.
 
