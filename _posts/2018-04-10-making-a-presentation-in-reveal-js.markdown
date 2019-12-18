@@ -27,7 +27,7 @@ Here are the links:
 
 ## Prologue (How I came to know about reveal.js)
 
-So, during my time at college I had to deliver a presentation to a group of students and teachers from a special student cell regarding one of the emerging technologies of those times.
+So, during my time at college, I had to deliver a presentation to a group of students and teachers from a special student cell regarding one of the emerging technologies of those times.
 
 My mentor at that time suggested me to use reveal for creating the presentation. I was skeptical in the beginning but as soon as I got the grip of it, I loved it. 
 
@@ -47,7 +47,7 @@ If in Linux use these commands in the terminal to open the file. First of all do
 
 `sudo apt-get install unzip`
 
-Then use this code to unzip the file by giving a name of the destination folder.
+Then use this code to unzip the file by giving the name of the destination folder.
 
 `unzip file.zip -d destination_folder`
 
@@ -59,7 +59,7 @@ After unzip open the folder and you will find an `index.html` file inside.
 
 Open this file in your text editor. Inside the body, tags delete every section.
 
-Now create each section using beginning and ending section tag. Each section is equivalent to one slide.
+Now create each section using the beginning and ending section tag. Each section is equivalent to one slide.
 
 Here is the reference of one equivalent slide.
 
