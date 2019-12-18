@@ -7,10 +7,7 @@ categories:
 tags:
 - html
 - javascript
-author: ranvirsingh1114
 comments: true
-link: https://ranvirsinghprojects.wordpress.com/2016/04/07/making-a-presentation-in-reveal-js/
-wordpress_id: 77
 image: https://i.imgur.com/G5fQRw4.jpg
 layout: post
 ---
@@ -69,5 +66,13 @@ Here is the reference of one equivalent slide.
 <script src="https://gist.github.com/singh1114/47444f83e62a50160d78791720c461c6.js"></script>
 
 You can do a whole lot of things using reveal.js presentation creator. You can create a style of your own if you want to.
+
+## Epilogue (Delivering the reveal.js presentation)
+
+So, there were somewhere around 100-200 students and teachers in the room where I was delivering the presentation. The stage was at a good height and I was going to show a good number of charts in my presentation.
+
+Before jumping on to the stage, I hosted the presentation on to GitHub pages website and created a [short link](https://tinyurl.com/) using one of the services out there. Finally, I shared the link with everyone in the room.
+
+Everyone opened the link on their phones and were able to look at the chart more clearly.
 
 Please subscribe to the blog for more such updates and leave your comments if you are using something similar or you don't like something like with your whys.
