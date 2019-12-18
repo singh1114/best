@@ -1,13 +1,13 @@
 ---
-layout: post
 title: These 6 reasons for writing a list post will blow your mind
 date: 2018-12-04 18:11:00 Z
-author: Ranvir Singh
-comments: true
 categories:
 - seo
 tags:
 - seo
+layout: post
+author: Ranvir Singh
+comments: true
 ---
 
 We have always seen professional bloggers asking us to write a list post. They keep praising this art of writing a blog post. But to my surprise, not many people are following them.
