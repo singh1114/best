@@ -1,13 +1,13 @@
 ---
-author: Ranvir Singh
-comments: true
-layout: post
 title: The Roadmap of becoming a 6 figure copywriter( 2019 updated)
 date: 2018-12-04 18:11:00 Z
 categories:
 - seo
 tags:
 - seo
+author: Ranvir Singh
+comments: true
+layout: post
 ---
 
 Copywriting is made up of two words copy and writing. The process of changing the style and wording of a copy( web page, ad copy or whatever) for making it more sellable to the customer is known as copywriting.
