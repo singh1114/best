@@ -304,9 +304,8 @@ footer {
   padding: 2rem 1rem;
   overflow: auto;
   min-width: 310px;
-  border-left: 1px solid #ccc;
 }
-@media (min-width: 48em) {
+@media (min-width: 1358px) {
   .sidebar {
     position: fixed;
     top: 0;
@@ -314,6 +313,7 @@ footer {
     bottom: 0;
     width: 18rem;
     text-align: left;
+    border-left: 1px solid #ccc;
   }
 }
 
