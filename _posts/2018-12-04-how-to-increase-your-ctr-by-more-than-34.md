@@ -1,7 +1,7 @@
 ---
-layout: post
 title: How to increase your CTR( by more than 34%)
-date: 2018-12-04 18:11:00 Z
+layout: post
+date: '2018-12-04 18:11:00 +0000'
 author: Ranvir Singh
 comments: true
 categories:

@@ -1,7 +1,7 @@
 ---
-layout: post
 title: Crack SEO interview with flying colors( 2020 Updated)
-date: 2018-12-04 18:11:00 Z
+layout: post
+date: '2018-12-04 18:11:00 +0000'
 author: Ranvir Singh
 comments: true
 categories:

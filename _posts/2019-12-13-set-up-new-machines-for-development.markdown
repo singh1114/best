@@ -12,9 +12,12 @@ tags:
 - webdev
 - career
 published: true
+image: https://i.imgur.com/ZYkt1Yf.jpg
 ---
 
 Losing access to your ssh key is one of the most dreadful situations for a developer. You will spend your full day creating the new ssh key getting the access to all machines back after you create this new ssh key.
+
+![How I set up new machines](https://i.imgur.com/ZYkt1Yf.jpg "How I set up new machines")
 
 ## Creating a config for handling access to all the boxes
 

@@ -1,7 +1,7 @@
 ---
-layout: post
 title: 5 social networks other than facebook and twitter which you can target
-date: 2018-12-04 18:11:00 Z
+layout: post
+date: '2018-12-04 18:11:00 +0000'
 author: Ranvir Singh
 comments: true
 categories:
