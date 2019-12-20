@@ -11,7 +11,7 @@ tags:
 - programming
 - webdev
 - career
-published: false
+published: true
 ---
 
 Losing access to your ssh key is one of the most dreadful situations for a developer. You will spend your full day creating the new ssh key getting the access to all machines back after you create this new ssh key.
@@ -72,8 +72,16 @@ Once you are get the `IP` of the machine that you are looking for, find the `scp
 
 `scp prashant@192.168.0.114:~/Desktop/ranvir.png ~/Desktop/.`
 
+![SCP files using another device](https://i.imgur.com/w9AkV79.jpg "SCP files using another device")
+
 This will get the file from the given machine and dump the file in the `Desktop` directory.
 
 ## Allowing ssh into MAC machine
 
-Something similar is applied to MAC devices as well.
+Something similar is applied to MAC devices as well. For allowing ssh into MAC devices you have to allow `remote login` on the device which you want to access. You can find the setting in `preferences -> sharing`.
+
+![Allowing remote login in MAC](https://i.imgur.com/banssOS.jpg "Allowing remote login in MAC")
+
+After this, you can `ssh` into the machine and `scp` into the new device to get the required files.
+
+Hope you liked this post. Please subscribe to the weekly newsletter by sharing your email.
