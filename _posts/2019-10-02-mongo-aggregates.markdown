@@ -61,40 +61,35 @@ Following are the commands that you can use in the aggregate pipeline.
 
 ## Match
 
-
 The match query can be called as the where query in SQL terms. You tell the aggregate to get the data that follows the given condition. It is recommended to keep the match query as soon as possible in the pipeline.
-
 
 This will reduce the number of documents being returned from the query. It is also a good option to index the fields on which you run the match query to return the results faster.
 
-
 For example: In a student database you can make this query as follows
-
 
 `{ $match: { "roll_number": 901 }}`
 
-
 or
-
 
 `{ $match: { "class": 5 }}`
 
-
 This query will return all the documents which satisfy the given query.
-
 
 For all further parts of the pipeline, you can keep adding it to the main array of the pipeline.
 
-
-
 **Note:** You can make use of the fields by appending a `$` to the name of the fields, whenever you want to use them.
 
+### Use match as early as possible
+
+You should use `$match` as early as possible to make use of `indexes`.
+
+> `$match` operations use suitable indexes to scan only the matching documents in a collection. When possible, place $match operators at the beginning of the pipeline.
+
+Always try to explain the `$match` part of your queries and prefer to create compound indexes according to your queries.
 
 ## Group
 
-
 Group is used to group different things together, for example, if you want to calculate the sum of the age of students in different standards, the query will look something like this.
-
 
 ```
 db.students.aggregate([
@@ -102,12 +97,9 @@ db.students.aggregate([
 ])
 ```
 
-
 [Here is the link to the mongo query.](https://mongoplayground.net/p/-1e-TS53Tzf). You can use all different types of aggregate queries like average, min and max.
 
-
 ## Lookup
-
 
 Lookup is one of the most important aggregate queries which you can use. This allows us to join different collections together and get data from the other collections as well.
 
@@ -155,3 +147,5 @@ If you are dealing with this Database daily, then it would be useful to know a l
 Thanks for stopping by, Let me know if you want to know about something else as well. I love to write about tech topics.
 
 Also, let me know if I have made any mistake in this post.
+
+**Note:** The internal [performance optimizer](https://docs.mongodb.com/manual/core/aggregation-pipeline-optimization/) of the mongo aggregate optimizes the queries accordingly to make them as fast as possible.
