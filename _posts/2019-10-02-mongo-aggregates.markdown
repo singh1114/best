@@ -87,6 +87,23 @@ You should use `$match` as early as possible to make use of `indexes`.
 
 Always try to explain the `$match` part of your queries and prefer to create compound indexes according to your queries.
 
+## Project
+
+Project is the part where you tell the query which keys to pick from the given document.
+
+```
+{
+    $project: {
+        student_name: 1,
+        student_age: '$age'
+    }
+}
+```
+
+This will pick up only the fields with value `1` in the document. It is important to reduce of data being transferred to next part of the pipeline.
+
+It can also be used to change the name of the field. This is the `SELECT` equivalent of `SQL` commands.
+
 ## Group
 
 Group is used to group different things together, for example, if you want to calculate the sum of the age of students in different standards, the query will look something like this.
@@ -126,19 +143,22 @@ The lookup can be used with the pipeline as well. With this type of lookup, you 
     }
 ```
 
-## Project
+This is the implementation that you want to use, when you want to run `$match` on the data being picked from the other collection.
 
-Project is the part where you tell the query which keys to pick from the given document.
+The simplest implementation of `$lookup` is as follows.
 
 ```
 {
-    $project: {
-        student_name: 1,
+    $lookup: {
+        from: <collection to join>,
+        localField: <field from the input documents>,
+        foreignField: <field from the documents of the "from" collection>,
+        as: <output array field>
     }
 }
 ```
 
-This will pick up only the fields with value `1` in the document.
+## conclusion
 
 There are a few more options to choose from. Aggregate is one of the most important parts of the Mongo Database.
 
