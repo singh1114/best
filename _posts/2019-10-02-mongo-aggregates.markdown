@@ -38,7 +38,7 @@ BTW, tables equivalent in Mongo are known as `collections` and rows equivalents 
 
 ## Mongo Aggregates
 
-![Mongo DB](https://webassets.mongodb.com/_com_assets/cms/mongodb_logo1-76twgcu2dm.png)s
+![Mongo DB](https://webassets.mongodb.com/_com_assets/cms/mongodb_logo1-76twgcu2dm.png)
 
 Mongo DB aggregates make it easier to query data from any collection. It involves things like matching, getting data from other collection, selecting fields and many more.
 
