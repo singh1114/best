@@ -1,5 +1,5 @@
 ---
-title: Mongo Aggregates(Match, Group, Lookup, Project etc.) | With Examples
+title: Mongo Aggregates and How to explain mongo aggregate queries
 date: 2019-10-02 12:03:00 Z
 categories:
 - Aggregates
@@ -10,9 +10,10 @@ tags:
 - database
 - mongo
 - nosql
+image: https://i.imgur.com/vlIEICJ.jpg
 ---
 
-Today we are going to talk about Mongo Aggregates. One of the best things that happened to Mongo.
+Today we are going to talk about Mongo Aggregates. A framework that helps us to run complex queries in Mongo DB. One of the best things that happened to Mongo.
 
 ![Mongo aggregates with explain](https://i.imgur.com/vlIEICJ.jpg "Mongo aggregates with explain")
 
@@ -40,7 +41,7 @@ BTW, tables equivalent in Mongo are known as `collections` and rows equivalents 
 
 ![Mongo DB](https://webassets.mongodb.com/_com_assets/cms/mongodb_logo1-76twgcu2dm.png)
 
-Mongo DB aggregates make it easier to query data from any collection. It involves things like matching, getting data from other collection, selecting fields and many more.
+Mongo DB aggregates make it easier to query data from any collection. It involves things like matching, getting data from other collections, selecting fields and many more.
 
 Let's discuss a few of these aggregate queries.
 
@@ -48,7 +49,7 @@ Let's discuss a few of these aggregate queries.
 
 You can start the aggregate using the following code.
 
-`db.collection.aggregate([aggregate pipeline commands], options)`, where collection is the name of the collection on which aggregate is applied and db is the instance of the connected DB object.
+`db.collection.aggregate([aggregate pipeline commands], options)`, where the collection is the name of the collection on which aggregate is applied and `db` is the instance of the connected DB object.
 
 Following are the commands that you can use in the aggregate pipeline.
 
@@ -109,7 +110,7 @@ db.students.aggregate([
 ])
 ```
 
-[Here is the link to the mongo query.](https://mongoplayground.net/p/-1e-TS53Tzf). You can use all different types of aggregate queries like average, min and max.
+[Here is the link to the mongo query.](https://mongoplayground.net/p/-1e-TS53Tzf) You can use all different types of aggregate queries like average, min and max.
 
 ## Lookup other collections in Mongo Aggregate
 
