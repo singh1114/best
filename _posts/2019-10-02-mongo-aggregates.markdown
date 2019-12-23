@@ -2,14 +2,15 @@
 title: Mongo Aggregates and How to explain mongo aggregate queries
 date: 2019-10-02 12:03:00 Z
 categories:
-- Aggregates
 - database
 - nosql
 - mongo
+- node
 tags:
 - database
 - mongo
 - nosql
+- node
 image: https://i.imgur.com/vlIEICJ.jpg
 ---
 
