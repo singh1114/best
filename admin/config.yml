@@ -2,3 +2,10 @@ backend:
   name: github
   repo: singh1114/blog
   branch: gh-pages
+
+media_folder: "images"
+media_library:
+  name: uploads
+
+collections:
+  - name: "blog"
