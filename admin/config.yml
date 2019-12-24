@@ -1,0 +1,4 @@
+backend:
+  name: github
+  repo: singh1114/blog
+  branch: gh-pages
