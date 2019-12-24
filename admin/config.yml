@@ -21,3 +21,4 @@ collections:
       - {label: "Featured Image", name: "image", widget: "string"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Categories", name: "categories", widget: "list"}
+      - {label: "Body", name: "body", widget: "markdown"}
