@@ -1,11 +1,9 @@
 ---
 title: Hello World
-date: 2016-03-14 18:55:00 Z
-published: false
-author: ranvirsingh1114
+date: '2016-12-04 18:11:00 +0000'
+published: true
+author: Ranvir Singh
 comments: true
-link: https://ranvirsinghprojects.wordpress.com/2016/03/14/hello-world/
-wordpress_id: 2
 layout: post
 ---
 
