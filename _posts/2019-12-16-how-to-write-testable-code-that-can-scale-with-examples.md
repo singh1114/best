@@ -13,6 +13,7 @@ categories:
   - python
   - javascript
   - webdev
+canonical_url: https://blog.soshace.com/follow-these-guidelines-to-write-testable-code-that-can-scale-with-examples/
 ---
 I have seen people writing code which is hard to test and later writing tests just for the sake of it. Although having some tests is better than having no tests, you should not be writing tests just to increase the test coverage of the code. In this post, we will be discussing the ways which will help you to write testable code.
 
@@ -109,7 +110,7 @@ In the testing suite, we give a sample input to a given function and check if th
 ```python
 def create_string(char_list):
     return ''.join(char_list)
-    
+
 def test_create_string():
     abc = ['a', 'b', 'c']
     assert 'abc' == create_string(abc)
