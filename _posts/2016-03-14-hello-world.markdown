@@ -1,10 +1,13 @@
 ---
 title: Hello World
+layout: post
 date: '2016-12-04 18:11:00 +0000'
-published: true
 author: Ranvir Singh
 comments: true
-layout: post
+categories:
+- seo
+tags:
+- seo
 ---
 
 Hello world,
