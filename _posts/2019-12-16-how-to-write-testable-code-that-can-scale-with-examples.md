@@ -1,18 +1,19 @@
 ---
 title: What have I learned about testing as a full-stack developer
-date: 2019-12-16 00:00:00 Z
-categories:
-- testing
-- python
-- javascript
+published: true
+date: 2019-12-16T00:00:00.000Z
+image: 'https://i.imgur.com/OQXgcRy.jpg'
 tags:
-- testing
-- python
-- javascript
-canonical_url: https://blog.soshace.com/follow-these-guidelines-to-write-testable-code-that-can-scale-with-examples/
-image: https://i.imgur.com/OQXgcRy.jpg
+  - testing
+  - python
+  - javascript
+  - webdev
+categories:
+  - testing
+  - python
+  - javascript
+  - webdev
 ---
-
 I have seen people writing code which is hard to test and later writing tests just for the sake of it. Although having some tests is better than having no tests, you should not be writing tests just to increase the test coverage of the code. In this post, we will be discussing the ways which will help you to write testable code.
 
 ![How to write testable code that can scale](https://i.imgur.com/OQXgcRy.jpg "How to write testable code that can scale")
@@ -34,9 +35,7 @@ Why most of the MVC( Model View Controller) frameworks win in this case is becau
 For example: If we take an example of the directory structure that a Python-based web framework, Django follows the following guidelines,
 
 * You can write all your database related stuff in `models.py` files.
-
 * You can write all URL related stuff in `urls.py`.
-
 * You can write your app-specific logic in the `views.py`.
 
 Although you can divide them further( and you should) according to the size of your application, this type of structure gives you a starting point and help you to choose which part of the code should go where.
@@ -52,13 +51,9 @@ Software testing is a procedure in which software is tested for bugs and off beh
 For a given library management software we can check for the following test cases.
 
 1. At any time admin should be able to find which books are issued to which users.
-
 2. At any time admin should be able to find which books are present in which part of the library hall.
-
 3. At a given time, admin should be able to find the fine payable by a given user.
-
 4. At a given time, the admin should be able to issue a book to the user.
-
 5. At a given time, a user should be able to return the book to the library.
 
 These are a few test cases that will be generated and shared among the stack holders who are working on the project.
@@ -66,9 +61,7 @@ These are a few test cases that will be generated and shared among the stack hol
 Now, there are a few ways to test the software once it is done.
 
 1. Use TDD.
-
 2. Use the help of a tester.
-
 3. Write a test as you write the code.
 
 ### Using TDD
@@ -157,7 +150,7 @@ createString
 ✓ Checks if the createString appends the characters properly.
 
 1 passing (17ms)
-```      
+```
 
 ## Why Test your code
 
