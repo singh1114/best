@@ -15,10 +15,11 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Published", name: "published", widget: boolean}
+      - {label: "Title", name: "title", widget: "string", required: false}
+      - {label: "Published", name: "published", widget: boolean, default: true}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "image", widget: "string"}
-      - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Categories", name: "categories", widget: "list"}
+      - {label: "Featured Image", name: "image", widget: "string", required: false}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Categories", name: "categories", widget: "list", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Canonical URL", name: "canonical_url", widget: "string"}
