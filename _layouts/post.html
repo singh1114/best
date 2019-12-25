@@ -25,7 +25,6 @@ layout: default
   </div>
 
   <div class="entry">
-    {% include share-bar.html %}
     {% assign content_para = content | split: "<p>" %}
     {% for para in content_para %}
       {{para}}
@@ -49,6 +48,7 @@ layout: default
       {% endif %}
     {% endfor %}
   </div>
+  {% include share-bar.html %}
   <div class="relatedPosts">
 
     <h4>You May Also Enjoy</h4>
