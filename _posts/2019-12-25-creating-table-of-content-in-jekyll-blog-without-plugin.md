@@ -3,6 +3,7 @@ layout: post
 title: How to Create a Table of Content in Jekyll blog | Without any Plugin
 date: 2019-12-25T10:54:49.199Z
 published: true
+image: 'https://i.imgur.com/PXpPGSh.png'
 tags:
   - jekyll
   - blogging
@@ -13,6 +14,8 @@ categories:
   - seo
 ---
 Table of content is one of the best ways in which you can allow your user to skim through your article. Have you ever wanted to have a Wikipedia style table of content in the blog post? So that your users can easily navigate through the post that you have written.
+
+![Creating table of content in Jekyll Blog](https://i.imgur.com/PXpPGSh.png "Creating table of content in Jekyll Blog")
 
 ## How will it help you to have a table of content?
 
