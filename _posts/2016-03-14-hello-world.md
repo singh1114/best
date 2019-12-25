@@ -2,7 +2,7 @@
 layout: post
 title: Hello World
 date: '2016-12-04 18:11:00 +0000'
-published: true
+published: false
 tags:
   - seo
 categories:
@@ -22,6 +22,3 @@ This is a website where you will find different projects for different coding la
 ## Yesterday
 
 ## Next Month
-
-
-{% include toc.html content=page.content %}
