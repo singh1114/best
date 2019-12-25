@@ -58,6 +58,8 @@ Now you can include this widget wherever you want to using the following code.
 
 If you want to skip table of content from certain page, all you have to do is to add `skip_toc: true` to the front matter of the post.
 
+## Conclusion
+
 I think, we were able to get all of the three requirements working as well.
 
 That's it from my side. Please share the page with your friends and let us how it looks?
