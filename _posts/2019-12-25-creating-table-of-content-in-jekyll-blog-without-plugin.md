@@ -54,7 +54,7 @@ Add the above code to `_includes/toc.html`.
 
 Now you can include this widget wherever you want to using the following code.
 
-`{% include toc.html content=page.content skip_toc=page.skip_toc%}`
+<script src="https://gist.github.com/singh1114/d3eca15e881310d46e2ea49857576914.js"></script>
 
 If you want to skip table of content from certain page, all you have to do is to add `skip_toc: true` to the front matter of the post.
 
