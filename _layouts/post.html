@@ -25,6 +25,7 @@ layout: default
   </div>
 
   <div class="entry">
+    <br>
     {% assign content_para = content | split: "<p>" %}
     {% for para in content_para %}
       {{para}}
