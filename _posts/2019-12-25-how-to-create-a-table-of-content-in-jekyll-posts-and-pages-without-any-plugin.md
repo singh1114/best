@@ -1,8 +1,6 @@
 ---
 layout: post
-title: >-
-  How to Create a Table of Content in Jekyll Posts and Pages | Without any
-  Plugin
+title: How to Create a Table of Content in Jekyll blog | Without any Plugin
 date: 2019-12-25T10:54:49.199Z
 published: false
 tags:
@@ -14,4 +12,4 @@ categories:
   - blogging
   - seo
 ---
-table of content is required.
+Table of content is one of the best way in which you can allow your user to skim through the article.
