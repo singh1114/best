@@ -24,5 +24,17 @@ Having a table of content can help you with improving the user experience for yo
 
 ### Improving SEO of your Jekyll blog
 
-It can also help you to improve your SEO. Most of the times the table of content is in the top half of the post. Whenever a search engine goes through the post and it finds all the relevant links to various things in the beginning of the 
+It can also help you to improve your SEO. Most of the times the table of content is in the top half of the post. Whenever a search engine goes through the post and it finds all the relevant links to various headings in the beginning of the post, it rank you higher than your competition.
+
+## Strategy behind creating table of content on a Jekyll blog
+
+We want a table of content for a blog post. The easiest way to create a table of content is to target the headings in the post. We will go through the whole post's content and fetch all the `H2`s and `H3`s. All the `H2`s and `H3`s will have unique `HTML` ids, so we will be able to link to those easily. Not going below `H3`s because of the obvious reasons here.
+
+Few test cases that I want to cover before diving in.
+
+* Table of content widget should be hidden if no heading in the post.
+* By default every post should have table of content visible.
+* There should be an option on post level, which allows me to hide this for that specific post.
+
+## Creating table of content widget in Jekyll blog
 
