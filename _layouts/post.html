@@ -29,6 +29,9 @@ layout: default
     {% assign content_para = content | split: "<p>" %}
     {% for para in content_para %}
       {{para}}
+      {% if forloop.index == 2 %}
+        {% include toc.html content=page.content skip_toc=page.skip_toc %}
+      {% endif %}
       {% assign para_number = forloop.index | modulo: 15 %}
       {% if para_number == 0 %}
         <div style="padding: 10px; padding-right: 20px; padding-left: 10px; border: 1px solid #ccc;">
