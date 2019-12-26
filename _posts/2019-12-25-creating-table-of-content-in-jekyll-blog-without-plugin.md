@@ -31,7 +31,7 @@ It can also help you to improve your SEO. Most of the times the table of content
 
 ## The strategy behind creating a table of content on a Jekyll blog
 
-We want a table of content for a blog post. The easiest way to create a table of content is to target the headings in the post. We will go through the whole post's content and fetch all the H2s. All the H2s will have unique HTML ids, so we will be able to link to those easily. Not going below H2s because of the obvious complexity reasons here.
+We want a table of content for a blog post. The easiest way to create a table of content is to target the headings in the post. We will go through the whole post's content and fetch all the `H2`s. All the `H2`s will have unique `HTML` ids, so we will be able to link to those easily. Not going below H2s because of the obvious complexity reasons here.
 
 Few test cases that I want to cover before diving in.
 
@@ -51,11 +51,15 @@ After a few hours of fighting with the liquid tags and a few breaks later, I was
 
 ## Code to implement the table of content on Jekyll blog
 
-Add the above code to _includes/toc.html.
+<script src="https://gist.github.com/singh1114/ce371573bbc0ce0703ea3b9c63ea21d1.js"></script>
+
+Add the above code to `_includes/toc.html`.
 
 Now you can include this widget wherever you want to use the following code.
 
-If you want to skip the table of content from a certain page, all you have to do is to add skip_toc: true to the front matter of the post.
+<script src="https://gist.github.com/singh1114/d3eca15e881310d46e2ea49857576914.js"></script>
+
+If you want to skip the table of content from a certain page, all you have to do is to add `skip_toc: true` to the front matter of the post.
 
 ## Conclusion
 
