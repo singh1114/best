@@ -392,3 +392,9 @@ code.highlighter-rouge.language-plaintext {
   border-radius: 3px;
   padding: 0px 4px 1px 4px;
 }
+
+// Code highlighting extra styles
+pre.highlight {
+  border: none;
+  margin: 0 0 20px 0;
+}
