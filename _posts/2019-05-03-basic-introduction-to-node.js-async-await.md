@@ -48,7 +48,81 @@ callbackFunc(function(err, result) {
 })
 ```
 
-This is a simple example of using callbacks in Javascript. But soon after using it for some people started realising that it is not a good practice to use callbacks as it makes your code far less readable. This term in JavaScript is known as [callback hell.](http://callbackhell.com/)
+### Benefits of using callbacks
+
+* Low overhead, All you are doing is calling a function when something is done.
+* We can do almost any asynchronous task using callbacks.
+
+### Disadvantages of using callbacks
+
+* Soon after using it for some time, people started realising that it is not a good practice to use callbacks as it makes your code far less readable. This term in JavaScript is known as [callback hell.](http://callbackhell.com/)
+* Error handling is much of a pain in the callbacks.
+* Difficult to understand for a person having a background in any other language like Java, Python.
+
+Taking an ajax example,
+
+```javascript
+function getResponse () {
+    let responseData;
+    $.get('https://api.twitter.com/user/ranvirsingh1114', (response) => {
+        responseData = response.data;
+    });
+    return responseData;  
+}
+
+const response_data = getResponse();
+console.log(responseData);
+```
+
+**Response:** `undefined`
+
+This never works because the variable responseData is returned far before then the response of the request came.
+
+## Promises in JavaScript
+
+Promises are thin abstraction around callbacks to save you from some of the cons of the callbacks. [JavaScript info](https://javascript.info/promise-basics) have written a good post explaining promises.
+
+Promise is an Object in JavaScript which is fulfilled sometime in future in JavaScript. A promise object can have any of the three states at any given time.
+
+* Pending
+* Resolved/ Fulfilled
+* Rejected
+
+```javascript
+const promise = new Promise(function(resolve, reject) {
+  setTimeout(() => resolve('Finished'), 1000);
+});
+```
+
+In the beginning, the promise will be in the `Pending` state. After the promise is resolved you can see it going in the `Fulfilled` state.
+
+### Benefits of Promises over callbacks
+
+#### Chaining Promises
+
+You can chain the Promises together without increasing the complexity of the code.
+
+```javascript
+promise = new Promise((resolve, reject) => {
+    resolve(100);
+}
+
+const result = promise
+    .then((result) => {
+        return result + 100;
+    }).then((result) => {
+        return result - 200;
+    }).then((result) => {
+        console.log(result);
+    })
+```
+
+**Response: ** `0`
+
+#### Error Handling
+
+```javascript
+```
 
 Although Under the hood, Promises are being used in Async-Await, it almost gives you a feeling that you are writing a function in Python or any other language. I personally like this particular format of writing an Async function.
 
@@ -71,7 +145,7 @@ This is equal to
 
 `await add(1, 2);`
 
-But keep in mind to call await only in an async function. __The task of the await keyword is to stop the flow until the Promise is resolved.__ This can sometimes lead to a bad position.
+But keep in mind to call await only in an async function. `The task of the await keyword is to stop the flow until the Promise is resolved.` This can sometimes lead to a bad situations.
 
 There are some cases when all the function calls are mutually exclusive and are not related to each other. In that case, using `PromisifyAll` is a good solution. This will help you to reduce time wastage within the function.
 
