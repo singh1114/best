@@ -122,7 +122,7 @@ const result = promise
 #### Error Handling
 
 ```javascript
-const reslt = promise
+const result = promise
     .then((result) => {
         return result + 100;
     }).then((result) => {
