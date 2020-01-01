@@ -8,8 +8,8 @@ media_library:
   name: uploads
 
 collections:
-  - name: "blog"
-    label: "Blog" # Used in the UI
+  - name: "posts"
+    label: "Posts" # Used in the UI
     folder: "_posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -24,3 +24,11 @@ collections:
       - {label: "Categories", name: "categories", widget: "list", required: false}
       - {label: "Canonical URL", name: "canonical_url", widget: "string", required: false}
       - {label: "Skip Table of content", name: "skip_toc", widget: boolean, required: false}
+  - name: "page"
+    label: "Page" # Used in the UI
+    folder: "" # The path to the folder where the documents are stored
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Title", name: "title", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
