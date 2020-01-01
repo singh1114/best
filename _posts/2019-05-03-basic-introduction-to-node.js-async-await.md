@@ -11,6 +11,8 @@ categories:
 
 Async-Await has brought something awesome to the table. Prior to Promises, people always relied on `callbacks` for accomplishing those asynchronous tasks. Promises came to save the day with `.then` and async-await made it a whole lot easier.
 
+![Image by HTML and javaScript code by Ilya Pavlov from unsplash](https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60 "Image by HTML and javaScript code by Ilya Pavlov from unsplash")
+
 ## Concurrency
 
 Concurrency is something when we want to run a few things in parallel i.e. running a few tasks in the CPU at same instance as of other tasks.
@@ -38,10 +40,8 @@ callbackFunc(function(err, result) {
 
 This is a simple example of using callbacks in Javascript. But soon after using it for some people started realising that it is not a good practice to use callbacks as it makes your code far less readable. This term in JavaScript is known as [callback hell.](http://callbackhell.com/)
 
-<img alt="Image by HTML and javaScript code by Ilya Pavlov from unsplash" src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60" style="height:467px; width:700px"/>
-
 Hey there,
- 
+
 > Have you encountered a situation while writing JS code when you say, Why is the output of line 90 coming before the output of line 30.
 
 Welcome back to yet another blog post. Today we are going to dive into one of the most talked subjects in the case of Node.js i.e. Async-Await.
@@ -64,7 +64,7 @@ Inside an async function, you can use the await keyword to make a synchronous ca
 ```javascript
 add(1, 2)
     .then(function(value) {
-       console.log(value); 
+       console.log(value);
 });
 ```
 
@@ -81,7 +81,7 @@ There are some cases when all the function calls are mutually exclusive and are 
 
 Handling errors are also very easy and feel very much pythonic with async await functions. You can run the try-catch block of all the functions individually.
 
-```javascript    
+```javascript
 const add = async function (a, b) {
     try {
        return a + b;
