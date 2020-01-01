@@ -117,7 +117,7 @@ const result = promise
     })
 ```
 
-**Response: ** `0`
+**Response:** `0`
 
 #### Error Handling
 
