@@ -67,7 +67,7 @@ function getResponse () {
     $.get('https://api.twitter.com/user/ranvirsingh1114', (response) => {
         responseData = response.data;
     });
-    return responseData;  
+    return responseData;
 }
 
 const response_data = getResponse();
@@ -122,9 +122,33 @@ const result = promise
 #### Error Handling
 
 ```javascript
+const reslt = promise
+    .then((result) => {
+        return result + 100;
+    }).then((result) => {
+        return result - 200;
+    }).catch(error => {
+        throw new Error(error);
+    })
 ```
 
+For a given Promise, we only have to catch the errors only one time.
+
+### Introducing parrallelism
+
+You can use `.then` to introduce parrallelism by using something like `Promise.all(promises)`. This is particularly useful when you want to run similar process on a list of data.
+
+## Async-Await in JavaScript( Removing then/ catch keywords)
+
 Although Under the hood, Promises are being used in Async-Await, it almost gives you a feeling that you are writing a function in Python or any other language. I personally like this particular format of writing an Async function.
+
+### How is Async-Await achieved?
+
+Async-Await is achieved by combining the concepts of `Promises` and `Generators`. What we really do is stop the execution of the particular function and allow event-loop do its other stuff.
+
+### Does it block the event-loop?
+
+No it doesn't block the event-loop, it just stops the execution of the given `async` function and allows event-loop to do its own stuff.
 
 ```javascript
 const add = async function(a, b) {
@@ -132,7 +156,7 @@ const add = async function(a, b) {
 }
 ```
 
-Inside an async function, you can use the await keyword to make a synchronous call and wait for the result. This is equal to using then in a promise.&nbsp;
+Inside an async function, you can use the await keyword to make a synchronous call and wait for the result. This is equal to using then in a promise.
 
 ```javascript
 add(1, 2)
