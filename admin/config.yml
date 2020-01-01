@@ -26,7 +26,7 @@ collections:
       - {label: "Skip Table of content", name: "skip_toc", widget: boolean, required: false}
   - name: "page"
     label: "Page" # Used in the UI
-    folder: "" # The path to the folder where the documents are stored
+    folder: "/" # The path to the folder where the documents are stored
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
