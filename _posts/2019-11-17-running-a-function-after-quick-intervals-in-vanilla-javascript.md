@@ -1,15 +1,19 @@
 ---
 title: Call a function periodically in Javascript (with memory leak analysis)
-date: 2019-11-17 19:34:00 Z
-categories:
-- javascript
-- programming
-- beginners
+date: 2019-11-17T19:34:00.000Z
+description: >-
+  Detailed description on how to run a function periodically in JavaScript and
+  checking if there is any memory leak in the function.
+published: true
+image: 'https://i.imgur.com/KX8Gign.jpg'
 tags:
-- javascript
-- programming
-- beginners
-image: https://i.imgur.com/KX8Gign.jpg
+  - javascript
+  - programming
+  - beginners
+categories:
+  - javascript
+  - programming
+  - beginners
 ---
 
 In a production system, we run a lot of scripts periodically either to sync data from some third-party source or spit data to some source. Although there are a lot of solutions to achieve such periodic behavior, in this post we are going to discuss one such solution using vanilla JavaScript.
