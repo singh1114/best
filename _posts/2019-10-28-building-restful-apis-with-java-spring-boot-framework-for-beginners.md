@@ -152,7 +152,7 @@ Once we have this, we can use the methods which can be used by any controller an
 
 `RequestMapping` takes two arguments, where you have to specify path and API Method( GET, POST, PUT). But if you don't specify anything, it takes GET by default.
 
-Rerun the application and head to http://localhost:8080/status/.
+Rerun the application and head to `http://localhost:8080/status/`.
 
 You will get the **We are up!** message.
 
@@ -204,7 +204,7 @@ We are going to use `MySQL` for the tutorial purpose. You can go forward and cho
 
 ## Setting up MySQL
 
-1. You can install MySQL using a simple `brew` command in MAC.
+* You can install MySQL using a simple `brew` command in MAC.
 
 ```bash
 brew install mysql
@@ -216,25 +216,25 @@ For Linux, you can try this command.
 sudo apt install mysql
 ```
 
-2. Then you can start the MySQL server using the command.
+* Then you can start the MySQL server using the command.
 
 ```bash
 brew services start mysql
 ```
 
-3. Now you will have to create a database for the Spring Boot application to interact with.
+* Now you will have to create a database for the Spring Boot application to interact with.
 
 ```bash
 mysql -u root --password
 ```
 
-4. Once, you are inside the MySQL shell, you can create the database using this command.
+* Once, you are inside the MySQL shell, you can create the database using this command.
 
 ```bash
 create database springguide;
 ```
 
-5. Once you are done with database creation, you can add this content to the file `src/main/resources/application.properties`.
+* Once you are done with database creation, you can add this content to the file `src/main/resources/application.properties`.
 
 ```bash
 spring.datasource.url=jdbc:mysql://localhost:3306/springguide
