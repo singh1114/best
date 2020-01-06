@@ -90,6 +90,8 @@ The cool thing about this is you can at any time integrate your own checks into 
 
 I later found that you can use [Joi](https://github.com/hapijs/joi) for adding validations to parameters. This is a good option and you can use it if you want.
 
+They provide a lot of validations out of the box which are easy to plug in.
+
 ## Writing tests for simple request parameter validation middleware
 
 One of my colleagues asked me to write tests for this framework as this was going to be used at a lot of places and I agreed with him. But I was a little skeptical on how can we test this framework. After some Googling and StackOverflowing, I was able to test this framework. Here is the code for this.
