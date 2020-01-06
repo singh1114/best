@@ -23,7 +23,7 @@ For example:
 ```javascript
 // Inside the route.
 if (!request.phone_number) {
-    throw new Error('Main request parameter not present.')
+    throw new Error('Main request parameter not present.');
 }
 ```
 
@@ -49,7 +49,7 @@ Pretty awesome, right!
 
 You will never have to make any check related to the request parameters. All these checks will be transported to the middleware.
 
-## What is a middleware
+## What is a middleware?
 
 A middleware is a simple part of the code that is used to manipulate requests or response data.
 
@@ -79,15 +79,15 @@ Here is the schema for route parameters.
 
 <script src="https://gist.github.com/singh1114/e33ef5764df3476bf7a6c83cf3e9359d.js"></script>
 
-This seems to be self-explanatory. If you still have questions, feel free to post them in the comment section.
+This is how you will create a route in your Nodejs app.
 
 The cool thing about this is you can at any time integrate your own checks into this.
 
-## Edit 1: Using Joi as a alternative to adding request parameter validator 
+## Using Joi as a alternative to adding request parameter validator 
 
-I later found that you can use Joi for adding validations to parameters. This is a good option and you can use it if you want.
+I later found that you can use [Joi](https://github.com/hapijs/joi) for adding validations to parameters. This is a good option and you can use it if you want.
 
-## Edit 2: Writing tests for simple request parameter validation middleware
+## Writing tests for simple request parameter validation middleware
 
 One of my colleagues asked me to write tests for this framework as this was going to be used at a lot of places and I agreed with him. But I was a little skeptical on how can we test this framework. After some Googling and StackOverflowing, I was able to test this framework. Here is the code for this.
 
@@ -95,6 +95,4 @@ One of my colleagues asked me to write tests for this framework as this was goin
 
 I hope you guys will like the idea behind the post. Please share it with your colleagues and let me know on social media platforms.
 
-I am also open to other standards that are followed in the market.
-
-Till the next time.
+I am also open to other standards that are followed in the market. Please leave your ideas in the comments.
