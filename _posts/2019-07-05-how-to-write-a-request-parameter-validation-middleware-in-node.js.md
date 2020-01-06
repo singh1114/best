@@ -1,17 +1,19 @@
 ---
-title: How to write a request parameter validation middleware in node.js
-date: 2019-07-05 15:55:00 Z
-categories:
-- Nodejs
-- Technology
-- javascript
-tags:
-- Technology
-- Nodejs
-- javascript
-author: Ranvir Singh
-comments: true
 layout: post
+title: How to validate your request parameters easily | Using middleware in node.js
+date: 2019-07-05T15:55:00.000Z
+description: >-
+  Validate your request parameters using a validator middleware that can be
+  plugged into any Nodejs/ Express application.
+published: true
+tags:
+  - Technology
+  - Nodejs
+  - javascript
+categories:
+  - Nodejs
+  - Technology
+  - javascript
 ---
 
 I get it! You don't want to repeat that code again and again. Maybe you are sick of copying those little function calls all over your code with some change in the parameters. Every time you have to create a new route or new API endpoint you have to write the same code.
