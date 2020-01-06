@@ -22,21 +22,24 @@ For example:
 
 ```javascript
 // Inside the route.
-
 if (!request.phone_number) {
     throw new Error('Main request parameter not present.')
 }
 ```
 
-If you want to wrap all your requests with some special data this tutorial is for you.
+If you are starting out your app, this might look fine but as your app keeps getting bigger and bigger, you might want to write some specific code that can handle this for you.
 
-This will also be helpful for your developers to know which parameters are required for the given route and which of them are optional.
+If you want to wrap all your requests with some special data, this tutorial is for you.
 
-In terms of web development, we call them middleware... Just a fancy name( makes sense though). Middleware is something that is used to make changes to request or response data.
+This will also be helpful for your developers to know which parameters are required for the given route and which of them are optional. All you need to do is create a **middleware** which will keep account of all your parameters.
 
-I have seen people doing a lot of things in the middlewares. The best thing that one can do in the middlewares is logging. You can log your request parameters, headers, response data to wherever you want to log it.
+In terms of web development, we call them middleware... Just a fancy name( makes sense though).
 
-You can extend this article with your programming skills to create anything you want, but in this one, we are going to discuss a specific type of middleware.
+> Middleware is a piece of code that is used to make changes to request or response data.
+
+A good example for which a middleware can be used is logging. You can log your request parameters, headers, response data to wherever you want to log it.
+
+We are going to talk about a specific type of middleware in this article, but you can extend it to anything you want to.
 
 ## A middleware that can validate the request parameters.
 
