@@ -83,11 +83,11 @@ This seems to be self-explanatory. If you still have questions, feel free to pos
 
 The cool thing about this is you can at any time integrate your own checks into this.
 
-## Edit 1:
+## Edit 1: Using Joi as a alternative to adding request parameter validator 
 
 I later found that you can use Joi for adding validations to parameters. This is a good option and you can use it if you want.
 
-## Edit 2:
+## Edit 2: Writing tests for simple request parameter validation middleware
 
 One of my colleagues asked me to write tests for this framework as this was going to be used at a lot of places and I agreed with him. But I was a little skeptical on how can we test this framework. After some Googling and StackOverflowing, I was able to test this framework. Here is the code for this.
 
