@@ -6,6 +6,7 @@ description: >-
   Validate your request parameters using a validator middleware that can be
   plugged into any Nodejs/ Express application.
 published: true
+image: 'https://i.imgur.com/4BWtPKb.png'
 tags:
   - Technology
   - Nodejs
@@ -17,6 +18,8 @@ categories:
 ---
 
 I get it! You don't want to repeat that code again and again. Maybe you are sick of copying those little function calls all over your code with some change in the parameters. Every time you have to create a new route or new API endpoint you have to write the same code.
+
+![Validate your request parameters using a middleware](https://i.imgur.com/4BWtPKb.png "Validate your request param using middleware in node.js")
 
 For example:
 
