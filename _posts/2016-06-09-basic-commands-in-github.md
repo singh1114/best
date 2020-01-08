@@ -106,7 +106,7 @@ So the idea is to get the code from the main branch merge the commits into your 
 
 So whenever you want to commit a change that someone have done to the remote repository and you want to merge them to your local, put the changes into the stash by using these commands and then pull the latest remote.
 
-```   
+```bash   
 $ git stash 
 
 # read more about git stash by using the following command
@@ -125,7 +125,7 @@ But before fetching it is great to make a remote of the forked repository so tha
 
 The command tells us to add a new remote to the local repository by the name of upstream which is linked to the link provided as the next parameter. Now, whenever we want to know about the changes made in the particular branch we can simply type the name of the branch and we will get the code given by it. Then finally we will use the merge command to merge the code into the local repository. See the example code snippets for more information.
 
-```    
+```bash 
 $ git fetch upstream/branch_name
     
 $ git merge upstream
