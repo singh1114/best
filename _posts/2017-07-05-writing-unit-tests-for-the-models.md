@@ -30,6 +30,10 @@ That being said, I found a great presentation that will eventually strengthen my
 
 First 7-8 slides will be enough to get the point across.
 
+Or you can go through the following post.
+
+{% include linked_post.html url="how-to-write-testable-code-that-can-scale-with-examples" %}
+
 So the basic idea of automatic testing is to save someone from breaking our code in future and making the check as quickly as possible. This also helps us to find some issues in the code that were not visible when we coded them. The logical errors in the repository having thousands of lines of code are hard to detect. That is why the `good people` introduced testing for the developers.
 
 Similarly in future, if someone codes something for us and we add that to our main repository without testing, it can break everything for us. So automatic testing is there to save us. Run the tests before adding the new stuff into the main repository and go forward without worrying about your code.
