@@ -121,7 +121,9 @@ Stash is the part where you can store the things in the temporary mode they can 
 But before fetching it is great to make a remote of the forked repository so that we can directly fetch the changes from the terminal else we have to type the link of the forked repository again and again. Obviously, it is not necessary but it will make our work easier.
 
     
-`$ git remote add upstream http://github.com/remote_link_to_the_repository`
+```bash
+$ git remote add upstream http://github.com/remote_link_to_the_repository
+```
 
 The command tells us to add a new remote to the local repository by the name of upstream which is linked to the link provided as the next parameter. Now, whenever we want to know about the changes made in the particular branch we can simply type the name of the branch and we will get the code given by it. Then finally we will use the merge command to merge the code into the local repository. See the example code snippets for more information.
 
