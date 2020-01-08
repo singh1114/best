@@ -6,5 +6,15 @@ description: >-
   Step by step description on how to create jekyll blog using GitHub pages and
   writing content on Netlify CMS
 published: false
+tags:
+  - jekyll
+  - github-pages
+  - netlify
+  - javascript
+categories:
+  - jekyll
+  - github-pages
+  - netlify
+  - javascript
 ---
 
