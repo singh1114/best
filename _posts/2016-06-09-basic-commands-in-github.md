@@ -137,7 +137,7 @@ Finally, you directly pull the code from the upstream using the following comman
 
 Once all the changes are done, you can reapply the top stash.
 
-```
+```bash
 $ git stash pop
 # Apply the stash and delete the stash from stash list
 
