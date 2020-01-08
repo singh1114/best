@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to remove extra sensitive information from git commits
+title: How to remove extra sensitive information from git commits and history
 date: 2017-12-30T07:46:54.178Z
 description: >-
   How to remove extra sensitive information from your commit history all
