@@ -3,8 +3,14 @@ layout: post
 title: Basic git commands that you need to know as a Software Engineer
 date: 2016-06-09T20:31:50.000Z
 published: true
+tags:
+  - git
+  - github
+  - version-control
 categories:
-  - Git
+  - git
+  - github
+  - version-control
 ---
 Git is the open source distributed version control system that facilitates GitHub activities on your laptop or desktop. The commonly used Git command line instructions are:-
 
