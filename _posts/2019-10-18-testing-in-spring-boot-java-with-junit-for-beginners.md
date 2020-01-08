@@ -2,8 +2,8 @@
 title: Integration testing of APIs in Spring-Boot( Java) with Junit | For Beginners
 date: 2019-10-18T22:48:00.000Z
 description: >-
-  Writing tests for your spring boot application is one of the best things you
-  can do for your future self.
+  Writing tests for your spring boot application using junit is one of the best
+  things you can do for your future self.
 published: true
 tags:
   - java
