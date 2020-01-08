@@ -1,25 +1,28 @@
 ---
 title: Integration testing of APIs in Spring-Boot( Java) with Junit | For Beginners
-date: 2019-10-18 22:48:00 Z
-categories:
-- java
-- springboot
-- testing
+date: 2019-10-18T22:48:00.000Z
+description: >-
+  Writing tests for your spring boot application is one of the best things you
+  can do for your future self.
+published: true
 tags:
-- java
-- springboot
-- testing
+  - java
+  - springboot
+  - testing
+categories:
+  - java
+  - springboot
+  - testing
 ---
+Shipping our product without testing is like buying a car without turning on the engine. We have to run a few tests again and again while the development of the product and if those tests are not automated, we will have a hard time to test our application.
 
-Shipping our product without testing is like selling a car without turning on the engine. We have to run a few tests again and again while the development of the product and if those tests are not automated, we will have a hard time to test our application.
+Here is a post that will help you to understand why you should be writing tests?
 
 {% include linked_post.html url="writing-unit-tests-for-the-models" %}
 
-Please read this post where I explained the importance of writing tests.
-
 ![Spring boot logo](https://i.imgur.com/BEIqT5f.jpg "Spring boot logo")
 
-This post is in continuation of the last post we shared related to Spring boot in which we shared on how to write Rest APIs in Spring Boot.
+This post is in continuation of the last post we shared related to Spring boot in which we talked about writing Rest APIs in Spring Boot.
 
 {% include linked_post.html url="building-restful-apis-with-java-spring-boot-framework-for-beginners" %}
 
