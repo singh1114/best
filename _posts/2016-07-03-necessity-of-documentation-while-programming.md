@@ -6,6 +6,12 @@ description: >-
   Why is it important to write documentation of the software you have written.
   We will use Doxygen to create automatic documentation.
 published: true
+tags:
+  - documentation
+  - doxygen
+categories:
+  - documentation
+  - doxygen
 ---
 
 This is a post which discusses the one of the most important requirement of software development phase i.e. documentation.
