@@ -2,6 +2,9 @@
 layout: post
 title: Necessity of documentation while programming
 date: 2016-07-03T21:09:02.000Z
+description: >-
+  Why is it important to write documentation of the software you have written.
+  We will use Doxygen to create automatic documentation.
 published: true
 ---
 
