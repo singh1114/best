@@ -1,11 +1,19 @@
 ---
-title: 'Django: Keeping your directory structure clean'
-date: 2017-03-09 12:50:22 Z
-author: ranvirsingh1114
-comments: true
 layout: post
-link: https://ranvirsinghprojects.wordpress.com/2017/03/09/django-keeping-your-directory-structure-clean/
-wordpress_id: 643
+title: 'Django: Keeping your directory structure clean'
+date: 2017-03-09T12:50:22.000Z
+description: >-
+  Best Django directory structure to handle complexity of a level of top 4s.
+  Django Rest Framework uses the same strategy.
+published: true
+tags:
+  - programming
+  - django
+  - python
+categories:
+  - programming
+  - django
+  - python
 ---
 
 Hello there!
