@@ -1,13 +1,10 @@
 ---
-title: How to simplify command's name in Ubutnu
-date: 2016-07-01 19:54:07 Z
-categories:
-- Six weeks training
-author: ranvirsingh1114
-comments: true
 layout: post
-link: https://ranvirsinghprojects.wordpress.com/2016/07/02/how-to-simplify-commands-name-in-ubutnu/
-wordpress_id: 221
+title: How to simplify command's name in Ubuntu
+date: 2016-07-01T19:54:07.000Z
+published: true
+categories:
+  - Six weeks training
 ---
 
 I love the amount of freedom given to you as a user when you work on a system with Ubuntu installed on it. So, I was not having sudo powers for the installing meteor on the server, So I asked one of the server admin([Mandeep](https://mandeep7.wordpress.com/)) to do it for me. He told me that I don't need to be signed as a root admin. I was not sure about it as their was a error when I was running the command to install meteor.
