@@ -1,10 +1,16 @@
 ---
 layout: post
-title: A word about subprocess module
+title: A word about subprocess module for running bash commands in Python
 date: 2017-06-21T10:17:31.000Z
 published: true
+tags:
+  - GSoC-2017
+  - python
+  - bash
 categories:
   - GSoC-2017
+  - python
+  - bash
 ---
 
 It has been a few days since I have been working on the GSoC project. Although I haven't been able to write about all the things going on that side. From now on probably I will talk about it more often. Yesterday I managed to upload the code on our local experimental server and show the results to the mentor.
