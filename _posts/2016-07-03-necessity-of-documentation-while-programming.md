@@ -25,4 +25,4 @@ Documentation is a way of telling other programmers and users about your program
 
 Now you know the basic reasons for creating a documentation of the program. So let's create documentation using Doxygen.
 
-{% include linked_post.html "creating-documentation-using-doxygen-in-ubuntu" %}
+{% include linked_post.html url="creating-documentation-using-doxygen-in-ubuntu" %}
