@@ -1,16 +1,22 @@
 ---
-title: 'MathJax : Write math on the browser'
-date: 2016-06-08 08:52:00 Z
-author: ranvirsingh1114
-comments: true
-link: https://ranvirsinghprojects.wordpress.com/2016/06/08/mathjax-write-math-on-the-browser/
-wordpress_id: 121
 layout: post
+title: 'MathJax : Write math on the browser and share your solutions.'
+date: 2016-06-08T08:52:00.000Z
+description: >-
+  Use mathjax to write math equations onto the browser without clicking pictures
+  of your solutions easily.
+published: true
+tags:
+  - html
+  - mathjax
+categories:
+  - html
+  - mathjax
 ---
 
 First of all I would like to link to the presentation which you can check. This presentation will let you more about the MathJax.
 
-[http://singh1114.github.io/presentations/mathjax.html](http://singh1114.github.io/presentations/mathjax.html#/)/
+[http://singh1114.github.io/presentations/mathjax.html](http://singh1114.github.io/presentations/mathjax.html#/)
 
 MathJax is a tool which is used to lay out the math on the browser in a better way. Tex and Latex has been used since a while now to write big mathematical formulas in the form of a pdf. MathJax make use of these two ways to write math on the browser.
 
@@ -30,18 +36,25 @@ Now let us discuss about the CDN implementation. This implementation is discusse
 In the head section of your website write these lines of code.
 
 
-<blockquote><head>
+```HTML
+<head>
+        <script type="text/x-mathjax-config">
+		MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+	</script>
+	<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
+	</script><script type="text/x-mathjax-config">
+		MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+	</script>
+	<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
+	</script>
+</head>
+```
 
-MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
 
-[https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML](https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML)
-</head></blockquote>
-
-
-Now you can use Tex, Latex, MathML or Asciimath code anywhere on the page and that will be implemented as a mathematical formula.
+Now you can use `Tex`, `Latex`, `MathML` or `Asciimath` code anywhere on the page and that will be implemented as a mathematical formula.
 
 If you wish see an example here is the link.
 
-http://singh1114.github.io/mathjaxprogram.html
+[http://singh1114.github.io/mathjaxprogram.html](http://singh1114.github.io/mathjaxprogram.html)
 
 Another way of doing it is by cloning the github repository. Clone the github repository and you will find the a folder named test. In there you will find a file named example.html. Run this file and run various examples. Create any files in this folder and add script files as in the examples add any Tex, Latex or MathML content to show them on the browser.
