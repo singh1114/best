@@ -51,6 +51,6 @@ Now you can use `Tex`, `Latex`, `MathML` or `Asciimath` code anywhere on the pag
 
 If you wish see an example here is the link.
 
-[http://singh1114.github.io/mathjaxprogram.html](http://singh1114.github.io/mathjaxprogram.html)
+[MathJax Program](https://ranvir.xyz/mathjaxprogram.html)
 
-Another way of doing it is by cloning the github repository. Clone the github repository and you will find the a folder named test. In there you will find a file named example.html. Run this file and run various examples. Create any files in this folder and add script files as in the examples add any Tex, Latex or MathML content to show them on the browser.
+Another way of doing it is by cloning the github repository. Clone the github repository and you will find the a folder named test. In there you will find a file named example.html. Run this file and run various examples. Create any files in this folder and add script files as in the examples add any `Tex`, `Latex` or `MathML` content to show them on the browser.
