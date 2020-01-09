@@ -1,15 +1,12 @@
 ---
-title: Using mutt to send a few hundred of emails using python script
-date: 2017-02-21 23:32:00 Z
-categories:
-- python
-tags:
-- python
-author: ranvirsingh1114
-comments: true
-link: https://ranvirsinghprojects.wordpress.com/2017/02/22/using-mutt-to-send-a-few-hundred-of-emails-using-python-script/
-wordpress_id: 638
 layout: post
+title: Using mutt to send a few hundred of emails using python script
+date: 2017-02-21T23:32:00.000Z
+published: true
+tags:
+  - python
+categories:
+  - python
 ---
 
 So this was my first encounter with the powerful email client MUTT. According to the official website of MUTT, "All web clients sucks but this one sucks less". This is the best way to explain something.
@@ -48,4 +45,4 @@ I tested the script and found that for every mail we have to tell the system tha
 
 When he ended up sending all the emails. I found the solution and corrected the single character in my file. This commit shows the way in which I solved the problem.
 
-[https://github.com/singh1114/csiMuttScript/commit/75f2eccb6928fdb3994390283ebe205cf17d4bbb](https://github.com/singh1114/csiMuttScript/commit/75f2eccb6928fdb3994390283ebe205cf17d4bbb)
+[Mutt script commit](https://github.com/singh1114/csiMuttScript/commit/75f2eccb6928fdb3994390283ebe205cf17d4bbb)
