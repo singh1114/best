@@ -14,7 +14,7 @@ categories:
   - documentation
 ---
 
-Doxygen is a tool to create documentation for your program/project written in languages like C, C++, Java, python and so on. It reads the well-formatted and special Doxygen comments to create the required documentation. This documentation is very important for the new developers who want to help in the development of the project. 
+Doxygen is a tool to create documentation for your program/project written in languages like `C`, `C++`, `Java`, `Python` and so on. It reads the well-formatted and special Doxygen comments to create the required documentation. This documentation is very important for the new developers who want to help in the development of the project. 
 
 Documentation is one of the main pillars of an open-source project.
 
