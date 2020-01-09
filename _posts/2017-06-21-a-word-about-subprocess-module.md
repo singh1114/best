@@ -2,6 +2,9 @@
 layout: post
 title: A word about subprocess module for running bash commands in Python
 date: 2017-06-21T10:17:31.000Z
+description: >-
+  Subprocess module is used to run bash commands with the Python scripts simply
+  by calling subprocess.run
 published: true
 tags:
   - GSoC-2017
