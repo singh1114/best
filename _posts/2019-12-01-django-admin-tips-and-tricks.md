@@ -1,6 +1,12 @@
 ---
 title: Django admin tips and tricks
-date: 2019-12-01 12:00:00 Z
+date: 2019-12-01T12:00:00.000Z
+published: true
+categories:
+  - django
+  - django-admin
+  - python
+canonical_url: 'django, django-admin, python'
 ---
 
 Django is one of the best Python frameworks to get started with web development and get out with your product in no time. With Django, you don't have to worry about any of the things like security, databases or most importantly admin panel.
