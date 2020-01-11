@@ -20,7 +20,7 @@ Testing is one of the basic and most important parts of the development process 
 
 I have already discussed testing in one of my earlier posts.
 
-{% include linked_post.html url="writing-unit-tests-for-the-models"}
+{% include linked_post.html url="writing-unit-tests-for-the-models" %}
 
 In this post, I will talk about the way in which we can write tests for models.
 
