@@ -1,23 +1,26 @@
 ---
-title: How to use FactoryBoy to create model instances in Django for testing
-date: 2018-01-18 18:43:00 Z
-categories:
-- FactoryBoy
-- python
-- django
-- testing
-tags:
-- testing
-- python
-- djnago
-author: Ranvir Singh
-comments: true
 layout: post
+title: How to use FactoryBoy to create model instances in Django for testing
+date: 2018-01-18T18:43:00.000Z
+published: true
+tags:
+  - testing
+  - python
+  - djnago
+categories:
+  - FactoryBoy
+  - python
+  - django
+  - testing
 ---
 
 Testing is one of the basic and most important parts of the development process that is needed to be done every time you write or change any part of the code. It gives you the authority confidence in the code that you are writing.
 
-I have already discussed testing in one of [my earlier posts.](https://singh1114.github.io/blog/writing-unit-tests-for-the-models/) In this post, I will talk about the way in which we can write tests for models.
+I have already discussed testing in one of my earlier posts.
+
+{% include linked_post.html url="writing-unit-tests-for-the-models"}
+
+In this post, I will talk about the way in which we can write tests for models.
 
 For testing models, we need to create sample objects for this.
 
@@ -65,10 +68,10 @@ class PersonFactory(DjangoModelFactory):
     gender = 'male'  
 ```
 
-Now we can simply call these factories during the test generation and create as many instances of models as we want to. This is a pretty simple case but we really can do a lot more. We can create instances of varies types by making use of FuzzyText and Sequence.
+Now we can simply call these factories during the test generation and create as many instances of models as we want to. This is a pretty simple case but we really can do a lot more. We can create instances of varies types by making use of `FuzzyText` and Sequence.
 
 With the use of `FuzzyText`, you can generate random text making testing more awesome.
 
-Testing is also considered as the sign of a good programmer. There are a ton of benefits of testing which were discussed in the [post](https://singh1114.github.io/blog/writing-unit-tests-for-the-models/).
+Testing is also considered as the sign of a good programmer. There are a ton of benefits of testing which were discussed in the [post](https://ranvir.xyz/blog/writing-unit-tests-for-the-models/).
 
 I hope you guys liked the idea of the post. We really can do a lot of stuff using this library. Do share your views regarding this post if you have used factories in the past or want to use it in your project.
