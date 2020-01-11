@@ -44,25 +44,25 @@ You can use this module as follows.
 ## Implementing Django Choices using djchoices module
 
 ```python
-    # choices.py
-    from djchoices import DjangoChoices, ChoiceItem
+# choices.py
+from djchoices import DjangoChoices, ChoiceItem
     
-    class PersonType(DjangoChoices):
-        customer = ChoiceItem("C")
-        employee = ChoiceItem("E")
-        groundhog = ChoiceItem("G")
+class PersonType(DjangoChoices):
+    customer = ChoiceItem("C")
+    employee = ChoiceItem("E")
+    groundhog = ChoiceItem("G")
 ```    
    
 
 While in the models file.
 
-``` 
-    # models.py
+```python
+# models.py
     
-    from .choices import PersonType
+from .choices import PersonType
     
-    class Person(models.Model):
-        type = models.CharField(max_length=1, choices=PersonType.choices)
+class Person(models.Model):
+    type = models.CharField(max_length=1, choices=PersonType.choices)
 ``` 
 
 This way you can differentiate the implementation of the choices and database implementation separate. The only downside of using this is updating the real choice values in the future. You have to write a custom migration to make those changes live.
