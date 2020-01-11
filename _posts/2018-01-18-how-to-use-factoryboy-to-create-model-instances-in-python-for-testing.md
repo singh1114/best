@@ -34,6 +34,8 @@ The name **FactoryBoy** is inspired by the Factory Girl testing tool for Ruby on
 
 For writing tests, you have to spend a lot of time writing the setup method for the tests.
 
+## Creating model objects without FactoryBoy
+
 Without the use of factories, this is how your tests will look like:
 
 ```python
@@ -55,8 +57,9 @@ On the other hand, it is always nice to separate your setting up `method` from t
 
 We can write factories anywhere but it's always a good idea to write it in a separate file named factories.py inside the root directory of your app.
 
-Write following in the factories.py file inside your root directory.
+Write following in the `factories.py` file inside your root directory.
 
+## Creating model objects with FactoryBoy
  
 ```python
 from factory.django import DjangoModelFactory  
