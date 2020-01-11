@@ -16,7 +16,7 @@ categories:
   - django
   - testing
 ---
-Testing is one of the basic and most important parts of the development process that is needed to be done every time you write or change any part of the code. It gives you the authority confidence in the code that you are writing.
+Testing is one of the basic and most important parts of the development process that is needed to be done every time you write or change any part of the code. It gives you the authority confidence in the code that you are writing. 
 
 I have already discussed testing in one of my earlier posts.
 
@@ -24,9 +24,9 @@ I have already discussed testing in one of my earlier posts.
 
 In this post, I will talk about the way in which we can write tests for models.
 
-For testing models, we need to create sample objects for this.
+For testing models, we need to create sample objects. 😱
 
-It's pretty hard to write the same code again and again to create the same object.
+It's pretty hard to write the same code again and again to create the same objects.
 
 Today I am going to talk about using [FactoryBoy](https://github.com/FactoryBoy/factory_boy) for testing Django application.
 
@@ -157,4 +157,4 @@ class SocietyFactory(DjangoModelFactory):
 
 Testing is also considered as the sign of a good programmer. There are a ton of benefits of testing which were discussed in the [post](https://ranvir.xyz/blog/writing-unit-tests-for-the-models/).
 
-I hope you guys liked the idea of the post. We really can do a lot of stuff using this library. Do share your views regarding this post if you have used factories in the past or want to use it in your project.
+I hope you guys liked the idea of the post. We really can do a lot of stuff using this library. Do share your views regarding this post if you have used factories in the past or want to use it in your project. 😇
