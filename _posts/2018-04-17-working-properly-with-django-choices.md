@@ -20,8 +20,9 @@ While writing models you expect that you might be looking at neat fields that ar
 
 By default, Django choices are written as tuples inside tuples. A simple example can be a fancy animal problem.
 
+## Default choices implementation in Django docs
     
-```
+```python
 animal = (
     ('cat', '0'),
     ('lizard', '1'),
@@ -36,11 +37,13 @@ If you are using a Python version greater than `3.4`. You can make something wit
 
 This one looked good to me on the first look. The documentation showed every possible use case.
 
-<https://github.com/bigjason/django-choices>
+[Django-choices](https://github.com/bigjason/django-choices)
 
-You can use this module as follows.&nbsp;
+You can use this module as follows.
 
-```   
+## Implementing Django Choices using djchoices module
+
+```python
     # choices.py
     from djchoices import DjangoChoices, ChoiceItem
     
