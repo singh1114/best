@@ -24,9 +24,9 @@ I have already discussed testing in one of my earlier posts.
 
 In this post, I will talk about the way in which we can write tests for models.
 
-For testing models, we need to create sample objects. 😱
+For testing models, we need to create sample objects.
 
-It's pretty hard to write the same code again and again to create the same objects.
+It's pretty hard to write the same code again and again to create the same objects. 😱
 
 Today I am going to talk about using [FactoryBoy](https://github.com/FactoryBoy/factory_boy) for testing Django application.
 
