@@ -28,7 +28,7 @@ For testing models, we need to create sample objects for this.
 
 It's pretty hard to write the same code again and again to create the same object.
 
-Today I am going to talk about using `FactoryBoy` for testing Django application.
+Today I am going to talk about using [FactoryBoy](https://github.com/FactoryBoy/factory_boy) for testing Django application.
 
 The name **FactoryBoy** is inspired by the Factory Girl testing tool for Ruby on Rails. Without Factory boy, you will have to write a lot of code for the creation of test cases.
 
@@ -73,6 +73,87 @@ class PersonFactory(DjangoModelFactory):
 Now we can simply call these factories during the test generation and create as many instances of models as we want to. This is a pretty simple case but we really can do a lot more. We can create instances of varies types by making use of `FuzzyText` and Sequence.
 
 With the use of `FuzzyText`, you can generate random text making testing more awesome.
+
+## Applications of FactoryBoy
+
+### Getting random values
+
+We can get random values for the purpose we specify to the `Faker` method. The values created are far more realistic than any other random methods that we use otherwise.
+
+```python
+from factory import Faker
+
+class PersonFactory(DjangoModelFactory):  
+    class Meta:  
+        model = Person
+    name = Faker('name')
+    age = 20
+    gender = 'male'
+```
+
+Here is a list of [available providers by faker library](https://faker.readthedocs.io/en/stable/providers.html) which can be used.
+
+### Reproducing random values
+
+Sometimes our tests fail for some random value and not for all of them. So, `factory` have introduced a concept using which we can create the same value again and again.
+
+```python
+from factory.random import reseed_random
+
+class PersonFactory(DjangoModelFactory):  
+    class Meta:  
+        model = Person
+    name = reseed_random('Bill Clinton')
+    age = 20
+    gender = 'male'
+```
+
+### Using dependent values of other fields
+
+There are some cases in which you want to use the values which are dependent on the random values of the other fields. For example, full name can be the combination of first and last name.
+
+```python
+from factory import Faker, LazyAttribute
+
+class PersonFactory(DjangoModelFactory):  
+    class Meta:  
+        model = Person
+    first_name = Faker('first_name')
+    second_name = Faker('last_name')
+    full_name = factory.LazyAttribute(lambda a: '{0} {1}'.format(a.first_name, a.last_name))
+```
+
+### Using sequences for unique fields.
+
+With random function, there is a chance that after some time the values will start repeating, and if your test suite has grown out of that threshold size you will have to use sequences in your unique fields.
+
+```python
+from factory import Sequence
+
+class PersonFactory(DjangoModelFactory):  
+    class Meta:  
+        model = Person
+    email = Sequence(lambda n: 'person{0}@ranvir.xyz'.format(n))
+```
+
+### Foreign Keys
+
+If your field is a foreign key, you can directly use that whole factory all together.
+
+```python
+from factory import Sequence
+
+class PersonFactory(DjangoModelFactory):  
+    class Meta:  
+        model = Person
+    email = Sequence(lambda n: 'person{0}@ranvir.xyz'.format(n))
+
+class SocietyFactory(DjangoModelFactory):  
+    class Meta:  
+        model = Person
+    society_number = Sequence(lambda n: 'Society {0}'.format(n))
+    person = factory.SubFactory(PersonFactory)
+```
 
 Testing is also considered as the sign of a good programmer. There are a ton of benefits of testing which were discussed in the [post](https://ranvir.xyz/blog/writing-unit-tests-for-the-models/).
 
