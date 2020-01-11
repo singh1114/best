@@ -9,7 +9,7 @@ published: true
 tags:
   - testing
   - python
-  - djnago
+  - django
 categories:
   - FactoryBoy
   - python
