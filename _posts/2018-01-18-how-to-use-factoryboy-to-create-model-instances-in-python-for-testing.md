@@ -2,6 +2,9 @@
 layout: post
 title: How to use FactoryBoy to create model instances in Django for testing
 date: 2018-01-18T18:43:00.000Z
+description: >-
+  Using FactoryBoy to create model objects automatically for the purpose of
+  testing.
 published: true
 tags:
   - testing
@@ -13,7 +16,6 @@ categories:
   - django
   - testing
 ---
-
 Testing is one of the basic and most important parts of the development process that is needed to be done every time you write or change any part of the code. It gives you the authority confidence in the code that you are writing.
 
 I have already discussed testing in one of my earlier posts.
