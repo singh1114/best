@@ -1,15 +1,17 @@
 ---
-title: Working properly with Django Choices
-date: 2018-04-17 19:57:00 Z
-categories:
-- python
-- django
-tags:
-- python
-- django
-author: Ranvir Singh
-comments: true
 layout: post
+title: Working properly with Django Choices
+date: 2018-04-17T19:57:00.000Z
+description: >-
+  Default django choices implementation forces us to repeat a lot of code. With
+  the usage of this we are django choices we are trying to reduce it.
+published: true
+tags:
+  - python
+  - django
+categories:
+  - python
+  - django
 ---
 
 The default implementation of choices in Django is not very intuitive and we repeat a lot of code while using them. Django choices act as an `enum` for the fields. We can choose from the various options whose value can be assigned to a given field.
