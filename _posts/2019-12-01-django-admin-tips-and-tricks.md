@@ -4,7 +4,7 @@ date: 2019-01-23T12:00:00.000Z
 description: >-
   Django admin tips and tricks that you can use to create internal app for
   production ready system.
-published: true
+published: false
 tags:
   - django
   - django-admin
