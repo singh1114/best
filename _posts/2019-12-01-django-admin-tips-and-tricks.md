@@ -1,6 +1,6 @@
 ---
 title: Django admin tips and tricks
-date: 2020-01-23T12:00:00.000Z
+date: 2019-01-23T12:00:00.000Z
 description: >-
   Django admin tips and tricks that you can use to create internal app for
   production ready system.
@@ -89,6 +89,12 @@ Also, it is recommended to add the installed packages in a separate `requirement
 pip freeze > requirements.txt
 ```
 
+Then people can directly call this command to install all the dependencies.
+
+```shell
+pip install -r requirements.txt
+```
+
 To start the Django project, use the following command.
 
 ```shell
@@ -125,14 +131,14 @@ Once this is done you can start the Django server using the following command.
 python manage.py runserver
 ```
 
-This will start the server on the default port `8000`. The default admin page can be found on the `/admin` endpoint. Use the link http://127.0.0.1:8080/admin to land on the admin page.
+This will start the server on the default port `8000`. The default admin page can be found on the `/admin` endpoint. Use the link `http://127.0.0.1:8080/admin` to land on the admin page.
 
 Use the same credentials to log yourself in that you just set up a few seconds ago.
 
 In a Django project, everything is handled using apps. You can create a simple app using the following command.
 
 ```shell
-python manage.py startapp schoolproject
+python manage.py startapp schoolapp
 ```
 
 Include this newly created app in the settings file.
@@ -163,6 +169,8 @@ urlpatterns = [
 
 Now you can see the admin page on `yourcompany/admin/` endpoint.
 
+![Django Admin login page](https://i.imgur.com/l1MJHzP.png "Django Admin login page")
+
 ## Change the default name of the admin web page
 
 You can change the default heading and other things of the admin page to make it more personal for your brand.
@@ -178,3 +186,16 @@ admin.site.site_header = 'MY SCHOOL APP'
 admin.site.index_title = 'Your Company'
 ```
 
+## Handling History in Django admin panel
+
+Django history is 
+
+##Counting the number of fields
+
+## Permissions
+
+## Link to Foreign key fields
+
+## Custom ordering
+
+## Custom Searching
