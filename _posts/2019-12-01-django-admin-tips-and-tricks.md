@@ -1,7 +1,9 @@
 ---
 title: Django admin tips and tricks
 date: 2020-01-23T12:00:00.000Z
-description: 'Django admin tips and tricks that you can use to create '
+description: >-
+  Django admin tips and tricks that you can use to create internal app for
+  production ready system.
 published: true
 tags:
   - django
