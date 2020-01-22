@@ -1,7 +1,7 @@
 ---
 title: Django admin tips and tricks
-date: 2019-12-01T12:00:00.000Z
-published: false
+date: 2020-01-23T12:00:00.000Z
+published: true
 tags:
   - django
   - django-admin
