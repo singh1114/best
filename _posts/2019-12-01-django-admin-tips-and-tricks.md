@@ -12,7 +12,6 @@ categories:
   - python
 canonical_url: ''
 ---
-
 Django is one of the best Python frameworks to get started with web development and get out with your product in no time. With Django, you don't have to worry about any of the things like security, databases or most importantly admin panel.
 
 Django comes with a built-in admin panel that you can use any time of handling any type of internal work. This saves you a lot of development time and also saves you a lot of money as a company.
