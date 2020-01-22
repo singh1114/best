@@ -1,6 +1,7 @@
 ---
 title: Django admin tips and tricks
 date: 2020-01-23T12:00:00.000Z
+description: 'Django admin tips and tricks that you can use to create '
 published: true
 tags:
   - django
@@ -174,18 +175,4 @@ from django.contrib import admin
 admin.site.site_header = 'MY SCHOOL APP'
 admin.site.index_title = 'Your Company'
 ```
-
-## Handling History
-
-## Counting the number of fields
-
-## Permissions
-
-## Link to Foreign key fields
-
-## Custom ordering
-
-## Custom Searching
-
-## Readonly fields
 
