@@ -186,6 +186,8 @@ admin.site.site_header = 'MY SCHOOL APP'
 admin.site.index_title = 'Your Company'
 ```
 
+![Django admin page with custom title](https://i.imgur.com/Rgde88w.png "Django admin page with custom title")
+
 ## Handling History in Django admin panel
 
 Django history is 
