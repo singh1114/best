@@ -192,7 +192,7 @@ admin.site.index_title = 'Your Company'
 
 Django history is 
 
-##Counting the number of fields
+## Counting the number of fields
 
 ## Permissions
 
