@@ -188,9 +188,87 @@ admin.site.index_title = 'Your Company'
 
 ![Django admin page with custom title](https://i.imgur.com/Rgde88w.png "Django admin page with custom title")
 
-## Handling History in Django admin panel
+## Handling History/ Model Logs in Django admin panel
 
-Django history is 
+Django history is a simple extendible app in Django which you can use to your advantage and create awesome things with it.
+
+For example storing more accurate data about the changes made in the Django admin panel.
+
+For this, we first have to create the sample models in `schoolapp/models.py`.
+
+```python
+from django.db import models
+
+class School(models.Model):
+    school_name = models.CharField(max_length=30)
+    address = models.CharField(max_length=30)
+    principle_name = models.CharField(max_length=30)
+```
+
+Now run the command to `makemigrations`
+
+```shell
+python manage.py makemigrations
+```
+
+Now run the migrations to the database.
+
+```shell
+python manage.py migrate
+```
+
+Now register the new model to the admin so we can see it in the admin.
+
+```python
+from django.contrib import admin
+
+from schoolapp.models import School
+
+@admin.register(School)
+class SchoolAdmin(admin.ModelAdmin):
+    pass
+```
+
+Now you can see the model in the home-page of the Django admin.
+
+![Django admin home page with registered model](https://i.imgur.com/bFRs61N.png "Django admin home page with registered model")
+
+You can simply create the entries in the database by using the admin dashboard directly.
+
+Just go to the history page of the model to find what do we save related to the object. By default, we only store whether any changes were made to the object or not. Let's say, you want to save more data related to the changes. We can do it in this way.
+
+![Django admin history or LogEntry Page](https://i.imgur.com/uJgWNCf.png "Django admin history or LogEntry Page")
+
+```python
+from django.contrib import admin
+from django.contrib.admin.options import get_content_type_for_model
+from django.contrib.admin.models import LogEntry, ADDITION
+
+from schoolapp.models import School
+
+
+@admin.register(School)
+class SchoolAdmin(admin.ModelAdmin):
+
+    def save_model(self, request, obj, form, change):
+        super().save_model(request, obj, form, change)
+        if change:
+            change_message = '{} - {} - {}'.format(obj.school_name, obj.address, obj.principle_name)
+            LogEntry.objects.create(
+                user=request.user,
+                content_type=get_content_type_for_model(obj),
+                object_id=obj.id,
+                action_flag=2,
+                change_message=change_message,
+                object_repr=obj.__str__()[:200]
+            )
+```
+
+We are overriding the default implementation of `save_model` for that given admin model. This will save everything in the change_message, which is visible in the action column.
+
+![Django admin change the data](https://i.imgur.com/9MWWYe8.png "Django admin change the data")
+
+![Django admin history of object being saved](https://i.imgur.com/CxPupRv.png "Django admin history of object being saved")
 
 ## Counting the number of fields
 
