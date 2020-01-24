@@ -1,25 +1,15 @@
 ---
-title: 'Vim : The best text Editor'
-date: 2016-06-09 17:51:41 Z
-categories:
-- Six weeks training
-- Vim
-author: ranvirsingh1114
-comments: true
 layout: post
-link: https://ranvirsinghprojects.wordpress.com/2016/06/09/vim-the-best-text-editor/
-wordpress_id: 123
+title: 'Vim : The best text Editor'
+date: 2016-06-09T17:51:41.000Z
+published: true
+categories:
+  - Six weeks training
+  - Vim
 ---
-
 Before talking about the training I want to tell about the various things that I am using while writing about them.
-
-
-
  	
-  * Ubuntu 15.10 on my system
-
- 	
-  * 
+  * Ubuntu 15.10 on my system 
 
 **Day 1**
 
@@ -27,8 +17,9 @@ This is the day one at the training institute and Inder sir introduced Vim to us
 
 I installed this on my system by using the command.
 
-
-<blockquote>_sudo apt-get install vim_</blockquote>
+```shell
+sudo apt-get install vim
+```
 
 
 He told us about the various commands in the Vim. I liked the thinking of not moving your hand off the keyboard so I explored more about this. I used one of the great website of tech world called [linux.com](https://www.linux.com/learn/vim-101-beginners-guide-vim) for the reference purpose.
