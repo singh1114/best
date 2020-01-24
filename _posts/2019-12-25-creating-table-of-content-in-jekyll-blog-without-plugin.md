@@ -2,6 +2,9 @@
 layout: post
 title: How to Create a Table of Content in Jekyll blog | Without any Plugin
 date: 2019-12-25T10:54:49.199Z
+description: >-
+  Creating wikipedia style table of content using vanilla liquid tags and
+  jekyll's seo plugin for you GitHub pages blog.
 published: true
 image: 'https://i.imgur.com/PXpPGSh.png'
 tags:
