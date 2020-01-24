@@ -17,6 +17,7 @@ categories:
   - text-editor
   - programming
 ---
+
 I was introduced to `vim` by one of the senior during my college. As soon as I found about it, I fell in love with it.
 
 I liked the thinking of not moving your hand off the keyboard so I explored more about this. I used one of the great website of tech world called [linux.com](https://www.linux.com/learn/vim-101-beginners-guide-vim) for the reference purpose.
