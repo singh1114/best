@@ -2,10 +2,20 @@
 layout: post
 title: 'Vim : The best text Editor'
 date: 2016-06-09T17:51:41.000Z
+description: >-
+  Vim being the best text editor around and available throughout every platform
+  available out their. This post will help you to learn vim faster and make
+  changes as fast as you can.
 published: true
+tags:
+  - vim
+  - text-editor
+  - programming
 categories:
   - Six weeks training
-  - Vim
+  - vim
+  - text-editor
+  - programming
 ---
 Before talking about the training I want to tell about the various things that I am using while writing about them.
  	
