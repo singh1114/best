@@ -98,7 +98,7 @@ I have a MAC machine for development and love to use `iTerm` and `zsh` for power
 
 Their command completion is very useful while programming and help us to find the commands more easily.
 
-You can directly download iTerm from their [website](https://iterm2.com/downloads.html)
+You can directly download iTerm from their [website](https://iterm2.com/downloads.html).
 
 `ZSH` is used to provide good visual touch to your system. I love the default shell theme they provide. Currently you use the software by downloading using `wget` or `curl`.
 
