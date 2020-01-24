@@ -36,7 +36,7 @@ Now let us discuss about the CDN implementation. This implementation is discusse
 In the head section of your website write these lines of code.
 
 
-```HTML
+```
 <head>
         <script type="text/x-mathjax-config">
 		MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
