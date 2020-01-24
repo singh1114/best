@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Vim : The best text Editor for editing your files anywhere
+title: "Vim: The best text Editor for editing your files everywhere"
 date: 2016-06-09T17:51:41.000Z
 description: >-
   Vim being the best text editor around and available throughout every platform
@@ -46,19 +46,21 @@ You don't need to go to mouse again and again and waste your time during the pur
 
 Your total typing speed will increase in the long run. Although their may be dip in the speed when you are trying it for the learning purpose but if you choose to start then this will the best decision that you might have made in a long time.
 
-**Modes**
+## Different Modes used in Vim
 
 Many people in the tech may contradict this but in this post we will be talking about three modes in the vim. These three modes are
  	
-  * Command Mode
+* Command Mode
  	
-  * Insert Mode
+* Insert Mode
 
-  * Last-Line Mode
+* Last-Line Mode
 
 We can check for the version of Vim by launching the command
 
-<blockquote>vim -v</blockquote>
+```shell
+vim -v
+```
 
 Press `:q` to quit this mode.
 
