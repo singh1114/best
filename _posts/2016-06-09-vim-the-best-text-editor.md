@@ -123,7 +123,7 @@ Once you get to one of the instance, keep typing `n` to find more instances of t
 * `0` is for going to the first character of the line.
 * `w` is for jumping over the words.
 
-## Slow for large files
+## vim is slow while opening large files
 
 Vim is a good option to edit files of any size but as the size of the file increases, it becomes really slow to load the first screen of the vim.
 
