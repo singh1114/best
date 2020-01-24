@@ -1,20 +1,19 @@
 ---
 title: How I set up new machines | For development
 date: '2019-12-13 20:58:00 +0000'
-categories:
-- discuss
-- programming
-- webdev
-- career
-tags:
-- discuss
-- programming
-- webdev
-- career
 published: true
-image: https://i.imgur.com/ZYkt1Yf.jpg
+image: 'https://i.imgur.com/ZYkt1Yf.jpg'
+tags:
+  - discuss
+  - programming
+  - webdev
+  - career
+categories:
+  - discuss
+  - programming
+  - webdev
+  - career
 ---
-
 Losing access to your ssh key is one of the most dreadful situations for a developer. You will spend your full day creating the new ssh key getting the access to all machines back after you create this new ssh key.
 
 ![How I set up new machines](https://i.imgur.com/ZYkt1Yf.jpg "How I set up new machines")
