@@ -46,7 +46,7 @@ You don't need to go to mouse again and again and waste your time during the pur
 
 Your total typing speed will increase in the long run. Although their may be dip in the speed when you are trying it for the learning purpose but if you choose to start then this will the best decision that you might have made in a long time.
 
-## Different Modes used in Vim
+## Different Modes available in Vim
 
 Many people in the tech may contradict this but in this post we will be talking about three modes in the vim. These three modes are
  	
@@ -55,6 +55,8 @@ Many people in the tech may contradict this but in this post we will be talking 
 * Insert Mode
 
 * Last-Line Mode
+
+* Visual Mode
 
 We can check for the version of Vim by launching the command
 
@@ -66,7 +68,9 @@ Press `:q` to quit this mode.
 
 Whenever we open a file by placing a command
 
-<blockquote>vim filename</blockquote>
+```shell
+vim filename
+```
 
 where filename is the preffered name of your file, this command first checks for the  existence of the file. If the file exist then it opens it and if their is no file by this name then it create it and opens a blank file for us with ~ sign on the beginning of each line.
 
@@ -76,4 +80,47 @@ We can switch to the to insert mode by using `i` key. Press `i` key to open this
 
 The other mode is Last-Line mode which used for other purposes like saving the file.
 
-This is the basic overview of Vim. Please refer to other posts in the category
+You can simply use the visual mode by simply using `v` while in the command mode.
+
+Visual Mode can help you with copy-pasting the parts of the text.
+
+## Moving around through the text in vim
+
+> Most of the commands are used in command mode unless specified otherwise.
+
+Moving around the file is one of the main reason why would someone need to touch the touchpad or mouse.
+
+Vim tries to make it fairly easy for you to move around in the long and big files.
+
+### Jumping to a specific line number
+
+```shell
+:<line_number>
+```
+
+**Example**
+
+```shell
+:500
+```
+
+### Finding something specific in the file
+
+```shell
+/search_term
+```
+
+Once you get to one of the instance, keep typing `n` to find more instances of the same text.
+
+### Moving around
+
+* `j` is for going down.
+* `k` is for going up.
+* `l` is for going right by one character.
+* `h` is for going left by one character.
+* `shift + g` is for going all the way to the last line of the file.
+* `$` is for going to the last character of the line.
+* `0` is for going to the first character of the line.
+* `w` is for jumping over the words.
+
+This is the basic overview of Vim. Please refer to other posts in the category.
