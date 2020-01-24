@@ -1,5 +1,5 @@
 ---
-title: How I set up new machines | For development
+title: How I set up new machines | Setting ssh keys and shell
 date: '2019-12-13 20:58:00 +0000'
 description: >-
   Setting up new machines by taking all the important data from the old machines
