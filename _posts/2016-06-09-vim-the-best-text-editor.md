@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Vim: The best text Editor for editing your files everywhere"
+title: 'Vim: The best text Editor for editing your files everywhere'
 date: 2016-06-09T17:51:41.000Z
 description: >-
   Vim being the best text editor around and available throughout every platform
@@ -122,5 +122,33 @@ Once you get to one of the instance, keep typing `n` to find more instances of t
 * `$` is for going to the last character of the line.
 * `0` is for going to the first character of the line.
 * `w` is for jumping over the words.
+
+## Slow for large files
+
+Vim is a good option to edit files of any size but as the size of the file increases, it becomes really slow to load the first screen of the vim.
+
+So, if you only want to read the file and don't really want to make any changes, you can switch to some other alternatives which doesn't load the full file in the memory and only loads the parts that are visible. ( `less` is one good alternative).
+
+I tried to open one of the log file, with more than `20000 k` lines using `vim` and `less` commands to compare the time taken. It includes the time taken to open and close the files.
+
+I used the [time shell command](https://www.ostechnix.com/how-to-find-the-execution-time-of-a-command-or-process-in-linux/) to compare these time differences.
+
+### Time output while opening the file using vim
+
+```shell
+vim app-logv2.log-2020-01-23-1579792201  7.51s user 0.82s system 90% cpu 9.203 total
+```
+
+### Time output while opening the file using less
+
+```shell
+less app-logv2.log-2020-01-23-1579792201  0.03s user 0.01s system 5% cpu 0.579 total
+```
+
+Clearly the differences are huge and it is also because of the numerous plugins that I am using to power vim installation in my local system.
+
+I hope you liked this post. Do share your experiences with vim and share your favourite tricks as well.
+
+{% include linked_post.html url="copy-paste-vim-content-on-system-clipboard" %}
 
 This is the basic overview of Vim. Please refer to other posts in the category.
