@@ -49,9 +49,11 @@ Finally, you can ssh into the boxes using the command,
 
 `ssh stage`
 
+There are a lot of options which you can use to power this config file. Let me know in the comments section what other options you use.
+
 ## Prologue (I have been using the same ssh key since this long)
 
-I have been using the same ssh key for a while now. In between this time, I have faced a few challenges of changing jobs, SSD crashing a few times and many more.
+I have been using the same ssh key for a while now. In between this time, I have faced a few challenges of changing jobs, SSD crashing a few times some random issues.
 
 Even after all those situations, the ssh key that I have used has never changed.
 
@@ -59,7 +61,7 @@ Even after all those situations, the ssh key that I have used has never changed.
 
 So, I have an old laptop that I keep at my place which contains the ssh key which I use for almost all the purposes.
 
-**Note**: I do have one more layer of security which involves VPN being connected to connect everything related to my current organization.
+**Note**: We do have one more layer of security which involves VPN being connected to connect every box related to my current organization.
 
 Whenever I get a new machine, I get back to the same machine and `ssh` into this old machine and get all of the required data from that machine using a combination of `ssh` and `scp`(Secure Copy).
 
@@ -88,5 +90,17 @@ Something similar is applied to MAC devices as well. For allowing ssh into MAC d
 ![Allowing remote login in MAC](https://i.imgur.com/banssOS.jpg "Allowing remote login in MAC")
 
 After this, you can `ssh` into the machine and `scp` into the new device to get the required files.
+
+## Getting a combination of iTerm and zsh
+
+I have a MAC machine for development and love to use `iTerm` and `zsh` for powering my shell.
+
+Their command completion is very useful while programming and help us to find the commands more easily.
+
+You can directly download iTerm from their [website](https://iterm2.com/downloads.html)
+
+`ZSH` is used to provide good visual touch to your system. I love the default shell theme they provide. Currently you use the software by downloading using `wget` or `curl`.
+
+Head to their [website](https://ohmyz.sh/) for more details.
 
 Hope you liked this post. Please subscribe to the weekly newsletter by sharing your email.
