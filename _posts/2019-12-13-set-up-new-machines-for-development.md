@@ -3,7 +3,8 @@ title: How I set up new machines | Setting ssh keys and shell
 date: '2019-12-13 20:58:00 +0000'
 description: >-
   Setting up new machines by taking all the important data from the old machines
-  by sshing into them and getting files using scp
+  by sshing into them and getting files using scp. Setting up shell using iTerm
+  and Zsh.
 published: true
 image: 'https://i.imgur.com/ZYkt1Yf.jpg'
 tags:
