@@ -4,7 +4,7 @@ date: 2019-01-23T12:00:00.000Z
 description: >-
   Django admin tips and tricks that you can use to create internal app for
   production ready system.
-published: false
+published: true
 tags:
   - django
   - django-admin
@@ -163,7 +163,7 @@ Change the following part of the code in the `schoolproject/urls.py` file.
 
 ```python
 urlpatterns = [
-    path('yourcompany/admin/', admin.site.urls),
+    re_path('yourcompany/admin/', admin.site.urls),
 ]
 ```
 
@@ -269,6 +269,8 @@ We are overriding the default implementation of `save_model` for that given admi
 ![Django admin change the data](https://i.imgur.com/9MWWYe8.png "Django admin change the data")
 
 ![Django admin history of object being saved](https://i.imgur.com/CxPupRv.png "Django admin history of object being saved")
+
+**Coming up**
 
 ## Counting the number of fields
 
