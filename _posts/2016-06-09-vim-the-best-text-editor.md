@@ -194,4 +194,6 @@ times in msec
                                                                          1281.347  000.326  000.326: sourcing /Users/ranvir/.vim/plugged/vim-airline/autoload/airline/extensions/default.vim
 ```
 
+For more information check [this stackoverflow answer](https://stackoverflow.com/questions/1687799/profiling-vim-startup-time)
+
 This is the basic overview of Vim. Please refer to other posts in the category.
