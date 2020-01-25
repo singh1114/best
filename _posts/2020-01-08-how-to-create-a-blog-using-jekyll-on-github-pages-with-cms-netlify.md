@@ -17,4 +17,4 @@ categories:
   - netlify
   - javascript
 ---
-
+Writing is way of expressing yourself to the outer world.
