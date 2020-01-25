@@ -147,10 +147,6 @@ less app.log  0.03s user 0.01s system 5% cpu 0.579 total
 
 Clearly the differences are huge and it is also because of the numerous plugins that I am using to power vim installation in my local system.
 
-I hope you liked this post. Do share your experiences with vim and share your favourite tricks as well.
-
-{% include linked_post.html url="copy-paste-vim-content-on-system-clipboard" %}
-
 ## How to check the time taken by plugins to while opening vim?
 
 As I have already shared that I have a lot of plugins installed for the local setup of vim which include things autocomplete and other features as well.
@@ -195,5 +191,9 @@ times in msec
 ```
 
 For more information check [this stackoverflow answer](https://stackoverflow.com/questions/1687799/profiling-vim-startup-time)
+
+I hope you liked this post. Do share your experiences with vim and share your favourite tricks as well.
+
+{% include linked_post.html url="copy-paste-vim-content-on-system-clipboard" %}
 
 This is the basic overview of Vim. Please refer to other posts in the category.
