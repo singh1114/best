@@ -48,7 +48,9 @@ Your total typing speed will increase in the long run. Although their may be dip
 
 ## Different Modes available in Vim
 
-Many people in the tech may contradict this but in this post we will be talking about three modes in the vim. These three modes are
+The first and foremost thing that one should read about is various modes present in vim.
+
+The major 4 modes present in vim are:
  	
 * Command Mode
  	
@@ -122,6 +124,11 @@ Once you get to one of the instance, keep typing `n` to find more instances of t
 * `$` is for going to the last character of the line.
 * `0` is for going to the first character of the line.
 * `w` is for jumping over the words.
+* `b` is for jumping over the words in opposite direction.
+
+## Undoing and Redoing changes in vim
+
+You can simply use `u` for undoing the changes and `ctrl + r` to make redo the changes done.
 
 ## vim is slow while opening large files
 
