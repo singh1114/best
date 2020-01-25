@@ -136,13 +136,13 @@ I used the [time shell command](https://www.ostechnix.com/how-to-find-the-execut
 ### Time output while opening the file using vim
 
 ```shell
-vim app-logv2.log-2020-01-23-1579792201  7.51s user 0.82s system 90% cpu 9.203 total
+vim app.log  7.51s user 0.82s system 90% cpu 9.203 total
 ```
 
 ### Time output while opening the file using less
 
 ```shell
-less app-logv2.log-2020-01-23-1579792201  0.03s user 0.01s system 5% cpu 0.579 total
+less app.log  0.03s user 0.01s system 5% cpu 0.579 total
 ```
 
 Clearly the differences are huge and it is also because of the numerous plugins that I am using to power vim installation in my local system.
@@ -150,5 +150,48 @@ Clearly the differences are huge and it is also because of the numerous plugins 
 I hope you liked this post. Do share your experiences with vim and share your favourite tricks as well.
 
 {% include linked_post.html url="copy-paste-vim-content-on-system-clipboard" %}
+
+## How to check the time taken by plugins to while opening vim?
+
+As I have already shared that I have a lot of plugins installed for the local setup of vim which include things autocomplete and other features as well.
+
+I wanted to check how these plugins are performing while opening the files in vim.
+
+Here is the command which can be used for the purpose.
+
+```shell
+vim --startuptime /dev/stdout +qall
+```
+
+This will print the output to the console.
+
+I could see a output something similar to,
+
+```shell
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+1226.324  000.467  000.467: sourcing /Users/ranvir/.vim/plugged/vim-airline/autoload/airline/extensions/quickfix.vim
+                                                                                                                                                                                                                               1227.984  001.364  001.364: sourcing /Users/ranvir/.vim/plugged/vim-airline/autoload/airline.vim
+                                               1229.092  000.466  000.466: sourcing /Users/ranvir/.vim/plugged/vim-airline/autoload/airline/extensions/netrw.vim
+                                                                                                                                                                1230.380  000.636  000.636: sourcing /Users/ranvir/.vim/plugged/vim-airline/autoload/airline/extensions/term.vim
+1231.202  000.555  000.555: sourcing /Users/ranvir/.vim/plugged/vim-airline/autoload/airline/extensions/hunks.vim
+                                                                                                                 1232.213  000.679  000.679: sourcing /Users/ranvir/.vim/plugged/vim-airline/autoload/airline/extensions/branch.vim
+                                                                                                                                                                                                                                   1232.806  000.340  000.340: sourcing /Users/ranvir/.vim/plugged/vim-airline/autoload/airline/extensions/fugitiveline.vim
+                                                                           1233.603  000.519  000.519: sourcing /Users/ranvir/.vim/plugged/vim-airline/autoload/airline/extensions/whitespace.vim
+                                                                                                                                                                                                 1234.388  000.296  000.296: sourcing /Users/ranvir/.vim/plugged/vim-airline/autoload/airline/extensions/wordcount.vim
+                                      1235.492  000.881  000.881: sourcing /Users/ranvir/.vim/plugged/vim-airline/autoload/airline/extensions/tabline.vim
+                                                                                                                                                         1235.966  000.261  000.261: sourcing /Users/ranvir/.vim/plugged/vim-airline/autoload/airline/extensions/tabline/autoshow.vim
+     1236.818  000.483  000.483: sourcing /Users/ranvir/.vim/plugged/vim-airline/autoload/airline/extensions/tabline/tabs.vim
+                                                                                                                             1237.671  000.537  000.537: sourcing /Users/ranvir/.vim/plugged/vim-airline/autoload/airline/extensions/tabline/buffers.vim
+                                                                                                                                                                                                                                                        1238.316  000.216  000.216: sourcing /Users/ranvir/.vim/plugged/vim-airline/autoload/airline/extensions/keymap.vim
+                                                                                          1241.821  000.360  000.360: sourcing /Users/ranvir/.vim/plugged/vim-airline/autoload/airline/section.vim
+                                                                                                                                                                                                  1243.114  000.980  000.980: sourcing /Users/ranvir/.vim/plugged/vim-airline/autoload/airline/highlighter.vim
+                              1247.465  000.286  000.286: sourcing /Users/ranvir/.vim/plugged/vim-airline/autoload/airline/themes.vim
+                                                                                                                                     1247.925  001.253  000.967: sourcing /Users/ranvir/.vim/plugged/vim-airline/autoload/airline/themes/dark.vim
+                                                                                                                                                                                                                                                 1280.470  001.053  001.053: sourcing /Users/ranvir/.vim/plugged/vim-airline/autoload/airline/builder.vim
+                                                                         1281.347  000.326  000.326: sourcing /Users/ranvir/.vim/plugged/vim-airline/autoload/airline/extensions/default.vim
+```
 
 This is the basic overview of Vim. Please refer to other posts in the category.
