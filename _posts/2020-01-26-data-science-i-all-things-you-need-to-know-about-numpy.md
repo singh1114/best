@@ -5,7 +5,7 @@ date: 2020-01-26T18:58:22.420Z
 description: >-
   Numpy basics for learning data science and machine learning, with complete
   understanding of jupyter notebooks and python.
-published: true
+published: false
 tags:
   - machinelearning
   - datascience
