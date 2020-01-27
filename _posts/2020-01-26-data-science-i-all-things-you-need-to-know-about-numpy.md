@@ -5,7 +5,7 @@ date: 2020-01-26T18:58:22.420Z
 description: >-
   Numpy basics for learning data science and machine learning, with complete
   understanding of jupyter notebooks and python.
-published: false
+published: true
 tags:
   - machinelearning
   - datascience
@@ -103,3 +103,29 @@ Let's move to the jupyter notebook and continue the tutorial up there.
 In this part, we are going to learn about selecting different parts of the np arrays. Along with some basic conditional selecting, where you select certain parts using some specific conditions.
 
 [Numpy Selection Jupyter Notebook](https://github.com/singh1114/ml/blob/master/datascience/Numpy%20index%20selection.ipynb)
+
+## Learning about Numpy operations available
+
+Numpy operation can help us do different operation on the elements of the `np` arrays and give us the desired results.
+
+In this jupyter notebook, we will be talking about the 3 types of operations.
+
+* Vector Operations
+
+The operations in which two arrays are involved. The result of such operation will be arrays as well.
+
+* Scalar Operations
+
+One Scalar and one np array is involved in such operations.
+
+* Universal Operators
+
+Math operators that we apply to NumPy arrays.
+
+Find more operators related to [Numpy here.](https://docs.scipy.org/doc/numpy/reference/ufuncs.html)
+
+[NumPy operators jupyter notebooks](https://github.com/singh1114/ml/blob/master/datascience/Basic%20Numpy%20operations.ipynb)
+
+That's it for today's article, hope you find this useful and share it with your friends.
+
+If you want to get updates about the new posts shared, please consider subscribing to the newsletter.
