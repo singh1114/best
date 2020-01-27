@@ -82,6 +82,21 @@ In general, people import Numpy as `np` to save time, you can use the same stand
 import numpy as np
 ```
 
+**Note:** The combination of vectors and matrices are referred as NumPy arrays. From now on we use the same analogy.
+
+## NumPy vectors and matrices creation and library methods
+
 Let's move to the jupyter notebook for the further discussions of numpy.
 
-[Numpy learning jupyter notebook](https://github.com/singh1114/ml/blob/master/datascience/Numpy%20learning.ipynb)
+In this jupyter notebook, we are going to creating `NumPy` vectors and matrices using different methods.
+
+We are also going to talk about different basic methods that will play an important role while performing different tasks on data sets.
+
+[Numpy learning jupyter notebook](https://github.com/singh1114/ml/blob/master/datascience/Numpy%20array%20basics.ipynb)
+
+## Selecting data using Numpy Array Indexing/ Positioning
+
+All these methods are used to select specific parts and particular element from the NumPy arrays.
+
+Let's move to the jupyter notebook and continue the tutorial up there.
+
