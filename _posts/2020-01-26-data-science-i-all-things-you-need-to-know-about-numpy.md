@@ -101,3 +101,5 @@ All these methods are used to select specific parts and particular element from 
 Let's move to the jupyter notebook and continue the tutorial up there.
 
 In this part, we are going to learn about selecting different parts of the np arrays. Along with some basic conditional selecting, where you select certain parts using some specific conditions.
+
+[Numpy Selection Jupyter Notebook](https://github.com/singh1114/ml/blob/master/datascience/Numpy%20index%20selection.ipynb)
