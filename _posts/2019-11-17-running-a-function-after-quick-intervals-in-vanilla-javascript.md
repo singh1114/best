@@ -2,8 +2,8 @@
 title: Call a function periodically in Javascript (with memory leak analysis)
 date: 2019-11-17T19:34:00.000Z
 description: >-
-  Detailed description on how to run a function periodically in JavaScript and
-  checking if there is any memory leak in the function.
+  How to run a function periodically in JavaScript and checking memory leak in
+  the function using memcache-next or node's inspect flag.
 published: true
 image: 'https://i.imgur.com/KX8Gign.jpg'
 tags:
