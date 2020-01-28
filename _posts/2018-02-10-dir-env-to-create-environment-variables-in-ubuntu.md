@@ -1,13 +1,23 @@
 ---
-title: How to use direnv to create environment variables in ubuntu
-date: 2018-02-10 18:43:00 Z
-categories:
-- Python
-- Direnv
-- Environment variables
-author: Ranvir Singh
-comments: true
 layout: post
+title: How to use direnv to create environment variables in ubuntu
+date: 2018-02-10T18:43:00.000Z
+description: >-
+  Using direnv to easily handle environment variables in your machine(Ubuntu/
+  Mac). direnv apply your env variables whenever you enter the working
+  directory.
+published: true
+tags:
+  - python
+  - direnv
+  - environmentvariables
+  - productivity
+categories:
+  - python
+  - direnv
+  - environmentvariables
+  - productivity
+canonical_url: ''
 ---
 
 ![python logo](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png "Python Logo")
