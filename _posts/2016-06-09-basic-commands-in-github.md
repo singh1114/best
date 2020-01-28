@@ -2,6 +2,9 @@
 layout: post
 title: Basic git commands that you need to know as a Software Engineer
 date: 2016-06-09T20:31:50.000Z
+description: >-
+  Basic and advanced git commands that every software developer should know and
+  also uses on daily basis. It can also be used as a git cheat sheet.
 published: true
 tags:
   - git
@@ -149,5 +152,21 @@ $ git stash apply
 $ git stash apply stash@{0}
 # Apply the particular stash, can be found using the list command
 ```
+
+## Reverting git commits
+
+Reverting commits can be real tough. There are a lot of options from which you can choose.
+
+One of the way is to use `git reset hard <commit_hash>` but when I was trying to revert changes on production due to some bug, I was not able to do it this way.
+
+This happens because in general most of the production branches in big companies are protected branches and `git reset` changes the commit history which is not allowed.
+
+Another idea is to create a revert commit. Here is the command for that.
+
+```shell
+git revert -m 1 <pr_commit_hash>
+```
+
+You have to use the commit hash which was made while merging the code to the main branch. In general it is a merge commit.
 
 Rest of the information will be shared in the follow-ups.
