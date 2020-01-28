@@ -151,6 +151,61 @@ memwatch.on('leak', (info) => {
 
 Run the program simply, if you see the message memory leak being printed, you will know that there is some memory leak.
 
+## How does a leaky function look like?
+
+```javascript
+const http = require("http");
+
+const requestUrls = [];
+const server = http.createServer((req, res) => {
+  requestUrls.push({ url: req.url });
+  res.end(JSON.stringify(requestUrls));
+});
+
+server.listen(3000);
+console.log("Server listening to port 3000.");
+```
+
+The only purpose of this server is to save url data to the variable `requestUrls`.
+
+This is a basic type of leaky function. Now we will see how memory leak function will raise a `Warning` in **memwatch-next**.
+
+Just add `memwatch-next` to your existing code.
+
+```javascript
+const http = require("http");
+const memwatch = require('memwatch-next');
+
+const requestUrls = [];
+const server = http.createServer((req, res) => {
+  requestUrls.push({ url: req.url });
+  res.end(JSON.stringify(requestUrls));
+  memwatch.on('leak', (info) => {
+    console.error('Memory leak detected:\n', info);
+  });
+});
+
+server.listen(3000);
+console.log("Server listening to port 3000.");
+```
+
+Now I am using [postman's](https://www.getpostman.com/) collection runner to run send 200 requests to the newly created server.
+
+![Postman collection runner to send same requests](https://i.imgur.com/1ZKAYLa.png "Postman collection runner to send same requests")
+
+Now run the server using the simple node command.
+
+```shell
+node server_file.js
+```
+Send request to the server on a random URL using the postman's collection runner.
+
+![Send request to server](https://i.imgur.com/VgMJ9Vv.png "Send request to server")
+
+`memcache-next` will raise an error like this memory leak error.
+
+![Leaky server memory error](https://i.imgur.com/YgfgxzY.png "Leaky server memory error")
+
 Hopefully, this will help you to find memory leaks in your program in the future as well.
 
 Thanks for stopping by and do consider [subscribing](https://ranvir.xyz/blog/subscribe) to the weekly newsletter.
