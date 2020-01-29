@@ -88,13 +88,13 @@ Result for MAC will be,
 
 Open up your IDE and create a Maven project with basic defaults selected. Choose some random GroupId and Artifact ID.
 
-![java_new_project](https://i.imgur.com/GchFM89.jpg "Java New project")
+![java_new_project](https://i.imgur.com/GchFM89.jpg "Java New project"){:class="lazyload"}
 
-![java_choose_project](https://i.imgur.com/If10F0g.jpg "Java New project")
+![java_choose_project](https://i.imgur.com/If10F0g.jpg "Java New project"){:class="lazyload"}
 
-![java_choose_group](https://i.imgur.com/LRzxxES.jpg "Java New project")
+![java_choose_group](https://i.imgur.com/LRzxxES.jpg "Java New project"){:class="lazyload"}
 
-![java_finish](https://i.imgur.com/NEWTCbN.jpg "Java New project Finish setup")
+![java_finish](https://i.imgur.com/NEWTCbN.jpg "Java New project Finish setup"){:class="lazyload"}
 
 ## Setting up pom.xml
 
@@ -124,13 +124,13 @@ This is all that was required to build the initial server in Spring Boot.
 
 You can click on the `Run` button. This will run the application. You will see the following output.
 
-![compilation_response](https://i.imgur.com/dxAohR4.png "spring boot compilation response")
+![compilation_response](https://i.imgur.com/dxAohR4.png "spring boot compilation response"){:class="lazyload"}
 
 Now that the server is started, you can head out to the browser and type in `http://localhost:8080` to find the server.
 
 You will get the following error message.
 
-![browser](https://i.imgur.com/tj7u8lU.png "localhost response")
+![browser](https://i.imgur.com/tj7u8lU.png "localhost response"){:class="lazyload"}
 
 That was really easy. It's really easy to setup a server using the Spring Boot framework. Now we will work to create Controllers and various other things to create a proper set of Rest APIs.
 
@@ -172,7 +172,7 @@ This time the function is returning back the List data to the endpoint. `Spring 
 
 Here is how it is going to look on the browser.
 
-![standards_api_response](https://i.imgur.com/S6O8NnB.png "standards api response")
+![standards_api_response](https://i.imgur.com/S6O8NnB.png "standards api response"){:class="lazyload"}
 
 ## Let's think about data
 
@@ -261,7 +261,7 @@ Here is what `io.singh1114.springboottut.school/School.java` file looks like.
 
 After writing this down, run the application and check the MySQL shell to find the table created.
 
-![mysql shell](https://i.imgur.com/NFGMhfq.png "MySQL shell")
+![mysql shell](https://i.imgur.com/NFGMhfq.png "MySQL shell"){:class="lazyload"}
 
 `Entity` is the keyword that tells the Spring Boot that the following class should be considered as a table class. Class parameters are fields of the table.
 
@@ -302,11 +302,11 @@ Looks like we have already discussed most of the stuff in here. Please drop your
 
 Now you are ready to run your application with DataBase connected.
 
-![Empty Schools response Postman](https://i.imgur.com/E4e1h4F.png "Empty Schools response Postman")
+![Empty Schools response Postman](https://i.imgur.com/E4e1h4F.png "Empty Schools response Postman"){:class="lazyload"}
 
-![Add School Postman](https://i.imgur.com/BGbQfq0.png "Add School Postman")
+![Add School Postman](https://i.imgur.com/BGbQfq0.png "Add School Postman"){:class="lazyload"}
 
-![Schools response Postman](https://i.imgur.com/dBUVcgY.png "Schools response Postman")
+![Schools response Postman](https://i.imgur.com/dBUVcgY.png "Schools response Postman"){:class="lazyload"}
 
 That's all for this part of the guide. With this much knowledge of Spring Boot, you can create any level of complex project( With a bit of googling).
 
