@@ -18,11 +18,11 @@ categories:
   - javascript
   - productivity
 ---
-Some time ago, I was working on a big Node.js application. All over the API's, I could see same validation for the request parameters being repeated again. Every API was literally checking if certain parameter was being passed by the frontend or checking if the certain parameter was passed as `String/ Integer`.
-
-I get it! You don't want to repeat that code again and again. Maybe you are sick of copying those little function calls all over your code with some change in the parameters. Every time you have to create a new route or new API endpoint you have to write the same code.
+Some time ago, while working on a big Node.js application, I could see same validation for the request parameters being repeated again and again all over the routes. Every API was literally checking if certain parameter was being passed by the frontend or checking if the certain parameter was passed as `String/ Integer`.
 
 ![Validate your request parameters using a middleware](https://i.imgur.com/4BWtPKb.png "Validate your request param using middleware in node.js")
+
+I get it! You don't want to repeat that code again and again. Maybe you are sick of copying those little function calls all over your code with some change in the parameters. Every time you have to create a new route or new API endpoint you have to write the same code.
 
 For example:
 
