@@ -8,13 +8,15 @@ description: >-
 published: true
 image: 'https://i.imgur.com/4BWtPKb.png'
 tags:
-  - Technology
-  - Nodejs
+  - nodejs
+  - technology
   - javascript
+  - productivity
 categories:
-  - Nodejs
-  - Technology
+  - nodejs
+  - technology
   - javascript
+  - productivity
 ---
 Some time ago, I was working on a big Node.js application. All over the API's, I could see same validation for the request parameters being repeated again. Every API was literally checking if certain parameter was being passed by the frontend or checking if the certain parameter was passed as `String/ Integer`.
 
