@@ -33,6 +33,8 @@ if (!request.phone_number) {
 }
 ```
 
+> In this post we are going to learn the simplest way in which you can validate your request parameter or any other thing for that matter.
+
 If you are starting out your app, this might look fine but as your app keeps getting bigger and bigger, you might want to write some specific code that can handle this for you.
 
 If you want to wrap all your requests with some special data, this tutorial is for you.
