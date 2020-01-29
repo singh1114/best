@@ -398,3 +398,26 @@ pre.highlight {
   border: none;
   margin: 0 0 20px 0;
 }
+
+// blur effect when images are loading
+.no-js img.lazyload {
+  display: none;
+}
+
+.blur-up {
+  filter: blur(10px);
+  transition: filter 400ms;
+}
+
+.blur-up.lazyloaded {
+  filter: blur(0);
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 400ms;
+}
+
+.fade-in.lazyloaded {
+  opacity: 1;
+}
