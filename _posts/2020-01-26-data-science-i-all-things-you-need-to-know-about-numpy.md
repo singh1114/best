@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data science I - All things you need to know about numpy
+title: Data science I - Power up your NumPy array skills( Basics)
 date: 2020-01-26T18:58:22.420Z
 description: >-
   Numpy basics for learning data science and machine learning, with complete
