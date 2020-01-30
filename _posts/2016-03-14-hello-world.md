@@ -2,7 +2,7 @@
 layout: post
 title: Hello World
 date: '2016-12-04 18:11:00 +0000'
-published: false
+published: true
 tags:
   - seo
 categories:
@@ -22,3 +22,10 @@ This is a website where you will find different projects for different coding la
 ## Yesterday
 
 ## Next Month
+
+![Creating table of content in Jekyll Blog](https://i.imgur.com/PXpPGSh.png "Creating table of content in Jekyll Blog")
+
+{% assign images = page.media | where: "media_type", "image" %}
+{% for image in images %}
+  <h1>{{ image.alt }}</h1>
+{% endfor %}
