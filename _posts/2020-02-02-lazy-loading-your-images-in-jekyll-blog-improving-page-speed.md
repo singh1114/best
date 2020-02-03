@@ -83,9 +83,7 @@ If yes, it uses the passed variables and renders an `image` with `data-src`( req
 
 While writing the posts you can include the newly created `lazyload.html`.
 
-```
-{% include lazyload.html image_src="https://image.png" image_alt="Alt" image_title="Title" %}
-```
+<script src="https://gist.github.com/singh1114/e5cfa80c4539fef26f2213f56b676e3e.js"></script>
 
 That's it. After this you will not see the Google pagespeed's suggestion to defer your offscreen images.
 
