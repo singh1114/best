@@ -53,6 +53,8 @@ Some important terms we will be seeing in this post are:
 
 ## Series in Pandas
 
+{% include lazyload.html image_src="https://i.imgur.com/64xGCPE.png" image_alt="pandas series" image_title="pandas series" %}
+
 Pandas series are similar to Numpy Array except that the pandas series should contain some indexes.
 
 Let's jump to the Jupyter notebook to learn more about the Pandas series.
@@ -72,4 +74,6 @@ In this notebook, we discussed,
 * How to select elements from pandas series?
 
 * How to apply arithmetic operations in Pandas series?
+
+**NOTE:** When you do arithmetic operations on pandas series with `int` type, it will convert it to `float`.
 
