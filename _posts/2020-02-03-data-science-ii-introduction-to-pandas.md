@@ -53,3 +53,23 @@ Some important terms we will be seeing in this post are:
 
 ## Series in Pandas
 
+Pandas series are similar to Numpy Array except that the pandas series should contain some indexes.
+
+Let's jump to the Jupyter notebook to learn more about the Pandas series.
+
+[Pandas Series Jupyter notebook](https://github.com/singh1114/ml/blob/master/datascience/Pandas/Pandas%20Series.ipynb)
+
+### Recap
+
+In this notebook, we discussed,
+
+* How to create Pandas series?
+
+* How to create Pandas series with custom indexes?
+
+* Creating series using Python dictionaries.
+
+* How to select elements from pandas series?
+
+* How to apply arithmetic operations in Pandas series?
+
