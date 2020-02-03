@@ -65,15 +65,7 @@ Write the following script and add it to the `_includes` directory so that you c
 
 `_includes/lazyload.html`
 
-```liquid
-{% if include.image_src %}
-  <!-- If javascript is not on. -->
-  <noscript><img src="{{include.image_src}}" alt="{{include.image_alt}}" title="{{include.image_title}}" /></noscript>
-
-  <!-- If javascript is present. -->
-  <img data-src="{{include.image_src}}" alt="{{include.image_alt}}" title="{{include.image_title}}" class="blur-up lazyload" />
-{% endif %}
-```
+<script src="https://gist.github.com/singh1114/363f8907e043522a5302e97ec3a62e11.js"></script>
 
 This script is checking if the `image_src` and javascript is enabled by the given client.
 
