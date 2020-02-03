@@ -65,7 +65,7 @@ Write the following script and add it to the `_includes` directory so that you c
 
 `_includes/lazyload.html`
 
-```
+```markdown
 {% if include.image_src %}
   <!-- If javascript is not on. -->
   <noscript><img src="{{include.image_src}}" alt="{{include.image_alt}}" title="{{include.image_title}}" /></noscript>
