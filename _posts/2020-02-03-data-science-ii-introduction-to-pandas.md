@@ -77,3 +77,12 @@ In this notebook, we discussed,
 
 **NOTE:** When you do arithmetic operations on pandas series with `int` type, it will convert it to `float`.
 
+## DataFrames in Pandas
+
+{% include lazyload.html image_src="https://i.imgur.com/ZhwhESU.png" image_alt="Pandas DataFrame" image_title="Pandas DataFrame" %}
+
+A Pandas DataFrame is a combination of Pandas series clubbed together in form of rows/ columns.
+
+Let's jump on to the Jupyter notebook and continue the discussion over there.
+
+[Pandas DataFrame Jupyter notebook](https://github.com/singh1114/ml/blob/master/datascience/Pandas/pandas%20dataframe.ipynb)
