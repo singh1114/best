@@ -86,3 +86,21 @@ A Pandas DataFrame is a combination of Pandas series clubbed together in form of
 Let's jump on to the Jupyter notebook and continue the discussion over there.
 
 [Pandas DataFrame Jupyter notebook](https://github.com/singh1114/ml/blob/master/datascience/Pandas/pandas%20dataframe.ipynb)
+
+In this notebook, we learned about the following topics.
+
+* How to create Pandas DataFrames?
+
+* How to select column series from DataFrame?
+
+* How to add new data into the Pandas DataFrame?
+
+* How to remove series from Pandas DataFrames?
+
+* How to select rows from Pandas DataFrames?
+
+## DataFrame Operations
+
+> Normal python `and` and `or` don't work because they doesn't have the capability to compare boolean values in a series.
+
+[Numpy DataFrames Operations Notebook](https://github.com/singh1114/ml/blob/master/datascience/Pandas/Pandas%20selection%20and%20DF%20updates.ipynb)
