@@ -15,15 +15,15 @@ categories:
   - blogging
   - seo
 ---
-Images are the heaviest part of your blog and often are the most interesting once. The one things without which your post can't be complete.
+Images are the heaviest part of your blog and often are the most interesting once without which your post can't be complete.
 
-Most of the people in a Jekyll blog tend to upload the images onto the directory on which the blog is hosted. Atleast such is the case with the people hosting it using GitHub pages.
+Most of the people in a Jekyll blog tend to upload the images onto the directory on which the blog is hosted. At least such is the case with the people hosting it using GitHub pages.
 
-If you check the pagespeed of your page on the [Google's pagespeed](https://developers.google.com/speed/pagespeed/insights/), you might have seen Google giving some suggestions related to images if your page contain a good number of images.
+If you check the page speed of your page on the [Google's pagespeed](https://developers.google.com/speed/pagespeed/insights/), you might have seen Google giving some suggestions related to images if your page contain a good number of images.
 
-One of the major one is to **Defer Offscreen Images**, that is what we are going to do in this post.
+One of the major one is to **Defer Off-screen Images**, that is what we are going to do in this post.
 
-## Introduction to the problem: Defer offscreen images
+## Introduction to the problem: Defer off-screen images
 
 When your blog post has a lot of content and the people have to scroll to see the images of the content, then Google suggest to load the images after the whole [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) is loaded first.
 
@@ -35,7 +35,7 @@ There are a lot of ways of doing [this](https://www.tezify.com/how-to/defer-offs
 
 Before jumping into the tutorial, I want to state that if you follow this tutorial, you will have to change the way you define images in your Jekyll blog post, you won't be able to use the old `liquid` tags.
 
-We are going to use [Lazysizes](https://github.com/aFarkas/lazysizes) to help us with the deferring of the offscreen images from the blog posts.
+We are going to use [Lazysizes](https://github.com/aFarkas/lazysizes) to help us with the deferring of the off-screen images from the blog posts.
 
 ## Get the Lazysizes min file.
 
@@ -57,7 +57,7 @@ You can use the following code to add class to images in Jekyll
 ![alt text](https:image/source.png "title text"){:class="lazyload"}
 ```
 
-This is the first step to get started but we won't be using it. We will directly be adding this `class` to every image of all the posts on its own with new style.
+This is the first step to get started, but we won't be using it. We will directly be adding this `class` to every image of all the posts on its own with new style.
 
 ## Creating an image creation script using the variables passed.
 
@@ -67,7 +67,7 @@ Write the following script and add it to the `_includes` directory so that you c
 
 <script src="https://gist.github.com/singh1114/363f8907e043522a5302e97ec3a62e11.js"></script>
 
-This script is checking if the `image_src` and javascript is enabled by the given client.
+This script is checking if the `image_src` and JavaScript is enabled by the given client.
 
 If yes, it uses the passed variables and renders an `image` with `data-src`( required by lazysizes to defer offscreen images). Otherwise, it will render a normal image.
 
@@ -77,7 +77,7 @@ While writing the posts you can include the newly created `lazyload.html`.
 
 <script src="https://gist.github.com/singh1114/e5cfa80c4539fef26f2213f56b676e3e.js"></script>
 
-That's it. After this you will not see the Google pagespeed's suggestion to defer your offscreen images.
+That's it. After this you will not see the Google pagespeed's suggestion to defer your off-screen images.
 
 ## Changing the old images to follow the new script
 
