@@ -40,7 +40,7 @@ pip install pandas
 
 ## What are we going to learn?
 
-We are going to learn various methods of the Pandas library which will help us to clean and analyze the code.
+We are going to learn various methods of the Pandas library which will help us to clean and analyse the code.
 
 Some important terms we will be seeing in this post are:
 
