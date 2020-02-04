@@ -49,9 +49,9 @@ Create a new `python3` notebook from the `new` button on the right hand side.
 
 ## Introduction to Numpy
 
-[NumPy](https://docs.scipy.org/doc/numpy/user/whatisnumpy.html) is a Linear Algebra Library for Python. This particular library can be used to make all sorts of math related computations in python.
+[NumPy](https://docs.scipy.org/doc/numpy/user/whatisnumpy.html) is a Linear Algebra Library for Python. This particular library can be used to make all sorts of maths related computations in python.
 
-Also they are blazingly fast because it is executed with precompiled `C` code.
+Also, they are blazingly fast because it is executed with pre compiled `C` code.
 
 It is also important because almost all the libraries of PyData ecosystem are somehow dependent on NumPy library.
 
@@ -88,7 +88,7 @@ import numpy as np
 
 Let's move to the jupyter notebook for the further discussions of numpy.
 
-In this jupyter notebook, we are going to creating `NumPy` vectors and matrices using different methods.
+In this jupyter notebook, we are going to create `NumPy` vectors and matrices using different methods.
 
 We are also going to talk about different basic methods that will play an important role while performing different tasks on data sets.
 
