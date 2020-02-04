@@ -59,7 +59,7 @@ You can use the following code to add class to images in Jekyll
 
 This is the first step to get started but we won't be using it. We will directly be adding this `class` to every image of all the posts on its own with new style.
 
-## Creating a image creation script using the variables passed.
+## Creating an image creation script using the variables passed.
 
 Write the following script and add it to the `_includes` directory so that you can include them from posts.
 
