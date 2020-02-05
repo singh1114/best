@@ -104,3 +104,9 @@ In this notebook, we learned about the following topics.
 > Normal python `and` and `or` don't work because they doesn't have the capability to compare boolean values in a series.
 
 [Numpy DataFrames Operations Notebook](https://github.com/singh1114/ml/blob/master/datascience/Pandas/Pandas%20selection%20and%20DF%20updates.ipynb)
+
+In this notebook we learned about the different methods used in Pandas to select, manipulate and operate on Pandas DataFrames.
+
+## Working on missing data in DataFrames
+
+
