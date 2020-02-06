@@ -118,3 +118,9 @@ Let's head up to the jupyter notebook and learn more on how to handle missing da
 Group by operators allow us to apply [aggregate functions](https://ranvir.xyz/blog/mongo-aggregates/#grouping-in-mongo-aggregate).
 
 Let's jump into the [jupyter notebook](https://github.com/singh1114/ml/blob/master/datascience/Pandas/Pandas%20groupby%20operations.ipynb) and learn how can we apply group by techniques to pandas DataFrame.
+
+## Merging, concatenating and joining DataFrames in Pandas
+
+Let's jump to the [jupyter notebook](https://github.com/juinc/python_data_science_and_machine_learning_bootcamp/blob/master/Python-for-Data-Analysis/Pandas/Merging%2C%20Joining%2C%20and%20Concatenating%20.ipynb) to learn more about this.
+
+That's it for this part of the post. I will keep adding more operations and methods if I find something interesting to this post.
