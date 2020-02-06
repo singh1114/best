@@ -109,4 +109,12 @@ In this notebook we learned about the different methods used in Pandas to select
 
 ## Working on missing data in DataFrames
 
+Pandas provide a lot of methods that can help us with cleaning and removing the missing data from the DataFrames.
 
+Let's head up to the jupyter notebook and learn more on how to handle missing data in a DataFrame.
+
+## Applying GroupBy( Aggregate) operations in Pandas
+
+Group by operators allow us to apply [aggregate functions](https://ranvir.xyz/blog/mongo-aggregates/#grouping-in-mongo-aggregate).
+
+Let's jump into the jupyter notebook and learn how can we apply group by techniques to pandas DataFrame.
