@@ -16,4 +16,12 @@ published: false
 
 ## Confusion matrix
 
+## Evaluating for regression problems
+
+## Mean Absolute error
+
+## Mean Square error
+
+## Root mean square error
+
 ## What is considered as a good metric for your model?
