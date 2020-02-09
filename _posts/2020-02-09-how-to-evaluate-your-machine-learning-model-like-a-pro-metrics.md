@@ -15,3 +15,5 @@ published: false
 ## F1-score
 
 ## Confusion matrix
+
+## What is considered as a good metric for your model?
