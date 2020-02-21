@@ -15,9 +15,7 @@ categories:
   - datascience
   - python
 ---
-You are happy with your Machine Learning model. You go up to your clients and show them the new model. You are excited to run it on the new production data.
-
-Checking your eagerness, client asks this question.
+You are happy with your Machine Learning model. You go up to your clients and show them the new model. You are excited to run it on the new production data. Checking your eagerness, client asks this question.
 
 > How accurate is your model?
 
