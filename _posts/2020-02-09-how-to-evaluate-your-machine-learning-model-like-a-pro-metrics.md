@@ -19,7 +19,9 @@ You are happy with your Machine Learning model. You go up to your clients and sh
 
 > How accurate is your model?
 
-What should be your answer to this question? Today we are going to talk about the problem of calculating the accuracy of your model along with some code samples that will help you to calculate them easily.
+What should be your answer to this question?
+
+Today we are going to talk about the problem of calculating the accuracy of your model along with some code samples that will help you to calculate them easily.
 
 ## What is the process of evaluating your model?
 
