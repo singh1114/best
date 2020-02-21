@@ -4,8 +4,6 @@ backend:
   branch: gh-pages
 
 media_folder: "images"
-media_library:
-  name: uploads
 
 collections:
   - name: "posts"
