@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to evaluate your Machine learning model like a pro | Metrics
-date: 2020-02-09T19:22:14.832Z
+date: 2020-02-21T19:22:14.832Z
 description: >-
   Evaluating of your machine learning model can be done using accuracy, recall,
   precision, F1-score and/or mean absolute error or mean square error.
