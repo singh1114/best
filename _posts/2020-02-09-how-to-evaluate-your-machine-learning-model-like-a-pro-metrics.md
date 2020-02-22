@@ -100,11 +100,11 @@ Most of these evaluation models are used when the data in [mainly imbalanced](ht
 
 In a case of a model which classify every volcano to erupt the next day having a data set with 20% values of it erupting the next day, The value of recall will look something like this.
 
-{% include math.html math_code="$recall = \frac{volcanos\ correctly\ identified}{volcanos\ correctly\ identified + volcanos\ incorrectly\ labelled\ to\ not\ erupt\ tomorrow}$" %}
+{% include math.html math_code="$recall = \frac{volcanos\ correctly\ identified}{volcanos\ correctly\ identified + volcanos\ incorrectly\ labelled\ to\ not\ erupt\ tomorrow}$" style="margin-top:0.2em;" %}
 
 {% include math.html math_code="$recall = \frac{20}{20 + 0}$" %}
 
-{% include math.html math_code="$recall = 1$" %}
+{% include math.html math_code="$recall = 1$" style="margin-bottom:0.2em;" %}
 
 Although the value of `recall` is great, it goes with the value of `precision` and in most cases both of their value is considered.
 
