@@ -71,7 +71,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
 
 Accuracy is the simple calculation where you divide number of data points evaluated correctly by the number of total data points.
 
-$$\begin{array}{*{20}c} {x = \frac{{ - b \pm \sqrt {b^2 - 4ac} }}{{2a}}} & {{\rm{when}}} & {ax^2 + bx + c = 0} \\ \end{array}$$
+$$\begin{foo}...\end{foo}$$
 
 ## Recall
 
