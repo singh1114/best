@@ -118,10 +118,6 @@ According to the same volcano problem,
 
 {% include math.html math_code="$precision = \frac{volcanos\ correctly\ identified}{volcanos\ correctly\ identified + volcanos\ incorrectly\ labelled\ to\ erupt\ tomorrow} \\ precision = \frac{20}{20 + 80} \\ precision = 0.2$" %}
 
-{% include math.html math_code="$precision = \frac{20}{20 + 80}$" %}
-
-{% include math.html math_code="$precision = 0.2$" %}
-
 In general, it is a standard to maximize both the values of recall and precision.
 
 ## F1-score
