@@ -1,3 +1,13 @@
 {% if include.math_code %}
-  {{ math_code }}
+  <div class="math-code">
+    {{ include.math_code }}
+  </div>
 {% endif %}
+
+<style type="text/css">
+    .math-code {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+</style>
