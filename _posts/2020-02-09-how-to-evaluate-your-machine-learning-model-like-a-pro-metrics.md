@@ -155,9 +155,9 @@ Its a simple difference between the predicted and the actual values. Here is the
 
 {% include math.html math_code="$MAE = \frac{1}{n}\sum\left | Y_a - Y_e \right |$" style="margin-top:0.2em;" %}
 
-{% include math.html math_code="$where Y_a is the actual value$" %}
+{% include math.html math_code="$where\ Y_a\ is\ the\ actual\ value$" %}
 
-{% include math.html math_code="$and Y_e is the evaluated value$" style="margin-bottom:0.5em;" %}
+{% include math.html math_code="$and\ Y_e\ is\ the\ model\ evaluated\ value$" style="margin-bottom:0.5em;" %}
 
 ```python
 from sklearn import metrics
