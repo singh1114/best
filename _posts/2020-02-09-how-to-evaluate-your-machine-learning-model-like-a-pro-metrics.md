@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to evaluate your Machine learning model like a pro | Metrics
+title: How to evaluate your Machine learning model like a pro
 date: 2020-02-20T19:22:14.832Z
 description: >-
   Evaluating of your machine learning model can be done using accuracy, recall,
