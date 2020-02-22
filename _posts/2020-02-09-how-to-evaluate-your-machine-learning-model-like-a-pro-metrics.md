@@ -142,4 +142,18 @@ Confusion matrix is a Matrix in which we evaluate all the positives and negative
 
 I read a great explanation of [confusion matrix on towards data science blog](https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62).
 
+## Evaluating for regression problems
+
+Regression problems are a little different from the categorization problems as the output is just not a single value. Here you can actually see how off your predicted value was from the real value.
+
+Here are the three ways in which regression models are evaluated.
+
+## Mean Absolute error
+
+## Mean Square error
+
+## Root mean square error
+
+## What is considered as a good metric value for your model?
+
 Hope you liked the post, do leave your thoughts on what you use to evaluate your model and what do you think is a good metric value for your model.
