@@ -74,7 +74,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
 
 Accuracy is the simple calculation where you divide number of data points evaluated correctly by the number of total data points.
 
-{% include math.html math_code="$accuracy = \frac{number\ of\ correct\ responses}{Total\ number\ of\ test\ cases}$" %}
+{% include math.html math_code="$accuracy = \frac{number\ of\ correct\ responses}{Total\ number\ of\ test\ cases}$" style="margin-top:0.2em; margin-bottom:0.2em;" %}
 
 We first calculate the `predictions` corresponding to the given `X_test`, finally we compare these predictions with the `y_test` which are the real outcomes to the corresponding parameters.
 
@@ -112,7 +112,7 @@ Although the value of `recall` is great, it goes with the value of `precision` a
 
 > Ability of a model to identify only the relevant data points.
 
-{% include math.html math_code="$precision = \frac{number\ of\ true\ positives}{number\ of\ true\ positives + No.\ of\ false\ Positives}$" style="margin-top:0.2em; margin-bottom:0.2em;"%}
+{% include math.html math_code="$precision = \frac{number\ of\ true\ positives}{number\ of\ true\ positives + No.\ of\ false\ Positives}$" style="margin-top:0.2em; margin-bottom:0.2em;" %}
 
 According to the same volcano problem,
 
