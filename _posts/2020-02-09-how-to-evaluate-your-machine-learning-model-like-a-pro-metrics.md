@@ -74,7 +74,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
 
 Accuracy is the simple calculation where you divide number of data points evaluated correctly by the number of total data points.
 
-{% include math.html math_code="$accuracy = \frac{number\ of\ correct\ responses}{Total\ number\ of\ test\ cases}$" style="margin-top:0.2em; margin-bottom:0.2em;" %}
+{% include math.html math_code="$accuracy = \frac{number\ of\ correct\ responses}{Total\ number\ of\ test\ cases}$" style="margin-top:0.2em; margin-bottom:0.5em;" %}
 
 We first calculate the `predictions` corresponding to the given `X_test`, finally we compare these predictions with the `y_test` which are the real outcomes to the corresponding parameters.
 
