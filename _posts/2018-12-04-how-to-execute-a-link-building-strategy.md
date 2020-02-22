@@ -1,13 +1,15 @@
 ---
-title: How to Execute a Link Building Strategy
 layout: post
+title: How to Execute a Link Building Strategy
 date: '2018-12-04 18:11:00 +0000'
-author: Ranvir Singh
-comments: true
-categories:
-- seo
+description: >-
+  Having more pages linking back to your site can really improve the number of
+  people going to your website.
+published: true
 tags:
-- seo
+  - seo
+categories:
+  - seo
 ---
 
 One of my friend asked me to do SEO audit of my website. I searched a few website and finally landed on [seoptimer](https://www.seoptimer.com). After seeing the results, I was shocked. One of the most important and High priority error was **Execute a Link Building Strategy**. I used the below written steps to improve the backlinks.
@@ -28,17 +30,17 @@ A decent connection, above all else, directs people to your site.
 
 The six key strides of a fruitful third-party referencing technique:
 
-**Become more acquainted with your crowd**
+* Become more acquainted with your crowd.
 
-**Make a rundown of sites which bid to your ideal group of onlookers**
+* Make a rundown of sites which bid to your ideal group of onlookers.
 
-**Compose astounding substance**
+* Compose astounding substance.
 
-**Match substance to sites**
+* Match substance to sites.
 
-**Connect with site proprietors**
+* Connect with site proprietors.
 
-**Utilize web-based life to intensify your substance**
+* Utilize web-based life to intensify your substance.
 
 ## Stage 1: Get to know your target population
 
@@ -68,4 +70,12 @@ On the off chance that your substance is unique and all-around organized, you'll
 
 ## Decision: third-party referencing is a development methodology
 
-An effective third-party referencing methodology ought to dependably be meant to bring another, tried a group of onlookers to your site. An (appreciated) symptom will at that point be a higher positioning in Google. For whatever length of time that you consider third-party referencing as an approach to connect with different destinations so as to get more guests from that site, you're doing it the 'right' way.
+An effective third-party referencing methodology ought to dependably be meant to bring another, tried a group of onlookers to your site. An (appreciated) symptom will at that point be a higher positioning in Google. For whatever length of time that you consider third-party referencing as an approach to connect with different destinations so as to get more guests from that site, you're doing it the `right` way.
+
+## Get more and more backlinks
+
+As we already know that Google doesn't give much importance to quantity of pages that link back to your site but it's always helps have more and more sites linking back to your site. Eventually, you will more eyes on your stuff.
+
+Our friends at T-ranks have written an awesome post regarding the in which you get [more and more backlinks](https://t-ranks.com/blog/how-to-get-backlinks/).
+
+Hope you like this post. Do leave your thoughts on what things you used to get backlinks.
