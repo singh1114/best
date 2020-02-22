@@ -6,6 +6,7 @@ description: >-
   Evaluating of your machine learning model can be done using accuracy, recall,
   precision, F1-score and/or mean absolute error or mean square error.
 published: true
+image: 'https://i.imgur.com/oWQcLd6.png'
 tags:
   - machinelearning
   - datascience
@@ -16,6 +17,8 @@ categories:
   - python
 include_mathjax: true
 ---
+{% include lazyload.html image_src="https://i.imgur.com/oWQcLd6.png" image_alt="evaluate your Machine learning model like a pro" image_title="evaluate your Machine learning model like a pro" %}
+
 You are happy with your Machine Learning model and excited to share about it with your client. You go up to your clients and show them the new model. You are excited to run it on the new production data. Checking your eagerness, client asks this question.
 
 > How accurate is your model?
