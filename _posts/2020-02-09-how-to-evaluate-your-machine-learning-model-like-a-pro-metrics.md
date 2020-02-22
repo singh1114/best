@@ -71,10 +71,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
 
 Accuracy is the simple calculation where you divide number of data points evaluated correctly by the number of total data points.
 
-```math_def
-\newcommand{\foo}{Foo}
-```
-I want to check the change again.
+{% include math.html math_code="\begin{foo}...\end{foo}" %}
 
 ## Recall
 
