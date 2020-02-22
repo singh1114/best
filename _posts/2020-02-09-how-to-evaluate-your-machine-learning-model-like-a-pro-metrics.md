@@ -153,16 +153,26 @@ Here are the three ways in which regression models can be evaluated.
 
 Its a simple difference between the predicted and the actual values. Here is the simplest way in which you can calculate Mean Absolute error for your model.
 
-{% include math.html math_code="$MAE = \frac{1}{n}\sum\left | Y_a - Y_e \right |$" style="margin-top:0.2em; margin-bottom:0.5em;" %}
+{% include math.html math_code="$MAE = \frac{1}{n}\sum\left | Y_a - Y_e \right |$" style="margin-top:0.2em;" %}
+
+{% include math.html math_code="$where Y_a is the actual value$" %}
+
+{% include math.html math_code="$and Y_e is the evaluated value$" style="margin-bottom:0.5em;" %}
 
 ```python
 from sklearn import metrics
 
 metrics.mean_absolute_error(y_test, predictions)
 ```
-The only problem with this model is that it doesn't punish the outliers. If a value is very far from the current value
+The only problem with this model is that it doesn't punish the outliers. If a value is very far from the current value, it will not punish it and the error will get averaged out by other values.
+
+{% include lazyload.html image_src="https://i.imgur.com/rFK2Kpl.png" image_alt="Machine learning model regression evaluation" image_title="Machine learning regression evaluation" %}
 
 ## Mean Square error
+
+Mean square error is the sum of squared errors of the predicted and actual values.
+
+{% include math.html math_code="$MSE = \frac{1}{n}\sum (Y_a - Y_e)^{2}$" style="margin-top:0.2em;" %}
 
 ## Root mean square error
 
