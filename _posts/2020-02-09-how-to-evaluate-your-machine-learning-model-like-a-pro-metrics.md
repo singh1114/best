@@ -5,7 +5,7 @@ date: 2020-02-20T19:22:14.832Z
 description: >-
   Evaluating of your machine learning model can be done using accuracy, recall,
   precision, F1-score and/or mean absolute error or mean square error.
-published: false
+published: true
 tags:
   - machinelearning
   - datascience
@@ -71,7 +71,9 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
 
 Accuracy is the simple calculation where you divide number of data points evaluated correctly by the number of total data points.
 
-$$\begin{foo}...\end{foo}$$
+```math_def
+\newcommand{\foo}{Foo}
+```
 
 ## Recall
 
