@@ -141,15 +141,26 @@ Confusion matrix is a Matrix in which we evaluate all the positives and negative
 * True Negative
 * False Negative
 
-I read a great explanation of [confusion matrix on towards data science blog](https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62).
+I read a great explanation of [confusion matrix on towards data science blog](https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62). Do give it a read if you want to know more about it.
 
 ## Evaluating for regression problems
 
 Regression problems are a little different from the categorization problems as the output is just not a single value. Here you can actually see how off your predicted value was from the real value.
 
-Here are the three ways in which regression models are evaluated.
+Here are the three ways in which regression models can be evaluated.
 
 ## Mean Absolute error
+
+Its a simple difference between the predicted and the actual values. Here is the simplest way in which you can calculate Mean Absolute error for your model.
+
+{% include math.html math_code="$MAE = \frac{1}{n}\sum\left | Y_a - Y_e \right |$" style="margin-top:0.2em; margin-bottom:0.5em;" %}
+
+```python
+from sklearn import metrics
+
+metrics.mean_absolute_error(y_test, predictions)
+```
+The only problem with this model is that it doesn't punish the outliers. If a value is very far from the current value
 
 ## Mean Square error
 
