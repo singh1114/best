@@ -73,7 +73,23 @@ Accuracy is the simple calculation where you divide number of data points evalua
 
 {% include math.html math_code="$accuracy = \frac{number\ of\ correct\ responses}{Total\ number\ of\ test\ cases}$" %}
 
+We first calculate the `predictions` corresponding to the given `X_test`, finally we compare these predictions with the `y_test` which are the real outcomes to the corresponding parameters.
+
+We will talk more about how we calculate these values in [later posts](https://ranvir.xyz/blog/machinelearning/). Keep track of the progress by [subscribing](https://ranvir.xyz/blog/subscribe).
+
+Accuracy is one of the easiest way to evaluate the performance of your model.
+
+**Note:** This type of evaluation model is not the best thing to use when the data available to you is unbalanced.
+
+> Unbalanced data is the type of dataset in which you have more outcomes for one type of the data and less outcomes for others.
+
+For example In a cat-dog images dataset, out of 100 pictures, you have 90 pictures of dog and 10 pictures of cat.
+
+In such case, if you are checking the accuracy for dog pictures and your model always return `dog`, no matter what picture is thrown at it, the accuracy in any case will be `90%`.
+
 ## Recall
+
+
 
 ## Precision
 
