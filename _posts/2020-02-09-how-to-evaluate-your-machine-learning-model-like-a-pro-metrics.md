@@ -25,6 +25,8 @@ Today we are going to talk about the problem of calculating the accuracy of your
 
 ## What is the process of evaluating your model?
 
+{% include lazyload.html image_src="https://i.imgur.com/ivfxqsd.png" image_alt="Machine learning model evaluation process" image_title="Machine learning model evaluation process" %}
+
 So, Machine Learning is a simple way of predicting the results with the input that model has not seen before. For example, Predicting stock prices with the historical data related to that particular stock which can tell us, whether it would be profitable to buy a stock on particular day or not.
 
 Evaluating a model is like checking the accuracy of model when test data is passed onto the model - a piece of data which the model has never seen before.
@@ -89,13 +91,43 @@ In such case, if you are checking the accuracy for dog pictures and your model a
 
 ## Recall
 
+> It is the ability of your model to find all the relevant cases in your model.
 
+Most of these evaluation models are used when the data in [mainly imbalanced](http://www.chioka.in/class-imbalance-problem/).
+
+{% include math.html math_code="$recall = \frac{number\ of\ true\ positives}{number\ of\ true\ positives + No.\ of\ false\ Negatives}$" %}
+
+In a case of a model which classify every volcano to erupt the next day having a data set with 20% values of it erupting the next day, The value of recall will look something like this.
+
+{% include math.html math_code="$recall = \frac{volcanos\ correctly\ identified}{volcanos\ correctly\ identified + volcanos\ incorrectly\ labelled\ to\ not\ erupt\ tomorrow}$" %}
+
+{% include math.html math_code="$recall = \frac{20}{20 + 0}$" %}
+
+{% include math.html math_code="$recall = 1$" %}
+
+Although the value of `recall` is great, it goes with the value of `precision` and in most cases both of their value is considered.
 
 ## Precision
+
+> Ability of a model to identify only the relevant data points.
+
+{% include math.html math_code="$precision = \frac{number\ of\ true\ positives}{number\ of\ true\ positives + No.\ of\ false\ Positives}$" %}
+
+According to the same volcano problem,
+
+{% include math.html math_code="$precision = \frac{volcanos\ correctly\ identified}{volcanos\ correctly\ identified + volcanos\ incorrectly\ labelled\ to\ erupt\ tomorrow}$" %}
+
+{% include math.html math_code="$precision = \frac{20}{20 + 80}$" %}
+
+{% include math.html math_code="$precision = 0.2$" %}
+
+In general, it is a standard to maximize both the values of recall and precision.
 
 ## F1-score
 
 ## Confusion matrix
+
+https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62
 
 ## Evaluating for regression problems
 
