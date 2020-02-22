@@ -5,7 +5,7 @@ date: 2020-02-20T19:22:14.832Z
 description: >-
   Evaluating of your machine learning model can be done using accuracy, recall,
   precision, F1-score and/or mean absolute error or mean square error.
-published: false
+published: true
 tags:
   - machinelearning
   - datascience
@@ -39,9 +39,39 @@ For example if you are building a cancer detector depending upon the test report
 
 ## Supervised learning and classification problems.
 
+`Supervised Learning` are the problems where the outcomes of the model are already known. For example a data set of housing prices of an area.
 
+`Classification Problem` are a subset of supervised learning where the outcomes are generally divided into two or more parts. For example whether a person is having cancer or not.
+
+All these models can be evaluated on the following parameters.
+
+Generally we divide the total dataset into two parts. First dataset is known as the training data and the other is known as the test data.
+
+The idea behind such division of the data is to use test data just for evaluation purposes. To find if the model we are trying to use for the given dataset is good enough, or we want to use a different one.
+
+Here is a code sample which can help you to divide your [data frame](https://ranvir.xyz/blog/data-science-ii-introduction-to-pandas/#dataframes-in-pandas) into several parts using [scikit-learn](https://scikit-learn.org/stable/).
+
+```python
+import pandas as pd
+from sklearn.model_selection import train_test_split
+
+df = pd.read_csv('Ecommerce Customers')
+
+X = df[['Avg. Session Length', 'Time on App', 'Time on Website', 'Length of Membership']]
+y = df['Yearly Amount Spent']
+
+df = pd.read_csv('Ecommerce Customers')
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
+```
+
+`test_size` is the amount of data that you want to your test split to be. `0.3` means that the test split would be 30%.
 
 ## Accuracy
+
+Accuracy is the simple calculation where you divide number of data points evaluated correctly by the number of total data points.
+
+$$\begin{array}{*{20}c} {x = \frac{{ - b \pm \sqrt {b^2 - 4ac} }}{{2a}}} & {{\rm{when}}} & {ax^2 + bx + c = 0} \\ \end{array}$$
 
 ## Recall
 
