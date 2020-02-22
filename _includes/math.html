@@ -1,5 +1,5 @@
 {% if include.math_code %}
-  <div class="math-code">
+  <div class="math-code" style="{{include.style}}">
     {{ include.math_code }}
   </div>
 {% endif %}
@@ -10,7 +10,5 @@
         display: inline-block;
         text-align: center;
         background: #e9eaea;
-        margin-top: 0.2em;
-        margin-bottom: 0.5em;
     }
 </style>
