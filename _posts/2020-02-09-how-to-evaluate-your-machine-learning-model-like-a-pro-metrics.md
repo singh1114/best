@@ -149,7 +149,7 @@ Regression problems are a little different from the categorization problems as t
 
 Here are the three ways in which regression models can be evaluated.
 
-## Mean Absolute error
+## Mean Absolute Error
 
 Its a simple difference between the predicted and the actual values. Here is the simplest way in which you can calculate Mean Absolute error for your model.
 
@@ -158,6 +158,8 @@ Its a simple difference between the predicted and the actual values. Here is the
 {% include math.html math_code="$where\ Y_a\ is\ the\ actual\ value$" %}
 
 {% include math.html math_code="$and\ Y_e\ is\ the\ model\ evaluated\ value$" style="margin-bottom:0.5em;" %}
+
+You can get the value in using `sklearn` using the following code.
 
 ```python
 from sklearn import metrics
@@ -168,13 +170,35 @@ The only problem with this model is that it doesn't punish the outliers. If a va
 
 {% include lazyload.html image_src="https://i.imgur.com/rFK2Kpl.png" image_alt="Machine learning model regression evaluation" image_title="Machine learning regression evaluation" %}
 
-## Mean Square error
+## Mean Square Error
 
 Mean square error is the sum of squared errors of the predicted and actual values.
 
 {% include math.html math_code="$MSE = \frac{1}{n}\sum (Y_a - Y_e)^{2}$" style="margin-top:0.2em;" %}
 
-## Root mean square error
+You can get the value in using `sklearn` using the following code.
+
+```python
+from sklearn import metrics
+
+metrics.mean_squared_error(y_test, predictions)
+```
+
+The only problem with this value is that you can't really make any sense of the value. For example, you can't really tell that our model is `100 square unit` accurate.
+
+## Root Mean Square Error
+
+To solve the problem with the `MSE`, we use `RMSE` just by square rooting the values of `MSE`. We can then simply tell about the proficiency of our model from the value derived from this.
+
+{% include math.html math_code="$RMSE = \sqrt{\frac{1}{n}\sum (Y_a - Y_e)^{2}}$" style="margin-top:0.2em;" %}
+
+You can calculate this is Python using [Numpy](https://ranvir.xyz/blog/data-science-i-all-things-you-need-to-know-about-numpy/) and `sklearn`.
+
+```python
+from sklearn import metrics
+
+np.sqrt(metrics.mean_squared_error(y_test, predictions))
+```
 
 ## What is considered as a good metric value for your model?
 
