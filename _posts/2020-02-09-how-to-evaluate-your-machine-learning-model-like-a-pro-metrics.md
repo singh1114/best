@@ -38,7 +38,7 @@ In general, it is a good metric to come up with when we are talking about your m
 
 No model is 100% correct and there is no perfect score you want to achieve. It simply depends on case to case basis. Also, sometimes giving wrong answer is better than giving very wrong answer.
 
-For example if you are building a cancer detector depending upon the test reports of the patient. You might want to tell the patient might have `cancer` and finally get off with the real cancer test, rather than giving `no cancer` output from your model, when in reality the person had cancer.
+For example if you are building a cancer detector depending upon the test reports of the patient. You might want to tell that the patient might have `cancer` and finally get off with the real cancer test, rather than giving `no cancer` output from your model, when in reality the person had cancer.
 
 ## Supervised learning and classification problems.
 
