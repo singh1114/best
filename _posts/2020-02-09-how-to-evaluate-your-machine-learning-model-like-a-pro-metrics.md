@@ -5,7 +5,7 @@ date: 2020-02-20T19:22:14.832Z
 description: >-
   Evaluating of your machine learning model can be done using accuracy, recall,
   precision, F1-score and/or mean absolute error or mean square error.
-published: false
+published: true
 tags:
   - machinelearning
   - datascience
@@ -125,16 +125,21 @@ In general, it is a standard to maximize both the values of recall and precision
 
 ## F1-score
 
+> It is the harmonic mean of precision and recall.
+
+F1-score helps us to consider both the values of precision and recall while evaluating our model.
+
+{% include math.html math_code="$F1-score = \frac{2 * precision * recall}{precision * recall}$" %}
+
 ## Confusion matrix
 
-https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62
+Confusion matrix is a Matrix in which we evaluate all the positives and negatives like:
 
-## Evaluating for regression problems
+* True Positive
+* False Positive
+* True Negative
+* False Negative
 
-## Mean Absolute error
+I read a great explanation of [confusion matrix on towards data science blog](https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62).
 
-## Mean Square error
-
-## Root mean square error
-
-## What is considered as a good metric for your model?
+Hope you liked the post, do leave your thoughts on what you use to evaluate your model and what do you think is a good metric value for your model.
