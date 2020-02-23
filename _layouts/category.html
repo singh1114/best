@@ -33,7 +33,19 @@ layout: default
                             <a href="{{ site.baseurl }}{{ post.url }}" class="container">
                                 <h4><strong>{{post.title}}</strong></h4>
                                 <p><strong>{{ post.subtitle }}</strong></p>
-                                <p>{{ post.excerpt | strip_html | truncatewords: 60 }}</p>
+                                {% if post.image %}
+                                    <noscript><img src="{{post.image}}" /></noscript>
+
+                                    <!-- If javascript is present. -->
+                                    <img data-src="{{post.image}}" class="blur-up lazyload" style="max-height: 11em;" />
+                                    {% if post.description %}
+                                        <p>{{ post.description | strip_html | truncatewords: 60 }}</p>
+                                    {% else %}
+                                        <p>{{ post.excerpt | strip_html | truncatewords: 60 }}</p>
+                                    {% endif %}
+                                {% else %}
+                                    <p>{{ post.excerpt | strip_html | truncatewords: 60 }}</p>
+                                {% endif %}
                             </a>
                         </div>
                         <br>
