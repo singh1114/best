@@ -156,7 +156,7 @@ exports.setupEndpoints = function (server, routeURI) {
 
 Pretty clean right, I like this method more than creating something new of my own. But you will have to keep in mind that this will increase your bundle size. This is something that you have to think on your own and make a decision.
 
-## Using `ajv` as an alternative to adding request parameter validator
+## Using ajv as an alternative to adding request parameter validator
 
 Finally, we settled for `ajv` for validating our requests.
 
