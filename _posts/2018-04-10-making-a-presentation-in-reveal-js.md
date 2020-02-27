@@ -14,10 +14,9 @@ categories:
   - html
   - javascript
 ---
+{% include lazyload.html image_src="https://i.imgur.com/G5fQRw4.jpg" image_alt="Creating presentations using HTML in reveal.js" image_title="Creating presentations using HTML in reveal.js" %}
 
 Reveal.js is an HTML presentation framework that can help you to create awesome presentations for your talk or simple knowledge transfer session in your class.
-
-![Creating presentations using HTML in reveal.js](https://i.imgur.com/G5fQRw4.jpg "Creating presentations using HTML in reveal.js")
 
 I have created a number of presentations using reveal.js.
 
