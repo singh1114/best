@@ -3,7 +3,7 @@ layout: post
 title: How to evaluate your Machine learning model like a pro
 date: 2020-02-20T19:22:14.832Z
 description: >-
-  Evaluating of your machine learning model can be done using accuracy, recall,
+  Evaluating your machine learning model can be done using accuracy, recall,
   precision, F1-score and/or mean absolute error or mean square error.
 published: true
 image: 'https://i.imgur.com/oWQcLd6.png'
@@ -26,6 +26,8 @@ You are happy with your Machine Learning model and excited to share about it wit
 What should be your answer to this question?
 
 Today we are going to talk about the problem of calculating the accuracy of your model along with some code samples that will help you to calculate them easily.
+
+In the end of the post, you will be able to know and understand all the ways in of evaluating your machine learning model.
 
 ## What is the process of evaluating your model?
 
