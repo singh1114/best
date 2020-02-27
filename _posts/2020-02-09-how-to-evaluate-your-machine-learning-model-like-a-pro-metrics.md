@@ -156,9 +156,9 @@ The image shows the `confusion matrix` for a case where patient's data was teste
 
 **True Negatives:** Our model predicted that 50 patients were not carrying the disease, and they actually were not carrying it.
 
-**False Positive:** Our model predicted that 10 patients were carrying the disease, and they actually were not carrying it. This is also known as **Type-I error**.
+**False Positives:** Our model predicted that 10 patients were carrying the disease, and they actually were not carrying it. This is also known as **Type-I error**.
 
-**False Negative:** Our model predicted that 5 patients were not carrying the disease, and they actually were carrying it. This is also known as **Type-II error**.
+**False Negatives:** Our model predicted that 5 patients were not carrying the disease, and they actually were carrying it. This is also known as **Type-II error**.
 
 We can go forward and calculate all the values for Accuracy, Recall, Precision and F1-Score from this confusion matrix.
 
