@@ -54,9 +54,14 @@ Then use this code to unzip the file by giving the name of the destination folde
 
 `unzip file.zip -d destination_folder`
 
-Otherwise, if you prefer, you can `fork` the code from the https://revealjs.com/
+Otherwise, if you prefer, you can `fork` the code from the [https://revealjs.com/](https://revealjs.com/). Click on the fork button or clone to repo to your local.
 
-After unzip open the folder and you will find an `index.html` file inside.
+```shell
+git clone git@github.com:hakimel/reveal.js.git
+```
+{% include linked_post.html url="basic-commands-in-github" %}
+
+After unzipping, open the folder and you will find an `index.html` file inside.
 
 ## Creating presentations using reveal.js
 
