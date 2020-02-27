@@ -78,9 +78,9 @@ You can do a lot of things using reveal.js presentation creator. You can create 
 
 ## Epilogue (Delivering the reveal.js presentation)
 
-So, there were somewhere around 100-200 students and teachers in the room where I was delivering the presentation. The stage was at a good height, and I was going to show a good number of charts in my presentation.
+So, there were somewhere around 100-200 students and teachers in the hall where I was delivering the presentation. The stage was at a good height, and I was going to show a good number of charts in my presentation.
 
-Before jumping on to the stage, I hosted the presentation on to GitHub pages website and created a [short link](https://tinyurl.com/) using one of the services out there. Finally, I shared the link with everyone in the room.
+Before jumping on to the stage, I hosted the presentation on to GitHub pages website and created a [short link](https://tinyurl.com/) using one of the services out there. Finally, I shared the link with everyone in the hall.
 
 Everyone opened the link on their phones and were able to look at the chart more clearly.
 
