@@ -2,8 +2,9 @@
 title: Django admin tips and tricks
 date: 2019-01-23T12:00:00.000Z
 description: >-
-  Django admin tips and tricks that you can use to create internal app for
-  production ready system.
+  Django admin tips that you can use to create internal app for production
+  including changing default admin page name, handling Django Model History and
+  many more tips.
 published: true
 tags:
   - django
