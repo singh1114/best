@@ -146,7 +146,21 @@ Confusion matrix is a Matrix in which we evaluate all the positives and negative
 * True Negative
 * False Negative
 
-I read a great explanation of [confusion matrix on towards data science blog](https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62). Do give it a read if you want to know more about it.
+It also helps you to evaluate your machine learning model in a better way.
+
+{% include lazyload.html image_src="https://i.imgur.com/YE8Ohhl.png" image_alt="confusion matrix to evaluate your machine learning model" image_title="confusion matrix to evaluate your machine learning model" %}
+
+The image shows the `confusion matrix` for a case where patient's data was tested for a specific disease. Out of total 165 patients our model produced the following results.
+
+**True Positives:** Our model predicted that 100 patients were carrying the disease, and they were actually carrying the disease.
+
+**True Negatives:** Our model predicted that 50 patients were not carrying the disease, and they actually were not carrying it.
+
+**False Positive:** Our model predicted that 10 patients were carrying the disease, and they actually were not carrying it. This is also known as **Type-I error**.
+
+**False Negative:** Our model predicted that 5 patients were not carrying the disease, and they actually were carrying it. This is also known as **Type-II error**.
+
+We can go forward and calculate all the values for Accuracy, Recall, Precision and F1-Score from this confusion matrix.
 
 ## Evaluating for regression problems
 
