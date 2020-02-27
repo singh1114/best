@@ -19,11 +19,11 @@ Django is one of the best Python frameworks to get started with web development 
 
 Django comes with a built-in admin panel that you can use any time of handling any type of internal work. This saves you a lot of development time and also saves you a lot of money as a company.
 
-You can do everything that you can think of using the admin. Some of the companies start off just create their products using the default admin interface. It provides a very good level of users and permissions handling.
+You can do everything that you can think of using the admin. Some companies start off just by creating their products using the default admin interface. It provides a very good level of users and permissions handling.
 
 In this post, we are going to discuss some tips and tricks in which you can start using the Django admin in your production effectively.
 
-Let's set up a simple project in Django and try to look at some of the admin stuff.
+Let's set up a simple project in Django and try to look at some of the admin related stuff.
 
 ## Setup up Django project
 
@@ -77,7 +77,7 @@ deactivate
 
 For the purpose of this tutorial, we will be creating a simple School management system with as simple as possible execution.
 
-The first step involved is to install Django in the virtual environment. Django default setup comes with the inbuild SQLite database, so you don't have to worry about that as well. That is enough for the purpose of the tutorial.
+The first step involved is to install Django in the virtual environment. Django default setup comes with the inbuilt SQLite database, so you don't have to worry about that as well. That is enough for the purpose of the tutorial.
 
 ```shell
 pip install django
@@ -169,7 +169,7 @@ urlpatterns = [
 
 Now you can see the admin page on `yourcompany/admin/` endpoint.
 
-![Django Admin login page](https://i.imgur.com/l1MJHzP.png "Django Admin login page")
+{% include lazyload.html image_src="https://i.imgur.com/l1MJHzP.png" image_alt="Django Admin login page" image_title="Django Admin login page" %}
 
 ## Change the default name of the admin web page
 
@@ -186,7 +186,7 @@ admin.site.site_header = 'MY SCHOOL APP'
 admin.site.index_title = 'Your Company'
 ```
 
-![Django admin page with custom title](https://i.imgur.com/Rgde88w.png "Django admin page with custom title")
+{% include lazyload.html image_src="https://i.imgur.com/Rgde88w.png" image_alt="Django admin page with custom title" image_title="Django admin page with custom title" %}
 
 ## Handling History/ Model Logs in Django admin panel
 
@@ -217,7 +217,7 @@ Now run the migrations to the database.
 python manage.py migrate
 ```
 
-Now register the new model to the admin so we can see it in the admin.
+Now register the new model to the admin, so we can see it in the admin.
 
 ```python
 from django.contrib import admin
@@ -229,15 +229,15 @@ class SchoolAdmin(admin.ModelAdmin):
     pass
 ```
 
-Now you can see the model in the home-page of the Django admin.
+Now, you can see the model in the home-page of the Django admin.
 
-![Django admin home page with registered model](https://i.imgur.com/bFRs61N.png "Django admin home page with registered model")
+{% include lazyload.html image_src="https://i.imgur.com/bFRs61N.png" image_alt="Django admin home page with registered model" image_title="Django admin home page with registered model" %}
 
 You can simply create the entries in the database by using the admin dashboard directly.
 
 Just go to the history page of the model to find what do we save related to the object. By default, we only store whether any changes were made to the object or not. Let's say, you want to save more data related to the changes. We can do it in this way.
 
-![Django admin history or LogEntry Page](https://i.imgur.com/uJgWNCf.png "Django admin history or LogEntry Page")
+{% include lazyload.html image_src="https://i.imgur.com/uJgWNCf.png" image_alt="Django admin history or LogEntry Page" image_title="Django admin history or LogEntry Page" %}
 
 ```python
 from django.contrib import admin
@@ -264,11 +264,11 @@ class SchoolAdmin(admin.ModelAdmin):
             )
 ```
 
-We are overriding the default implementation of `save_model` for that given admin model. This will save everything in the change_message, which is visible in the action column.
+We are overriding the default implementation of `save_model` for that given admin model. This will save everything in the `change_message`, which is visible in the action column.
 
-![Django admin change the data](https://i.imgur.com/9MWWYe8.png "Django admin change the data")
+{% include lazyload.html image_src="https://i.imgur.com/9MWWYe8.png" image_alt="Django admin change the data" image_title="Django admin change the data" %}
 
-![Django admin history of object being saved](https://i.imgur.com/CxPupRv.png "Django admin history of object being saved")
+{% include lazyload.html image_src="https://i.imgur.com/CxPupRv.png" image_alt="Django admin history of object being saved" image_title="Django admin history of object being saved" %}
 
 **Coming up**
 
