@@ -1,26 +1,29 @@
 ---
 title: Mongo Aggregates and How to explain mongo aggregate queries
-date: 2019-10-02 12:03:00 Z
-categories:
-- database
-- nosql
-- mongo
-- node
+date: 2019-10-02T12:03:00.000Z
+description: >-
+  Mongo aggregate explain with match, project, lookup, group and finally
+  analysing how your aggregate query performed in mongo winningplan
+published: true
+image: 'https://i.imgur.com/vlIEICJ.jpg'
 tags:
-- database
-- mongo
-- nosql
-- node
-image: https://i.imgur.com/vlIEICJ.jpg
+  - database
+  - mongo
+  - nosql
+  - node
+categories:
+  - database
+  - nosql
+  - mongo
+  - node
 ---
+{% include lazyload.html image_src="https://i.imgur.com/vlIEICJ.jpg" image_alt="Mongo aggregates with explain" image_title="Mongo aggregates with explain" %}
 
 Today we are going to talk about Mongo Aggregates. A framework that helps us to run complex queries in Mongo DB. One of the best things that happened to Mongo.
 
-![Mongo aggregates with explain](https://i.imgur.com/vlIEICJ.jpg "Mongo aggregates with explain")
-
 Let's start by pulling out a few differences between the normal and Mongo database.
 
-Mongo belongs to one of those NoSQL databases which disrupted the internet a few years ago. Everyone in the industry was talking about them. Everyone wanted to move there stack to these flexible databases.
+Mongo belongs to one of those NoSQL databases which disrupted the internet a few years ago. Everyone in the industry was talking about them. Everyone wanted to move their stack to these flexible databases.
 
 Everyone was talking about how the data needs to move to that direction and so on.
 
@@ -40,7 +43,7 @@ BTW, tables equivalent in Mongo are known as `collections` and rows equivalents 
 
 ## Mongo Aggregates
 
-![Mongo DB](https://webassets.mongodb.com/_com_assets/cms/mongodb_logo1-76twgcu2dm.png)
+{% include lazyload.html image_src="https://webassets.mongodb.com/_com_assets/cms/mongodb_logo1-76twgcu2dm.png" image_alt="Mongo DB" image_title="Mongo DB" %}
 
 Mongo DB aggregates make it easier to query data from any collection. It involves things like matching, getting data from other collections, selecting fields and many more.
 
@@ -208,7 +211,7 @@ This will generate a simple output like this.
 }
 ```
 
-`winningplan` contains a object which tells us more about the winning plan which was used to run the query and `queryPlanner` contains an `Array` of plans which were tried. Mongo chooses the best plans and uses it for running the queries.
+`winningplan` contains an object which tells us more about the winning plan which was used to run the query and `queryPlanner` contains an `Array` of plans which were tried. Mongo chooses the best plans and uses it for running the queries.
 
 If you use the `explain` with `executionStats` it will give you things like `docs Returned` and `docs Examined` which can be helpful in finding the best suitable `index` for your `collection`.
 
@@ -222,7 +225,7 @@ db.getCollection("author").explain("executionStats").aggregate([
 ])
 ```
 
-![Explain mongo aggregate queries](https://i.imgur.com/gls7IHT.jpg "Explain mongo aggregate queries")
+{% include lazyload.html image_src="https://i.imgur.com/gls7IHT.jpg" image_alt="Explain mongo aggregate queries" image_title="Explain mongo aggregate queries" %}
 
 ## Conclusion
 
