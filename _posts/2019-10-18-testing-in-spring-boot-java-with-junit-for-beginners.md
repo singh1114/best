@@ -5,6 +5,7 @@ description: >-
   Writing tests for your spring boot application using junit is one of the best
   things you can do for your future self.
 published: true
+image: 'https://i.imgur.com/BEIqT5f.jpg'
 tags:
   - java
   - springboot
@@ -14,13 +15,13 @@ categories:
   - springboot
   - testing
 ---
+{% include lazyload.html image_src="https://i.imgur.com/BEIqT5f.jpg" image_alt="Spring boot logo" image_title="Spring boot logo" %}
+
 Shipping our product without testing is like buying a car without turning on the engine. We have to run a few tests again and again while the development of the product and if those tests are not automated, we will have a hard time to test our application.
 
 Here is a post that will help you to understand why you should be writing tests?
 
 {% include linked_post.html url="writing-unit-tests-for-the-models" %}
-
-![Spring boot logo](https://i.imgur.com/BEIqT5f.jpg "Spring boot logo")
 
 This post is in continuation of the last post we shared related to Spring boot in which we talked about writing Rest APIs in Spring Boot.
 
@@ -140,6 +141,6 @@ Use can use the following command to run the tests.
 mvn test
 ```
 
-![Spring boot test passing](https://i.imgur.com/dyU6gXj.png "Spring boot test passing")
+{% include lazyload.html image_src="https://i.imgur.com/dyU6gXj.png" image_alt='Spring boot test passing" image_title="Spring boot test passing" %}
 
 I hope you liked the post. Please share your views in the comment section below.
