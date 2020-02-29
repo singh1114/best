@@ -1,17 +1,40 @@
 {% if site.disqus %}
-<div class="comments">
-	<div id="disqus_thread"></div>
-	<script type="text/javascript">
+	<script>
+		function load_disqus( disqus_shortname ) {
+		  // Prepare the trigger and target
+		  var disqus_trigger = document.getElementById('disqus_trigger'),
+			disqus_target = document.getElementById('disqus_thread'),
+			disqus_embed  = document.createElement('script'),
+			disqus_hook   = (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]);
 
-	    var disqus_shortname = '{{ site.disqus }}';
-
-	    (function() {
-	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-	        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-	    })();
-
-	</script>
-	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</div>
+		  if( disqus_target && disqus_trigger ) {
+			disqus_embed.type = 'text/javascript';
+			disqus_embed.async = true;
+			disqus_embed.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+			disqus_hook.appendChild(disqus_embed);
+			disqus_trigger.remove();
+		  }
+		}
+	  </script>
+	<div class="comments">
+		<div id="disqus_thread"></div>
+			<button id="disqus_trigger" onclick="load_disqus('{{site.disqus}}')">Post a Comment</button>
+		</div>
+		<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	</div>
 {% endif %}
+
+<style>
+	#disqus_trigger {
+		width: 100%;
+		padding: 1.2em;
+		border: 2px solid #ccc;
+		font-size: 0.6em;
+		border-radius: 0.5em;
+		cursor: pointer
+	}
+	#disqus_trigger:hover {
+		background: #ccc;
+		border: 2px solid #FFFFFF;
+	}
+</style>
