@@ -6,6 +6,7 @@ description: >-
   including changing default admin page name, handling Django Model History and
   many more tips.
 published: true
+image: 'https://i.imgur.com/KtIEJsx.png'
 tags:
   - django
   - django-admin
@@ -16,6 +17,7 @@ categories:
   - python
 canonical_url: ''
 ---
+{% include lazyload.html image_src="https://i.imgur.com/KtIEJsx.png" image_alt="Django Admin tips and tricks" image_title="Django Admin tips and tricks" %}
 Django is one of the best Python frameworks to get started with web development and get out with your product in no time. With Django, you don't have to worry about any of the things like security, databases or most importantly admin panel.
 
 Django comes with a built-in admin panel that you can use any time of handling any type of internal work. This saves you a lot of development time and also saves you a lot of money as a company.
@@ -204,6 +206,9 @@ class School(models.Model):
     school_name = models.CharField(max_length=30)
     address = models.CharField(max_length=30)
     principle_name = models.CharField(max_length=30)
+
+    def __str__(self):
+        return str(self.school_name)
 ```
 
 Now run the command to `makemigrations`
@@ -271,13 +276,105 @@ We are overriding the default implementation of `save_model` for that given admi
 
 {% include lazyload.html image_src="https://i.imgur.com/CxPupRv.png" image_alt="Django admin history of object being saved" image_title="Django admin history of object being saved" %}
 
+## Linking Foreign Key fields for navigating properly in Django admin
+
+One of the worst thing of default version of Django admin is that, it doesn't link with the Foreign Keys very well for the admin panel.
+
+If you are editing some object on the admin and you want to make change to the linked Foreign key field, you will have to go back to that particular model and make the change over there.
+
+There is no easy way to help you out that can directly link between these two related fields.
+
+To figure out the problem, let's create a new model named `class`.
+
+```python
+class Class(models.Model):
+    class_name = models.CharField(max_length=30)
+    school = models.ForeignKey(
+        School,
+        on_delete=models.CASCADE
+    )
+    class_teacher = models.CharField(max_length=30)
+    section = models.CharField(max_length=30)
+
+    def __str__(self):
+        return str(self.class_name)
+```
+
+You will have to run the `makemigrations` and `migrate` command as specified above to create the tables.
+
+The corresponding admin code will look something like this.
+
+```python
+@admin.register(Class)
+class ClassAdmin(admin.ModelAdmin):
+    pass
+```
+
+{% include lazyload.html image_src="https://i.imgur.com/EE9NUnF.png" image_alt="Django Admin default foreign key" image_title="Django Admin default foreign key" %}
+
+Always remember to add foreign keys to `readonly` fields, otherwise, it will load all the fields into the memory and your servers will start going out of memory. Also, you don't want someone to change the value of such important field randomly.
+
+```python
+@admin.register(Class)
+class ClassAdmin(admin.ModelAdmin):
+    
+    readonly_fields = ('school',)
+```
+
+{% include lazyload.html image_src="https://i.imgur.com/CcZyZvY.png" image_alt="Django Admin Read-only field" image_title="Django Admin Read only field" %}
+
+Now that you have changed the field to `readonly`, you won't be able to click on the corresponding field. To solve this you will have to make a few changes to the Admin `init` function.
+
+```python
+...
+from django.db import models
+from django.urls import reverse
+from django.utils.safestring import mark_safe
+...
+
+def link_function(field_name):
+    def return_function(obj):
+        obj_attr = getattr(obj, field_name)
+        model = type(obj_attr)
+        print(field_name, obj_attr, model)
+        return mark_safe('<a href="{}">{}</a>'.format(reverse(
+            'admin:{}_{}_change'.format(
+                model._meta.app_label,
+                model.__name__.lower()
+            ), args=(obj_attr.id,)), obj_attr))
+
+    return_function.short_description = field_name
+    return return_function
+
+
+@admin.register(Class)
+class ClassAdmin(admin.ModelAdmin):
+    readonly_fields = ('school',)
+
+    def __init__(self, model, admin_site):
+        super().__init__(model, admin_site)
+        # get all the fields
+        all_fields = model._meta.get_fields()
+        for field in all_fields:
+            # Check if the field is a Foreign Key
+            if not (isinstance(field, models.ForeignKey)):
+                continue
+
+            # We have to set a new field whose value is a function.
+            # The function should return inners of a HTML anchor tag.
+            setattr(self, 'main_new', link_function(field.name))
+            self.readonly_fields += ('main_new',)
+```
+
+I have written a few comments to explain what is going on in there. If you still find something odd, Please let me know in the comments section below.
+
+{% include lazyload.html image_src="https://i.imgur.com/wvccnSs.png" image_alt="Django Admin Foreign key linking" image_title="Django Admin Foreign key linking" %}
+
 **Coming up**
 
 ## Counting the number of fields
 
 ## Permissions
-
-## Link to Foreign key fields
 
 ## Custom ordering
 
