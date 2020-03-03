@@ -2,30 +2,36 @@
 wordpress_id: 812
 layout: post
 author: Ranvir Singh
-title: 'Serialization in Django: A week-long struggle'
+title: 'Serialization in Django: How to serialize models with Foreign keys'
 date: 2017-07-21T22:53:00.000Z
+description: >-
+  Explaining the process of serialization in Django containing the models with
+  Foreign keys and create JSON response for the APIs.
 published: true
 comments: true
+tags:
+  - GSoC-2017
+  - python
+  - django
 link: >-
   https://ranvirsinghprojects.wordpress.com/2017/07/22/serialization-a-week-long-struggle/
 categories:
   - GSoC-2017
   - python
+  - django
 ---
 
 Serialization is one of the main processes of creating APIs. We want to share data between different types of frontends (Web, Android, IOS) in a way that is easily accessible by them all. Serialization is the process of converting different data into a well-defined format and send it as the API response.
 
 I have been away from my blog because there was nothing really to discuss. I was constantly trying to do some stuff and was constantly failing. But, after a week-long struggle and some help I was able to get over this struggling period and now shifted to the next task in my task list.
 
-So as a whole, this month was well spent learning new stuff, first unit tests and then serializers.
+So as a whole, this month was well spent learning new stuff, first [unit tests](https://ranvir.xyz/blog/writing-unit-tests-for-the-models/) and then serializers.
 
-## Prerequisites
-
-1. Django
+## Prerequisites 1: Django
 
 First things first, **Why do we need serializers?**
 
-We know that our data is present in the database. We also know that we cannot ship that data easily to different formats through our database. So, we use the simple concept of serialization that converts the database data **or any other data **into JSON, XML or YAML format which can be easily transmitted over the network.
+We know that our data is present in the database. We also know that we cannot send that data easily to different formats through our database. So, we use the simple concept of serialization that converts the database data **or any other data **into JSON, XML or YAML format which can be easily transmitted over the network.
 
 Easy, right?
 
@@ -76,7 +82,7 @@ class CodeInfo(models.Model):
     code_size = models.IntegerField(null=True, blank=True, default=0)
 ```
 
-Well, that's not all of the models, but you get the idea, right? So, we have multiple levels of inheritance between all those models( Well not really inheritance but in simple words, we can say this). Now the real test is to write the serializers for them so that we don't have to write a separate function to convert data to JSON.
+Well, that's not all the models, but you get the idea, right? So, we have multiple levels of inheritance between all those models (Well not really inheritance but in simple words, we can say that). Now the real test is to write the serializers for them so that we don't have to write a separate function to convert data to JSON.
 
 I decided to use simple ModelSerializers.
 
@@ -109,7 +115,9 @@ class CodeInfoSerializer(serializers.ModelSerializer):
 
 Now when I checked the sample outputs of these serializers and to my surprise, I was not able to get the desired result. The JSON output created by them was totally opposite from what we were expecting it to be. I was expected everything to available in a way as the models were defined.
 
-So, I did an experiment to create a GodSerializer along with a helper for it. The helper helped the serializer and told it about the way in which it should go forward with the serializing.
+I was expecting that the Foreign keys will be handled on its own like we would define the models in [NoSQL database](https://ranvir.xyz/blog/mongo-aggregates/).
+
+So, I did an experiment to create a GodSerializer along with a helper for it. The helper helped the `serializer` and told it about the way in which it should go forward with the serializing.
 
 ```python
 class GodSerializer(serializers.Serializer):
