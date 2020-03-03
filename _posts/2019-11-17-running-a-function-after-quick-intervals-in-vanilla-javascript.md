@@ -199,7 +199,7 @@ node server_file.js
 ```
 Send request to the server on a random URL using the postman's collection runner.
 
-{% include lazyload.html image_src="Send request to server" image_alt="Send request to server" image_title="Send request to server" %}
+{% include lazyload.html image_src="https://i.imgur.com/VgMJ9Vv.png" image_alt="Send request to server" image_title="Send request to server" %}
 
 `memcache-next` will raise an error like this memory leak error.
 
