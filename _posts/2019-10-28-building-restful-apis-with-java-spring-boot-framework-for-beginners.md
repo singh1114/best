@@ -5,16 +5,18 @@ description: >-
   Beginner approach to creating RestFul APIs using Java's spring boot framework
   including controllers, maven, pom.xml, MySQL, Java Repository and many more.
 published: true
+image: 'https://i.imgur.com/TarG8Tj.png'
 tags:
   - Programming
-  - Technology
+  - technology
   - java
 categories:
   - API
   - Spring Boot
-  - Technology
+  - technology
   - java
 ---
+{% include lazyload.html image_src="https://i.imgur.com/TarG8Tj.png" image_alt="Restful APIs using spring boot framework" image_title="Restful APIs using spring boot framework" %}
 
 Java is one of the most widely used programming languages in the world. Not only it is widely used, but it is also being used as the core part of the top software companies in the world. So, if your dream is to work for those top companies, you better know a little bit of Java.
 
