@@ -316,6 +316,10 @@ Now you are ready to run your application with DataBase connected.
 
 That's all for this part of the guide. With this much knowledge of Spring Boot, you can create any level of complex project( With a bit of googling).
 
+Read the following post, if you need to know more on how to test your newly developed APIs.
+
+{% include linked_post.html url="testing-in-spring-boot-java-with-junit-for-beginners" %}
+
 Your reviews are very important. Please leave your reviews in comments section below.
 
 You are awesome.
