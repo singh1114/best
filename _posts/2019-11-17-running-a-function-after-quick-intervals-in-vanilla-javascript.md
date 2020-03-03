@@ -15,10 +15,9 @@ categories:
   - programming
   - beginners
 ---
+{% include lazyload.html image_src="https://i.imgur.com/KX8Gign.jpg" image_alt="Run a function periodically in JavaScript" image_title="Run a function periodically in JavaScript" %}
 
-In a production system, we run a lot of scripts periodically either to sync data from some third-party source or spit data to some source. Although there are a lot of solutions to achieve such periodic behavior, in this post we are going to discuss one such solution using vanilla JavaScript.
-
-![Run a function periodically in JavaScript](https://i.imgur.com/KX8Gign.jpg "Run a function periodically in JavaScript")
+In a production system, we run a lot of scripts periodically either to sync data from some third-party source or spit data to some source. Although there are a lot of solutions to achieve such periodic behaviour, in this post we are going to discuss one such solution using vanilla JavaScript.
 
 ## Use cases
 
@@ -40,7 +39,7 @@ Sending newsletters to customers can also be one of the use cases of running thi
 
 Most of the organizations tend to use crontab for handling any such requests for running periodic tasks.
 
-Each and every language has it's own implementation of handling periodic tasks.
+Each and every language has its own implementation of handling periodic tasks.
 
 ## Periodic task in Vanilla JavaScript
 
@@ -60,7 +59,7 @@ setInterval(function() {
 }, interval);
 ```
 
-First of all, we declare an `async` function `tellTime` which logs the time whenever it is called.
+First, we declare an `async` function `tellTime` which logs the time whenever it is called.
 
 It is important to declare this function `async` so that we can run `.then` or `.catch` after this function.
 
@@ -94,7 +93,7 @@ I searched online to find a solution for finding ways to discover any memory lea
 
 The article suggested three ways to find out the memory leaks. I have only tried two of them. Let me know if you have any other way of finding it out as well.
 
-### Node's inspect flag
+## Checking memory leak using Node's inspect flag
 
 Node's `--inpect` flag attaches a debugger with the program and allows you to run all types of analysis on the program running in the chrome.
 
@@ -115,11 +114,11 @@ Go to the `memory` tab of the devtool in the chrome and click on the take snapsh
 
 Take another snapshot after 10 seconds of the initial snapshot. If the memory size is increasing you will know that there is a function in your code which is leaking memory.
 
-![Chrome memory leak analysis](https://i.imgur.com/Zyze7jE.jpg "Chrome memory leak analysis")
+{% include lazyload.html image_src="https://i.imgur.com/Zyze7jE.jpg" image_alt="Chrome memory leak analysis" image_title="Chrome memory leak analysis" %}
 
 Since the memory used in the given program was consistent, I believe there was no memory leak in the program.
 
-### Using memwatch-next module
+## Checking memory leak using memwatch-next module
 
 The `memwatch-next` module is used to find the memory leaks in a program.
 
@@ -191,7 +190,7 @@ console.log("Server listening to port 3000.");
 
 Now I am using [postman's](https://www.getpostman.com/) collection runner to run send 200 requests to the newly created server.
 
-![Postman collection runner to send same requests](https://i.imgur.com/1ZKAYLa.png "Postman collection runner to send same requests")
+{% include lazyload.html image_src="https://i.imgur.com/1ZKAYLa.png" image_alt="Postman collection runner to send same requests" image_title="Postman collection runner to send same requests" %}
 
 Now run the server using the simple node command.
 
@@ -200,12 +199,12 @@ node server_file.js
 ```
 Send request to the server on a random URL using the postman's collection runner.
 
-![Send request to server](https://i.imgur.com/VgMJ9Vv.png "Send request to server")
+{% include lazyload.html image_src="Send request to server" image_alt="Send request to server" image_title="Send request to server" %}
 
 `memcache-next` will raise an error like this memory leak error.
 
-![Leaky server memory error](https://i.imgur.com/YgfgxzY.png "Leaky server memory error")
+{% include lazyload.html image_src="https://i.imgur.com/YgfgxzY.png" image_alt="Leaky server memory error" image_title="Leaky server memory error" %}
 
-Hopefully, this will help you to find memory leaks in your program in the future as well.
+Hopefully, this will help you find memory leaks in your program in the future as well.
 
 Thanks for stopping by and do consider [subscribing](https://ranvir.xyz/blog/subscribe) to the weekly newsletter.
