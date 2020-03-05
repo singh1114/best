@@ -14,6 +14,9 @@ categories:
   - javascript
   - programming
   - beginners
+redirect_from:
+  - /setinterval-memory-leak-javascript/
+  - /memwatch-next-javascript-watch-memory-leak/
 ---
 {% include lazyload.html image_src="https://i.imgur.com/KX8Gign.jpg" image_alt="Run a function periodically in JavaScript" image_title="Run a function periodically in JavaScript" %}
 
