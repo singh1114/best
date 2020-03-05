@@ -24,3 +24,4 @@ collections:
       - {label: "Canonical URL", name: "canonical_url", widget: "string", required: false}
       - {label: "Skip Table of content", name: "skip_toc", widget: boolean, required: false}
       - {label: "Include math equations", name: "include_mathjax", widget: boolean, required: false}
+      - {label: "Redirect From List", name: "redirect_from", widget: "list", required: false, field: {label: "redirect from", widget: "string"}}

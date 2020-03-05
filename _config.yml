@@ -40,6 +40,7 @@ sass:
   style: compressed
 gems:
 - jekyll-sitemap
+- jekyll-redirect-from
 plugins:
 - jekyll-seo-tag
 - jekyll-sitemap
