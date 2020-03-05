@@ -1,17 +1,18 @@
 ---
 title: Breaking out of Software Developer-I role as a web developer
-date: 2019-12-04 20:01:00 Z
-categories:
-- discuss
-- programming
-- webdev
-- career
+date: 2019-12-04T20:01:00.000Z
+published: true
+image: 'https://i.imgur.com/aV8yfFk.jpg'
 tags:
-- discuss
-- programming
-- webdev
-- career
-image: https://i.imgur.com/aV8yfFk.jpg
+  - discuss
+  - programming
+  - webdev
+  - career
+categories:
+  - discuss
+  - programming
+  - webdev
+  - career
 ---
 
 This article is not for the people who are still looking for a first job as a developer. This is for the people who are in their first job and want to learn things so that they can make that big shift in their career. There must be a guide that can tell, how much work is left.
