@@ -1,17 +1,23 @@
 ---
 title: How to link to your old posts like a pro in GitHub Pages/ Jekyll blog
-date: 2019-11-28 18:10:00 Z
-categories:
-- jekyll
-- beginners
-- githubpages
-- seo
+date: 2019-11-28T18:10:00.000Z
+description: >-
+  Liking your old post in GitHub pages can really improve the SEO of you GitHub
+  page blog and can give you a lot of domain authority.
+published: true
+image: 'https://i.imgur.com/H1tqz8l.png'
 tags:
-- jekyll
-- beginners
-- githubpages
-- seo
-image: https://i.imgur.com/H1tqz8l.png
+  - jekyll
+  - beginners
+  - githubpages
+  - seo
+categories:
+  - jekyll
+  - beginners
+  - githubpages
+  - seo
+redirect_from:
+  - /github-pages-seo-link-posts/
 ---
 
 Linking to your old posts is very good for the SEO of your blog and help you not to write the same things again and again. It also helps you to interconnect to your old posts increasing the traffic to your website.
@@ -20,7 +26,7 @@ After writing a good number of posts on [dev.to](https://dev.to/singh1114), I st
 
 I wanted to create the same experience on my personal blog as well.
 
-As I use GitHub Pages ( Jekyll) to build my blogging website, I was sure that it won't be a huge task to do this.
+As I use GitHub Pages (Jekyll) to build my blogging website, I was sure that it won't be a huge task to do this.
 
 ![Dev to linking to posts](https://i.imgur.com/H1tqz8l.png "Dev to linking to posts")
 
@@ -28,13 +34,13 @@ I have a lot of separate widgets in this blog. When someone clicks on any of the
 
 Some examples of these widgets are:
 
-### Social sharing buttons
+## Social sharing buttons
 
 The social sharing buttons on this page are included as a separate widget. This helps your readers to share your posts on social media.
 
 BTW, please share this post on any of the social media and help us get more readers.
 
-### Read time widget
+## Read time widget
 
 The read time for any post on this blog is again a separate widget. I use it to show the amount of time it will take to read the post.
 
@@ -52,7 +58,7 @@ The first step was to create the include file so that we keep the structure of o
 
 The only thing which is unique for my blog is the URL. Although I know the URLs can change but this is the only way I can accomplish this task.
 
-### Creating the include file
+## Creating the include file
 
 Add the following code to `_includes/linked_post.html` file.
 
@@ -64,7 +70,7 @@ Finally, we have just shown the heading and along with the date of the post. We 
 
 The code above would be sufficient to help you create something of your own. Still, if you are stuck somewhere, do let me know in the comments below.
 
-### CSS for the widget
+## CSS for the widget
 
 I have added the CSS separately in the `style.scss` file. Here is the CSS code for this.
 
@@ -81,7 +87,7 @@ I have added the CSS separately in the `style.scss` file. Here is the CSS code f
 }
 ```
 
-### How to use this widget.
+## How to use this widget?
 
 All you have to do is something like this.
 
