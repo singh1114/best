@@ -14,6 +14,8 @@ categories:
   - java
   - springboot
   - testing
+redirect_from:
+  - /junit-for-beginners/
 ---
 {% include lazyload.html image_src="https://i.imgur.com/BEIqT5f.jpg" image_alt="Spring boot logo" image_title="Spring boot logo" %}
 
