@@ -19,10 +19,7 @@ categories:
   - environmentvariables
   - productivity
 canonical_url: ''
-redirect_from:
-  - /dir-env-to-handle-environment-variables-mac/
-  - /handle-environment-variables-with-direnv-allow/
-  - /zsh-direnv-handling/
+redirect_from: []
 ---
 {% include lazyload.html image_src="https://i.imgur.com/Bo6A3zh.png" image_alt="Handle environment variables like a pro" image_title="Handle environment variables like a pro" %}
 
