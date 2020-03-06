@@ -13,9 +13,7 @@ tags:
 categories:
   - html
   - javascript
-redirect_from:
-  - /making-presentation-using-html-js/
-  - /javascript-html-presentation-framework/
+redirect_from: []
 ---
 {% include lazyload.html image_src="https://i.imgur.com/ZNpqIo2.png" image_alt="Creating presentations using HTML in reveal.js" image_title="Creating presentations using HTML in reveal.js" %}
 
