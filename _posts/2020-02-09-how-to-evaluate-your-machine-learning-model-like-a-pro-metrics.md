@@ -1,8 +1,4 @@
 ---
-redirect_from:
-  - "/evaluate-machine-learning-model-accuracy-recall/"
-  - "/evaluate-machine-learning-model-f1-score/"
-  - "/machine-learning-confusion-matrix/"
 layout: post
 title: How to evaluate your Machine learning model like a pro
 date: 2020-02-20T19:22:14.832Z
@@ -20,6 +16,7 @@ categories:
   - datascience
   - python
 include_mathjax: true
+redirect_from: []
 ---
 {% include lazyload.html image_src="https://i.imgur.com/oWQcLd6.png" image_alt="evaluate your Machine learning model like a pro" image_title="evaluate your Machine learning model like a pro" %}
 
