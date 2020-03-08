@@ -33,7 +33,7 @@ Although I was able to know the process of writing the code I don't think it eve
 
 I tried a few others and finally, I ended up spending my summer writing code for an organization called [AboutCode](https://www.nexb.com/).
 
-You can read about the experience [here.](https://singh1114.github.io/blog/gsoc_2017/)
+You can read about the experience [here.](https://ranvir.xyz/blog/gsoc_2017/)
 
 Long story short, I know how to start off and write pull requests that organizations want to merge to there main code.
 
@@ -47,7 +47,7 @@ When you are doing open-source you have to complete the PRs which involve writin
 
 Sometimes you have to become the tester to test out the feature that other build to find out bugs and find mistakes to fix.
 
-Mostly you will have to architect your own solution for the problems that you are solving as well. 
+Mostly you will have to architect your own solution for the problems that you are solving as well.
 
 ### Learning how to communicate properly with the team
 
