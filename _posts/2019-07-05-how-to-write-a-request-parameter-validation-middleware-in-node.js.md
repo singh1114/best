@@ -107,7 +107,7 @@ Off course, you will have to install Joi to use it.
 npm install joi
 ```
 
-Your `50` line of middleware code will just reduce to `26` using empty lines.
+Your `50` line of middleware code will just reduce to `26` lines.
 
 ```javascript
 const Joi = require('joi');
