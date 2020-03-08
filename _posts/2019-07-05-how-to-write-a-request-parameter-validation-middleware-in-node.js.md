@@ -1,6 +1,8 @@
 ---
 layout: post
-title: How to validate your request parameters easily | Using middleware in node.js
+title: >-
+  How to validate your request parameters easily | Using middleware in node.js
+  using JOI/ AJV
 date: 2019-07-05T15:55:00.000Z
 description: >-
   Validate your request parameters using a validator middleware that can be
