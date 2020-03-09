@@ -4,10 +4,11 @@ title: The problem of key distribution in symmetric keys
 date: '2016-11-29T14:55:00.000-08:00'
 author: Fierce Warrior
 tags:
-- cryptography and network security
-- The problem of key distribution
-- symmetric keys
+  - cryptography and network security
+  - The problem of key distribution
+  - symmetric keys
 modified_time: '2016-11-29T14:55:57.276-08:00'
+published: true
 ---
 The problem of key distribution is one of the most basic problems faced in the case of symmetric keys. As the
     name suggest there is a difficulty of key sharing in the case of symmetric keys. In the case of the symmetric key,
