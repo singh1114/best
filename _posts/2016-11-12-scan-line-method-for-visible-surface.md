@@ -4,13 +4,14 @@ title: Scan line method for visible surface detection | computer graphics
 date: '2016-11-12T13:15:00.000-08:00'
 author: Fierce Warrior
 tags:
-- Visible surface detection
-- Computer science and engineering.
-- Scan line method
-- Depth buffer method for visible surface detection
-- Back face method
-- Computer graphics
+  - Visible surface detection
+  - Computer science and engineering.
+  - Scan line method
+  - Depth buffer method for visible surface detection
+  - Back face method
+  - Computer graphics
 modified_time: '2016-11-12T13:15:39.285-08:00'
+published: true
 ---
 
 It is an Image-space method for visible surface detection.
