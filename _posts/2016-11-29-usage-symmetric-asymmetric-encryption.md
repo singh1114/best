@@ -4,12 +4,13 @@ title: Usage of symmetric keys and asymmetric keys in encryption
 date: '2016-11-29T14:34:00.000-08:00'
 author: Fierce Warrior
 tags:
-- cryptography and network security
-- asymmetric keys
-- The problem of key distribution
-- symmetric keys
-- Diffie-Hellman algorithm
+  - cryptography and network security
+  - asymmetric keys
+  - The problem of key distribution
+  - symmetric keys
+  - Diffie-Hellman algorithm
 modified_time: '2016-11-29T14:34:00.400-08:00'
+published: true
 ---
 Let's visualise the time when the internet just started and the people were started getting hold. Of course,
     this was the time when the US military made the internet public. Everyone was fascinated by the new thing. So you
