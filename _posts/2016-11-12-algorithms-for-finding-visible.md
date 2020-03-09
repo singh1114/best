@@ -1,14 +1,15 @@
 ---
 layout: post
-title: Visible surface detection algorihms | Computer graphics
+title: Visible surface detection algorithms | Computer graphics
 date: '2016-11-12T09:19:00.000-08:00'
 author: Fierce Warrior
 tags:
-- Visible surface detection
-- Computer science and engineering.
-- Back face method
-- Computer graphics
+  - Visible surface detection
+  - Computer science and engineering.
+  - Back face method
+  - Computer graphics
 modified_time: '2017-12-09T09:58:55.642-08:00'
+published: true
 ---
 
 There are many techniques that are used to detect various surfaces that will make to the final picture. These techniques either belong to one of the two categories that we have discussed earlier that are: Object-space method or Image-space method.
