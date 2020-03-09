@@ -3,8 +3,8 @@ layout: post
 title: HTML presentation framework reveal.js and why I am a big fan?
 date: 2018-04-10T09:51:00.000Z
 description: >-
-  Create HTML and JavaScript powered presentations using reveal.js for any talk
-  or any other session.
+  How to create beautiful HTML and JavaScript powered presentations using
+  reveal.js framework and converting html presentations to PDFs using decktape.
 published: true
 image: 'https://i.imgur.com/ZNpqIo2.png'
 tags:
@@ -89,5 +89,27 @@ So, there were somewhere around 100-200 students and teachers in the hall where 
 Before jumping on to the stage, I hosted the presentation on to GitHub pages website and created a [short link](https://tinyurl.com/) using one of the services out there. Finally, I shared the link with everyone in the hall.
 
 Everyone opened the link on their phones and were able to look at the chart more clearly.
+
+## Generating PDFs/ Screenshots of the HTML presentations
+
+Sometimes people share their presentation in a PDF format with their audience so that they can get it printed and go through the presentations whenever they want.
+
+I found this awesome HTML presentation PDF convertor, [decktape](https://github.com/astefanutti/decktape/). All you have to do is to install it locally and you will be good to go.
+
+```bash
+npm install decktape
+```
+
+Also, during the writing of this article `decktape` was not working with Node version 12 for me. Please track the [issue here](https://github.com/astefanutti/decktape/issues/201).
+
+Apply the following command to create PDF of your presentation.
+
+```bash
+decktape reveal <path_of_reveal_presentation_file> abc.pdf
+```
+
+{% include lazyload.html image_src="https://i.imgur.com/bgs1rxZ.png" image_alt="Generated PDF for HTML presentation" image_title="Generated PDF for HTML presentation" %}
+
+There are a lot of other options you might want to try. Also, using black background for your presentation PDF can waste a lot of ink, so you might want to change that to something else.
 
 Please subscribe to the blog for more such updates and leave your comments if you are using something similar or you don't like something like with this post.
