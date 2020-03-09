@@ -92,7 +92,7 @@ Everyone opened the link on their phones and were able to look at the chart more
 
 ## Generating PDFs/ Screenshots of the HTML presentations
 
-Sometimes people share their presentation in a PDF format with their audience so that they can get it printed and go through the presentations whenever they want.
+Sometimes, people share their presentation in a PDF format with their audience so that they can get it printed and go through the presentations whenever they want.
 
 I found this awesome HTML presentation PDF convertor, [decktape](https://github.com/astefanutti/decktape/). All you have to do is to install it locally and you will be good to go.
 
