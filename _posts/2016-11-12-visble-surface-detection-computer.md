@@ -4,10 +4,11 @@ title: Visible surface detection | Computer graphics
 date: '2016-11-12T02:45:00.001-08:00'
 author: Fierce Warrior
 tags:
-- Visible surface detection
-- Computer science and engineering.
-- Computer graphics
+  - Visible surface detection
+  - Computer science and engineering.
+  - Computer graphics
 modified_time: '2016-12-09T09:59:52.659-08:00'
+published: true
 ---
 Hello everyone,
 
@@ -67,8 +68,6 @@ Coherence properties helps us to reduce the computations time even more. These a
     edge coherence)
 
     There are some other type of coherences that can be included here. 
-
-
 
         * scanline coherence
 
