@@ -4,11 +4,12 @@ title: Depth | Z- Buffer method for visible surface detection | Computer graphic
 date: '2016-11-12T12:49:00.000-08:00'
 author: Fierce Warrior
 tags:
-- Visible surface detection
-- Computer science and engineering.
-- Depth buffer method for visible surface detection
-- Computer graphics
+  - Visible surface detection
+  - Computer science and engineering.
+  - Depth buffer method for visible surface detection
+  - Computer graphics
 modified_time: '2016-11-12T12:49:27.284-08:00'
+published: true
 ---
 In this post we are going to discuss one of the important technique to for visible surface detection. This technique is
 used after the back-facing technique is used to further reduce the computation time. The picture shows the working of
