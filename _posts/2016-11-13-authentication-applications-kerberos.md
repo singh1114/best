@@ -4,9 +4,10 @@ title: 'How does kerberos authentication works: Authentication applications'
 date: '2016-11-13T10:39:00.000-08:00'
 author: Fierce Warrior
 tags:
-- Authentication applications | Kerberos | Cryptography and networks sercurity
-- cryptography and network security
+  - Authentication applications | Kerberos | Cryptography and networks sercurity
+  - cryptography and network security
 modified_time: '2016-11-29T13:15:17.334-08:00'
+published: true
 ---
 
 Today we are going to discuss some of the application of the authentications systems. These are the applications of the
