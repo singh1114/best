@@ -1,11 +1,12 @@
 ---
-title: 'PHP : The Basics'
-date: 2016-10-26 20:36:34 Z
-author: ranvirsingh1114
-comments: true
-layout: post
-link: https://ranvirsinghprojects.wordpress.com/2016/10/27/php-the-basics/
 wordpress_id: 306
+layout: post
+author: ranvirsingh1114
+title: 'PHP : The Basics'
+date: 2016-10-26T20:36:34.000Z
+published: true
+comments: true
+link: 'https://ranvirsinghprojects.wordpress.com/2016/10/27/php-the-basics/'
 ---
 
 **What is PHP?**
@@ -29,22 +30,24 @@ ENDING TAG : ?>
 Variables are the most important thing that any language must have. Variables in PHP are assigned without specifying the type of the variable.
 
 
-<blockquote><?php
+```php
+<?php
 
 $age = 20;
 
 $name = 'Ranvir Singh';
-
-?></blockquote>
+```
 
 
 This will assign $x as the value of 10. For printing you can use both echo or print. Both of them have very small difference. echo function does not return anything while print does return 1. For this reason echo is faster than print.
 
 
-<blockquote>echo $name;</blockquote>
+```php
+echo $name;
+```
 
 
-This will print out the 'Ranvir Singh' on the browser.
+This will print out the `Ranvir Singh` on the browser.
 
 **String handling funtions **
 
@@ -165,19 +168,3 @@ There are three types of arrays in PHP.
 
 
 This function will print the total number of elements in an array. That's it for now. With the provided knowledge you can easily build anything that you want. Think of something that you want to build. If you get any problem ask below.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
