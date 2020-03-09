@@ -4,17 +4,21 @@ title: PHP cheat sheet for exams
 date: '2016-12-03T12:41:00.000-08:00'
 author: Ranvir
 tags:
-- cheat sheet
-- exam material
-- Computer science and engineering
-- for-each loop
-- MYSQL
-- loops
-- PHP
-- if-else
-- switch
+  - cheat sheet
+  - exam material
+  - Computer science and engineering
+  - for-each loop
+  - MYSQL
+  - loops
+  - PHP
+  - if-else
+  - switch
 modified_time: '2016-12-03T12:41:07.573-08:00'
+published: true
 ---
+PHP is one of the most widely used programming language out there.
+
+This might be because of the usability and ease of learning it.
 
 <div dir="ltr" style="text-align: left;" trbidi="on">
 
