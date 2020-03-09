@@ -5,7 +5,7 @@ date: '2016-11-12T02:45:00.001-08:00'
 author: Fierce Warrior
 tags:
   - Visible surface detection
-  - Computer science and engineering.
+  - Computer science and engineering
   - Computer graphics
 modified_time: '2016-12-09T09:59:52.659-08:00'
 published: true
