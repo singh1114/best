@@ -18,7 +18,9 @@ As soon as the people started writing JavaScript for backend, a lot of people fr
 
 Hello guys, It has been a while since I last posted on this platform. Will start to do that again and keep posting on new and cool things I found about.
 
-So, I have started working with another organization and the stack that they are using is totally different from the last one. Although the concept almost remains the same, there are always some changes involved and change of thinking patterns are required. The problem statement is totally different. The challenges involved are related to scaling things in a proper manner.
+So, I have started working with another organization and the stack that they are using is totally different from the last one. Although the concept almost remains the same, there are always some changes involved and a change in thinking patterns are required. The problem statement is totally different. The challenges involved are related to scaling things in a proper manner.
+
+I will keep posting new updates related to things I learn on the [JavaScript section of this blog](https://ranvir.xyz/blog/javascript/).
 
 The stack involved extensive usage of Node.js, MongoDB and AWS. I started out by learning Node.js from various resources. The best resource that I found to date is [https://nodeschool.io/](https://nodeschool.io/).
 
