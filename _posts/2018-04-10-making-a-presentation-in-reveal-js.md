@@ -3,8 +3,9 @@ layout: post
 title: HTML presentation framework reveal.js and why I am a big fan?
 date: 2018-04-10T09:51:00.000Z
 description: >-
-  How to create beautiful HTML and JavaScript powered presentations using
-  reveal.js framework and converting html presentations to PDFs using decktape.
+  How to create beautiful HTML and JavaScript or Markdown presentations using
+  reveal.js/reveal-md framework and converting html presentations to PDFs using
+  decktape.
 published: true
 image: 'https://i.imgur.com/ZNpqIo2.png'
 tags:
@@ -89,6 +90,45 @@ So, there were somewhere around 100-200 students and teachers in the hall where 
 Before jumping on to the stage, I hosted the presentation on to GitHub pages website and created a [short link](https://tinyurl.com/) using one of the services out there. Finally, I shared the link with everyone in the hall.
 
 Everyone opened the link on their phones and were able to look at the chart more clearly.
+
+## Creating presentation using reveal.md
+
+[Webpro](https://github.com/webpro/reveal-md) created markdown presentation generator on the same lines of reveal.js. All you have to do in case of reveal.md is to write markdown and it will convert itself to reveal.js presentation.
+
+It is very useful and easy to use as markdown is fairly easy to use.
+
+To use reveal.md you will have to install it.
+
+```bash
+npm install -g reveal-md
+```
+
+After installing all you will have to do is write markdown in a markdown file.
+
+```markdown
+# Reveal md presentation
+
+* Create Awesome presentation
+* Easy to write
+
+---
+
+# Second slide
+
+* Talk about the benefits more
+```
+
+`---` is used to create a new slide.
+
+{% include lazyload.html image_src="https://i.imgur.com/4UzUdwu.png" image_alt="Install Reveal md" image_title="Install Reveal md" %}
+
+Finally, you can run `reveal-md` command to run the presentation in the browser.
+
+```bash
+reveal-md presentation.md
+```
+
+{% include lazyload.html image_src="https://i.imgur.com/pvnO67A.png" image_alt="Generated presentation using Markdown" image_title="Presentation using Markdown" %}
 
 ## Generating PDFs/ Screenshots of the HTML presentations
 
