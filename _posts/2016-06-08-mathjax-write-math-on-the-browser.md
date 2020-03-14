@@ -13,7 +13,6 @@ categories:
   - html
   - mathjax
 ---
-
 First I would like to link to the presentation which you can check. This presentation will let you know more about the MathJax.
 
 [http://singh1114.github.io/presentations/mathjax.html](http://singh1114.github.io/presentations/mathjax.html#/)
@@ -34,7 +33,6 @@ Now let us discuss the CDN implementation. This implementation is discussed prop
 [http://docs.mathjax.org/en/latest/start.html](http://docs.mathjax.org/en/latest/start.html)
 
 In the head section of your website write these lines of code.
-
 
 ```
 <head>
