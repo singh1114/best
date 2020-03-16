@@ -97,7 +97,7 @@ Now if you are using `zsh` [as I do](https://ranvir.xyz/blog/set-up-new-machines
 eval "$(direnv hook zsh)"
 ```
 
-What these lines does is that, whenever you do anything on your shell, like opening new terminal window or moving to new directories. This will add a hook to load environment variables if `.envrc` is present.
+What this line does is that, whenever you do anything on your shell, like opening new terminal window or moving to new directories. This will add a hook to load environment variables if `.envrc` is present.
 
 Now go to a directory where you want to launch the environment variables.
 
