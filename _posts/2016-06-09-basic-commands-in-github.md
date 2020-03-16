@@ -2,6 +2,7 @@
 layout: post
 title: Basic git commands that you need to know as a Software Engineer
 date: 2016-06-09T20:31:50.000Z
+updated_date: 2020-03-16T11:17:49.700Z
 description: >-
   Basic and advanced git commands that every software developer should know and
   also uses on daily basis. It can also be used as a git cheat sheet.
