@@ -1,8 +1,8 @@
 ---
 layout: post
 title: >-
-  How to create presentation using HTML or Markdown frameworks | Reveal.js |
-  Reveal-md
+  HTML or Markdown presentation framework will make you love presentation |
+  Reveal.js | Reveal-md
 date: 2018-04-10T09:51:00.000Z
 description: >-
   How to create beautiful HTML and JavaScript or Markdown presentations using
