@@ -1,7 +1,7 @@
 ---
 layout: post
 title: >-
-  HTML or Markdown presentation framework will make you love presentation |
+  HTML or Markdown presentation framework will make you love the talk |
   Reveal.js | Reveal-md
 date: 2018-04-10T09:51:00.000Z
 description: >-
