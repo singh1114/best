@@ -15,7 +15,7 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Updated Date", name: "updated_date", widget: "datetime" required: false}
+      - {label: "Updated Date", name: "updated_date", widget: "datetime", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Description", name: "description", widget: "string", required: false}
       - {label: "Published", name: "published", widget: boolean, default: true}
