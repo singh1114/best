@@ -2,10 +2,12 @@
 layout: post
 title: 'Lazy Loading your images in Jekyll blog | Improving page speed '
 date: 2020-02-02T15:51:44.081Z
+updated_date: 2020-03-18T18:11:40.301Z
 description: >-
   Lazy loading the images of the blog and improving your page speed giving
   better user experience. Defer Offscreen Images in a Jekyll blog.
 published: true
+image: 'https://i.imgur.com/aNRVHsK.png'
 tags:
   - jekyll
   - blogging
@@ -15,6 +17,8 @@ categories:
   - blogging
   - seo
 ---
+{% include lazyload.html image_src="https://i.imgur.com/aNRVHsK.png" image_alt="Lazy load images in Jekyll blog" image_title="Lazy load images in Jekyll blog" %}
+
 Images are the heaviest part of your blog and often are the most interesting once without which your post can't be complete.
 
 Most of the people in a Jekyll blog tend to upload the images onto the directory on which the blog is hosted. At least such is the case with the people hosting it using GitHub pages.
@@ -25,7 +29,7 @@ One of the major one is to **Defer Off-screen Images**, that is what we are goin
 
 ## Introduction to the problem: Defer off-screen images
 
-When your blog post has a lot of content and the people have to scroll to see the images of the content, then Google suggest to load the images after the whole [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) is loaded first.
+When your blog post has a lot of content and the people have to scroll to see the images of the content, then Google suggest loading the images after the whole [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) is loaded first.
 
 > Deferring off screen images means delaying loading of images that appear below-the-fold on the page.
 
@@ -69,7 +73,7 @@ Write the following script and add it to the `_includes` directory so that you c
 
 This script is checking if the `image_src` and JavaScript is enabled by the given client.
 
-If yes, it uses the passed variables and renders an `image` with `data-src`( required by lazysizes to defer offscreen images). Otherwise, it will render a normal image.
+If yes, it uses the passed variables and renders an `image` with `data-src`( required by lazysizes to defer off-screen images). Otherwise, it will render a normal image.
 
 ## Include lazy loading in the posts.
 
