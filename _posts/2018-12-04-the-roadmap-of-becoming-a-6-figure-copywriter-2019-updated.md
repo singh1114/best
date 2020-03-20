@@ -1,15 +1,16 @@
 ---
-title: The Roadmap of becoming a 6 figure copywriter( 2019 updated)
-date: 2018-12-04 18:11:00 Z
-categories:
-- seo
-tags:
-- seo
-author: Ranvir Singh
-comments: true
 layout: post
+author: Ranvir Singh
+title: The Roadmap of becoming a 6 figure copywriter( 2019 updated)
+date: 2018-12-04T18:11:00.000Z
+updated_date: 2020-03-20T18:35:39.001Z
+published: true
+comments: true
+tags:
+  - seo
+categories:
+  - seo
 ---
-
 Copywriting is made up of two words copy and writing. The process of changing the style and wording of a copy( web page, ad copy or whatever) for making it more sellable to the customer is known as copywriting.
 
 **Some of the experienced copywriters earn 6 figures through a single gig.**
@@ -101,6 +102,8 @@ There are a number of ways in which you can start small. Choose any one of those
 This is one of the best ways to start small in the business of writing. Although it takes time and patience to get gigs when are new to these platforms.
 
 We recommend using [FreeLancer](https://www.freelancer.com/) or [UpWork](https://www.upwork.com/).
+
+[Airtasker is a freelancing website](https://www.airtasker.com/earn-money/) which can help you earn extra cash for you work. They have a whole section for writers.
 
 Most of the time, I have seen people sticking to their first time freelancer as they keep bringing the new gigs to the freelancing platforms.
 
