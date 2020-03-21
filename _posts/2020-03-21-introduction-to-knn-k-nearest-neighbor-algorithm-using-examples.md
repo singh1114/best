@@ -30,3 +30,17 @@ It first identifies the `k` points in the training data that are closest to the 
 It calculates the probability of test value to be in class `j` using this function
 
 {% include math.html math_code="$P_r(Y=j|X=x_o) = \frac{1}{K}\sum_{i\epsilon N_o}I(y_i = j)$" style="margin-top:0.2em; margin-bottom:0.5em;" %}
+
+## Ways to calculate the distance in KNN
+
+The distance can be calculated using different ways which include these methods,
+
+* Euclidean Method
+* Manhattan Method
+* Minkowski Method
+
+For more information on distance, please read [this post on KNN](https://www.saedsayad.com/k_nearest_neighbors.htm)
+
+## The process of KNN with Example
+
+Dogs and horse example.
