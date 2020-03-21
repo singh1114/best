@@ -6,6 +6,7 @@ description: >-
   Create awesome and fast react based blog using Gatsby and netlify CMS easily
   by following this post.
 published: true
+image: 'https://i.imgur.com/Dq9owl5.png'
 tags:
   - seo
   - netlifycms
