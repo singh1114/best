@@ -1,6 +1,6 @@
 ---
 title: Create react based blazingly fast blog using Netlify CMS and Gatsby
-date: 2020-03-22T19:22:14.832Z
+date: 2020-03-21T19:22:14.832Z
 updated_date: 2020-03-21T21:54:28.482Z
 description: >-
   Create awesome and fast react based blog using Gatsby and netlify CMS easily
