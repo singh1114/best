@@ -7,12 +7,10 @@ description: >-
   by following this post.
 published: true
 tags:
-  - blogging
   - seo
   - netlifycms
   - gatsby
 categories:
-  - blogging
   - seo
   - netlifycms
   - gatsby
