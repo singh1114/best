@@ -15,6 +15,7 @@ categories:
   - knn
   - machinelearning
 canonical_url: ''
+include_mathjax: true
 ---
 `KNN` also known as K-nearest neighbour is a [supervised and classification learning algorithm](https://ranvir.xyz/blog/how-to-evaluate-your-machine-learning-model-like-a-pro-metrics/#supervised-learning-and-classification-problems) which helps us find which class the new input(test value) belongs to when `k` nearest neighbours are chosen and distance is calculated between them.
 
