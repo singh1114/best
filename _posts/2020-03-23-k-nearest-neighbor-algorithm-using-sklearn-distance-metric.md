@@ -93,7 +93,7 @@ The head of the data clearly says that we have a few variables and a target clas
 
 As we can already see that the data in the data frame is not standardize, if we don't normalize the data the outcome will be fairly different and we won't be able to get the correct results.
 
-This happens because some feature have a good amount deviation in them (values range from 1-1000). This will lead a very bad plot producing a lot of defects in the model.
+This happens because some feature have a good amount of deviation in them (values range from 1-1000). This will lead a very bad plot producing a lot of defects in the model.
 
 For more info, check this answer on [stack exchange](https://stats.stackexchange.com/a/287439).
 
