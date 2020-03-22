@@ -2,6 +2,7 @@
 layout: post
 title: How to evaluate your Machine learning model like a pro
 date: 2020-02-20T19:22:14.832Z
+updated_date: 2020-03-22T18:30:00.000Z
 description: >-
   Evaluating your machine learning model can be done using accuracy, recall,
   precision, F1-score and/or mean absolute error or mean square error.
@@ -53,6 +54,8 @@ For example if you are building a cancer detector depending upon the test report
 `Classification Problem` are a subset of supervised learning where the outcomes are generally divided into two or more parts. For example whether a person is having cancer or not.
 
 All these models can be evaluated on the following parameters.
+
+### Test train split using sklearn
 
 Generally we divide the total dataset into two parts. First dataset is known as the training data and the other is known as the test data.
 
