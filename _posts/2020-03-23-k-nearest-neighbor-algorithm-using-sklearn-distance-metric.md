@@ -115,7 +115,7 @@ sc_df.head()
 
 ### Test/Train split using sklearn
 
-We can simply [split the data using sklearn](https://ranvir.xyz/blog/how-to-evaluate-your-machine-learning-model-like-a-pro-metrics/#test-train-split-using-sklearn)
+We can simply [split the data using sklearn](https://ranvir.xyz/blog/how-to-evaluate-your-machine-learning-model-like-a-pro-metrics/#test-train-split-using-sklearn).
 
 ```python
 from sklearn.model_selection import train_test_split
