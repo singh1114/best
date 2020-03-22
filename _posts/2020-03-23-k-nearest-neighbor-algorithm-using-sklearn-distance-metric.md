@@ -150,7 +150,7 @@ plt.ylabel('Error Rate')
 
 {% include lazyload.html image_src="https://i.imgur.com/j4EsgY8.png" image_alt="Finding optimal k value" image_title="Finding optimal k value" %}
 
-Seeing the graph we can see that `k=30` gives a very optimal value of error rate.
+Seeing the graph, we can see that `k=30` gives a very optimal value of error rate.
 
 ```python
 k = 30
@@ -177,4 +177,6 @@ print(classification_report(y_test, preds))
 * Doesn't work as expected when working with big number of features/parameters.
 * Hard to work with categorical features.
 
-A good read that [benchmarks various options present in `sklearn` for Knn](https://jakevdp.github.io/blog/2013/04/29/benchmarking-nearest-neighbor-searches-in-python/)
+A good read that [benchmarks various options present in sklearn for Knn](https://jakevdp.github.io/blog/2013/04/29/benchmarking-nearest-neighbor-searches-in-python/)
+
+Hope you liked the post. Feel free to share any issue or any question that you have in the comments below.
