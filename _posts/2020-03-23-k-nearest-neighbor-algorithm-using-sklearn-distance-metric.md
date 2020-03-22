@@ -127,7 +127,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
 
 ### Using KNN and finding an optimal k value
 
-Choosing a good value of `k` can be daunting task. We are going to automate this task using programming. We were able to find a good value of k which can minimize the error rate in the model.
+Choosing a good value of `k` can be a daunting task. We are going to automate this task using programming. We were able to find a good value of k which can minimize the error rate in the model.
 
 ```python
 # Initialize an array that stores the error rates.
