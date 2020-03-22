@@ -2,7 +2,7 @@
 layout: post
 title: Introduction to KNN | K-nearest neighbour algorithm using Examples
 date: 2020-03-22T18:30:00.000Z
-updated_date: ''
+updated_date: 2020-03-22T18:30:00.000Z
 description: >-
   Introduction to K-nearest neighbour( KNN) algorithm using sklearn. Using
   different distance metrics and why is it important to normalize KNN features?
