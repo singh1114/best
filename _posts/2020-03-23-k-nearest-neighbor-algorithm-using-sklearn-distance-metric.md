@@ -58,7 +58,7 @@ Let's consider that we have a dataset containing heights and weights of dogs and
 
 Now whenever a new entry comes in, we will choose a value of `k`.
 
-For the sake of this example, let's assume that we choose 4 as the value of `k`. We will find the distance of nearest three values and the one having the least distance will have more probability and is assumed as the winner.
+For the sake of this example, let's assume that we choose 4 as the value of `k`. We will find the distance of nearest four values and the one having the least distance will have more probability and is assumed as the winner.
 
 {% include lazyload.html image_src="https://i.imgur.com/heaLl5s.png" image_alt="KNN algorithm example" image_title="KNN algorithm example" %}
 
