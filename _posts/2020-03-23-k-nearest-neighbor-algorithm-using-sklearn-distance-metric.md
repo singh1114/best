@@ -131,6 +131,8 @@ Choosing a good value of `k` can be a daunting task. We are going to automate th
 
 ```python
 # Initialize an array that stores the error rates.
+from sklearn.neighbors import KNeighborsClassifier
+
 error_rates = []
 
 for a in range(1, 40):
