@@ -65,7 +65,8 @@ For the sake of this example, let's assume that we choose 4 as the value of `k`.
 ## KneighborsClassifier: KNN Python Example
 
 GitHub Repo: [KNN GitHub Repo](https://github.com/singh1114/ml/blob/master/datascience/Machine%20learning/knn/knn.ipynb)
-Data source used: [GitHub for Data Source](https://github.com/singh1114/ml/blob/master/datascience/Machine%20learning/knn/KNN_Project_Data)
+
+Data source used: [GitHub of Data Source](https://github.com/singh1114/ml/blob/master/datascience/Machine%20learning/knn/KNN_Project_Data)
 
 In K-nearest neighbours algorithm most of the time you don't really know about the meaning of the input parameters or the classification classes available.
 
