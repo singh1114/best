@@ -1,6 +1,7 @@
 ---
 title: Building RESTful APIs with Java Spring Boot framework | For Beginners
 date: 2019-10-28T21:14:00.000Z
+updated_date: 2020-03-23T05:57:42.496Z
 description: >-
   Beginner approach to creating RestFul APIs using Java's spring boot framework
   including controllers, maven, pom.xml, MySQL, Java Repository and many more.
@@ -268,6 +269,21 @@ Here is what `io.singh1114.springboottut.school/School.java` file looks like.
 After writing this down, run the application and check the MySQL shell to find the table created.
 
 {% include lazyload.html image_src="https://i.imgur.com/NFGMhfq.png" image_alt="mysql shell" image_title="MySQL shell" %}
+
+**Note**: Sometime main `Java` package doesn't contain `javax.persistence` depending on the version of Java that you are using. In that case, you will get an error, `java: package javax.persistence does not exist`.
+
+All you have to do in that case is add another dependency for, `javax.persistence`
+
+```xml
+<!-- https://mvnrepository.com/artifact/javax.persistence/javax.persistence-api -->
+<dependency>
+    <groupId>javax.persistence</groupId>
+    <artifactId>javax.persistence-api</artifactId>
+    <version>2.2</version>
+</dependency>
+```
+
+Read this [Stack Overflow answer](https://stackoverflow.com/questions/56203811/package-javax-persistence-does-not-exist-using-spring-data-jpa-and-intellij/56204159) for more details.
 
 `Entity` is the keyword that tells the Spring Boot that the following class should be considered as a table class. Class parameters are fields of the table.
 
