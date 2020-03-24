@@ -46,9 +46,11 @@ if (!request.phone_number) {
 
 If you are starting out your app, this might look okay to you but as your app keeps getting bigger and bigger, you might want to write some specific validation code that can handle this for you out of the box.
 
-If you want to wrap all your requests with some special validations, this tutorial is for you.
+If you're just getting started for your application, I would suggest you skip this article( But do [subscribe](https://ranvir.xyz/blog/subscribe/) so that you can receive other good stuff that I write about) and come back to it when you have some good number of developers editing your code.
 
-This will also be helpful for your developers to know which parameters are required for the given route and which of them are optional. All you need to do is create a **middleware** which will keep account of all your parameters.
+This article is for someone who wants to wrap all his requests with some special validations.
+
+This will also be helpful for your backend developers to know which parameters are required for the given route and which of them are optional. All you need to do is create a **middleware** which will keep account of all your parameters.
 
 A good example for which a middleware can be used is logging. You can log your request parameters, headers, response data to whatever logging system you are using.
 
