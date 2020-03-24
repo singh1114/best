@@ -31,6 +31,8 @@ Same validations were repeated all over the codebase again and again.
 
 Every time I had to create a new route/new API endpoint I had to write the same validation code.
 
+For a [OOP based programmer turned JS developer](https://ranvir.xyz/blog/intermediate-guide-for-node.js-developers/) this was a bit of a shock.
+
 For example:
 
 ```javascript
