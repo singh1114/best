@@ -54,7 +54,7 @@ This will also be helpful for your backend developers to know which parameters a
 
 A good example for which a middleware can be used is logging. You can log your request parameters, headers, response data to whatever logging system you are using.
 
-We are going to talk about a specific type of middleware in this article, but you can extend it to anything you want to.
+We are only going to talk about a specific type of middleware in this article, but you can extend it to anything you want to.
 
 ## A middleware that can validate the request parameters.
 
@@ -70,7 +70,7 @@ You will never have to make any check related to the request parameters. All the
 
 In terms of web development, we call them middlewares... Just a fancy name( makes sense though).
 
-Let's start by writing a simple middleware.
+Let's start by writing a simple request validation middleware.
 
 <script src="https://gist.github.com/singh1114/766113f61c4f61b8357e4ff0223ec3c1.js"></script>
 
