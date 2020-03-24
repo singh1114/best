@@ -21,14 +21,20 @@ categories:
 ---
 {% include lazyload.html image_src="https://i.imgur.com/4BWtPKb.png" image_alt="Validate your request parameters using middleware in node.js" image_title="Validate your request parameters using a middleware" %}
 
-Some time ago, while working on a big Node.js application, I could see same validation for the request parameters being repeated again and again all over the routes. Every API was literally checking if certain parameter was being passed by the frontend or checking if the certain parameter was passed as `String/ Integer`.
+JavaScript is a [weekly typed](https://stackoverflow.com/questions/964910/is-javascript-an-untyped-language) language which makes it really hard for developers to validate parameters.
 
-I get it! You don't want to repeat that code again and again. Maybe you are sick of copying those little function calls all over your code with some change in the parameters. Every time you have to create a new route or new API endpoint you have to write the same code.
+Lack of consistency and a well-defined framework in JS doesn't help either.
+
+Few months ago while working on big Node.js application handling millions of requests per hour, I noticed it. Every API was literally checking if certain parameter was being passed by the frontend correctly.
+
+Same validations were repeated all over the codebase again and again.
+
+Every time I had to create a new route/new API endpoint I had to write the same validation code.
 
 For example:
 
 ```javascript
-// Inside the route.
+// Inside the route. 
 if (!request.phone_number) {
     throw new Error('Main request parameter not present.');
 }
@@ -36,7 +42,7 @@ if (!request.phone_number) {
 
 > In this post we are going to learn the simplest way in which you can validate your request parameter or any other thing for that matter.
 
-If you are starting out your app, this might look fine but as your app keeps getting bigger and bigger, you might want to write some specific validation code that can handle this for you.
+If you are starting out your app, this might look okay to you but as your app keeps getting bigger and bigger, you might want to write some specific validation code that can handle this for you out of the box.
 
 If you want to wrap all your requests with some special validations, this tutorial is for you.
 
