@@ -21,11 +21,13 @@ categories:
 ---
 {% include lazyload.html image_src="https://i.imgur.com/4BWtPKb.png" image_alt="Validate your request parameters using middleware in node.js" image_title="Validate your request parameters using a middleware" %}
 
-JavaScript is a [weekly typed](https://stackoverflow.com/questions/964910/is-javascript-an-untyped-language) language which makes it really hard for developers to validate parameters.
+JavaScript being a [weakly typed](https://stackoverflow.com/questions/964910/is-javascript-an-untyped-language) language makes it is really hard for developers to validate any type of variables.
 
-Lack of consistency and a well-defined framework in JS doesn't help either.
+Lack of consistency and a well-defined framework doesn't help either.
 
-Few months ago while working on big Node.js application handling millions of requests per hour, I noticed it. Every API was literally checking if certain parameter was being passed by the frontend correctly.
+Few months ago while working on big Node.js application, handling millions of requests per hour, I noticed it too.
+
+Every API was literally checking if certain parameter was being passed by the frontend correctly.
 
 Same validations were repeated all over the codebase again and again.
 
