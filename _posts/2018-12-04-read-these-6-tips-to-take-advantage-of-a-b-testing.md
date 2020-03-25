@@ -1,13 +1,15 @@
 ---
-title: Read These 6 Tips to take advantage of A/B Testing
-date: 2018-12-04 18:11:00 Z
-categories:
-- seo
-tags:
-- seo
 layout: post
 author: Ranvir Singh
+title: Read These 6 Tips to take advantage of A/B Testing
+date: 2018-12-04T18:11:00.000Z
+updated_date: 2020-03-25T20:32:48.304Z
+published: true
 comments: true
+tags:
+  - seo
+categories:
+  - seo
 ---
 
 A/B testing is the procedure of finding out which design works and which doesn't.
