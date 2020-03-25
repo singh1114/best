@@ -1,6 +1,7 @@
 ---
 title: Integration testing of APIs in Spring-Boot( Java) with Junit | For Beginners
 date: 2019-10-18T22:48:00.000Z
+updated_date: 2020-03-25T07:40:22.826Z
 description: >-
   Writing tests for your spring boot application using junit is one of the best
   things you can do for your future self.
@@ -18,7 +19,7 @@ redirect_from: []
 ---
 {% include lazyload.html image_src="https://i.imgur.com/BEIqT5f.jpg" image_alt="Spring boot logo" image_title="Spring boot logo" %}
 
-Shipping our product without testing is like buying a car without turning on the engine. We have to run a few tests again and again while the development of the product and if those tests are not automated, we will have a hard time to test our application.
+Shipping our product without testing is like buying a car without turning on the engine. We have to run a few tests again and again while the development of the product and if those tests are not automated, we will have a hard time testing our application.
 
 Here is a post that will help you to understand why you should be writing tests?
 
