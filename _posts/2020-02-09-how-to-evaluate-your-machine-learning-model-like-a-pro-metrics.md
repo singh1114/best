@@ -166,6 +166,25 @@ The image shows the `confusion matrix` for a case where patient's data was teste
 
 We can go forward and calculate all the values for Accuracy, Recall, Precision and F1-Score from this confusion matrix.
 
+To print confusion matrix of a model in `sklearn` use the following code.
+
+```python
+print(confusion_matrix(y_test, predictions))
+
+# where y_test is the data frame of test values
+# and predictions are the model predicted values
+```
+
+You can also print a matrix containing all values like `recall`, `precision` etc. using the following code,
+
+```python
+print(confusion_matrix(y_test, predictions))
+```
+
+For more information, read the following post,
+
+{% include linked_post.html url="k-nearest-neighbor-algorithm-using-sklearn-distance-metric" %}
+
 ## Evaluating for regression problems
 
 Regression problems are a little different from the categorization problems as the output is just not a single value. Here you can actually see how off your predicted value was from the real value.
