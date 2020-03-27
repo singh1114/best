@@ -159,8 +159,6 @@ plt.ylabel('Error Rate')
 Seeing the graph, we can see that `k=30` gives a very optimal value of error rate.
 
 ```python
-from sklearn.metrics import confusion_matrix, classification_report
-
 k = 30
 knn = KNeighborsClassifier(n_neighbors=k)
 knn.fit(X_train, y_train)
@@ -174,6 +172,8 @@ Read the following post to learn more about evaluating a machine learning model.
 {% include linked_post.html url="how-to-evaluate-your-machine-learning-model-like-a-pro-metrics" %}
 
 ```python
+from sklearn.metrics import confusion_matrix, classification_report
+
 print(confusion_matrix(y_test, preds))
 print(classification_report(y_test, preds))
 ```
