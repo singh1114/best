@@ -185,6 +185,8 @@ from sklearn.metrics import classification_report
 print(classification_report(y_test, predictions))
 ```
 
+{% include lazyload.html image_src="https://i.imgur.com/Iu5PoLx.png" image_alt="confusion matrix and classification report" image_title="confusion matrix and classification report" %}
+
 For more information, read the following post
 
 {% include linked_post.html url="k-nearest-neighbor-algorithm-using-sklearn-distance-metric" %}
