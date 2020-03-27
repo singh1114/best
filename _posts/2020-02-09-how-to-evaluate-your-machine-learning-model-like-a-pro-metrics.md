@@ -169,6 +169,8 @@ We can go forward and calculate all the values for Accuracy, Recall, Precision a
 To print confusion matrix of a model in `sklearn` use the following code.
 
 ```python
+from sklearn.metrics import confusion_matrix
+
 print(confusion_matrix(y_test, predictions))
 
 # where y_test is the data frame of test values
@@ -178,7 +180,9 @@ print(confusion_matrix(y_test, predictions))
 You can also print a matrix containing all values like `recall`, `precision` etc. using the following code,
 
 ```python
-print(confusion_matrix(y_test, predictions))
+from sklearn.metrics import classification_report
+
+print(classification_report(y_test, predictions))
 ```
 
 For more information, read the following post
