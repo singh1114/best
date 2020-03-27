@@ -165,7 +165,13 @@ k = 30
 knn = KNeighborsClassifier(n_neighbors=k)
 knn.fit(X_train, y_train)
 preds = knn.predict(X_test)
+```
 
+## Evaluation the KNN model
+
+{% include linked_post.html url="how-to-evaluate-your-machine-learning-model-like-a-pro-metrics" %}
+
+```python
 print(confusion_matrix(y_test, preds))
 print(classification_report(y_test, preds))
 ```
