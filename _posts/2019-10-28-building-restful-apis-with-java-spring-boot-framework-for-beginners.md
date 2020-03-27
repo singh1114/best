@@ -29,13 +29,15 @@ After going through this guide, you will be able to build complex applications u
 
 I would encourage you guys to create a small project of your own as well, as we move forward in this guide.
 
+During the course of the article this [GitHub Repo](https://github.com/singh1114/java_tutorial) will contain the code related to the changes being made.
+
 ## Why Spring Boot?
 
 While building a web application, the main goal of the developer is to get the application out as quickly as possible. The developer should not be worried about the configuring various layers of the system.
 
 Spring Boot helps us to remove that hassle and helps us to build us stand-alone, production-ready applications that **Just works**.
 
-With that definition, you might be feeling that this framework is just for small level applications. But that is not true. You can build fairly complex systems using this framework.
+With that definition, you might be feeling that this framework is just for small level applications. But that is not true. You can build [fairly complex systems](https://stackshare.io/spring-boot) using this framework.
 
 ## Why not use Spring directly?
 
@@ -257,6 +259,25 @@ Second-line gives the username of MySQL who is the owner of the database.
 The third line is the password of the database.
 
 The fourth line is the setting that will help you to auto-generate the tables in the database.
+
+* Adding more dependencies
+
+We will have add `MySQL` and `Hibernate` dependecies so that they can take care of handing the persistence layer for us. Add the following code to `pom.xml`,
+
+```xml
+...
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+        <dependency>
+...
+```
 
 Just try to build the application once done with the setting. It should build without any error.
 
