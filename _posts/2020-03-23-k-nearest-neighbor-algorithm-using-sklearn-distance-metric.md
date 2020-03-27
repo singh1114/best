@@ -167,7 +167,7 @@ knn.fit(X_train, y_train)
 preds = knn.predict(X_test)
 ```
 
-## Evaluation the KNN model
+## Evaluating the KNN model
 
 Read the following post to learn more about evaluating your model.
 
