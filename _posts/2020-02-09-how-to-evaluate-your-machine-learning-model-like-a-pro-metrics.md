@@ -181,7 +181,7 @@ You can also print a matrix containing all values like `recall`, `precision` etc
 print(confusion_matrix(y_test, predictions))
 ```
 
-For more information, read the following post,
+For more information, read the following post
 
 {% include linked_post.html url="k-nearest-neighbor-algorithm-using-sklearn-distance-metric" %}
 
