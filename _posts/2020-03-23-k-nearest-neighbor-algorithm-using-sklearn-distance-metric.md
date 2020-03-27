@@ -169,7 +169,7 @@ preds = knn.predict(X_test)
 
 ## Evaluating the KNN model
 
-Read the following post to learn more about evaluating your model..
+Read the following post to learn more about evaluating a machine learning model.
 
 {% include linked_post.html url="how-to-evaluate-your-machine-learning-model-like-a-pro-metrics" %}
 
