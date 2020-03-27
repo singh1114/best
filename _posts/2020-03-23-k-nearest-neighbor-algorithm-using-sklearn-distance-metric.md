@@ -171,7 +171,7 @@ preds = knn.predict(X_test)
 
 Read the following post to learn more about evaluating your model.
 
-{% include linked_post.html url="how-to-evaluate-your-machine-learning-model-like-a-pro-metrics" %}
+{% include linked_post.html url="k-nearest-neighbor-algorithm-using-sklearn-distance-metric" %}
 
 ```python
 print(confusion_matrix(y_test, preds))
