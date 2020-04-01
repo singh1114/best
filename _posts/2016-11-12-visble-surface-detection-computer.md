@@ -13,6 +13,8 @@ tags:
   - Visible surface detection
   - Computer science and engineering
   - Computer graphics
+categories:
+  - computergraphics
 ---
 Hello everyone,
 
@@ -34,31 +36,22 @@ This is also called `continuous domain`. In this method we compare the parts of 
 
 ## Image-space method
 
-    This is a discrete type of method where we check on each and every pixel that whether the particular point is
-        going to be in the final display or not. This method works on the 2-D display i.e. we are going to work on the
-        image not on the object. In this type of method number of pixels on the screen is a strong limitation. 
+This is a discrete type of method where we check on each and every pixel whether the particular point is going to be in the final display or not. This method works on the 2-D display i.e. we are going to work on the image not on the object. In this type of method number of pixels on the screen is a strong limitation. 
 
-Both are good methods but Image-space method is little slower as we go pixel by pixel on the other hand
-    object-space method is not good on the quality basis.
+Both are good methods but Image-space method is little slower as we go pixel by pixel on the other hand `object-space` method is not good in terms of quality.
 
 ## Coherence properties
 
-Coherence properties helps us to reduce the computations time even more. These are some of the features of the
-    computer graphics that are standardized by some great people. As we know that there are the only one difference
-    between 2-D and 3-D that is depth. In 3-D we also have depth along with width and height. Some of the coherence
-    properties are:
+Coherence properties helps us to reduce the computations time even more. These are some features of the computer graphics that are standardized by some great people. As we know that there are the only one difference between 2-D and 3-D that is depth. In 3-D, we also have depth along with width and height. Some coherence properties are:
 
 
 
-    * We are not going to compare two surfaces if they are perfectly separate. (Object Coherence)
-    * When we are going to plot the next pixel we will not compute the depth again and again rather we will use a simple
-    value that we keep on incrementing to earlier depth level. This will also save us a lot of computation time.(Face
-    Coherence) 
-    * When a object from behind of a surface becomes visible then we have to show it on the screen. (Edge coherence)
-    * When an object penetrates inside another object then a line is created that must be drawn on the screen. (Implied
-    edge coherence)
+* We are not going to compare two surfaces if they are perfectly separate. (Object Coherence)
+* When we are going to plot the next pixel we will not compute the depth again and again rather we will use a simple value that we keep on incrementing to earlier depth level. This will also save us a lot of computation time.(Face Coherence) 
+* When an object from behind of a surface becomes visible then we have to show it on the screen. (Edge coherence)
+* When an object penetrates inside another object then a line is created that must be drawn on the screen. (Implied edge coherence)
 
-    There are some other type of coherences that can be included here. 
+There are some other type of coherences that can be included here. 
 
 * scan line coherence
 
