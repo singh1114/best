@@ -2,7 +2,7 @@
 modified_time: '2017-12-09T09:58:55.642-08:00'
 layout: post
 author: Fierce Warrior
-title: Visible surface detection algorithms | Computer graphics
+title: Visible surface detection algorithms | Back-Face Algorithm
 date: '2016-11-12T09:19:00.000-08:00'
 updated_date: 2020-04-01T17:37:12.427Z
 description: Visible surface detection basics and back-face detection algorithm basics.
