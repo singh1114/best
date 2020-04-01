@@ -30,9 +30,7 @@ Now as we know the problem we need to solve this problem. So there are two ways 
 
 ## Object-space method
 
-This is also called continuous domain. In this method we compare the parts of the objects in 3-D to each other and label some parts as visible. Those parts that are labelled as visible are going to make it into the final list while the others are not going to be computed by us saving us a lot of computation time. (we use bounding boxes)
-
-
+This is also called `continuous domain`. In this method we compare the parts of the objects in `3-D` to each other and label some parts as visible. Those parts that are labelled as visible are going to make it into the final list while the others are not going to be computed by us saving us a lot of computation time. (we use bounding boxes)
 
 ## Image-space method
 
