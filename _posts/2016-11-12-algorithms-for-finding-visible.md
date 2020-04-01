@@ -15,13 +15,13 @@ tags:
 categories:
   - computergraphics
 ---
-There are many techniques that are used to detect various surfaces that will make to the final picture. These techniques either belong to one of the two categories that we have discussed earlier that are: Object-space method or Image-space method.
+There are many techniques that are used to detect various surfaces that will make to the final picture. These techniques either belong to one of the two categories that we have discussed earlier that are: [Object-space method or Image-space method](https://ranvir.xyz/blog/visble-surface-detection-computer/).
 
 Various algorithms for visible surface detection are:
 
-* Back-Face detection
-* Depth/z- buffer method
-* Scan line method
+* [Back-Face detection](https://ranvir.xyz/blog/algorithms-for-finding-visible/#back-face-detection)
+* [Depth/z- buffer method](https://ranvir.xyz/blog/depthz-buffer-method-for-visible/)
+* [Scan line method](https://ranvir.xyz/blog/scan-line-method-for-visible-surface/)
 * Depth sorting method
 * Area-subdivision method
 * Octree method
