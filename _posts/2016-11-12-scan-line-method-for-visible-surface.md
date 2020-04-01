@@ -16,10 +16,9 @@ tags:
 categories:
   - computergraphics
 ---
+Scan line method is also one of the method for detecting the visible surface on the screen. This method is similar to the method discussed in the polygon fill method. The only difference is that there are going to be more surfaces than earlier.
 
 It is an Image-space method for visible surface detection.
-
-Scan line method is also one of the method for detecting the visible surface on the screen. This method is similar to the method discussed in the polygon fill method. The only difference is that there are going to be more surfaces than earlier.
 
 In scan line algorithm we create two tables, first one is known as polygon table which is different for each and every polygon and the other one is known as edge table.
 
