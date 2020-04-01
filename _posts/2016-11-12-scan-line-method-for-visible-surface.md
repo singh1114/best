@@ -16,11 +16,15 @@ tags:
 categories:
   - computergraphics
 ---
-Scan line method is also one of the method for detecting the visible surface on the screen. This method is similar to the method discussed in the polygon fill method. The only difference is that there are going to be more surfaces than earlier.
+Scan line method is another of the method for detecting the [visible surface](https://ranvir.xyz/blog/algorithms-for-finding-visible/) on the screen.
+
+This method is similar to the polygon fill method. The only difference is that there are going to be more surfaces than earlier.
 
 It is an Image-space method for visible surface detection.
 
-In scan line algorithm we create two tables, first one is known as polygon table which is different for each and every polygon and the other one is known as edge table.
+## Scan line Algorithm
+
+In scan line algorithm we create two tables, first one is known as `polygon table` which is different for each and every polygon and the other one is known as `edge table`.
 
 The content of the polygon table consists of:
 
@@ -28,7 +32,9 @@ The content of the polygon table consists of:
 *   Color information of the particular polygon.
 *   A flag that is initialized to false. 
 
-On the other hand the edge buffer consist of end points of each edge and for each edge the corresponding pointer pointing to the polygons that impacts on the given edge range. It also consists of inverse slope of each line.
+On the other hand the edge buffer consist of end points of each edge and for each edge the corresponding pointer pointing to the polygons that impacts on the given edge range.
+
+It also consists of inverse slope of each line.
 
 Whenever a line is being drawn a list is initiated, this list has all the polygons that can effect the formation of the line. This helps in only checking the given polygons and leaving out the rest. Flag is used to tell where the given line is inside the polygon or is outside it.
 
