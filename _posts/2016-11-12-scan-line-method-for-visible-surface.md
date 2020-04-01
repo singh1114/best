@@ -2,7 +2,7 @@
 modified_time: '2016-11-12T13:15:39.285-08:00'
 layout: post
 author: Fierce Warrior
-title: Scan line method for visible surface detection | computer graphics
+title: Scan line method for visible surface detection | Computer Graphics
 date: '2016-11-12T13:15:00.000-08:00'
 updated_date: 2020-04-01T14:23:52.668Z
 published: true
