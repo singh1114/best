@@ -24,9 +24,9 @@ In scan line algorithm we create two tables, first one is known as polygon table
 
 The content of the polygon table consists of:
 
-    *   Coefficients of the particular polygon's equation
-    *   Color information of the particular polygon 
-    *   A flag that is initialized to false  
+*   Coefficients of the particular polygon's equation.
+*   Color information of the particular polygon.
+*   A flag that is initialized to false. 
 
 On the other hand the edge buffer consist of end points of each edge and for each edge the corresponding pointer pointing to the polygons that impacts on the given edge range. It also consists of inverse slope of each line.
 
