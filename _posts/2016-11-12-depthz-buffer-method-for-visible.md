@@ -12,11 +12,11 @@ tags:
   - Depth buffer method for visible surface detection
   - Computer graphics
 ---
-In this post we are going to discuss one of the most important techniques for visible surface detection. This technique is used after the back-facing technique is used to further reduce the computation time. The picture shows the working of the method that we are going to discuss in this tutorial.
+In this post we are going to discuss one of the most important techniques for [visible surface detection](https://ranvir.xyz/blog/algorithms-for-finding-visible/). This technique is used after the [back-facing technique](https://ranvir.xyz/blog/algorithms-for-finding-visible/#back-face-detection) is used to further reduce the computation time.
 
 This method is related to computation of depth of various objects at each and every polygon and hence finding out which objects are going to make it into the final list of the picture.
 
-This method makes the computation for each and every point.
+This method makes the computation at each and every point/ pixel.
 
 Not only the depth is calculated but also the color is calculated. The final color is calculated with the polygon that is visible at the particular pixel.
 
