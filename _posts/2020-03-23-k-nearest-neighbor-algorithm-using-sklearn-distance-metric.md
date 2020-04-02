@@ -97,7 +97,7 @@ The head of the data clearly says that we have a few variables and a target clas
 
 As we can already see that the data in the data frame is not standardized, if we don't normalize the data the outcome will be fairly different and we won't be able to get the correct results.
 
-This happens because some feature have a good amount of deviation in them (values range from 1-1000). This will lead to a very bad plot producing a lot of defects in the model.
+This happens because some feature has a good amount of deviation in them (values range from 1-1000). This will lead to a very bad plot producing a lot of defects in the model.
 
 For more info on normalization, check this answer on [stack exchange](https://stats.stackexchange.com/a/287439).
 
@@ -190,9 +190,9 @@ print(classification_report(y_test, preds))
 ## Disadvantages of KNN algorithm
 
 * The cost of predicting the `k` nearest neighbours is very high.
-* Doesn't work as expected when working with big number of features/parameters.
+* Doesn't work as expected when working with a big number of features/parameters.
 * Hard to work with categorical features.
 
 A good read that [benchmarks various options present in sklearn for Knn](https://jakevdp.github.io/blog/2013/04/29/benchmarking-nearest-neighbor-searches-in-python/)
 
-Hope you liked the post. Feel free to share any issue or any question that you have in the comments below.
+Hope you liked the post. Feel free to share any issues or any questions that you have in the comments below.
