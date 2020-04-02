@@ -1,6 +1,7 @@
 ---
 title: How I set up new machines | Setting ssh keys and shell
 date: '2019-12-13 20:58:00 +0000'
+updated_date: 2020-04-02T13:49:14.213Z
 description: >-
   Setting up new machines by taking all the important data from the old machines
   by sshing into them and getting files using scp. Setting up shell using iTerm
