@@ -23,7 +23,7 @@ include_mathjax: true
 ---
 {% include lazyload.html image_src="https://i.imgur.com/3rMdVO4.png" image_alt="KNN algorithm python" image_title="KNN algorithm using sklearn" %}
 
-`KNN` also known as K-nearest neighbour is a [supervised and pattern classification learning algorithm](https://ranvir.xyz/blog/how-to-evaluate-your-machine-learning-model-like-a-pro-metrics/#supervised-learning-and-classification-problems) which helps us find which class the new input(test value) belongs to when `k` nearest neighbours are chosen and distance is calculated between them.
+`KNN` also known as K-nearest neighbour is a [supervised and pattern classification learning algorithm](https://ranvir.xyz/blog/how-to-evaluate-your-machine-learning-model-like-a-pro-metrics/#supervised-learning-and-classification-problems) which helps us to find which class the new input(test value) belongs to when `k` nearest neighbours are chosen and distance is calculated between them.
 
 > It attempts to estimate the conditional distribution of `Y` given `X`, and classify a given observation(test value) to the class with highest estimated probability.
 
@@ -56,7 +56,7 @@ Also [read this answer as well](https://stackoverflow.com/questions/34408027/how
 
 Let's consider that we have a dataset containing heights and weights of dogs and horses marked properly. We will create a plot using weight and height of all the entries.
 
-Now whenever a new entry comes in, we will choose a value of `k`.
+Now whenever a new entry comes in from the test dataset, we will choose a value of `k`.
 
 For the sake of this example, let's assume that we choose 4 as the value of `k`. We will find the distance of the nearest four values and the one having the least distance will have more probability and is assumed as the winner.
 
