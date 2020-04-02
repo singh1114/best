@@ -97,12 +97,14 @@ After this, you can `ssh` into the machine and `scp` into the new device to get 
 
 I have a MAC machine for development and love to use `iTerm` and `zsh` for powering my shell.
 
-Their command completion is very useful while programming and help us to find the commands more easily.
+Their command completion is very useful while programming and help us find the commands more easily.
 
-You can directly download iTerm from their [website](https://iterm2.com/downloads.html).
+You can directly download `iTerm` from their [website](https://iterm2.com/downloads.html).
 
-`ZSH` is used to provide good visual touch to your system. I love the default shell theme they provide. Currently you use the software by downloading using `wget` or `curl`.
+`ZSH` is used to provide good visual touch to your system. I love the default shell theme they provide. Currently, you use the software by downloading using `wget` or `curl`.
 
 Head to their [website](https://ohmyz.sh/) for more details.
+
+`zsh` also adds some [git aliases](https://github.com/ohmyzsh/ohmyzsh/wiki/Cheatsheet#git), which makes your life far easier as a developer.
 
 Hope you liked this post. Please subscribe to the weekly newsletter by sharing your email.
