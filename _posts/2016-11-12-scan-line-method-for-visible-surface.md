@@ -36,4 +36,4 @@ The computations are done from left to right. At left most position the flag is 
 
 We are only going to look for the depths once the flag is set for more than a polygon. In the rest cases we are not going to think about it.
 
-In the next tutorial we are going to discuss another visible surface detection method.
+In the next tutorial we are going to discuss another visible surface detection algorithm.
