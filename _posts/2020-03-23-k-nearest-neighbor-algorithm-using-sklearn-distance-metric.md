@@ -58,7 +58,7 @@ Let's consider that we have a dataset containing heights and weights of dogs and
 
 Now whenever a new entry comes in, we will choose a value of `k`.
 
-For the sake of this example, let's assume that we choose 4 as the value of `k`. We will find the distance of nearest four values and the one having the least distance will have more probability and is assumed as the winner.
+For the sake of this example, let's assume that we choose 4 as the value of `k`. We will find the distance of the nearest four values and the one having the least distance will have more probability and is assumed as the winner.
 
 {% include lazyload.html image_src="https://i.imgur.com/heaLl5s.png" image_alt="KNN algorithm example" image_title="KNN algorithm example" %}
 
@@ -70,7 +70,7 @@ Data source used: [GitHub of Data Source](https://github.com/singh1114/ml/blob/m
 
 In K-nearest neighbours algorithm most of the time you don't really know about the meaning of the input parameters or the classification classes available.
 
-In case of interviews this is done to hide the real customer data from the potential employee.
+In case of interviews, this is done to hide the real customer data from the potential employee.
 
 ```python
 
@@ -91,11 +91,11 @@ df.head()
 
 {% include lazyload.html image_src="https://i.imgur.com/2bDtkX4.png" image_alt="KNN algorithm Head of dataframe" image_title="KNN algorithm Head of dataframe" %}
 
-The head of the data clearly says that we have a few variables and a target class which contain different classes for given parameters.
+The head of the data clearly says that we have a few variables and a target class that contain different classes for given parameters.
 
 ### Why normalize/ standardize the variables for KNN
 
-As we can already see that the data in the data frame is not standardize, if we don't normalize the data the outcome will be fairly different and we won't be able to get the correct results.
+As we can already see that the data in the data frame is not standardized, if we don't normalize the data the outcome will be fairly different and we won't be able to get the correct results.
 
 This happens because some feature have a good amount of deviation in them (values range from 1-1000). This will lead to a very bad plot producing a lot of defects in the model.
 
