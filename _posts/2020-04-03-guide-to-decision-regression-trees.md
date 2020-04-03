@@ -9,3 +9,17 @@ Regression tree based models produce result (leaf node) gives the output as a re
 
 For example a model which try to predict the salary of baseball players according to the data like, years of experience and number of hits that the hitter made in the last season.
 
+## Greedy nature of decision trees
+
+Almost all of the Decision Tree algorithm uses Greedy approaches that is, at every node generation, we don't care about the final tree become better. We are only worried about making the best split at any given time.
+
+Let's understand this by taking the `Striker goals dataset` example.
+
+To simplify the calculations, let's assume that we only have three features in the dataset, `Experience`, `Goals last season` and `Salary` and salary is the feature that we want to predict.
+
+On this random data, we decided to fit the decision tree model. After initially analyzing the data, we found that `Experience` was the most usable factor which was clearly dividing the whole dataset into different parts.
+
+So, rather than thinking of ahead in time, we will directly choose the `Experience` as the root node at this point.
+
+We will discuss the above example much in detail during this post.
+
