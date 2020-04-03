@@ -27,7 +27,7 @@ We are going to discuss a lot about the decision trees in the upcoming days and 
 
 ## Regression Trees
 
-As already discussed regression tree based models produce result (leaf node) gives the output as a real value.
+As already discussed, regression tree based models produce result (leaf node) gives the output as a real value.
 
 For example a model which try to predict the salary of baseball players according to the data like, years of experience and number of hits that the hitter made in the last season.
 
