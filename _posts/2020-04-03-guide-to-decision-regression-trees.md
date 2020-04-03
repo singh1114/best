@@ -3,7 +3,7 @@ layout: post
 title: A Beginner's guide to Regression Trees | Decision Trees
 date: 2019-07-23T21:05:13.718Z
 updated_date: 2020-04-03T21:05:13.730Z
-published: true
+published: false
 ---
 Regression tree based models produce result (leaf node) gives the output as a real value.
 
@@ -22,4 +22,6 @@ On this random data, we decided to fit the decision tree model. After initially 
 So, rather than thinking of ahead in time, we will directly choose the `Experience` as the root node at this point.
 
 We will discuss the above example much in detail during this post.
+
+## Equation of Regression Tree
 
