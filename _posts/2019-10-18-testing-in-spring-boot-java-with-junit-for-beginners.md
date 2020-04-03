@@ -37,7 +37,7 @@ In this post, we are going to discuss how we can test our spring boot applicatio
 
 {% include lazyload.html image_src="https://i.imgur.com/BEIqT5f.jpg" image_alt="Spring boot logo" image_title="Spring boot logo" %}
 
-First, we have to add the `test` libraries to the `pom.xml`, so that the Maven can install them for us.
+First, we have to add the `test` libraries to the `pom.xml`, so that the Maven can install them for us. Here is the [GitHub Repo](https://github.com/singh1114/java_tutorial) that contains the code for this tutorial.
 
 Here is the code to add testing libraries to `pom.xml`
 
