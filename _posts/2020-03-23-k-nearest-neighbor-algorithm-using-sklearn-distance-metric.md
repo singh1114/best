@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Introduction to KNN | K-nearest neighbour algorithm using Examples
+title: Introduction to KNN | K-nearest neighbor algorithm using Examples
 date: 2020-03-22T18:30:00.000Z
 updated_date: 2020-03-22T18:30:00.000Z
 description: >-
-  Introduction to K-nearest neighbour( KNN) algorithm using sklearn. Using
+  Introduction to K-nearest neighbor( KNN) algorithm using sklearn. Using
   different distance metrics and why is it important to normalize KNN features?
 published: true
 image: 'https://i.imgur.com/3rMdVO4.png'
@@ -23,7 +23,7 @@ include_mathjax: true
 ---
 {% include lazyload.html image_src="https://i.imgur.com/3rMdVO4.png" image_alt="KNN algorithm python" image_title="KNN algorithm using sklearn" %}
 
-`KNN` also known as K-nearest neighbour is a [supervised and pattern classification learning algorithm](https://ranvir.xyz/blog/how-to-evaluate-your-machine-learning-model-like-a-pro-metrics/#supervised-learning-and-classification-problems) which helps us to find which class the new input(test value) belongs to when `k` nearest neighbours are chosen and distance is calculated between them.
+`KNN` also known as K-nearest neighbor is a [supervised and pattern classification learning algorithm](https://ranvir.xyz/blog/how-to-evaluate-your-machine-learning-model-like-a-pro-metrics/#supervised-learning-and-classification-problems) which helps us to find which class the new input(test value) belongs to when `k` nearest neighbors are chosen and distance is calculated between them.
 
 > It attempts to estimate the conditional distribution of `Y` given `X`, and classify a given observation(test value) to the class with highest estimated probability.
 
@@ -68,7 +68,7 @@ GitHub Repo: [KNN GitHub Repo](https://github.com/singh1114/ml/blob/master/datas
 
 Data source used: [GitHub of Data Source](https://github.com/singh1114/ml/blob/master/datascience/Machine%20learning/knn/KNN_Project_Data)
 
-In K-nearest neighbours algorithm most of the time you don't really know about the meaning of the input parameters or the classification classes available.
+In K-nearest neighbors algorithm most of the time you don't really know about the meaning of the input parameters or the classification classes available.
 
 In case of interviews, this is done to hide the real customer data from the potential employee.
 
@@ -189,7 +189,7 @@ print(classification_report(y_test, preds))
 
 ## Disadvantages of KNN algorithm
 
-* The cost of predicting the `k` nearest neighbours is very high.
+* The cost of predicting the `k` nearest neighbors is very high.
 * Doesn't work as expected when working with a big number of features/parameters.
 * Hard to work with categorical features.
 
