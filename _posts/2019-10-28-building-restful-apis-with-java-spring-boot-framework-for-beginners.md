@@ -11,11 +11,12 @@ tags:
   - Programming
   - technology
   - java
+  - springboot
 categories:
   - API
-  - Spring Boot
-  - technology
   - java
+  - springboot
+  - technology
 ---
 {% include lazyload.html image_src="https://i.imgur.com/TarG8Tj.png" image_alt="Restful APIs using spring boot framework" image_title="Restful APIs using spring boot framework" %}
 
