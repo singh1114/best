@@ -250,6 +250,6 @@ np.sqrt(metrics.mean_squared_error(y_test, predictions))
 
 ## What is considered as a good metric value for your model?
 
-As we have already disscussed a good metric value of model really depend upon the type model you are evaluating. You always have check with the peers who really are going to use your model.
+As we have already disscussed a good metric value of model really depend upon the type model you are evaluating. You will always have to check with the peers who really are going to use your model.
 
 Hope you liked the post, do leave your thoughts on what you use to evaluate your model and what do you think is a good metric value for your model.
