@@ -1,11 +1,17 @@
 ---
 layout: post
 title: A Beginner's guide to Regression Trees | Decision Trees
-date: 2019-07-23T21:05:13.718Z
+date: 2020-04-03T21:05:13.718Z
 updated_date: 2020-04-03T21:05:13.730Z
-published: false
+description: >-
+  Beginner's guide to Regression Trees including the equation, Pruning,
+  Prediction using stratification of features in decision Trees.
+published: true
+image: 'https://i.ibb.co/vsJ5X6N/Main-Images-1.png'
 include_mathjax: true
 ---
+{% include lazyload.html image_src="https://i.ibb.co/vsJ5X6N/Main-Images-1.png" image_alt="Regression Tree beginner's guide" image_title="Regression Tree beginner's guide" %}
+
 Regression tree based models produce result (leaf node) gives the output as a real value.
 
 For example a model which try to predict the salary of baseball players according to the data like, years of experience and number of hits that the hitter made in the last season.
@@ -100,5 +106,26 @@ This process of dividing one of the available region into smaller ones is repeat
 
 Therefore, using this algorithm to create a model and then trying to understand it is quite tough when number of features are high.
 
-> Machine learning models try to find a sweet spot between the over fit and under fit. So, that the error rate should be minimized and at the same time it should be able to predict correctly.
+> Machine learning models try to find a sweet spot between the over fit and under fit so, that the error rate should be minimized and at the same time it should be able to predict correctly.
 
+## Predicting using Tree Pruning
+
+Tree Pruning isn't only used for regression trees. We also make use of it in the classification trees as well.
+
+We will make use of CART algorithm (classification And Regression Tree) to explain Tree pruning.
+
+As the word itself, suggest we the process involves cutting of the tree into smaller part.
+
+We can do pruning in two ways.
+
+1. Pre-pruning or early stopping
+
+This means stopping before the full tree is even created. We can keep making the tree until the next node doesn't change the error rate change drastically. Whenever we see very minor change in the error rate after building the next node, we can stop building further.
+
+2. Post Pruning
+
+Creating the full tree up until we have very few data points in each set and then track backing such that the change in the error rate is not much.
+
+This is the basic understanding of Pruning. There will be separate post on Pruning in which I will discuss cross-validation and related mathematics.
+
+Please share and subscribe to the newsletter to read more such posts.
