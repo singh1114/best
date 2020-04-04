@@ -52,3 +52,36 @@ Mathematically the value is given by,
 {% include math.html math_code="$RSS = \displaystyle \sum_{j=1}^{J} \sum_{i \epsilon R_j} (y_i - \widehat{y}_{R_j})^ {2}$" %}
 
 {% include math.html math_code="$and\ \widehat{y}_{R_j}\ is\ mean\ value\ of\ training\ observations\ in\ Jth\ box.$" %}
+
+Let's try to understand it using the `hitter's dataset`.
+
+First we plot the whole dataset onto a plan. For simplicity let's consider that all the points are confined in a rectangle.
+
+In regression trees, at each point we have to predict two values.
+
+1. Value of the branch feature (node).
+2. The cutoff value at which the reduction in RSS is minimum.
+
+While working on the hitter's dataset, we found that `Age` was dividing the region in a better way. So, the branch feature(root node) that we chose was `Age`. Also, we found that the cutoff value of 4.5 years was giving optimal results.
+
+We will apply the recursion and apply the same steps again. Since, we now have two regions, `R1` with salaries of `hitters` with experience < 4.5 years and `R2` with experience >= 4.5 years.
+
+We now chose from these two available regions and try to divide them. The only other available feature is `number of hits`. We found that there is clear distinction between the salaries of hitters hitting `117+` hits last year in region `R2`.
+
+Finally, we chose to leave the `R1` as it is as there was no clear advantage of dividing it further.
+
+This is what our Regression tree will look like.
+
+{% include lazyload.html image_src="https://i.ibb.co/7bsbNKn/Screenshot-2020-04-04-at-5-27-27-PM.png" image_alt="Regression Tree for hitters dataset" image_title="Regression Tree for hitters dataset" %}
+
+Here the leaf nodes show the mean salary of all the hitters in the given region.
+
+On the same lines the region partition will look something like this.
+
+{% include lazyload.html image_src="https://i.ibb.co/YfFCHDd/Screenshot-2020-04-04-at-6-37-55-PM.png" image_alt="Region partition for regression tree" image_title="Region partition for regression tree" %}
+
+Mathematically,
+
+In **recursive binary splitting**, we first select the predictor `Xj` and the cutoff value `S` such that,
+
+{% include math.html math_code="$and\ \widehat{y}_{R_j}\ is\ mean\ value\ of\ training\ observations\ in\ Jth\ box.$" %}
