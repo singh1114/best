@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Decision Tree-Based algorithms for Machine Learning
-date: 2017-02-28T20:04:45.495Z
+date: 2020-04-03T20:04:00.000Z
 updated_date: 2020-04-03T20:04:45.507Z
-published: false
+published: true
 tags:
   - ''
 categories:
@@ -32,3 +32,9 @@ As already discussed, regression tree based models produce result (leaf node) gi
 For example a model which try to predict the salary of baseball players according to the data like, years of experience and number of hits that the hitter made in the last season. Read more about Regression Trees in the post below.
 
 {% include linked_post.html url="guide-to-decision-regression-trees" %}
+
+## Classification Trees
+
+Classification Trees are the trees in which we predict the values in some category.
+
+For example, predicting whether you want to give loan to the incoming customer or not.
