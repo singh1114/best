@@ -1,5 +1,5 @@
 ---
-title: Mongo Aggregates and How to explain mongo aggregate queries
+title: Mongo Aggregates and How to explain Aggregate queries
 date: 2019-10-02T12:03:00.000Z
 updated_date: 2020-04-04T19:57:13.529Z
 description: >-
