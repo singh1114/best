@@ -126,11 +126,11 @@ As the word itself suggests, the process involves cutting the tree into smaller 
 
 We can do pruning in two ways.
 
-1. Pre-pruning or early stopping
+* **Pre-pruning or early stopping**
 
 This means stopping before the full tree is even created. We can keep making the tree until the next node doesn't change the error rate change drastically. Whenever we see a very minor change in the error rate after building the next node, we can stop building further.
 
-2. Post Pruning
+* **Post Pruning**
 
 Creating the full tree up until we have very few data points in each set and then track backing such that the change in the error rate is not much.
 
