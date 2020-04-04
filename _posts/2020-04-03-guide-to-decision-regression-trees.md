@@ -30,7 +30,7 @@ As we already know the equation of linear regression model which is equal to equ
 
 {% include math.html math_code="$f(x) = \sum_{m=1}^{M} C_m.1(X \epsilon R_m)$" style="margin-top:0.2em;" %}
 
-{% include math.html math_code="$where R_1,  R_2, ..., R_m\ are\ the\ different\ regions\ and\ C_m\ is\ the\ constant.$" %}
+{% include math.html math_code="$where R_1,  R_2, ..., R_m\ are\ the\ different\ regions$" %}
 
 ## Predictions in Regression Trees
 
@@ -47,8 +47,9 @@ At any given time of node(branch feature) determination, we want to reduce the v
 
 Mathematically the value is given by,
 
-{% include math.html math_code="$For\ every\ y_i\ in\ the\ given\ region
+{% include math.html math_code="$For\ every\ y_i\ in\ the\ given\ region$" style="margin-top:0.2em;" %}
+
 \\
 \sum_{j=1}^{J} \sum_{i \epsilon R_j} (y_i - \widehat{y}_R_j)^{2} 
 \\
-where\ \widehat{y}_R_j\ is\ the\ mean\ response\ of\ traning\ observations\ within\ the\ Jth\ box.$" style="margin-top:0.2em;" %}
+where\ \widehat{y}_R_j\ is\ the\ mean\ response\ of\ traning\ observations\ within\ the\ Jth\ box.
