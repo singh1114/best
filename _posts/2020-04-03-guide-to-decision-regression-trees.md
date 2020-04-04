@@ -30,7 +30,7 @@ As we already know the equation of linear regression model which is equal to equ
 
 {% include math.html math_code="$f(x) = \sum_{m=1}^{M} C_m.1(X \epsilon R_m)$" style="margin-top:0.2em;" %}
 
-{% include math.html math_code="$where R_1,  R_2, ..., R_m\ are\ the\ different\ regions$" %}
+{% include math.html math_code="$where\ R_1,  R_2, ..., R_m\ are\ the\ different\ regions$" %}
 
 ## Predictions in Regression Trees
 
