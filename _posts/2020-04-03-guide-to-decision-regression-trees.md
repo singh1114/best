@@ -3,7 +3,7 @@ layout: post
 title: A Beginner's guide to Regression Trees | Decision Trees
 date: 2019-07-23T21:05:13.718Z
 updated_date: 2020-04-03T21:05:13.730Z
-published: false
+published: true
 ---
 Regression tree based models produce result (leaf node) gives the output as a real value.
 
@@ -46,3 +46,8 @@ At any given time of node(branch feature) determination, we want to reduce the v
 
 Mathematically the value is given by,
 
+{% include math.html math_code="$For\ every\ y_i\ in\ the\ given\ region
+\\
+\sum_{j=1}^{J} \sum_{i \epsilon R_j} (y_i - \widehat{y}_R_j)^{2} 
+\\
+where\ \widehat{y}_R_j\ is\ the\ mean\ response\ of\ traning\ observations\ within\ the\ Jth\ box.$" style="margin-top:0.2em;" %}
