@@ -136,4 +136,4 @@ Creating the full tree up until we have very few data points in each set and the
 
 This is the basic understanding of Pruning. There will be separate post on Pruning in which I will discuss cross-validation and related mathematics.
 
-Please share and subscribe to the newsletter to read more such posts.
+Please share on social media and subscribe to the newsletter to read more such posts.
