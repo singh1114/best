@@ -54,7 +54,7 @@ Let's discuss a few of these aggregate queries.
 
 You can start the aggregate using the following code.
 
-```mongo
+```javascript
 db.collection.aggregate([aggregate pipeline commands], options)
 ```
 
@@ -70,13 +70,13 @@ This will reduce the number of documents being returned from the query. It is al
 
 For example: In a student database you can make this query as follows
 
-```mongo
+```json
 { $match: { "roll_number": 901 }}
 ```
 
 or
 
-```mongo
+```json
 { $match: { "class": 5 }}
 ```
 
@@ -205,7 +205,7 @@ For example, consider this document:
 
 On applying `$unwind`,
 
-```mongo
+```javascript
 db.collection.aggregate([
   {
     "$unwind": {
