@@ -8,6 +8,14 @@ description: >-
   Prediction using stratification of features in decision Trees.
 published: true
 image: 'https://i.ibb.co/vsJ5X6N/Main-Images-1.png'
+tags:
+  - python
+  - machinelearning
+  - datascience
+categories:
+  - python
+  - machinelearning
+  - datascience
 include_mathjax: true
 ---
 {% include lazyload.html image_src="https://i.ibb.co/vsJ5X6N/Main-Images-1.png" image_alt="Regression Tree beginner's guide" image_title="Regression Tree beginner's guide" %}
