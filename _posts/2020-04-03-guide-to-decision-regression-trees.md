@@ -51,4 +51,4 @@ Mathematically the value is given by,
 
 {% include math.html math_code="$ \sum_{j=1}^{J} \sum_{i \epsilon R_j} (y_i - \widehat{y}_R_j)^{2}$" %}
 
-{% include math.html math_code="$ \widehat{y}_R_j\ =\ mean\ value\ of\ training\ observations\ in\ Jth\ box.$" %}
+{% include math.html math_code="$and\ \widehat{y}_R_j\ is\ mean\ value\ of\ training\ observations\ in\ Jth\ box.$" %}
