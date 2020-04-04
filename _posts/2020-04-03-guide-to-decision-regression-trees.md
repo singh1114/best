@@ -42,7 +42,7 @@ There are a few different ways in which we can predict a regression tree. In thi
 
 As we have already discussed that while fitting trees we almost every time use greedy approach. We will use the same approach in here as well.
 
-At any given time of node(branch feature) determination,  we want to reduce the value of Residual Sum of Squares(RSS).
+At any given time of node(branch feature) determination, we want to reduce the value of Residual Sum of Squares(RSS).
 
 Mathematically the value is given by,
 
