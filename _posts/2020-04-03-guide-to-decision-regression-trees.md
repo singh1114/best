@@ -84,4 +84,21 @@ Mathematically,
 
 In **recursive binary splitting**, we first select the predictor `Xj` and the cutoff value `S` such that,
 
-{% include math.html math_code="$and\ \widehat{y}_{R_j}\ is\ mean\ value\ of\ training\ observations\ in\ Jth\ box.$" %}
+{% include math.html math_code="$\{X|X_j < S\} and\ \{X|X_j \geq S\}$" %}
+
+leads to maximum reduction in the RSS.
+
+So, the equation that we want to minimize is,
+
+{% include math.html math_code="\displaystyle \sum_{i:x_i\epsilon R_1(j, s)}(y_i - \widehat{y}_{R_1})^ {2} + \sum_{i:x_i\epsilon R_2(j, s)}(y_i - \widehat{y}_{R_2})^ {2}$" %}
+
+This process of dividing one of the available region into smaller ones is repeated until we reach and endpoint or a proper regression value.
+
+## Disadvantages of predicting using stratification
+
+* This algorithm might produce good results in the training data but is likely to over fit the data, leading to poor test set performance. This happens because the tree is too complex.
+
+Therefore, using this algorithm to create a model and then trying to understand it is quite tough when number of features are high.
+
+> Machine learning models try to find a sweet spot between the over fit and under fit. So, that the error rate should be minimized and at the same time it should be able to predict correctly.
+
