@@ -1,6 +1,7 @@
 ---
 title: Mongo Aggregates and How to explain mongo aggregate queries
 date: 2019-10-02T12:03:00.000Z
+updated_date: 2020-04-04T19:57:13.529Z
 description: >-
   Mongo aggregate explain with match, project, lookup, group and finally
   analysing how your aggregate query performed in mongo winningplan
@@ -53,7 +54,11 @@ Let's discuss a few of these aggregate queries.
 
 You can start the aggregate using the following code.
 
-`db.collection.aggregate([aggregate pipeline commands], options)`, where the collection is the name of the collection on which aggregate is applied and `db` is the instance of the connected DB object.
+```mongo
+db.collection.aggregate([aggregate pipeline commands], options)
+```
+
+where the collection is the name of the collection on which aggregate is applied and `db` is the instance of the connected DB object.
 
 Following are the commands that you can use in the aggregate pipeline.
 
@@ -65,11 +70,15 @@ This will reduce the number of documents being returned from the query. It is al
 
 For example: In a student database you can make this query as follows
 
-`{ $match: { "roll_number": 901 }}`
+```mongo
+{ $match: { "roll_number": 901 }}
+```
 
 or
 
-`{ $match: { "class": 5 }}`
+```mongo
+{ $match: { "class": 5 }}
+```
 
 This query will return all the documents which satisfy the given query.
 
@@ -102,7 +111,7 @@ This will pick up only the fields with value `1` in the document. It is importan
 
 It can also be used to change the name of the field. This is the `SELECT` equivalent of `SQL` commands.
 
-`_id` field is added by default in the result.
+`_id` field is added by default in the result. You can use `_id: 0`, if you don't want to include that field.
 
 ## Grouping in Mongo Aggregate
 
