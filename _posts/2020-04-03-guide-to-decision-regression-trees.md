@@ -28,7 +28,7 @@ We will discuss the above example much in detail during this post.
 
 As we already know the equation of linear regression model which is equal to equation of a straight line. We also have an equation for Regression Tree.
 
-{% include math.html math_code="$f(x) = \sum_{m=1}^{M} C_m.1(X \epsilon R_m)$" style="margin-top:0.2em;" %}
+{% include math.html math_code="$f(x) =\displaystyle \sum_{m=1}^{M} C_m.1(X \epsilon R_m)$" style="margin-top:0.2em;" %}
 
 {% include math.html math_code="$where\ R_1, R_2...R_m\ are\ the\ different\ regions$" %}
 
