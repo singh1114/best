@@ -129,6 +129,19 @@ db.students.aggregate([
 
 Lookup is one of the most important aggregate queries which you can use. This allows us to join different collections together and get data from the other collections as well.
 
+The simplest implementation of `$lookup` is as follows.
+
+```
+{
+    $lookup: {
+        from: <collection to join>,
+        localField: <field from the input documents>,
+        foreignField: <field from the documents of the "from" collection>,
+        as: <output array field>
+    }
+}
+```
+
 [Here is the query of the lookup.](https://mongoplayground.net/p/rY_VqBk_XXE)
 
 The lookup can be used with the pipeline as well. With this type of lookup, you can apply a check and tell the pipeline, when the given lookup will run.
@@ -154,18 +167,91 @@ The lookup can be used with the pipeline as well. With this type of lookup, you 
 
 This is the implementation that you want to use, when you want to run `$match` on the data being picked from the other collection.
 
-The simplest implementation of `$lookup` is as follows.
+## Unwind in Mongo Aggregate
 
+Unwinding is a type of operation in which deconstructs an array field from the input documents to output a document for `each` element.
+
+For example, consider this document: 
+
+```json
+[
+  {
+    "collection": "collection",
+    "count": 10,
+    "content": [
+      {
+        "k": {
+          "type": "int",
+          "minInt": 0,
+          "maxInt": 10
+        },
+        "a": {
+          "type": "int",
+          "minInt": 0,
+          "maxInt": 10
+        },
+        "b": {
+          "type": "int",
+          "minInt": 0,
+          "maxInt": 10
+        },
+        
+      },
+      {}
+    ]
+  }
+]
 ```
-{
-    $lookup: {
-        from: <collection to join>,
-        localField: <field from the input documents>,
-        foreignField: <field from the documents of the "from" collection>,
-        as: <output array field>
+
+On applying `$unwind`,
+
+```mongo
+db.collection.aggregate([
+  {
+    "$unwind": {
+      "path": "$content",
+      "preserveNullAndEmptyArrays": true
     }
-}
+  },
+  {
+    "$project": {
+      "_id": 0,
+      "content": 1
+    }
+  }
+])
 ```
+
+We will get the following result,
+
+```json
+[
+  {
+    "content": {
+      "a": {
+        "maxInt": 10,
+        "minInt": 0,
+        "type": "int"
+      },
+      "b": {
+        "maxInt": 10,
+        "minInt": 0,
+        "type": "int"
+      },
+      "k": {
+        "maxInt": 10,
+        "minInt": 0,
+        "type": "int"
+      }
+    }
+  },
+  {
+    "content": {}
+  }
+]
+```
+
+Check this on [Mongo playground](https://mongoplayground.net/p/iQsvZ3ZJ7AT).
 
 ## How to Explain mongo aggregate queries
 
