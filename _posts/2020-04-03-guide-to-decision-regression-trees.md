@@ -104,7 +104,7 @@ leads to the maximum reduction in the RSS.
 
 So, the equation that we want to minimize is,
 
-{% include math.html math_code="\displaystyle \sum_{i:x_i\epsilon R_1(j, s)}(y_i - \widehat{y}_{R_1})^ {2} + \sum_{i:x_i\epsilon R_2(j, s)}(y_i - \widehat{y}_{R_2})^ {2}$" %}
+{% include math.html math_code="$\displaystyle \sum_{i:x_i\epsilon R_1(j, s)}(y_i - \widehat{y}_{R_1})^ {2} + \sum_{i:x_i\epsilon R_2(j, s)}(y_i - \widehat{y}_{R_2})^ {2}$" %}
 
 This process of dividing one of the available region into smaller ones is repeated until we reach and endpoint or a proper regression value.
 
