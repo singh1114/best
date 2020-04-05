@@ -22,7 +22,7 @@ include_mathjax: true
 ---
 {% include lazyload.html image_src="https://i.ibb.co/XWMPn8d/Main-Images-2-1.png" image_alt="Practical approach to tree pruning using sklearn" image_title="Practical approach to tree pruning using sklearn" %}
 
-As we have already discussed in the [regression tree post](https://ranvir.xyz/blog/guide-to-decision-regression-trees/) that simple tree prediction can lead to a model which overfits the data and produce bad results with the test data. Tree Pruning is the way to reduce the overfitting by creating smaller trees.
+As we have already discussed in the [regression tree post](https://ranvir.xyz/blog/guide-to-decision-regression-trees/) that a simple tree prediction can lead to a model which overfits the data and produce bad results with the test data. Tree Pruning is the way to reduce overfitting by creating smaller trees.
 
 Tree Pruning isn't only used for regression trees. We also make use of it in the [classification trees](https://ranvir.xyz/blog/decision-tree-algorithms-machine-learning/#classification-trees) as well.
 
@@ -34,7 +34,7 @@ We can do pruning in two ways.
 
 This means stopping before the full tree is even created. The idea is to build the tree only as long as the decrease in the `RSS` due to each split exceeds some threshold.
 
-This means that we can stop further creating of the tree as soon as the `RSS` decrease while producing the next node is lower than the given threshold.
+This means that we can stop further creation of the tree as soon as the `RSS` decrease while producing the next node is lower than the given threshold.
 
 This might lead to some shortsightedness as there might be some cases in which there might a large reduction in the `RSS` at the later ends of the tree creation.
 
@@ -42,9 +42,9 @@ Thus, we try to make use of much more complex post pruning.
 
 ## Post Pruning
 
-In Post pruning we grow a large tree `T0`, and then prune it back in order to obtain a subtree such that we get the lowest test error rate.
+In Post pruning, we grow a large tree `T0` and then prune it back in order to obtain a subtree such that we get the lowest test error rate.
 
-Now, the problem with this algorithm is that, we don't want to go to every subtree and choose each one of them to calculate the change in the test error rate.
+Now, the problem with this algorithm is that we don't want to go to every subtree and choose each one of them to calculate the change in the test error rate.
 
 **Cost complexity Pruning** or **Weakest link Pruning** helps us with that. It introduces a new term, `alpha`. We pick only those trees which are indexed by this `alpha`.
 
@@ -70,9 +70,9 @@ For each value of `alpha` we have a subtree which can minimize the value of
 
 {% include math.html math_code="$and\ R(T)\ is\ the\ loss\ function\ calculated\ across\ the\ leaves.$" %}
 
-* Use K-Fold cross-validation to choose `alpha`. Simply putting, divide the training data into `K` smaller parts and run the `fit` function on `K` iterations with leaving `K` different subsets of training data as validation data and finally calculate the Mean Square Error using these K validation subsets as a function of `alpha`. (Will discuss k-fold cross validation in feature engineering post.)
+* Use K-Fold cross-validation to choose `alpha`. Simply putting, divide the training data into `K` smaller parts and run the `fit` function on `K` iterations with leaving `K` different subsets of training data as validation data and finally calculate the Mean Square Error using these K validation subsets as a function of `alpha`. (Will discuss k-fold cross-validation in feature engineering post.)
 
-* Pick the `alpha` value with minimum average error.
+* Pick the `alpha` value with a minimum average error.
 
 * Return the subtree that corresponds to the chosen value of `alpha`.
 
@@ -110,9 +110,9 @@ This gives,
         0.10634033, 0.14056508, 0.46786352])}
 ```
 
-This contain two [Numpy Arrays](https://ranvir.xyz/blog/data-science-i-all-things-you-need-to-know-about-numpy/) of `alpha` and `impurities`.
+This contains two [Numpy Arrays](https://ranvir.xyz/blog/data-science-i-all-things-you-need-to-know-about-numpy/) of `alpha` and `impurities`.
 
-We can plot this on graph to see the relation. 
+We can plot this on a graph to see the relation. 
 
 ```python
 ccp_alphas, impurities = path.ccp_alphas, path.impurities
