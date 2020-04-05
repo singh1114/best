@@ -26,7 +26,7 @@ As the word itself suggests, the process involves cutting the tree into smaller 
 
 We can do pruning in two ways.
 
-* **Pre-pruning or early stopping**
+## Pre-pruning or early stopping
 
 This means stopping before the full tree is even created. The idea is to build the tree only as long as the decrease in the `RSS` due to each split exceeds some threshold.
 
@@ -36,7 +36,7 @@ This might lead to some shortsightedness as there might be some cases in which t
 
 Thus, we try to make use of much more complex post pruning.
 
-* **Post Pruning**
+## Post Pruning
 
 In Post pruning we grow a large tree `T0`, and then prune it back in order to obtain a subtree such that we get the lowest test error rate.
 
@@ -54,7 +54,7 @@ For each value of `alpha` we have a subtree which can minimize the value of
 
 {% include math.html math_code="$\widehat{y}_{R_m}\ is\ the\ mean\ of\ training\ observations\ in\ R_m$" %}
 
-**Steps involved in building Regression Tree are**
+## Steps involved in building Regression Tree using Tree Pruning
 
 * Split the data to grow the large tree stopping only when the terminal node contains fewer than some minimum number of observations. For example, we will keep dividing until each region has less than 20 data points.
 
