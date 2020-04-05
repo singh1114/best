@@ -48,7 +48,7 @@ Now, the problem with this algorithm is that, we don't want to go to every subtr
 
 **Cost complexity Pruning** or **Weakest link Pruning** helps us with that. It introduces a new term, `alpha`. We pick only those trees which are indexed by this `alpha`.
 
-{% include math.html math_code="$alpha\ is\ \alpha $" style="margin-top:0.2em;" %}
+{% include math.html math_code="$\alpha = alpha\ $" style="margin-top:0.2em;" %}
 
 For each value of `alpha` we have a subtree which can minimize the value of
 
