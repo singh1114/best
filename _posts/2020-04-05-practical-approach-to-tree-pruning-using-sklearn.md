@@ -110,7 +110,7 @@ This gives,
         0.10634033, 0.14056508, 0.46786352])}
 ```
 
-This contain two Numpy Arrays of `alpha` and `impurities`.
+This contain two [Numpy Arrays](https://ranvir.xyz/blog/data-science-i-all-things-you-need-to-know-about-numpy/) of `alpha` and `impurities`.
 
 We can plot this on graph to see the relation. 
 
