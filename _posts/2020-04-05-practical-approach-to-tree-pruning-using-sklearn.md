@@ -7,6 +7,7 @@ description: >-
   Tree pruning and finding prune subtree using cost complexity pruning or and
   finding optimal alpha value using sklearn 
 published: true
+image: 'https://i.ibb.co/XWMPn8d/Main-Images-2-1.png'
 tags:
   - machinelearning
   - sklearn
@@ -18,6 +19,8 @@ categories:
   - python
   - datascience
 ---
+{% include lazyload.html image_src="https://i.ibb.co/XWMPn8d/Main-Images-2-1.png" image_alt="Practical approach to tree pruning using sklearn" image_title="Practical approach to tree pruning using sklearn" %}
+
 As we have already discussed in the [regression tree post](https://ranvir.xyz/blog/guide-to-decision-regression-trees/) that simple tree prediction can lead to a model which overfits the data and produce bad results with the test data. Tree Pruning is the way to reduce the overfitting by creating smaller trees.
 
 Tree Pruning isn't only used for regression trees. We also make use of it in the [classification trees](https://ranvir.xyz/blog/decision-tree-algorithms-machine-learning/#classification-trees) as well.
