@@ -103,4 +103,8 @@ This will print the images tag following the new include statement. You can then
 
 If you directly want to update the old images with the new tags then you will write to the post file as well.
 
+You can check the network's tab in the `inspect elements` of the browser. The images are only queried when they are in the frame.
+
+{% include lazyload.html image_src="https://i.ibb.co/RYRBpBq/images.gif" image_alt="Images are queried when they are required" image_title="Images are queried when they are required" %}
+
 Thanks for reading the post. Do share your views.
