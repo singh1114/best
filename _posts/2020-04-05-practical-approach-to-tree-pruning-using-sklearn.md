@@ -164,4 +164,8 @@ plt.ylabel("Accuracy scores")
 
 {% include lazyload.html image_src="https://i.ibb.co/FKn78xT/Screenshot-2020-04-05-at-7-50-15-PM.png" image_alt="Alpha relation with accuracy of tree" image_title="Alpha relation with accuracy of tree" %}
 
+We can clearly see that somewhere around `0.013` alpha, we get a very good value of accuracy.
+
+[Here is the notebook](https://github.com/singh1114/ml/blob/master/datascience/Machine%20learning/Decision%20Trees/Pruning%20Effect.ipynb) for the following code.
+
 Please share on social media and [subscribe to the newsletter](https://ranvir.xyz/blog/subscribe) to read more such posts.
