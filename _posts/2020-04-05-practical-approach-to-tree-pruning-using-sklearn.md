@@ -18,6 +18,7 @@ categories:
   - sklearn
   - python
   - datascience
+include_mathjax: true
 ---
 {% include lazyload.html image_src="https://i.ibb.co/XWMPn8d/Main-Images-2-1.png" image_alt="Practical approach to tree pruning using sklearn" image_title="Practical approach to tree pruning using sklearn" %}
 
