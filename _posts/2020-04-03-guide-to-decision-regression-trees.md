@@ -134,8 +134,8 @@ This means stopping before the full tree is even created. We can keep making the
 
 Creating the full tree up until we have very few data points in each set and then track backing such that the change in the error rate is not much.
 
-Since, Tree pruning itself is a vast topic I have created a separate post for it.
+Since, Tree pruning itself is a vast topic I have created a separate post for it. Please read that post if you want to know more about it.
 
 {% include linked_post url="practical-approach-to-tree-pruning-using-sklearn" %}
 
-Please share on social media and subscribe to the newsletter to read more such posts.
+Please share on social media and [subscribe](https://ranvir.xyz/blog/subscribe) to the newsletter to read more such posts.
