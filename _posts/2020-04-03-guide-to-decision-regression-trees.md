@@ -136,6 +136,6 @@ Creating the full tree up until we have very few data points in each set and the
 
 Since, Tree pruning itself is a vast topic I have created a separate post for it. Please read that post if you want to know more about it.
 
-{% include linked_post url="practical-approach-to-tree-pruning-using-sklearn" %}
+{% include linked_post.html url="practical-approach-to-tree-pruning-using-sklearn" %}
 
 Please share on social media and [subscribe](https://ranvir.xyz/blog/subscribe) to the newsletter to read more such posts.
