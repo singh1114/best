@@ -164,4 +164,4 @@ plt.ylabel("Accuracy scores")
 
 {% include lazyload.html image_src="https://i.ibb.co/FKn78xT/Screenshot-2020-04-05-at-7-50-15-PM.png" image_alt="Alpha relation with accuracy of tree" image_title="Alpha relation with accuracy of tree" %}
 
-Please share on social media and subscribe to the newsletter to read more such posts.
+Please share on social media and [subscribe to the newsletter](https://ranvir.xyz/blog/subscribe) to read more such posts.
