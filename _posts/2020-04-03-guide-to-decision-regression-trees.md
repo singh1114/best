@@ -22,13 +22,13 @@ include_mathjax: true
 
 Regression tree-based models produce the result (leaf node) gives the output as a real value.
 
-For example, a model that try to predict the salary of baseball players according to the data like, years of experience and number of hits that the hitter made in the last season.
+For example, a model that try to predict the salary of baseball players using the data like, years of experience and number of hits that the hitter made in the last season.
 
 ## Greedy nature of decision trees
 
-Almost all of the Decision Tree algorithm uses Greedy approaches that is, at every node generation, we don't care about the final tree become better. We are only worried about making the best split at any given time.
+Almost all of the Decision Tree algorithm uses Greedy approach, that is, at every node generation, we don't care about the final tree becoming better. We are only worried about making the best split at any given time.
 
-Let's understand this by taking the `Striker goals dataset` example.
+Let's understand this by taking the `Striker salary dataset` example.
 
 To simplify the calculations, let's assume that we only have three features in the dataset, `Experience`, `Goals last season` and `Salary` and salary is the feature that we want to predict.
 
@@ -98,7 +98,7 @@ Mathematically,
 
 In **recursive binary splitting**, we first select the predictor `Xj` and the cutoff value `S` such that,
 
-{% include math.html math_code="$\{X|X_j < S\} and\ \{X|X_j \geq S\}$" %}
+{% include math.html math_code="$\{X|X_j < S\}\ and\ \{X|X_j \geq S\}$" %}
 
 leads to the maximum reduction in the RSS.
 
