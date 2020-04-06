@@ -5,7 +5,7 @@ date: 2020-04-03T21:05:13.718Z
 updated_date: 2020-04-03T21:05:13.730Z
 description: >-
   Beginner's guide to Regression Trees including the equation, Pruning,
-  Prediction using stratification of features in decision Trees.
+  Prediction using stratification of features in decision Trees using sklearn.
 published: true
 image: 'https://i.ibb.co/vsJ5X6N/Main-Images-1.png'
 tags:
@@ -137,5 +137,75 @@ Creating the full tree up until we have very few data points in each set and the
 Since, Tree pruning itself is a vast topic I have created a separate post for it. Please read that post if you want to know more about it.
 
 {% include linked_post.html url="practical-approach-to-tree-pruning-using-sklearn" %}
+
+## Regression Tree analysis using Tree Regression
+
+Let's import the required libraries
+
+```python
+import matplotlib.pyplot as plt
+
+import numpy as np
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.datasets import load_boston
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.metrics import mean_squared_error
+```
+
+We are using the `boston` data, which is the house pricing data of the Boston region. You can know more about the data by running
+
+```python
+print(load_boston().DESCR)
+```
+
+Split the data into training and testing set.
+
+```python
+X, y = load_boston(return_X_y=True)
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random_state=42)
+```
+
+Fit the Regression Tree model and get the predictions.
+
+```python
+clf = DecisionTreeRegressor()
+clf.fit(X_train, y_train)
+
+predictions = clf.predict(X_test)
+
+print(mean_squared_error(y_test, predictions))
+print(np.sqrt(mean_squared_error(y_test, predictions)))
+```
+
+Results:
+
+```python
+18.59688622754491
+4.312410721110051
+```
+
+## Finding the relation between Tree depth and Mean Square Error
+
+We can train the model with different depth values using a simple Python loop and then plot a relation between them.
+
+```python
+mses = []
+for depth in range(1, (clf.tree_.max_depth + 1)):
+    d_tree_reg = DecisionTreeRegressor(max_depth=depth)
+    d_tree_reg.fit(X_train, y_train)
+    tree_predictions = d_tree_reg.predict(X_test)
+    mses.append(mean_squared_error(y_test, tree_predictions))
+
+tree_depths = [depth for depth in range(1, (clf.tree_.max_depth + 1))]
+plt.figure(figsize=(10,  6))
+plt.grid()
+plt.plot(tree_depths, mses)
+plt.xlabel("Tree Depth")
+plt.ylabel("Mean Square Error")
+```
+
+{% include lazyload.html image_src="https://i.ibb.co/pjcwBcp/Screenshot-2020-04-06-at-9-57-50-PM.png" image_alt="Regression Tree relation between MSE and Tree Depth" image_title="Regression Tree relation between MSE and Tree Depth" %}
 
 Please share on social media and [subscribe](https://ranvir.xyz/blog/subscribe) to the newsletter to read more such posts.
