@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A practical approach to Tree Pruning using sklearn
+title: A practical approach to Tree Pruning using sklearn | Decision Trees
 date: 2020-04-05T14:32:51.943Z
 updated_date: 2020-04-05T14:32:51.958Z
 description: >-
