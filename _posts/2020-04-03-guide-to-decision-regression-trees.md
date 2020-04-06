@@ -120,8 +120,6 @@ Therefore, using this algorithm to create a model and then trying to understand 
 
 Tree Pruning isn't only used for regression trees. We also make use of it in the classification trees as well.
 
-We will make use of the CART algorithm (classification And Regression Tree) to explain Tree pruning.
-
 As the word itself suggests, the process involves cutting the tree into smaller parts.
 
 We can do pruning in two ways.
@@ -138,7 +136,7 @@ Since, Tree pruning itself is a vast topic I have created a separate post for it
 
 {% include linked_post.html url="practical-approach-to-tree-pruning-using-sklearn" %}
 
-## Regression Tree analysis using Tree Regression
+## Regression Tree analysis using Sklearn
 
 Let's import the required libraries
 
@@ -207,5 +205,7 @@ plt.ylabel("Mean Square Error")
 ```
 
 {% include lazyload.html image_src="https://i.ibb.co/pjcwBcp/Screenshot-2020-04-06-at-9-57-50-PM.png" image_alt="Regression Tree relation between MSE and Tree Depth" image_title="Regression Tree relation between MSE and Tree Depth" %}
+
+We can clearly see that if we define the depth of the tree equivalent to `6`, we will get the best results and minimum `Mean Square Error`.
 
 Please share on social media and [subscribe](https://ranvir.xyz/blog/subscribe) to the newsletter to read more such posts.
