@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Beginner's guide to Regression Trees | Decision Trees
+title: A Beginner's guide to Regression Trees using Sklearn | Decision Trees
 date: 2020-04-03T21:05:13.718Z
 updated_date: 2020-04-03T21:05:13.730Z
 description: >-
