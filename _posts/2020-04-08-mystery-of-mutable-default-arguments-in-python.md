@@ -3,6 +3,8 @@ layout: post
 title: Mystery of Mutable Default Arguments in Python
 date: "2020-04-08T18:35:25.076Z"
 updated_date: "2020-04-08T18:35:25.093Z"
+description: Mystery of Mutable Default Arguments in Python, How not to pass
+  default arguments in Python and how to handle them properly?
 published: true
 tags:
   - python
