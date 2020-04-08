@@ -13,6 +13,8 @@ categories:
   - python
   - productivity
 canonical_url: https://sharmapacific.in/mutable-default-arguments-in-python/
+author_name: Prashant Sharma
+author_username: sharma_pacific
 ---
 Objects of built-in types like (`int`, `float`, `bool`, `str`, `tuple`, `Unicode`) are immutable. Objects of built-in types like (`list`, `set`, `dict`) are mutable.
 A mutable object can change its state or contents and immutable objects cannot.
@@ -34,7 +36,7 @@ In the above function, I set `data` to a list(Mutable object) as a default argum
 [12]
 ```
 
-The output is as expected, Now execute multiple times - 
+The output is as expected, Now execute multiple times -
 
 ```python
 >>> print(foobar(22))
@@ -49,7 +51,7 @@ What is going on here? As you can see, the first time, the function returns exac
 
 Python’s default arguments are evaluated once when the function is defined, not each time the function is called. When Python encounters it, the first thing it will do is compile it in order to create a code object for this function. While this compilation step is done, Python evaluates and then stores the default arguments in the function object itself.
 
-So, let's do some introspection, to clear the confusions, I have taken a few lines of code as below- 
+So, let's do some introspection, to clear the confusions, I have taken a few lines of code as below-
 
 * Function Before Execution -
 
@@ -73,7 +75,7 @@ The result an empty list as the only entry in `__defaults__`
 
 Let's now execute this function and check the defaults.
 
-```python 
+```python
 >>> foo()
 >>> foo.__defaults__
 ([10],)
