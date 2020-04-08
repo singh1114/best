@@ -24,6 +24,7 @@ collections:
       - {label: "Categories", name: "categories", widget: "list", required: false}
       - {label: "Author Name", name: "author_name", widget: "string", required: false}
       - {label: "Author Username", name: "author_username", widget: "string", required: false}
+      - {label: "Show Ads", name: "show_ads", widget: boolean, default: false}
       - {label: "Canonical URL", name: "canonical_url", widget: "string", required: false}
       - {label: "Skip Table of content", name: "skip_toc", widget: boolean, required: false}
       - {label: "Include math equations", name: "include_mathjax", widget: boolean, required: false}
