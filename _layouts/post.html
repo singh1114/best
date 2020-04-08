@@ -42,7 +42,7 @@ layout: default
       {% if forloop.index == 3 %}
         {% include toc.html content=page.content skip_toc=page.skip_toc %}
       {% endif %}
-      {% assign para_number = forloop.index | modulo: 15 %}
+      {% assign para_number = forloop.index | modulo: 10 %}
       {% if para_number == 0 and page.show_ads %}
         <div style="padding: 10px; padding-right: 20px; padding-left: 10px; border: 1px solid #ccc;">
           <ins class="adsbygoogle"
