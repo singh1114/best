@@ -120,9 +120,9 @@ So, by replacing mutable default arguments with None solved our problem.
 
 However, Mutable Default Argument have some good use-case also as following-
 
-1. Binding local variable to the current value of the outer variable in a callback
+* Binding local variable to the current value of the outer variable in a callback
 
-2. Cache/Memoization
+* Cache/Memoization
 
 I hope you like the explanation of Mutable Default Arguments in Python. Still, if any doubt or improvement regarding it, ask in the comment section.
 
