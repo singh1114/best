@@ -12,11 +12,13 @@ tags:
 categories:
   - python
   - productivity
-canonical_url: https://sharmapacific.in/mutable-default-arguments-in-python/
 author_name: Prashant Sharma
 author_username: sharma_pacific
 show_ads: true
+canonical_url: https://sharmapacific.in/mutable-default-arguments-in-python/
 ---
+{% include lazyload.html image_src="https://i.ibb.co/vxsfmtq/Main-Images-3-1.png" image_alt="Mystery of Mutable Default Arguments in Python" image_title="Mystery of Mutable Default Arguments in Python" %}
+
 Objects of built-in types like (`int`, `float`, `bool`, `str`, `tuple`, `Unicode`) are immutable. Objects of built-in types like (`list`, `set`, `dict`) are mutable.
 A mutable object can change its state or contents and immutable objects cannot.
 
@@ -45,6 +47,8 @@ The output is as expected, Now execute multiple times -
 >>> print(foobar(32))
 [12, 22, 32]
 ```
+
+{% include lazyload.html image_src="https://i.ibb.co/FK7d4XF/Screenshot-2020-04-09-at-1-19-47-AM.png" image_alt="Mutable default List in python" image_title="Mutable default List in python" %}
 
 What is going on here? As you can see, the first time, the function returns exactly what we expected. On the second and all subsequent passes the same list is used in each call.
 
