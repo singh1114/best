@@ -58,3 +58,4 @@ paginate: 10
 paginate_path: "/posts/page:num/"
 include:
 - _categories
+- _authors
