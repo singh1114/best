@@ -14,7 +14,7 @@ categories:
   - productivity
 canonical_url: https://sharmapacific.in/mutable-default-arguments-in-python/
 ---
-Objects of built-in types like (int, float, bool, str, tuple, Unicode) are immutable. Objects of built-in types like (list, set, dict) are mutable.
+Objects of built-in types like (`int`, `float`, `bool`, `str`, `tuple`, `Unicode`) are immutable. Objects of built-in types like (`list`, `set`, `dict`) are mutable.
 A mutable object can change its state or contents and immutable objects cannot.
 
 This is a very simple definition of a Mutable and Immutable object in Python. Now coming to the interesting part which is Mutable Default Object in function definitions.
