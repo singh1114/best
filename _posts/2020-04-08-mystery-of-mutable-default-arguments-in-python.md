@@ -6,6 +6,7 @@ updated_date: "2020-04-08T18:35:25.093Z"
 description: Mystery of Mutable Default Arguments in Python, How not to pass
   default arguments in Python and how to handle them properly?
 published: true
+image: https://i.ibb.co/vxsfmtq/Main-Images-3-1.png
 tags:
   - python
   - productivity
