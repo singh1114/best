@@ -1,10 +1,10 @@
 ---
-title: About Author
+title: Prashant Sharma
 permalink: "/sharma_pacific/"
 layout: page
 ---
 
-![Profile Image](https://sharmapacific.in/assets/images/PrashantSharma.jpg)
+![Profile Image]({{ site.url }}/{{ site.picture }})
 
 Greetings! My name is Prashant,
 
@@ -12,4 +12,4 @@ An Engineering professional with 3+ years of experience in Software development.
 
 He is a Post-graduate in CS from National Institute of Technology Calicut.
 
-[Contact him](sharma.pacific1@gmail.com)
+[Contact Him](mailto:sharma.pacific1@gmail.com)
