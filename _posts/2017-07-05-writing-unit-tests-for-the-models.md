@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Writing unit tests for the Django models and why is it important?
-date: 2017-07-05T19:41:00.000Z
+date: "2017-07-05T19:41:00.000Z"
+updated_date: "2020-04-08T17:39:29.652Z"
 published: true
 tags:
   - testing
@@ -14,13 +15,13 @@ categories:
   - python
 ---
 
-You must have heard about the term test-driven-development if you are into the developmental works. It is the development in which you write tests before writing the logic. That means first you write the stuff that can break the code and then you write the real code that doesn't break which is unbreakable from that point of view.
+You must have heard about the term test-driven-development if you are into the programming world. It is the development in which you write tests before writing the logic. That means first you write the test before writing the real code.
 
 I hope this makes sense. If not, keep on reading for some time and you will come to know more about the stuff.
 
 ## Why do we need tests?
 
-At the intermediate level of development, where I am right now, we merely write tests for our code. But it is regularly said that
+At the intermediate level of development, where I am right now, we merely write tests for our code. But it is regularly said that,
 
 > Untested code is broken code.
 
@@ -34,9 +35,9 @@ Or you can go through the following post.
 
 {% include linked_post.html url="how-to-write-testable-code-that-can-scale-with-examples" %}
 
-So the basic idea of automatic testing is to save someone from breaking our code in future and making the check as quickly as possible. This also helps us to find some issues in the code that were not visible when we coded them. The logical errors in the repository having thousands of lines of code are hard to detect. That is why the `good people` introduced testing for the developers.
+So the basic idea of automatic testing is to save someone from breaking our code in future and making the check as quickly as possible. This also helps us find some issues in the code that were not visible when we coded them. The logical errors in the repository having thousands of lines of code are hard to detect. That is why the `good people` introduced testing for the developers.
 
-Similarly in future, if someone codes something for us and we add that to our main repository without testing, it can break everything for us. So automatic testing is there to save us. Run the tests before adding the new stuff into the main repository and go forward without worrying about your code.
+Similarly, in the future, if someone code something for us, and we add that to our main repository without testing, it can break everything for us. So automatic testing is there to save us. Run the tests before adding the new stuff into the main repository and go forward without worrying about your code.
 
 ## What happens during testing?
 
