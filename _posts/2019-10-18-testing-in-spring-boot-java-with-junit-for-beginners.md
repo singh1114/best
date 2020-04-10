@@ -1,12 +1,11 @@
 ---
 title: Integration testing of APIs in Spring-Boot( Java) with Junit | For Beginners
 date: 2019-10-18T22:48:00.000Z
-updated_date: 2020-03-25T07:40:22.826Z
-description: >-
-  Writing tests for your spring boot application using junit is one of the best
-  things you can do for your future self.
+updated_date: 2020-04-10T07:40:22.826Z
+description: Writing tests for your spring boot application using junit is one
+  of the best things you can do for your future self.
 published: true
-image: 'https://i.ibb.co/C27KWdk/Untitled-presentation-1.png'
+image: https://i.ibb.co/C27KWdk/Untitled-presentation-1.png
 tags:
   - java
   - springboot
@@ -15,6 +14,7 @@ categories:
   - java
   - springboot
   - testing
+show_ads: false
 redirect_from: []
 ---
 {% include lazyload.html image_src="https://i.ibb.co/C27KWdk/Untitled-presentation-1.png" image_alt="Integration testing in spring boot | Java" image_title="Integration testing in spring boot | Java" %}
@@ -89,6 +89,14 @@ With `SpringBootTest.WebEnvironment.RANDOM_PORT` we are telling the framework to
 ## Removing any change made to the database after test completion.
 
 `@Transactional` will help us to clean the database once tests are completed. We don't want to keep adding stuff to the database and want to clean it after every test run.
+
+Wrapping something with `Transaction` is a very general programming concept which is present in almost every Database. According to this, if you run any number of SQL commands inside the transaction and if it fails on any step, the whole transaction will be reverted.
+
+This is fairly useful when you are running related commands, for example, reducing the inventory size and adding stuff to someone brought list.
+
+The same concept is used here, the only hack is that anything you run inside `@Transactional` is rolled back in the end.
+
+Read more about this on [Spring boot logs](https://docs.spring.io/spring/docs/4.2.5.RELEASE/spring-framework-reference/html/integration-testing.html#testcontext-tx).
 
 ## Creating the API endpoint
 
