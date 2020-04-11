@@ -1,25 +1,36 @@
 ---
 title: How contributing to open-source can improve your programming skills
-date: 2019-11-09 22:08:00 Z
-categories:
-- open-source
-- beginners
-- gsoc
-- advice
+date: 2019-11-09T22:08:00.000Z
+updated_date: 2020-04-11T14:54:29.641Z
+published: true
 tags:
-- open-source
-- beginners
-- advice
-- gsoc
+  - open-source
+  - beginners
+  - advice
+  - gsoc
+categories:
+  - open-source
+  - beginners
+  - gsoc
+  - advice
+show_ads: true
 ---
 
 Open source is one of the best ways to get started with the real-world experience of the programming world and learning quickly. Also, open-source organizations are very keen and welcoming to the new contributors to their platforms.
 
 Lately, I have heard a lot of people saying that contributing to open-source projects is very difficult. So, I decided to come up with this post just to break the myth.
 
-I know it can be hard at first but believe me, there are far more harder things in the programming world than starting to contribute in the open-source.
+I know it can be hard at first but believe me, there are much harder things in the programming world than starting to contribute in the open-source.
 
 In this post, I am going to share the motivation and plan to write your first patch for the open-source organization that you love to use in your personal time.
+
+## Why should you listen to me?
+
+Well, there are a lot of experienced and well versed developers out there who has been doing open-source and developing things that we use daily.
+
+I am sharing this for the people who want to start open-source development because I have been in the shoes before. I have done [Google Summer of Code in 2017](https://ranvir.xyz/blog/gsoc_2017/) and have been a mentor in the same organization in 2019. I have also contributed to some other open-source projects as well on GitHub.
+
+Contributing to the open source takes a lot of hard work and good communication skills. This article might help you reach that goal.
 
 ## Why should you contribute to open source.
 
@@ -35,11 +46,11 @@ I tried a few others and finally, I ended up spending my summer writing code for
 
 You can read about the experience [here.](https://ranvir.xyz/blog/gsoc_2017/)
 
-Long story short, I know how to start off and write pull requests that organizations want to merge to there main code.
+Long story short, I know how to start off and write pull requests that organizations want to merge to their main code.
 
 Before starting that let's discuss why we would want to do any open-source development at all.
 
-### Learning to build end to end solutions.
+### Learning to build end-to-end solutions.
 
 Well, the first and foremost advantage of doing open-source is that you learn different things.
 
@@ -111,7 +122,7 @@ Sometimes, people figure out something wrong in the READMEs and its a great poin
 
 Most organizations mark easy issues as `good-first` issues. You can pick any one of those issues and start solving them.
 
-Just remember to tell the organizers that you working on that issue so that no one else picks it up at the same time.
+Just remember to tell the organizers that you are working on that issue so that no one else picks it up at the same time.
 
 ### Just start
 
@@ -119,4 +130,4 @@ My final and most important recommendation is to just start. Get up and pick up 
 
 Thanks, guys for coming this long and reading through the post. Please leave your valuable comments down below and share this post with your peers and let them know that it exists.
 
-Follow me on twitter or [dev.to](https://dev.to/singh1114) for more such articles.
+Follow me on twitter or [Subscribe](https://ranvir.xyz/blog/subscribe) for more such articles.
