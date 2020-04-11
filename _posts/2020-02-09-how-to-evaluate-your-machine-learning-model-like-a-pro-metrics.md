@@ -3,11 +3,10 @@ layout: post
 title: How to evaluate your Machine learning model like a pro
 date: 2020-02-20T19:22:14.832Z
 updated_date: 2020-03-22T18:30:00.000Z
-description: >-
-  Evaluating your machine learning model can be done using accuracy, recall,
-  precision, F1-score and/or mean absolute error or mean square error.
+description: Evaluating your machine learning model can be done using accuracy,
+  recall, precision, F1-score and/or mean absolute error or mean square error.
 published: true
-image: 'https://i.imgur.com/oWQcLd6.png'
+image: https://i.imgur.com/oWQcLd6.png
 tags:
   - machinelearning
   - datascience
@@ -16,6 +15,7 @@ categories:
   - machinelearning
   - datascience
   - python
+show_ads: false
 include_mathjax: true
 redirect_from: []
 ---
@@ -132,6 +132,28 @@ According to the same volcano problem,
 {% include math.html math_code="$precision = 0.2$" style="margin-bottom:0.2em;" %}
 
 In general, it is a standard to maximize both the values of recall and precision.
+
+## Accuracy vs Recall using Example.
+
+Choosing what you want as your evaluation metric really depends upon the problem that you are trying to solve. I will take a few examples that will help you decide when to use the first and when to use the next.
+
+### Case 1: Disease detection (Covid 19)
+
+Let's say you are working on a model that is trying to detect whether the person is having [COVID 19](https://en.wikipedia.org/wiki/Coronavirus_disease_2019).
+
+In this particular case, the cost of `False Negative` is more than the cost of `False Positive`. Hence, if you predict that someone is not having a disease when someone is actually carrying one will lead to some bad circumstances. They might go out and start spreading it.
+
+On the other hand, if you predict someone not really carrying the disease when in reality he/she is a disease carrier, it is not a big of an issue, because we will obviously do further tests on them.
+
+In this case, we will try to lower the result of our evaluation metric when the number of false negatives is increasing. Looking at the formulas of `Recall` and `Accuracy`, we know that the thing that we want to use is, `Recall`.
+
+### Case 2: Email Detection (Spam or Not spam)
+
+In this problem, the cost of `False Positive` is more than the cost of `False Negative`.
+
+If your models start predicting important mails as spam and start sending them to the spam folder, it would be really bad. So, in this case, you will want to choose a metric that will lower its value when the number of False positives starts increasing.
+
+Again we know the right metric for such a problem is `Precision`.
 
 ## F1-score
 
