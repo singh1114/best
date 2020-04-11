@@ -116,7 +116,7 @@ This process of dividing one of the available region into smaller ones is repeat
 
 Therefore, using this algorithm to create a model and then trying to understand it is quite tough when the number of features are high.
 
-> Machine learning models try to find a sweet spot between the overfit and underfit so, that the error rate should be minimized and at the same time, it should be able to predict correctly.
+> Machine learning models try to find a sweet spot between the overfit and underfit so that the error rate should be minimized and at the same time, it should be able to predict correctly.
 
 ## Predicting using Tree Pruning
 
