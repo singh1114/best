@@ -28,7 +28,7 @@ For example, a model that try to predict the salary of baseball players using th
 
 ## Greedy nature of decision trees
 
-Almost all of the Decision Tree algorithm uses Greedy approach, that is, at every node generation, we don't care about the final tree becoming better. We are only worried about making the best split at any given time.
+Almost all the Decision Tree algorithm uses Greedy approach, that is, at every node generation, we don't care about the final tree becoming better. We are only worried about making the best split at any given time.
 
 Let's understand this by taking the `Striker salary dataset` example.
 
