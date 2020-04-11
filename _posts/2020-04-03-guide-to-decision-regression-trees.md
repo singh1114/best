@@ -3,11 +3,11 @@ layout: post
 title: A Beginner's guide to Regression Trees using Sklearn | Decision Trees
 date: 2020-04-03T21:05:13.718Z
 updated_date: 2020-04-03T21:05:13.730Z
-description: >-
-  Beginner's guide to Regression Trees including the equation, Pruning,
-  Prediction using stratification of features in decision Trees using sklearn.
+description: Beginner's guide to Regression Trees including the equation,
+  Pruning, Prediction using stratification of features in decision Trees using
+  sklearn.
 published: true
-image: 'https://i.ibb.co/vsJ5X6N/Main-Images-1.png'
+image: https://i.ibb.co/vsJ5X6N/Main-Images-1.png
 tags:
   - python
   - machinelearning
@@ -16,6 +16,8 @@ categories:
   - python
   - machinelearning
   - datascience
+  - sklearn
+show_ads: false
 include_mathjax: true
 ---
 {% include lazyload.html image_src="https://i.ibb.co/vsJ5X6N/Main-Images-1.png" image_alt="Regression Tree beginner's guide" image_title="Regression Tree beginner's guide" %}
