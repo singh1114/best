@@ -13,7 +13,7 @@ categories:
   - beginners
   - gsoc
   - advice
-show_ads: true
+show_ads: false
 ---
 
 Open source is one of the best ways to get started with the real-world experience of the programming world and learning quickly. Also, open-source organizations are very keen and welcoming to the new contributors to their platforms.
