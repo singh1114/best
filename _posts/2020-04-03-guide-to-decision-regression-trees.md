@@ -22,7 +22,7 @@ include_mathjax: true
 ---
 {% include lazyload.html image_src="https://i.ibb.co/vsJ5X6N/Main-Images-1.png" image_alt="Regression Tree beginner's guide" image_title="Regression Tree beginner's guide" %}
 
-Regression tree-based models produce the result (leaf node) gives the output as a real value.
+Regression tree-based models produce the result (leaf node) as a real value.
 
 For example, a model that try to predict the salary of baseball players using the data like, years of experience and number of hits that the hitter made in the last season.
 
