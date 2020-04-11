@@ -5,9 +5,10 @@ date: 2020-04-03T20:04:00.000Z
 updated_date: 2020-04-03T20:04:45.507Z
 published: true
 tags:
-  - ''
+  - ""
 categories:
-  - ''
+  - ""
+show_ads: false
 ---
 Decision trees are the type of supervised machine learning algorithm where decision making is done using trees. The data is split between the states according to the given parameter.
 
@@ -27,7 +28,7 @@ We are going to discuss a lot about the decision trees in the upcoming days and 
 
 ## Regression Trees
 
-As already discussed, regression tree based models produce result (leaf node) gives the output as a real value.
+As already discussed, regression tree based models gives the output (leaf nodes) as a real value.
 
 For example a model which try to predict the salary of baseball players according to the data like, years of experience and number of hits that the hitter made in the last season. Read more about Regression Trees in the post below.
 
