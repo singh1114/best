@@ -2,7 +2,7 @@
 layout: post
 title: How to choose a good evaluation metric for your Machine learning model
 date: 2020-02-20T19:22:14.832Z
-updated_date: 2020-03-22T18:30:00.000Z
+updated_date: 2020-04-10T18:30:00.000Z
 description: Evaluating your machine learning model can be done using accuracy,
   recall, precision, F1-score and/or mean absolute error or mean square error.
 published: true
