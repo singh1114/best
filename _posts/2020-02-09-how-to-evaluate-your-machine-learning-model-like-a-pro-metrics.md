@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to evaluate your Machine learning model like a pro
+title: How to choose a good evaluation metric for your Machine learning model
 date: 2020-02-20T19:22:14.832Z
 updated_date: 2020-03-22T18:30:00.000Z
 description: Evaluating your machine learning model can be done using accuracy,
