@@ -97,7 +97,7 @@ We will discuss it further while creating the model using Information Gain.
 
 ## Gini Index in Classification Trees
 
-This is the default metric that the Sklearn classifier tends to increase. 
+This is the default metric that the Sklearn Decision Tree classifier tends to increase. 
 
 It is used to quantify the split made in the tree at any given moment of node selection.
 
