@@ -37,7 +37,7 @@ Read the following post for more details.
 
 {% include linked_post.html url="guide-to-decision-regression-trees" %}
 
-In that post, we also discussed RSS( Residual Sum of Squares)](https://ranvir.xyz/blog/guide-to-decision-regression-trees/#prediction-using-stratification-of-feature-space) which is the value that we want to maximize while building the regression tree.
+In that post, we also discussed [RSS( Residual Sum of Squares)](https://ranvir.xyz/blog/guide-to-decision-regression-trees/#prediction-using-stratification-of-feature-space) which is the value that we want to maximize while building the regression tree.
 
 Of course, we can't use RSS in classification trees.
 
