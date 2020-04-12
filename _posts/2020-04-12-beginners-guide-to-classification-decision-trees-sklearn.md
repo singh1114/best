@@ -242,7 +242,7 @@ Total Gini Gain can be calculated as follows,
 
 {% include math.html math_code="$GG(S_{wind}) = 0.46 - 0.214 - 0.214$" %}
 
-{% include math.html math_code="$0.0314$" %}
+{% include math.html math_code="$= 0.0314$" %}
 
 Similarly, we will calculate `GG` for other features as well and select the one which produces the highest value of `GG`.
 
@@ -265,7 +265,7 @@ from sklearn.tree import DecisionTreeClassifier
 %matplotlib inline
 ```
 
-### Load data and split into training and testing data
+### Load data and split it into training and testing data
 
 ```python
 X, y = load_breast_cancer(return_X_y=True)
