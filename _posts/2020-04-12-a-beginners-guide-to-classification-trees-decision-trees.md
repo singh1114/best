@@ -151,3 +151,98 @@ Let's try to use Entropy and Gini index and try to create the first node for the
 
 ## Using Entropy and Information Gain to create Decision tree nodes
 
+### Calculate the overall entropy
+
+```
+Total yes cases = 9
+Total No cases = 5
+Total Cases = 14
+```
+
+{% include math.html math_code="$\frac{9}{14}\log _{2} \frac{14}{9} + \frac{5}{14}\log _{2} \frac{14}{5}$" style="margin-top:0.2em;" %}
+
+{% include math.html math_code="$0.940$" %}
+
+> More the value of entropy inclined toward 1, more is the randomness in the data.
+
+As we have already evaluated the value of total entropy, let's calculate the information gain while choosing each and every feature separately.
+
+Let's start with the `wind` feature.
+
+{% include math.html math_code="$IG(S, Wind) = H(S) - \sum _{i=0}^{n} P(x) * H(x)$" style="margin-top:0.2em;" %}
+
+```
+Total Weak wind cases = 8
+Total Strong wind cases = 6
+Total Cases = 14
+```
+
+#### Entropy for Weak wind
+
+{% include math.html math_code="$H(S_{weak}) = \frac{6}{8} \log_{2}\frac{8}{6} + \frac{2}{8} \log_{2}\frac{8}{2}$" style="margin-top:0.2em;" %}
+
+{% include math.html math_code="$0.811$" %}
+
+#### Entropy for Strong wind
+
+{% include math.html math_code="$H(S_{strong}) = \frac{3}{6} \log_{2}\frac{6}{3} + \frac{3}{6} \log_{2}\frac{6}{3}$" style="margin-top:0.2em;" %}
+
+{% include math.html math_code="$1.00$" %}
+
+Total Information Gain can be calculated as follows,
+
+{% include math.html math_code="$IG(S, Wind) = H(S) - P(S_{weak}) * H(S_{weak}) - P(S_{strong}) * H(S_{strong})}$" style="margin-top:0.2em;" %}
+
+{% include math.html math_code="$0.940 - \frac {8}{14} (0.811) - \frac{6}{14}(1.00)$" %}
+
+{% include math.html math_code="$0.048$" %}
+
+Similarly, we will calculate `IG` for other features as well and select one which produces highest value of `IG`.
+
+We will continue this process until leaf nodes are reached for every branch created.
+
+## Using Gini Index and Gini Gain to create Decision tree nodes
+
+### Calculate the overall Gini impurity
+
+```
+Total yes cases = 9
+Total No cases = 5
+Total Cases = 14
+```
+
+{% include math.html math_code="$GI(S) = \frac{9}{14}(1 - \frac{9}{14}) + \frac{5}{14}(1 - \frac{5}{14})$" style="margin-top:0.2em;" %}
+
+{% include math.html math_code="$0.46$" %}
+
+As we have already evaluated the value of total Gini impurity, let's calculate the Gini gain while choosing each and every feature separately.
+
+Let's start with the `wind` feature.
+
+```
+Total Weak wind cases = 8
+Total Strong wind cases = 6
+Total Cases = 14
+```
+
+#### Gini Index for Weak wind
+
+{% include math.html math_code="$GI(S_{weak}) = \frac{6}{8}(1 - \frac{6}{8}) + \frac{2}{8}(1 - \frac{2}{8})$" style="margin-top:0.2em;" %}
+
+{% include math.html math_code="$\frac{3}{8}$" %}
+
+#### Gini Index for Strong wind
+
+{% include math.html math_code="$GI(S_{Strong}) = \frac{3}{6}(1 - \frac{3}{6}) + \frac{3}{6}(1 - \frac{3}{6})$" style="margin-top:0.2em;" %}
+
+{% include math.html math_code="$\frac{1}{2}$" %}
+
+Total Gini Gain can be calculated as follows,
+
+{% include math.html math_code="$GG(S_{wind}) = GI(S) - \frac{8}{14} * GI(S_{weak}) - \frac{6}{14} * GI(S_{strong})$" style="margin-top:0.2em;" %}
+
+{% include math.html math_code="$GG(S_{wind}) = 0.46 - 0.214 - 0.214$" %}
+
+{% include math.html math_code="$0.0314$" %}
+
+Similarly, we will calculate `GG` for other features as well and select one which produces highest value of `GG`.
