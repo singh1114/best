@@ -23,13 +23,6 @@ For example, predicting that a customer is worthy of giving out the loan or not 
 
 {% include lazyload.html image_src="https://i.ibb.co/cDS9RN7/Screenshot-2020-04-04-at-12-14-54-AM.png" image_alt="Loan Provider company decision Tree" image_title="Loan Provider company decision Tree" %}
 
-Classification tree algorithms are generally divided into two parts.
-
-1. Bagging Algorithms
-2. Boosting Algorithms
-
-Let's hold this thought for a while and discuss the most general terms which you will hear a lot while people are talking about decision trees.
-
 As we already know from our previous discussion on Regression Trees, that tree algorithms are Greedy in nature which means they tend to choose the better node now, rather than choosing a node which will create a better tree later.
 
 Also, in contrast to regression tree where predicted response of any given node is the mean of all the observations in the region, in classification trees predicted response is the most commonly occurring observation in the region to which it belongs.
@@ -197,7 +190,7 @@ Total Information Gain can be calculated as follows,
 
 {% include math.html math_code="$0.048$" %}
 
-Similarly, we will calculate `IG` for other features as well and select one which produces highest value of `IG`.
+Similarly, we will calculate `IG` for other features as well and select the one which produces the highest value of `IG`.
 
 We will continue this process until leaf nodes are reached for every branch created.
 
@@ -245,4 +238,67 @@ Total Gini Gain can be calculated as follows,
 
 {% include math.html math_code="$0.0314$" %}
 
-Similarly, we will calculate `GG` for other features as well and select one which produces highest value of `GG`.
+Similarly, we will calculate `GG` for other features as well and select the one which produces the highest value of `GG`.
+
+This is the basic understanding of Classification Trees.
+
+## Classification Trees using Sklearn
+
+We will be using sklearn to train a model of breast cancer data.
+
+### Import everything
+
+```python
+import matplotlib.pyplot as plt
+
+from sklearn.model_selection import train_test_split
+from sklearn.datasets import load_breast_cancer
+from sklearn.metrics import classification_report, confusion_matrix
+from sklearn.tree import DecisionTreeClassifier
+
+%matplotlib inline
+```
+
+### Load data and split into training and testing data
+
+```python
+X, y = load_breast_cancer(return_X_y=True)
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=0)
+```
+
+### Initialize the model with default criterion (Gini Index)
+
+```python
+clf = DecisionTreeClassifier()
+clf.fit(X_train, y_train)
+```
+
+{% include lazyload.html image_src="https://i.ibb.co/NCkpMQQ/Screenshot-2020-04-13-at-1-20-07-AM.png" image_alt="Classification tree Using gini index" image_title="Classification tree Using gini index" %}
+
+### Predict the model and check the Reports
+
+```python
+predictions = clf.predict(X_test)
+
+print(confusion_matrix(y_test, predictions))
+print(classification_report(y_test, predictions))
+```
+
+{% include lazyload.html image_src="https://i.ibb.co/xH5JjMx/Screenshot-2020-04-13-at-1-28-15-AM.png" image_alt="Classification tree Using gini index metrics" image_title="Classification tree Using gini index metrics" %}
+
+### Using Entropy as the criterion for predicting classification Model
+
+```python
+clf_entropy = DecisionTreeClassifier(criterion='entropy')
+clf_entropy.fit(X_train, y_train)
+predictions_entropy = clf_entropy.predict(X_test)
+print(confusion_matrix(y_test, predictions_entropy))
+print(classification_report(y_test, predictions_entropy))
+```
+
+{% include lazyload.html image_src="https://i.ibb.co/8m7g9xd/Screenshot-2020-04-13-at-1-28-25-AM.png" image_alt="Classification tree Using entropy metrics" image_title="Classification tree Using entropy metrics" %}
+
+As you can see Entropy performed better in this case. But it really depends upon you which you want to choose.
+
+Thanks for reading and do [subscribe](https://ranvir.xyz/blog/subscribe) for more such posts.
