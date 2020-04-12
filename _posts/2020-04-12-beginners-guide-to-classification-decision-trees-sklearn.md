@@ -194,7 +194,7 @@ Total Information Gain can be calculated as follows,
 
 {% include math.html math_code="$0.940 - \frac {8}{14} (0.811) - \frac{6}{14}(1.00)$" %}
 
-{% include math.html math_code="$0.048$" %}
+{% include math.html math_code="$= 0.048$" %}
 
 Similarly, we will calculate `IG` for other features as well and select the one which produces the highest value of `IG`.
 
