@@ -83,9 +83,9 @@ Information gain is given as the change in the Entropy before and after selectin
 
 Mathematically, it is given as,
 
-{% include math.html math_code="$IG(S, A) = H(s) - H(S, A)$" style="margin-top:0.2em;" %}
+{% include math.html math_code="$IG(S, A) = H(S) - H(S, A)$" style="margin-top:0.2em;" %}
 
-{% include math.html math_code="$IG(S, A) = H(s) - \displaystyle \sum_{i=0}^{n} P(x) * H(x)$" %}
+{% include math.html math_code="$IG(S, A) = H(S) - \displaystyle \sum_{i=0}^{n} P(x) * H(x)$" %}
 
 {% include math.html math_code="$where\ H(S)\ is\ the\ Entropy\ of\ entire\ Set$" %}
 
