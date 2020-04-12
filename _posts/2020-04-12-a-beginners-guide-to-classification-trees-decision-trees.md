@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Beginner's guide to classification Trees | Decision Trees
+title: A Beginner's guide to classification Trees using sklearn | Decision Trees
 date: 2020-04-11T21:43:43.067Z
 updated_date: 2020-04-11T21:43:43.090Z
 description: Classification tree beginner's explanation with Gini Index,
