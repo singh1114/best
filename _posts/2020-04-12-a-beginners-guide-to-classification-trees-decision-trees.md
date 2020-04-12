@@ -144,3 +144,10 @@ Let's consider a following data source,
 | Overcast | Hot         | Normal   | Weak   | Yes    |
 | Rain     | Mild        | High     | Strong | No     |
 ```
+
+The following data contains whether we played golf when the following weather conditions were present.
+
+Let's try to use Entropy and Gini index and try to create the first node for the Decision tree using them.
+
+## Using Entropy and Information Gain to create Decision tree nodes
+
