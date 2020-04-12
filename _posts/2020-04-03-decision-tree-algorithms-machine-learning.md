@@ -10,7 +10,7 @@ categories:
   - ""
 show_ads: false
 ---
-Decision trees are the type of supervised machine learning algorithm where decision making is done using trees. The data is split between the states according to the given parameter.
+Decision trees are the type of supervised machine learning algorithm where decision-making is done using trees. The data is split between the states according to the given parameter.
 
 The leaf node decides the final decision for the given branch of the tree.
 
@@ -36,7 +36,7 @@ For example a model which try to predict the salary of baseball players accordin
 
 ## Classification Trees
 
-Classification Trees are the trees in which we predict the values in some category.
+Classification Trees are the trees in which we classify the values as the output of the model.
 
 For example, predicting whether you want to give loan to the incoming customer or not.
 
