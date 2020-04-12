@@ -57,7 +57,7 @@ Mathematically,
 
 {% include math.html math_code="$Where\ p(k)\ is\ the\ proportion\ of\ training\ observations\ in\ the\ mth\ region\ that\ are\ from\ the\ kth\ class$" %}
 
-Classification error rate is not used generally because it is not sensitive for tree-growing, therefore, entropy or Gini index is used instead.
+Classification error rate is not used generally because it is not sensitive for tree-growing, therefore, `Entropy` or `Gini index` is used instead.
 
 ## Entropy in Classification tree
 
