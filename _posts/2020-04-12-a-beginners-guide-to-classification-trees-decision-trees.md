@@ -3,7 +3,7 @@ layout: post
 title: A Beginner's guide to classification Trees | Decision Trees
 date: 2020-04-11T21:43:43.067Z
 updated_date: 2020-04-11T21:43:43.090Z
-published: false
+published: true
 tags:
   - python
   - machinelearning
@@ -46,8 +46,7 @@ We have similar terms in Classification trees that we can use. We can choose eit
 
 1. Classification Error rate
 2. Entropy
-3. Information Gain
-4. Gini Index
+3. Gini Index
 
 ## Classification Error Rate for Classification Trees
 
@@ -100,4 +99,47 @@ We will discuss it further while creating the model using Information Gain.
 ## Gini Index in Classification Trees
 
 This is the default metric that the Sklearn classifier tends to increase. 
+
+It is used to quantify the split made in the tree at any given moment of node selection.
+
+Mathematically, gini index is given by,
+
+{% include math.html math_code="$G = \displaystyle \sum_{k=1}^{K} P(k)(1 - P(k))$" style="margin-top:0.2em;" %}
+
+{% include math.html math_code="$Where\ P(k)\ is\ the\ proportion\ of\ training\ instances\ with\ class\ k$" %}
+
+> Minimum value that the Gini index can get is 0.
+
+For example, A coin having heads on both sides will give Gini Index as 0.
+
+{% include math.html math_code="$(1 * (1 - 1)) = 0$" style="margin-top:0.2em;" %}
+
+Gini index also tells about the purity of node selection. If a node selected is very pure the value of Gini index will be low.
+
+## Gini Gain in Classification Trees
+
+As we have information gain in the case of entropy, we have Gini Gain in case of Gini index.
+
+It is the amount of gini index we gained when a node is chosen for the decision tree.
+
+We will take an example to understand these terms in little more detail.
+
+Let's consider a following data source,
+
+| Outlook  | Temperature | Humidity | Wind   | Played |
+|----------|-------------|----------|--------|--------|
+| Sunny    | Hot         | High     | Weak   | No     |
+| Sunny    | Hot         | High     | Strong | No     |
+| Overcast | Hot         | High     | Weak   | Yes    |
+| Rain     | Mild        | High     | Weak   | Yes    |
+| Rain     | Cold        | Normal   | Weak   | Yes    |
+| Rain     | Cold        | Normal   | Strong | No     |
+| Overcast | Cold        | Normal   | Strong | Yes    |
+| Sunny    | Mild        | High     | Weak   | No     |
+| Sunny    | Cool        | Normal   | Weak   | Yes    |
+| Rain     | Mild        | Normal   | Weak   | Yes    |
+| Sunny    | Mild        | Normal   | Strong | Yes    |
+| Overcast | Mild        | High     | Strong | Yes    |
+| Overcast | Hot         | Normal   | Weak   | Yes    |
+| Rain     | Mild        | High     | Strong | No     |
 
