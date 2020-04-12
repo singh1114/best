@@ -190,7 +190,7 @@ Total Cases = 14
 
 Total Information Gain can be calculated as follows,
 
-{% include math.html math_code="$IG(S, Wind) = H(S) - P(S_{weak}) * H(S_{weak}) - P(S_{strong}) * H(S_{strong})}$" style="margin-top:0.2em;" %}
+{% include math.html math_code="$IG(S, Wind) = H(S) - P(S_{weak}) * H(S_{weak}) - P(S_{strong}) * H(S_{strong})$" style="margin-top:0.2em;" %}
 
 {% include math.html math_code="$0.940 - \frac {8}{14} (0.811) - \frac{6}{14}(1.00)$" %}
 
