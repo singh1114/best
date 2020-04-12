@@ -41,7 +41,7 @@ In that post, we also discussed [RSS( Residual Sum of Squares)](https://ranvir.x
 
 Of course, we can't use RSS in classification trees.
 
-We have similar terms in Classification trees that we can use. We can choose either one of these. These terms are used to quantify the split that we made.
+We have similar terms in Classification trees that we can use. We can choose either one of these. These terms are used to quantify the split that we make for choosing the feature as the node of the tree.
 
 1. Classification Error rate
 2. Entropy
