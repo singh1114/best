@@ -126,6 +126,7 @@ We will take an example to understand these terms in little more detail.
 
 Let's consider a following data source,
 
+```
 | Outlook  | Temperature | Humidity | Wind   | Played |
 |----------|-------------|----------|--------|--------|
 | Sunny    | Hot         | High     | Weak   | No     |
@@ -142,4 +143,4 @@ Let's consider a following data source,
 | Overcast | Mild        | High     | Strong | Yes    |
 | Overcast | Hot         | Normal   | Weak   | Yes    |
 | Rain     | Mild        | High     | Strong | No     |
-
+```
