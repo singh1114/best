@@ -29,15 +29,15 @@ For example, predicting that a customer is worthy of giving out the loan or not 
 
 {% include lazyload.html image_src="https://i.ibb.co/cDS9RN7/Screenshot-2020-04-04-at-12-14-54-AM.png" image_alt="Loan Provider company decision Tree" image_title="Loan Provider company decision Tree" %}
 
-As we already know from our previous discussion on Regression Trees, that tree algorithms are Greedy in nature which means they tend to choose the better node now, rather than choosing a node which will create a better tree later.
+As we already know from our previous discussion on Regression Trees, that tree algorithms are Greedy in nature which means they tend to choose the better node now, rather than choosing a node that will create a better tree later.
 
-Also, in contrast to regression tree where predicted response of any given node is the mean of all the observations in the region, in classification trees predicted response is the most commonly occurring observation in the region to which it belongs.
+Also, in contrast to the regression tree model where the predicted response of any given node is the mean of all the observations in the region, in classification trees predicted response is the most commonly occurring observation in the region to which it belongs.
 
 Read the following post for more details.
 
 {% include linked_post.html url="guide-to-decision-regression-trees" %}
 
-In that post, we discussed RSS( Residual Sum of Squares)](https://ranvir.xyz/blog/guide-to-decision-regression-trees/#prediction-using-stratification-of-feature-space) which is the value that we want to maximize while building the regression tree.
+In that post, we also discussed RSS( Residual Sum of Squares)](https://ranvir.xyz/blog/guide-to-decision-regression-trees/#prediction-using-stratification-of-feature-space) which is the value that we want to maximize while building the regression tree.
 
 Of course, we can't use RSS in classification trees.
 
@@ -57,13 +57,13 @@ Mathematically,
 
 {% include math.html math_code="$Where\ p(k)\ is\ the\ proportion\ of\ training\ observations\ in\ the\ mth\ region\ that\ are\ from\ the\ kth\ class$" %}
 
-Classification Error rate is not used generally because it is not sensitive for tree-growing, therefore, entropy or Gini index is used instead.
+Classification error rate is not used generally because it is not sensitive for tree-growing, therefore, entropy or Gini index is used instead.
 
 ## Entropy in Classification tree
 
-It's the measure of amount of uncertainty of the data(Randomness). Higher the uncertainty, higher is the entropy.
+It's the measure of amount of uncertainty in the data(Randomness). Higher the uncertainty, higher is the entropy.
 
-The value of entropy is `zero` when there is no uncertainty in some event. For example, if we are tossing a coin having heads on both side.
+The value of entropy is `zero` when there is no uncertainty in some event. For example, if we are tossing a coin having heads on both sides.
 
 Mathematically, entropy is given by
 
@@ -71,15 +71,15 @@ Mathematically, entropy is given by
 
 {% include math.html math_code="$where\ p(x)\ is\ the\ proportion\ of\ occurring\ of\ some\ event$" %}
 
-For example, for a simple coin toss the probability is `1/2`.
+For example, for a simple coin toss, the probability is `1/2`.
 
 ## Information Gain in classification trees
 
-This is the amount of value gained for a given set `S`, when some feature `A` is selected as a node of the tree.
+This is the amount of value gained for a given set `S` when some feature `A` is selected as a node of the tree.
 
 While selecting any node for the tree generation we want to maximize the Information Gain at that given point.
 
-Information gain is given as the change in the Entropy before and after selecting any given feature as the node of tree.
+Information gain is given as the change in the Entropy before and after selecting any given feature as the node of the tree.
 
 Mathematically, it is given as,
 
@@ -93,7 +93,7 @@ Mathematically, it is given as,
 
 We will discuss it further while creating the model using Information Gain.
 
-> Information gain is the count of entropy that we removed after adding a node to the tree.
+> Information gain is the value of entropy that we removed after adding a node to the tree.
 
 ## Gini Index in Classification Trees
 
@@ -113,17 +113,17 @@ For example, A coin having heads on both sides will give Gini Index as 0.
 
 {% include math.html math_code="$(1 * (1 - 1)) = 0$" style="margin-top:0.2em;" %}
 
-Gini index also tells about the purity of node selection. If a node selected is very pure the value of Gini index will be low.
+Gini index also tells about the purity of node selection. If a node selected is very pure the value of Gini index will be less.
 
 ## Gini Gain in Classification Trees
 
-As we have information gain in the case of entropy, we have Gini Gain in case of Gini index.
+As we have information gain in the case of entropy, we have Gini Gain in case of the Gini index.
 
-It is the amount of gini index we gained when a node is chosen for the decision tree.
+It is the amount of Gini index we gained when a node is chosen for the decision tree.
 
 We will take an example to understand these terms in little more detail.
 
-Let's consider a following data source,
+Let's consider the following data source,
 
 ```
 | Outlook  | Temperature | Humidity | Wind   | Played |
