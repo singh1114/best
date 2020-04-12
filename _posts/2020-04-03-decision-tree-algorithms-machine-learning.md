@@ -2,7 +2,7 @@
 layout: post
 title: Decision Tree-Based algorithms for Machine Learning
 date: 2020-04-03T20:04:00.000Z
-updated_date: 2020-04-03T20:04:45.507Z
+updated_date: 2020-04-12T20:04:45.507Z
 published: true
 tags:
   - ""
@@ -40,4 +40,4 @@ Classification Trees are the trees in which we classify the values as the output
 
 For example, predicting whether you want to give loan to the incoming customer or not.
 
-**Coming Soon...**
+{% include linked_post.html url="beginners-guide-to-classification-decision-trees-sklearn" %}
