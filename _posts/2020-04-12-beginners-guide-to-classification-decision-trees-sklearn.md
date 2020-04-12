@@ -212,7 +212,7 @@ Total Cases = 14
 
 {% include math.html math_code="$GI(S) = \frac{9}{14}(1 - \frac{9}{14}) + \frac{5}{14}(1 - \frac{5}{14})$" style="margin-top:0.2em;" %}
 
-{% include math.html math_code="$0.46$" %}
+{% include math.html math_code="$= 0.46$" %}
 
 As we have already evaluated the value of total Gini impurity, let's calculate the Gini gain while choosing each and every feature separately.
 
@@ -228,13 +228,13 @@ Total Cases = 14
 
 {% include math.html math_code="$GI(S_{weak}) = \frac{6}{8}(1 - \frac{6}{8}) + \frac{2}{8}(1 - \frac{2}{8})$" style="margin-top:0.2em;" %}
 
-{% include math.html math_code="$\frac{3}{8}$" %}
+{% include math.html math_code="$= \frac{3}{8}$" %}
 
 #### Gini Index for Strong wind
 
 {% include math.html math_code="$GI(S_{Strong}) = \frac{3}{6}(1 - \frac{3}{6}) + \frac{3}{6}(1 - \frac{3}{6})$" style="margin-top:0.2em;" %}
 
-{% include math.html math_code="$\frac{1}{2}$" %}
+{% include math.html math_code="$= \frac{1}{2}$" %}
 
 Total Gini Gain can be calculated as follows,
 
