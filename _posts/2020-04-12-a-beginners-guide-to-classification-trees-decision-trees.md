@@ -7,6 +7,7 @@ description: Classification tree beginner's explanation with Gini Index,
   Entropy, Information gain and sklearn and finally discussion on metrics of
   tree.
 published: true
+image: https://i.ibb.co/1rhJkq4/Main-Images-1.png
 tags:
   - python
   - machinelearning
@@ -20,6 +21,8 @@ categories:
 show_ads: false
 include_mathjax: true
 ---
+{% include lazyload.html image_src="https://i.ibb.co/1rhJkq4/Main-Images-1.png" image_alt="Beginners guide to classification tree using sklearn" image_title="Beginners guide to classification tree using sklearn" %}
+
 Classification Trees are the trees in which we classify the values as the output of the model.
 
 For example, predicting that a customer is worthy of giving out the loan or not using the data of his salary and other credit history.
