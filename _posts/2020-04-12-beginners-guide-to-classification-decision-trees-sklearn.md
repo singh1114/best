@@ -160,7 +160,7 @@ Total Cases = 14
 
 {% include math.html math_code="$\frac{9}{14}\log _{2} \frac{14}{9} + \frac{5}{14}\log _{2} \frac{14}{5}$" style="margin-top:0.2em;" %}
 
-{% include math.html math_code="$0.940$" %}
+{% include math.html math_code="$= 0.940$" %}
 
 > More the value of entropy inclined toward 1, more is the randomness in the data.
 
@@ -180,13 +180,13 @@ Total Cases = 14
 
 {% include math.html math_code="$H(S_{weak}) = \frac{6}{8} \log_{2}\frac{8}{6} + \frac{2}{8} \log_{2}\frac{8}{2}$" style="margin-top:0.2em;" %}
 
-{% include math.html math_code="$0.811$" %}
+{% include math.html math_code="$=\ 0.811$" %}
 
 #### Entropy for Strong wind
 
 {% include math.html math_code="$H(S_{strong}) = \frac{3}{6} \log_{2}\frac{6}{3} + \frac{3}{6} \log_{2}\frac{6}{3}$" style="margin-top:0.2em;" %}
 
-{% include math.html math_code="$1.00$" %}
+{% include math.html math_code="$= 1.00$" %}
 
 Total Information Gain can be calculated as follows,
 
