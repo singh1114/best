@@ -107,7 +107,7 @@ Mathematically, gini index is given by,
 
 {% include math.html math_code="$Where\ P(k)\ is\ the\ proportion\ of\ training\ instances\ with\ class\ k$" %}
 
-> Minimum value that the Gini index can get is 0.
+> Minimum value that the Gini index can have is 0.
 
 For example, A coin having heads on both sides will give Gini Index as 0.
 
