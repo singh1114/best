@@ -3,9 +3,9 @@ layout: post
 title: A Beginner's guide to classification Trees using sklearn | Decision Trees
 date: 2020-04-11T21:43:43.067Z
 updated_date: 2020-04-11T21:43:43.090Z
-description: Classification tree beginner's explanation with Gini Index,
-  Entropy, Information gain and sklearn and finally discussion on metrics of
-  tree.
+description: Classification tree beginner's explanation with Gini Index/ Gini
+  Coefficient, Entropy, Information gain and sklearn and finally discussion on
+  metrics of tree.
 published: true
 image: https://i.ibb.co/1rhJkq4/Main-Images-1.png
 tags:
