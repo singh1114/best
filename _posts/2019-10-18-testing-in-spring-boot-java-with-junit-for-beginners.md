@@ -158,4 +158,4 @@ mvn test
 
 {% include lazyload.html image_src="https://i.imgur.com/dyU6gXj.png" image_alt="Spring boot test passing" image_title="Spring boot test passing" %}
 
-I hope you liked the post. Please share your views in the comment section below.
+I hope you liked the post. Please share your views in the comment section below. Also, please [Subscribe](https://ranvir.xyz/blog/subscribe) if you want to read more such posts.
