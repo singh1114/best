@@ -15,39 +15,39 @@
             }]
         }, {
             "@type": "ImageObject",
-            "@id": "{{include.page.url}}/#primaryimage",
+            "@id": "{{include.content.url}}/#primaryimage",
             "inLanguage": "en",
-            "url": "{{include.page.featured_image}}",
+            "url": "{{include.content.featured_image}}",
             "width": 1200,
             "height": 630
         }, {
             "@type": "WebPage",
-            "@id": "{{include.page.url}}/#webpage",
-            "url": "{{include.page.url}}",
+            "@id": "{{include.content.url}}/#webpage",
+            "url": "{{include.content.url}}",
             "name": "How to Boost Your SEO by Using Schema Markup",
             "isPartOf": {
                 "@id": "https://{{site.url}}/#website"
             },
             "inLanguage": "en",
             "primaryImageOfPage": {
-                "@id": "{{include.page.url}}/#primaryimage"
+                "@id": "{{include.content.url}}/#primaryimage"
             },
-            "datePublished": "{{include.page.published_on}}",
-            "dateModified": "{{include.page.updated_on}}",
+            "datePublished": "{{include.content.published_on}}",
+            "dateModified": "{{include.content.updated_on}}",
             "author": {
                 "@id": "person"
             },
-            "description": "{{include.page.description}}",
+            "description": "{{include.content.description}}",
             "breadcrumb": {
-                "@id": "{{include.page.url}}/#table-of-content"
+                "@id": "{{include.content.url}}/#table-of-content"
             },
             "potentialAction": [{
                 "@type": "ReadAction",
-                "target": ["{{include.page.url}}"]
+                "target": ["{{include.content.url}}"]
             }]
         }, {
             "@type": "BreadcrumbList",
-            "@id": "{{include.page.url}}#table-of-content",
+            "@id": "{{include.content.url}}#table-of-content",
             "itemListElement": [{
                 "@type": "ListItem",
                 "position": 1,
