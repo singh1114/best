@@ -57,6 +57,10 @@
                 }
             }
         triggerEvent(a, 'keyup')
+          let params = new URLSearchParams(location.search)
+        setTimeout(() => {
+  window.simpleJekyllSearch.search(params.get('s'))
+}, 2000)
 
     </script>
 </body>
