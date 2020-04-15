@@ -25,42 +25,9 @@
       json: 'search.json'
     })
 
-    </script>
-    <script>
-                var keyboardEvent = document.createEvent("KeyboardEvent");
-            var initMethod = typeof keyboardEvent.initKeyboardEvent !== 'undefined' ? "initKeyboardEvent" : "initKeyEvent";
-            keyboardEvent[initMethod](
-                    "keyup", // event type: keydown, keyup, keypress
-                    true,      // bubbles
-                    true,      // cancelable
-                    window,    // view: should be window
-                    false,     // ctrlKey
-                    false,     // altKey
-                    false,     // shiftKey
-                    false,     // metaKey
-                    32,        // keyCode: spacebar
-                    0          // charCode: unsigned long - the Unicode character associated with the depressed key, else 0
-                  );
-            var a = document.getElementById('search-input')
-            a.dispatchEvent(keyboardEvent);
-            function triggerEvent(el, type){
-                if ('createEvent' in document) {
-                    // modern browsers, IE9+
-                    var e = document.createEvent('HTMLEvents');
-                    e.initEvent(type, false, true);
-                    el.dispatchEvent(e);
-                } else {
-                    // IE 8
-                    var e = document.createEventObject();
-                    e.eventType = type;
-                    el.fireEvent('on'+e.eventType, e);
-                }
-            }
-        triggerEvent(a, 'keyup')
-          let params = new URLSearchParams(location.search)
         setTimeout(() => {
-  window.simpleJekyllSearch.search(params.get('s'))
-}, 2000)
+            window.simpleJekyllSearch.search(params.get('s'))
+        }, 2000)
 
     </script>
 </body>
