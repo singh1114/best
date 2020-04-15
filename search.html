@@ -2,22 +2,26 @@
 <head>
 </head>
 <body>
-<!-- Html Elements for Search -->
-<div id="search-container">
-    <input type="text" id="search-input" placeholder="search...">
-    <ul id="results-container"></ul>
-</div>
-
-<!-- Script pointing to search-script.js -->
-<script src="https://unpkg.com/simple-jekyll-search/dest/simple-jekyll-search.min.js" type="text/javascript"></script>
-
-<!-- Configuration -->
-<script>
-SimpleJekyllSearch({
-  searchInput: document.getElementById('search-input'),
-  resultsContainer: document.getElementById('results-container'),
-  json: 'search.json'
-})
-</script>
+    <!-- Html Elements for Search -->
+    <div id="search-container">
+        <input type="text" id="search-input" placeholder="search...">
+        <ul id="results-container"></ul>
+    </div>
+    
+    <!-- Script pointing to search-script.js -->
+    <script src="https://unpkg.com/simple-jekyll-search/dest/simple-jekyll-search.min.js" type="text/javascript"></script>
+    
+    <!-- Configuration -->
+    <script>
+    SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      json: 'search.json'
+    })
+    </script>
+    <script type="text/javascript">
+        let params = new URLSearchParams(location.search);
+        document.getElementById('search-input').value = params.get('s')
+    </script>
 </body>
 </html>
