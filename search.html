@@ -15,7 +15,22 @@
     <script>
         let params = new URLSearchParams(location.search);
         if (params.get('s')) {
-            document.getElementById('search-input').value = params.get('s')
+            document.getElementById('search-input').value = params.get('s');
+            var keyboardEvent = document.createEvent("KeyboardEvent");
+            var initMethod = typeof keyboardEvent.initKeyboardEvent !== 'undefined' ? "initKeyboardEvent" : "initKeyEvent";
+            keyboardEvent[initMethod](
+                    "keyup", // event type: keydown, keyup, keypress
+                    true,      // bubbles
+                    true,      // cancelable
+                    window,    // view: should be window
+                    false,     // ctrlKey
+                    false,     // altKey
+                    false,     // shiftKey
+                    false,     // metaKey
+                    40,        // keyCode: unsigned long - the virtual key code, else 0
+                    0          // charCode: unsigned long - the Unicode character associated with the depressed key, else 0
+                  );
+            document.getElementById('search-input').dispatchEvent(keyboardEvent);
         }
         
     SimpleJekyllSearch({
@@ -23,10 +38,6 @@
       resultsContainer: document.getElementById('results-container'),
       json: 'search.json'
     })
-    </script>
-    <script type="text/javascript">
-        let params = new URLSearchParams(location.search);
-        document.getElementById('search-input').value = params.get('s')
     </script>
 </body>
 </html>
