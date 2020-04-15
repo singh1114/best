@@ -16,7 +16,14 @@
         let params = new URLSearchParams(location.search);
         if (params.get('s')) {
             document.getElementById('search-input').value = params.get('s');
-            var keyboardEvent = document.createEvent("KeyboardEvent");
+        }
+        
+    SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      json: 'search.json'
+    })
+                var keyboardEvent = document.createEvent("KeyboardEvent");
             var initMethod = typeof keyboardEvent.initKeyboardEvent !== 'undefined' ? "initKeyboardEvent" : "initKeyEvent";
             keyboardEvent[initMethod](
                     "keyup", // event type: keydown, keyup, keypress
@@ -31,13 +38,7 @@
                     0          // charCode: unsigned long - the Unicode character associated with the depressed key, else 0
                   );
             document.getElementById('search-input').dispatchEvent(keyboardEvent);
-        }
-        
-    SimpleJekyllSearch({
-      searchInput: document.getElementById('search-input'),
-      resultsContainer: document.getElementById('results-container'),
-      json: 'search.json'
-    })
+
     </script>
 </body>
 </html>
