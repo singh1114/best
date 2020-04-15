@@ -13,6 +13,11 @@
     
     <!-- Configuration -->
     <script>
+        let params = new URLSearchParams(location.search);
+        if (params.get('s')) {
+            document.getElementById('search-input').value = params.get('s')
+        }
+        
     SimpleJekyllSearch({
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('results-container'),
