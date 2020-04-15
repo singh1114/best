@@ -6,7 +6,7 @@
 
       "title"    : "{{ post.title | escape }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "category" : "{{ post.category }}",
+      "description" : "{{ post.description }}",
       "tags"     : "{{ post.tags | join: ', ' }}",
       "date"     : "{{ post.date }}"
 
