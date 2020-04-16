@@ -75,7 +75,7 @@ For example, for a simple coin toss, the probability is `1/2`.
 
 ## Information Gain in classification trees
 
-This is the amount of value gained for a given set `S` when some feature `A` is selected as a node of the tree.
+This is the amount of entropy gained for a given set `S` when some feature `A` is selected as a node of the tree.
 
 While selecting any node for the tree generation we want to maximize the Information Gain at that given point.
 
