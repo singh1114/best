@@ -1,7 +1,9 @@
 {% if include.image_src %}
-  <!-- If javascript is not on. -->
-  <noscript><img src="{{include.image_src}}" alt="{{include.image_alt}}" title="{{include.image_title}}" /></noscript>
+  <div id="lazyload-images" style="text-align: center;">
+    <!-- If javascript is not on. -->
+    <noscript><img src="{{include.image_src}}" alt="{{include.image_alt}}" title="{{include.image_title}}" /></noscript>
 
-  <!-- If javascript is present. -->
-  <img data-src="{{include.image_src}}" alt="{{include.image_alt}}" title="{{include.image_title}}" class="blur-up lazyload" />
+    <!-- If javascript is present. -->
+    <img data-src="{{include.image_src}}" alt="{{include.image_alt}}" title="{{include.image_title}}" class="blur-up lazyload" />
+  </div>
 {% endif %}
