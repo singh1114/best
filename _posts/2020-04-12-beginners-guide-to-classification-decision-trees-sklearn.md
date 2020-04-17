@@ -136,7 +136,7 @@ Let's consider the following data source,
 | Rain     | Cold        | Normal   | Strong | No     |
 | Overcast | Cold        | Normal   | Strong | Yes    |
 | Sunny    | Mild        | High     | Weak   | No     |
-| Sunny    | Cool        | Normal   | Weak   | Yes    |
+| Sunny    | Cold        | Normal   | Weak   | Yes    |
 | Rain     | Mild        | Normal   | Weak   | Yes    |
 | Sunny    | Mild        | Normal   | Strong | Yes    |
 | Overcast | Mild        | High     | Strong | Yes    |
