@@ -24,7 +24,7 @@ include_mathjax: true
 ---
 {% include lazyload.html image_src="https://i.ibb.co/1rhJkq4/Main-Images-1.png" image_alt="Beginners guide to classification tree using sklearn" image_title="Beginners guide to classification tree using sklearn" %}
 
-Classification Trees are the trees in which we classify the values as the output of the model.
+Classification Trees are the [trees](https://ranvir.xyz/blog/decision-tree-algorithms-machine-learning/) in which we classify the values as the output of the model.
 
 For example, predicting that a customer is worthy of giving out the loan or not using the data of his salary and other credit history.
 
