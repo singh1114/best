@@ -260,7 +260,7 @@ const validateParams = function (paramSchema) {
         const paramSchemaKeys = Object.keys(paramSchema.properties);
         let requestParamObj = {};
         for (let key of paramSchemaKeys){
-            // Use req.params if you want to validate query params.
+            // Use req.query/req.params if you want to validate query params.
             requestParamObj[key] = lodash.get(req.body, key);
         }
         const validated = ajv.validate(paramSchema, requestParamObj);
