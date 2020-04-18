@@ -159,11 +159,9 @@ await Joi.validate(requestParamObj, schema);
 Similarly, you will have to set up your `route` as follows.
 
 ```javascript
-exports.setupEndpoints = function (server, routeURI) {
-    server.post(`${routeURI}/abc`, validateParams({
-		abc: Joi.string().length(10).required(),
-	}), routeFunction);
-};
+router.post('/abc', validateParams({
+    abc: Joi.string().length(10).required(),
+}), routeFunction);
 ```
 
 Pretty clean right, I like this method more than creating something new of my own. But you will have to keep in mind that this will increase your bundle size. This is something that you have to think on your own and make a decision.
@@ -228,8 +226,7 @@ All you have to worry about is the `ajv.validate` function, which is used to car
 The validation definition method is a little different for `ajv`.
 
 ```javascript
-exports.setupEndpoints = function (server, routeURI) {
-    server.post(`${routeURI}/abc`, validateParams({
+router.post('/abc', validateParams(validateParams({
 		properties: {
 			abc: {
 				type: 'string',
@@ -239,7 +236,6 @@ exports.setupEndpoints = function (server, routeURI) {
 		},
 		required: ['abc']
 	}), routeFunction);
-};
 ```
 
 I hope you guys will like the idea behind the post. Please share it with your colleagues and let me know on social media platforms.
