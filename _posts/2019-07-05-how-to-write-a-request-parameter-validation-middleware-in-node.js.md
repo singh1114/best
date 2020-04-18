@@ -166,6 +166,48 @@ router.post('/abc', validateParams({
 
 Pretty clean right, I like this method more than creating something new of my own. But you will have to keep in mind that this will increase your bundle size. This is something that you have to think on your own and make a decision.
 
+## Checking the performance of JOI validator
+
+The above validator(`Joi.string().length(10).required()`) is trying to apply two check.
+
+1. Given param, `abc` must be a String.
+2. Given param, `abc` must be of length.
+
+When combined with the middleware, it also makes sure the parameter must be present.
+
+I will use all three of these scnerios and try to find which of these libraries works best.
+
+### How am I checking the performance?
+
+Javascript provides a very clean way to find out the time taken from [one point to the next point](https://stackoverflow.com/a/18427652/5142559). All you have to do is write `console.time('')` at the place where you want to start and `console.timeEnd('')` where you want to stop.
+
+Passed string will be used as a reference, for example, I am using `console.time('start')` and `console.timeEnd('start')`. i.e. the string passed should be same in both cases.
+
+I added them to the middleware code.
+
+```javascript
+const validateParams = function (paramSchema) {
+    return async (req, res, next) => {
+        console.time('start');
+        ...
+        } catch (err) {
+            console.timeEnd('start');
+            ...
+        }
+    }
+};
+```
+
+Finally I ran the APIs for each error type separately for 5 times and took their average. These were the final scores.
+
+```javascript
+No parameter present in the body: 1.0778ms
+Wrong length of the parameter: 5.6514ms
+Wrong type of the parameter: 14.3162ms( Used integer)
+```
+
+I will use the same formula in the other libraries as well.
+
 ## Using ajv as an alternative to adding request parameter validator
 
 Finally, we settled for `ajv` for validating our requests.
@@ -226,7 +268,7 @@ All you have to worry about is the `ajv.validate` function, which is used to car
 The validation definition method is a little different for `ajv`.
 
 ```javascript
-router.post('/abc', validateParams(validateParams({
+router.post('/abc', validateParams({
 		properties: {
 			abc: {
 				type: 'string',
