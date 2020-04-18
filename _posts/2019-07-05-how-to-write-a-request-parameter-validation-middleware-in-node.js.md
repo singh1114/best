@@ -233,7 +233,7 @@ I will use the same formula in the other libraries as well.
 
 ## Using ajv as an alternative to adding request parameter validator
 
-Finally, we settled for `ajv` for validating our requests.
+Then, we tried `ajv` for validating our requests.
 
 {% include lazyload.html image_src="https://i.imgur.com/MRuoSal.png" image_alt="Validate your request param using ajv in node.js" image_title="Validate your request parameters using a ajv" %}
 
