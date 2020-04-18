@@ -166,6 +166,22 @@ router.post('/abc', validateParams({
 
 Pretty clean right, I like this method more than creating something new of my own. But you will have to keep in mind that this will increase your bundle size. This is something that you have to think on your own and make a decision.
 
+### Joi Required Parameter check
+
+{% include lazyload.html image_src="https://i.ibb.co/fvhb10d/Joi-Required.png" image_alt="Joi Required Parameter check" image_title="Joi Required Parameter check" %}
+
+### Joi length check
+
+{% include lazyload.html image_src="https://i.ibb.co/SXZHM1L/Joi-wrong-length.png" image_alt="Joi length check" image_title="Joi length check" %}
+
+### Joi Wrong type check
+
+{% include lazyload.html image_src="https://i.ibb.co/NrTLym7/Joi-wrong-type.png" image_alt="Joi Wrong type check" image_title="Joi Wrong type check" %}
+
+### Validator Success response
+
+{% include lazyload.html image_src="https://i.ibb.co/QjvtJcc/Success.png" image_alt="Validator Success response" image_title="Validator Success response" %}
+
 ## Checking the performance of JOI validator
 
 The above validator(`Joi.string().length(10).required()`) is trying to apply two check.
@@ -278,6 +294,28 @@ router.post('/abc', validateParams({
 		},
 		required: ['abc']
 	}), routeFunction);
+```
+
+### AJV Required Parameter check
+
+{% include lazyload.html image_src="https://i.ibb.co/mcC3TDw/ajv-required.png" image_alt="AJV Required Parameter check" image_title="Joi Required Parameter check" %}
+
+### AJV length check
+
+{% include lazyload.html image_src="https://i.ibb.co/J5j2TZ5/ajv-wrong-length.png" image_alt="AJV length check" image_title="Joi length check" %}
+
+### AJV Wrong type check
+
+{% include lazyload.html image_src="https://i.ibb.co/f2YzG0P/ajv-wrong-type.png" image_alt="AJV Wrong type check" image_title="Joi Wrong type check" %}
+
+## Checking the performance of AJV validator
+
+I am using the same setup as I was using while checking the performance of JOI validator.
+
+```javascript
+No parameter present in the body: 97.44ms
+Wrong length of the parameter: 62.88ms
+Wrong type of the parameter: 82.227ms( Used integer)
 ```
 
 I hope you guys will like the idea behind the post. Please share it with your colleagues and let me know on social media platforms.
