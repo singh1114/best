@@ -168,17 +168,25 @@ Pretty clean right, I like this method more than creating something new of my ow
 
 ### Joi Required Parameter check
 
+Following error is produced when required parameter is not present in the request body.
+
 {% include lazyload.html image_src="https://i.ibb.co/fvhb10d/Joi-Required.png" image_alt="Joi Required Parameter check" image_title="Joi Required Parameter check" %}
 
-### Joi length check
+### Joi Length check
+
+Following error is produced when the length of the required parameter is not accurate.
 
 {% include lazyload.html image_src="https://i.ibb.co/SXZHM1L/Joi-wrong-length.png" image_alt="Joi length check" image_title="Joi length check" %}
 
 ### Joi Wrong type check
 
+Following error is produced when the type of the required parameter is not accurate.
+
 {% include lazyload.html image_src="https://i.ibb.co/NrTLym7/Joi-wrong-type.png" image_alt="Joi Wrong type check" image_title="Joi Wrong type check" %}
 
 ### Validator Success response
+
+Successful response.
 
 {% include lazyload.html image_src="https://i.ibb.co/QjvtJcc/Success.png" image_alt="Validator Success response" image_title="Validator Success response" %}
 
@@ -298,13 +306,19 @@ router.post('/abc', validateParams({
 
 ### AJV Required Parameter check
 
+Following error is produced when required parameter is not present in the request body.
+
 {% include lazyload.html image_src="https://i.ibb.co/mcC3TDw/ajv-required.png" image_alt="AJV Required Parameter check" image_title="Joi Required Parameter check" %}
 
 ### AJV length check
 
+Following error is produced when the length of the required parameter is not accurate.
+
 {% include lazyload.html image_src="https://i.ibb.co/J5j2TZ5/ajv-wrong-length.png" image_alt="AJV length check" image_title="Joi length check" %}
 
 ### AJV Wrong type check
+
+Following error is produced when the type of the required parameter is not accurate.
 
 {% include lazyload.html image_src="https://i.ibb.co/f2YzG0P/ajv-wrong-type.png" image_alt="AJV Wrong type check" image_title="Joi Wrong type check" %}
 
