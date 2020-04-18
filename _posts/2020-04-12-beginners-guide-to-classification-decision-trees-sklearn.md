@@ -197,7 +197,7 @@ Total Information Gain can be calculated as follows,
 
 {% include math.html math_code="$= 0.048$" %}
 
-{% include lazyload.html image_src="https://i.ibb.co/2qQhc3D/Screenshot-2020-04-17-at-11-15-56-PM.png" image_alt="Tree classified using wind with Entropy" image_title="Tree classified using wind with Entropy" %}
+{% include lazyload.html image_src="https://i.ibb.co/2qQhc3D/Screenshot-2020-04-17-at-11-15-56-PM.png" image_alt="Tree classified using wind with Entropy" image_title="Tree classified using wind with Entropy" style="width: 50%; text-align: center;"%}
 
 Similarly, we will calculate `IG` for other features as well and select the one which produces the highest value of `IG`.
 
