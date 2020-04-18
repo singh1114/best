@@ -2,12 +2,11 @@
 layout: post
 title: How to validate your request parameters easily using middleware in node.js
 date: 2019-07-05T15:55:00.000Z
-updated_date: 2020-03-24T13:44:57.012Z
-description: >-
-  Validate your request parameters using a validator middleware that can be
-  plugged into any Nodejs/ Express application or using JOI or AJV.
+updated_date: 2020-04-18T13:44:57.012Z
+description: Validate your request parameters using a validator middleware that
+  can be plugged into any Nodejs/ Express application or using JOI or AJV.
 published: true
-image: 'https://i.imgur.com/4BWtPKb.png'
+image: https://i.imgur.com/4BWtPKb.png
 tags:
   - nodejs
   - technology
@@ -132,7 +131,7 @@ const validateParams = function (paramSchema) {
         const paramSchemaKeys = Object.keys(paramSchema);
         let requestParamObj = {};
         for (let key of paramSchemaKeys){
-            requestParamObj[key] = lodash.get(req.params, key);
+            requestParamObj[key] = lodash.get(req.body, key);
         }
         try{
             await Joi.validate(requestParamObj, schema);
@@ -198,7 +197,8 @@ const validateParams = function (paramSchema) {
         const paramSchemaKeys = Object.keys(paramSchema.properties);
         let requestParamObj = {};
         for (let key of paramSchemaKeys){
-            requestParamObj[key] = lodash.get(req.params, key);
+            // Use req.params if you want to validate query params.
+            requestParamObj[key] = lodash.get(req.body, key);
         }
         const validated = ajv.validate(paramSchema, requestParamObj);
         if (!validated) {
