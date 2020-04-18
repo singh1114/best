@@ -1,5 +1,10 @@
 {% if include.image_src %}
-  <div id="lazyload-images" style="text-align: center;">
+  {% if include.style %}
+    {% assign image_style = include.style %}
+  {% else %}
+    {% assign image_style = "text-align: center;" %}
+  {% endif %}
+  <div id="lazyload-images" style="{{image_style}}">
     <!-- If javascript is not on. -->
     <noscript><img src="{{include.image_src}}" alt="{{include.image_alt}}" title="{{include.image_title}}" /></noscript>
 
