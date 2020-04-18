@@ -198,7 +198,7 @@ The above validation(`Joi.string().length(10).required()`) is trying to apply th
 2. Given param, `abc` must be a String.
 3. Given param, `abc` must be of length 10.
 
-I will use all three of these scnerios and try to find which of these libraries works best.
+I will use all three of these scenarios and try to find which of these libraries works best.
 
 ### How am I checking the performance?
 
