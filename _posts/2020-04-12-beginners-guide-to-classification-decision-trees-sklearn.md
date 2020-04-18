@@ -197,7 +197,7 @@ Total Information Gain can be calculated as follows,
 
 {% include math.html math_code="$= 0.048$" %}
 
-{% include lazyload.html image_src="https://i.ibb.co/2qQhc3D/Screenshot-2020-04-17-at-11-15-56-PM.png" image_alt="Tree classified using wind with Entropy" image_title="Tree classified using wind with Entropy" style="width: 50%; text-align: center;"%}
+{% include lazyload.html image_src="https://i.ibb.co/2qQhc3D/Screenshot-2020-04-17-at-11-15-56-PM.png" image_alt="Tree classified using wind with Entropy" image_title="Tree classified using wind with Entropy" style="width: 50%; margin: 0 auto;" %}
 
 Similarly, we will calculate `IG` for other features as well and select the one which produces the highest value of `IG`.
 
@@ -247,7 +247,7 @@ Total Gini Gain can be calculated as follows,
 
 {% include math.html math_code="$= 0.0314$" %}
 
-{% include lazyload.html image_src="https://i.ibb.co/P93Ych7/Screenshot-2020-04-17-at-11-15-26-PM.png" image_alt="Tree classified using wind with Gini" image_title="Tree classified using wind with Gini" %}
+{% include lazyload.html image_src="https://i.ibb.co/P93Ych7/Screenshot-2020-04-17-at-11-15-26-PM.png" image_alt="Tree classified using wind with Gini" image_title="Tree classified using wind with Gini" style="width: 50%; margin: 0 auto;" %}
 
 Similarly, we will calculate `GG` for other features as well and select the one which produces the highest value of `GG`.
 
