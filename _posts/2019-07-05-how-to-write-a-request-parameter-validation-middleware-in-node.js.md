@@ -195,7 +195,7 @@ Successful response.
 The above validator(`Joi.string().length(10).required()`) is trying to apply two check.
 
 1. Given param, `abc` must be a String.
-2. Given param, `abc` must be of length.
+2. Given param, `abc` must be of length 10.
 
 When combined with the middleware, it also makes sure the parameter must be present.
 
