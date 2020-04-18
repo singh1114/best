@@ -24,11 +24,11 @@ JavaScript being a [weakly typed](https://stackoverflow.com/questions/964910/is-
 
 Lack of consistency and a well-defined framework doesn't help either.
 
-Few months ago while working on big Node.js application, handling millions of requests per hour, I noticed it too.
+A few months ago while working on big Node.js application, handling millions of requests per hour, I noticed it too.
 
-Every API was literally checking if certain parameter was being passed by the frontend correctly.
+Every API was literally checking if a certain parameter was being passed by the frontend correctly.
 
-Same validations were repeated all over the codebase again and again.
+The same validations were repeated all over the codebase again and again.
 
 Every time I had to create a new route/new API endpoint I had to write the same validation code.
 
@@ -53,7 +53,7 @@ This article is for someone who wants to wrap all his requests with some special
 
 This will also be helpful for your backend developers to know which parameters are required for the given route and which of them are optional. All you need to do is create a **middleware** which will keep account of all your parameters.
 
-A good example for which a middleware can be used is logging. You can log your request parameters, headers, response data to whatever logging system you are using.
+A good example for which middleware can be used is logging. You can log your request parameters, headers, response data to whatever logging system you are using.
 
 We are only going to talk about a specific type of middleware in this article, but you can extend it to anything you want to.
 
@@ -103,25 +103,25 @@ The cool thing about this is you can at any time integrate your own checks into 
 
 ### Simple Validator Required Parameter check
 
-Following error is produced when required parameter is not present in the request body.
+Following error is produced when the required parameter is not present in the request body.
 
 {% include lazyload.html image_src="https://i.ibb.co/R9KgJHK/simple-validator-required.png" image_alt="Simple Validator Parameter check" image_title="Joi Required Parameter check" %}
 
 ### Simple Validator Length check
 
-Following error is produced when the length of the required parameter is not accurate.
+The following error is produced when the length of the required parameter is not accurate.
 
 {% include lazyload.html image_src="https://i.ibb.co/mt9tGtX/Simple-validation-length.png" image_alt="Simple Validator length check" image_title="Joi length check" %}
 
 ### Simple Validator Wrong type check
 
-Following error is produced when the type of the required parameter is not accurate.
+The following error is produced when the type of the required parameter is not accurate.
 
 {% include lazyload.html image_src="https://i.ibb.co/WskRHZQ/Simple-validation-type.png" image_alt="Simple Validator Wrong type check" image_title="Joi Wrong type check" %}
 
 ## Checking the performance of Simple validator
 
-The above validation is trying to apply three check.
+The above validation is trying to apply three checks.
 
 1. Given param, `abc` must be a present.
 2. Given param, `abc` must be a String.
@@ -133,7 +133,7 @@ I will use all three of these scenarios and try to find out the time taken to ra
 
 Javascript provides a very clean way to find out the time taken from [one point to the next point](https://stackoverflow.com/a/18427652/5142559). All you have to do is write `console.time('')` at the place where you want to start and `console.timeEnd('')` where you want to stop.
 
-Passed string will be used as a reference, for example, I am using `console.time('start')` and `console.timeEnd('start')`. i.e. the string passed should be same, in both the cases.
+Passed string will be used as a reference, for example, I am using `console.time('start')` and `console.timeEnd('start')`. i.e. the string passed should be the same, in both the cases.
 
 I added them to the middleware code.
 
@@ -165,7 +165,7 @@ Wrong type of the parameter: 1.131ms( Used integer)
 
 ## Writing tests for simple request parameter validation middleware
 
-One of my colleagues asked me to write tests for this framework as this was going to be used at a lot of places and I agreed with him. But I was a little sceptical on how can we test this framework. After some Googling and StackOverflowing, I was able to test this framework. Here is the code for this.
+One of my colleagues asked me to write tests for this framework as this was going to be used at a lot of places and I agreed with him. But I was a little skeptical on how can we test this framework. After some Googling and StackOverflowing, I was able to test this framework. Here is the code for this.
 
 <script src="https://gist.github.com/singh1114/61495aff847d0a527cb039aaf8ffa408.js"></script>
 
@@ -175,7 +175,7 @@ I later found that you can use [Joi](https://github.com/hapijs/joi) for adding v
 
 They provide a lot of validations out of the box which are easy to plug in.
 
-Off course, you will have to install Joi to use it.
+Of course, you will have to install Joi to use it.
 
 ```javascript
 npm install joi
@@ -230,19 +230,19 @@ Pretty clean right, I like this method more than creating something new of my ow
 
 ### Joi Required Parameter check
 
-Following error is produced when required parameter is not present in the request body.
+The following error is produced when the required parameter is not present in the request body.
 
 {% include lazyload.html image_src="https://i.ibb.co/fvhb10d/Joi-Required.png" image_alt="Joi Required Parameter check" image_title="Joi Required Parameter check" %}
 
 ### Joi Length check
 
-Following error is produced when the length of the required parameter is not accurate.
+The following error is produced when the length of the required parameter is not accurate.
 
 {% include lazyload.html image_src="https://i.ibb.co/SXZHM1L/Joi-wrong-length.png" image_alt="Joi length check" image_title="Joi length check" %}
 
 ### Joi Wrong type check
 
-Following error is produced when the type of the required parameter is not accurate.
+The following error is produced when the type of the required parameter is not accurate.
 
 {% include lazyload.html image_src="https://i.ibb.co/NrTLym7/Joi-wrong-type.png" image_alt="Joi Wrong type check" image_title="Joi Wrong type check" %}
 
@@ -364,7 +364,7 @@ Wrong length of the parameter: 62.88ms
 Wrong type of the parameter: 82.227ms( Used integer)
 ```
 
-According to above numbers, it is pretty clear that middleware using Simple validator does perform better by big margins. You can choose whichever you want to use.
+According to the above numbers, it is pretty clear that middleware using a Simple validator does perform better by big margins. You can choose whichever you want to use.
 
 I hope you guys will like the idea behind the post. Please share it with your colleagues and let me know on social media platforms.
 
