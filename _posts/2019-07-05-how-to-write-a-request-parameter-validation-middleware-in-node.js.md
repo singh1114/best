@@ -101,6 +101,68 @@ This is how you will create a route in your `NodeJS` app.
 
 The cool thing about this is you can at any time integrate your own checks into this and you don't have to worry about the error messages passed to frontend. They are handled as well.
 
+### Simple Validator Required Parameter check
+
+Following error is produced when required parameter is not present in the request body.
+
+{% include lazyload.html image_src="https://i.ibb.co/R9KgJHK/simple-validator-required.png" image_alt="Simple Validator Parameter check" image_title="Joi Required Parameter check" %}
+
+### Simple Validator Length check
+
+Following error is produced when the length of the required parameter is not accurate.
+
+{% include lazyload.html image_src="https://i.ibb.co/mt9tGtX/Simple-validation-length.png" image_alt="Simple Validator length check" image_title="Joi length check" %}
+
+### Simple Validator Wrong type check
+
+Following error is produced when the type of the required parameter is not accurate.
+
+{% include lazyload.html image_src="https://i.ibb.co/WskRHZQ/Simple-validation-type.png" image_alt="Simple Validator Wrong type check" image_title="Joi Wrong type check" %}
+
+## Checking the performance of Simple validator
+
+The above validation is trying to apply three check.
+
+1. Given param, `abc` must be a present.
+2. Given param, `abc` must be a String.
+3. Given param, `abc` must be of length 10.
+
+I will use all three of these scenarios and try to find out the time taken to raise the error and give back the response.
+
+### How am I checking the performance?
+
+Javascript provides a very clean way to find out the time taken from [one point to the next point](https://stackoverflow.com/a/18427652/5142559). All you have to do is write `console.time('')` at the place where you want to start and `console.timeEnd('')` where you want to stop.
+
+Passed string will be used as a reference, for example, I am using `console.time('start')` and `console.timeEnd('start')`. i.e. the string passed should be same, in both the cases.
+
+I added them to the middleware code.
+
+```javascript
+const validateParams = function (requestParams) {
+    return function (req, res, next) {
+        console.time('start');
+            ...
+                if (!checkParamType(reqParam, param)) {
+                    console.timeEnd('start');
+                } else {
+                    if (!runValidators(reqParam, param)) {
+                        console.timeEnd('start');
+                        ...
+            } else if (param.required){
+                console.timeEnd('start');
+                ...
+    }
+};
+```
+
+Finally, I ran the APIs for each error type separately for 5 times and took their average. These were the final scores.
+
+```javascript
+No parameter present in the body: 0.3228ms
+Wrong length of the parameter: 0.7242ms
+Wrong type of the parameter: 1.131ms( Used integer)
+```
+
 ## Writing tests for simple request parameter validation middleware
 
 One of my colleagues asked me to write tests for this framework as this was going to be used at a lot of places and I agreed with him. But I was a little sceptical on how can we test this framework. After some Googling and StackOverflowing, I was able to test this framework. Here is the code for this.
@@ -192,36 +254,7 @@ Successful response.
 
 ## Checking the performance of JOI validator
 
-The above validation(`Joi.string().length(10).required()`) is trying to apply three check.
-
-1. Given param, `abc` must be a present.
-2. Given param, `abc` must be a String.
-3. Given param, `abc` must be of length 10.
-
-I will use all three of these scenarios and try to find which of these libraries works best.
-
-### How am I checking the performance?
-
-Javascript provides a very clean way to find out the time taken from [one point to the next point](https://stackoverflow.com/a/18427652/5142559). All you have to do is write `console.time('')` at the place where you want to start and `console.timeEnd('')` where you want to stop.
-
-Passed string will be used as a reference, for example, I am using `console.time('start')` and `console.timeEnd('start')`. i.e. the string passed should be same in both cases.
-
-I added them to the middleware code.
-
-```javascript
-const validateParams = function (paramSchema) {
-    return async (req, res, next) => {
-        console.time('start');
-        ...
-        } catch (err) {
-            console.timeEnd('start');
-            ...
-        }
-    }
-};
-```
-
-Finally I ran the APIs for each error type separately for 5 times and took their average. These were the final scores.
+I am using the same setup as I was using while checking the performance of Simple validator. Following are the results.
 
 ```javascript
 No parameter present in the body: 1.0778ms
@@ -323,13 +356,15 @@ Following error is produced when the type of the required parameter is not accur
 
 ## Checking the performance of AJV validator
 
-I am using the same setup as I was using while checking the performance of JOI validator.
+I am using the same setup as I was using while checking the performance of Simple validator.
 
 ```javascript
 No parameter present in the body: 97.44ms
 Wrong length of the parameter: 62.88ms
 Wrong type of the parameter: 82.227ms( Used integer)
 ```
+
+According to above numbers, it is pretty clear that middleware using Simple validator does perform better by big margins. You can choose whichever you want to use.
 
 I hope you guys will like the idea behind the post. Please share it with your colleagues and let me know on social media platforms.
 
