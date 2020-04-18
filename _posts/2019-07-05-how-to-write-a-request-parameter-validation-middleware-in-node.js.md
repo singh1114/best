@@ -192,12 +192,11 @@ Successful response.
 
 ## Checking the performance of JOI validator
 
-The above validator(`Joi.string().length(10).required()`) is trying to apply two check.
+The above validation(`Joi.string().length(10).required()`) is trying to apply three check.
 
-1. Given param, `abc` must be a String.
-2. Given param, `abc` must be of length 10.
-
-When combined with the middleware, it also makes sure the parameter must be present.
+1. Given param, `abc` must be a present.
+2. Given param, `abc` must be a String.
+3. Given param, `abc` must be of length 10.
 
 I will use all three of these scnerios and try to find which of these libraries works best.
 
