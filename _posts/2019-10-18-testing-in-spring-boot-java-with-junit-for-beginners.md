@@ -26,7 +26,7 @@ We have to run a few tests again and again during the development of the product
 
 Here is a post that will help you to understand the importance of writing tests?
 
-{% include linked_post.html url="writing-unit-tests-for-the-models" %}
+{% include linked_post.html url="how-to-write-testable-code-that-can-scale-with-examples" %}
 
 This post is in continuation of the last post we shared related to Spring boot in which we talked about writing Rest APIs in Spring Boot.
 
