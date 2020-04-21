@@ -28,9 +28,7 @@ layout: default
             <div class="col-lg-8 col-md-10 mx-auto">
                 <h2>{{page.category_name | capitalize}} Posts</h2>
                 {% if page.category_name == "archive" %}
-                    {{ site.categories }}
-                    thoughts: {{ site.thoughts }}
-                    {% for posts in site.thoughts %}
+                    {% for post in site.thoughts %}
                         <div class="card" style="border: 1px solid #ccc; padding: 0px 20px 0px 20px; border-radius: 5px; font-size: 18px;">
                             <a href="{{ site.baseurl }}{{ post.url }}" class="container">
                                 <h4><strong>{{post.title}}</strong></h4>
