@@ -30,6 +30,28 @@ layout: default
                 {% if page.category_name == "archive" %}
                     {{ site.categories }}
                     thoughts: {{ site.thoughts }}
+                    {% for posts in site.thoughts %}
+                        <div class="card" style="border: 1px solid #ccc; padding: 0px 20px 0px 20px; border-radius: 5px; font-size: 18px;">
+                            <a href="{{ site.baseurl }}{{ post.url }}" class="container">
+                                <h4><strong>{{post.title}}</strong></h4>
+                                <p><strong>{{ post.subtitle }}</strong></p>
+                                {% if post.image %}
+                                    <noscript><img src="{{post.image}}" /></noscript>
+
+                                    <!-- If javascript is present. -->
+                                    <img data-src="{{post.image}}" class="blur-up lazyload" style="max-height: 11em;" />
+                                    {% if post.description %}
+                                        <p>{{ post.description | strip_html | truncatewords: 60 }}</p>
+                                    {% else %}
+                                        <p>{{ post.excerpt | strip_html | truncatewords: 60 }}</p>
+                                    {% endif %}
+                                {% else %}
+                                    <p>{{ post.excerpt | strip_html | truncatewords: 60 }}</p>
+                                {% endif %}
+                            </a>
+                        </div>
+                        <br>
+                    {% endfor %}
                 {% endif %}
                 {% if site.categories[page.category_name] %}
                     {% for post in site.categories[page.category_name] %}
