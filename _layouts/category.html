@@ -5,9 +5,9 @@ layout: default
 {% if page.background %}
 <header class="masthead"
     style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
-    {% else %}
+{% else %}
     <header class="masthead">
-        {% endif %}
+{% endif %}
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
@@ -27,6 +27,10 @@ layout: default
         <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
                 <h2>{{page.category_name | capitalize}} Posts</h2>
+                {% if page.category_name == "archive" %}
+                    {{ site.categories }}
+                    {{ site.thoughts }}
+                {% endif %}
                 {% if site.categories[page.category_name] %}
                     {% for post in site.categories[page.category_name] %}
                         <div class="card" style="border: 1px solid #ccc; padding: 0px 20px 0px 20px; border-radius: 5px; font-size: 18px;">
