@@ -30,7 +30,6 @@ layout: default
                 {% if page.category_name == "archive" %}
                     {{ site.categories }}
                     thoughts: {{ site.thoughts }}
-                    posts: {{ site.posts }}
                 {% endif %}
                 {% if site.categories[page.category_name] %}
                     {% for post in site.categories[page.category_name] %}

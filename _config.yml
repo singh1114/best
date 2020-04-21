@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  thoughts:
+    title: Archives
+    output: true
 name: Ranvir Singh
 description: Open-source enthusiast.
 avatar: https://singh1114.github.io/blog/images/project-management.svg
