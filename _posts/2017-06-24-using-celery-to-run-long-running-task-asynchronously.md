@@ -91,9 +91,98 @@ You can use any of the queue handlers out there. RabbitMQ is one of my favorites
 
 I used the following sources to include celery in the project.
 
-[https://code.tutsplus.com/tutorials/using-celery-with-django-for-background-task-processing--cms-28732](https://code.tutsplus.com/tutorials/using-celery-with-django-for-background-task-processing--cms-28732)
+First thing first,
 
-[http://docs.celeryproject.org/en/latest/django/first-steps-with-django.html](http://docs.celeryproject.org/en/latest/django/first-steps-with-django.html)
+You will need to install celery. Use the following command for that.
+
+```shell
+pip install celery
+```
+
+It's a good idea to add the new packages to the `requirements.txt` file. Use the following command to do that.
+
+```shell
+pip freeze > requirements.txt
+```
+
+After this, you can add the following code to a file called `celery.py` in the main app. You will find other files like, `wsgi.py` in the directory.
+
+```python
+import os
+from celery import Celery
+
+from django.apps import apps
+from django.conf import settings
+
+# set the default Django settings module for the 'celery' program.
+# Change this accordingly to setting.production
+DEFAULT_SETTINGS = os.environ.get('SETTINGS_MODULE', 'settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', DEFAULT_SETTINGS)
+
+# TODO: Add your app name
+app = Celery('<app_name>')
+
+app.config_from_object('django.conf:settings', namespace='CELERY')
+
+# Load task modules from all registered Django app configs.
+app.autodiscover_tasks(lambda: [n.name for n in apps.get_app_configs()])
+
+
+@app.task(bind=True)
+def debug_task(self):
+    print('Request: {0!r}'.format(self.request))
+
+```
+
+We have registered a task in here called `debug_task` which you can run and find the results.
+
+After this, you can create corresponding `tasks.py` files in each app with their own tasks created.
+
+```python
+from celery import shared_task
+
+
+
+# TODO add task name.
+@shared_task(name="<task_name>")
+def send_weekly_stats_mail():
+    # TODO call your business login.
+    pass
+```
+
+Now you will have to add the `broker` configuration in your settings file.
+
+```python
+REDIS_HOST = 'localhost'
+REDIS_PORT = '6379'
+BROKER_URL = 'redis://' + REDIS_HOST + ':' + REDIS_PORT + '/0'
+BROKER_TRANSPORT_OPTIONS = {'visibility_timeout': 3600} 
+CELERY_RESULT_BACKEND = 'redis://' + REDIS_HOST + ':' + REDIS_PORT + '/0'
+```
+
+If you want to use RabbitMQ, you will have to change this a little.
+
+## Periodic tasks in celery
+
+You can mark some tasks as periodic tasks by adding their running time in the `settings.py` file.
+
+```python
+from celery.schedules import crontab
+
+CELERY_BEAT_SCHEDULE = {
+    # The task name should match the name created in the tasks.py file.
+    'send_weekly_emails': {
+        'task': 'send_weekly_emails',
+        'schedule': crontab(hour=7, minute=30, day_of_week=1)
+    }
+}
+```
+
+Finally, you will have to run the worker so it can start sending messages to the broker which can run the tasks for you.
+
+```shell
+celery worker -A <app_name> --loglevel=debug
+```
 
 It's fairly simple. Please refer to the following commit for the code related to this post.
 
