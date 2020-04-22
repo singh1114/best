@@ -27,7 +27,7 @@ Sending notifications for the purchase could be once of the example for such a t
 
 Our job was to run code scans when the user gives us a URL in the URL field. If you are reading the [earlier posts](https://ranvir.xyz/blog/categories/#GSoC-2017), we have achieved the result and gave back the output of the request in the same response itself. But the problem is that the scanning is a long and tedious task and takes a lot of time. And for the time the server is generating the output, the user has to wait on the same page for a lot of time.
 
-So what we wanted to do was that run these tasks on the server as separate operations, totally different from the simple tasks that are happening on a regular basis. The job of the main thread was to accept the request and send some pre-defined response.
+So what we wanted to do was that run these tasks on the server as separate operations, totally different from the simple tasks that are happening on a regular basis. The job of the main thread was to accept the request and send some predefined response.
 
 This thing can be thought of being related to the threads. The main thread runs all the operations but on some occasions, we have some child threads that run synchronously with the main thread. While this concept is used to reduce the execution time, we are using a similar thing, **celery** to provide a good user experience.
 
