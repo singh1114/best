@@ -4,15 +4,14 @@ layout: post
 author: ranvirsingh1114
 title: Using celery to run long running task asynchronously
 date: 2017-06-24T18:41:00.000Z
-updated_date: 2020-04-07T05:24:01.829Z
+updated_date: 2020-04-22T16:53:44.753Z
 published: true
 comments: true
 tags:
   - celery
   - python
   - django
-link: >-
-  https://ranvirsinghprojects.wordpress.com/2017/06/25/using-celery-to-run-long-running-task-asynchronously/
+link: https://ranvirsinghprojects.wordpress.com/2017/06/25/using-celery-to-run-long-running-task-asynchronously/
 categories:
   - GSoC-2017
   - celery
@@ -20,7 +19,7 @@ categories:
   - django
 ---
 
-Celery is used to run some special part of code which you don't want to run in the main thread. We use celery when we don't want the response of the task for the same request.
+Celery is used to run some special part of code which you don't want to run in the main thread. We use celery when we don't want the response of the task in the same request.
 
 Sending notifications for the purchase could be once of the example for such a task.
 
