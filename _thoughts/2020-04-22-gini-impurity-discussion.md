@@ -4,11 +4,11 @@ date: 2020-04-21T19:22:14.832Z
 updated_date: 2020-04-21T21:54:28.482Z
 description: Simple explanation of Gini Impurity
 published: true
-image: ""
 tags:
   - archive
 categories:
   - archive
+layout: post
 ---
 Gini Impurity is a measure to quantify the split that we make to the data and divide it into separate halves.
 
