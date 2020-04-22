@@ -50,8 +50,7 @@ layout: default
                         </div>
                         <br>
                     {% endfor %}
-                {% endif %}
-                {% if site.categories[page.category_name] %}
+                {% elsif site.categories[page.category_name] %}
                     {% for post in site.categories[page.category_name] %}
                         <div class="card" style="border: 1px solid #ccc; padding: 0px 20px 0px 20px; border-radius: 5px; font-size: 18px;">
                             <a href="{{ site.baseurl }}{{ post.url }}" class="container">
