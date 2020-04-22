@@ -1,15 +1,21 @@
 ---
-title: Create react based blazingly fast blog using Netlify CMS and Gatsby
-date: 2020-03-21T19:22:14.832Z
-updated_date: 2020-03-21T21:54:28.482Z
-description: >-
-  Create awesome and fast react based blog using Gatsby and netlify CMS easily
-  by following this post.
+title: Simple explanation of Gini Impurity
+date: 2020-04-21T19:22:14.832Z
+updated_date: 2020-04-21T21:54:28.482Z
+description: Simple explanation of Gini Impurity
 published: true
-image: 'https://i.imgur.com/Dq9owl5.png'
+image: ""
 tags:
   - archive
 categories:
   - archive
 ---
-{% include lazyload.html image_src="https://i.imgur.com/Dq9owl5.png" image_alt="Create a React blog using Gatsby and netlify CMS" image_title="Create a React blog using Gatsby and netlify CMS" %}
+Gini Impurity is a measure to quantify the split that we make to the data and divide it into separate halves.
+
+For example: If we split a loan provider dataset on the basis of salary, we might want to check how this split is performing in the real world.
+
+Gini impurity along with Gini gain will help us find whether the split was good or not.
+
+Read the following post for more information on Gini Impurity.
+
+{% include linked_post.html url="beginners-guide-to-classification-decision-trees-sklearn" %}
