@@ -158,7 +158,7 @@ mvn test
 
 {% include lazyload.html image_src="https://i.imgur.com/dyU6gXj.png" image_alt="Spring boot test passing" image_title="Spring boot test passing" %}
 
-## Create Maven Spring Boot CI pipeline using CircleCI
+## Creating Maven Spring Boot CI pipeline using CircleCI
 
 It's very important to automate the process of running the tests before merging the code to the master branch and deploying it. [CircleCI](https://circleci.com/) is a good service which can help you to create [CI](https://en.wikipedia.org/wiki/Continuous_integration) pipelines for your project.
 
