@@ -291,11 +291,13 @@ public class SchoolControllerTest {
 
 Firstly, we are sending a `POST` request to the `/school` API to add data to the school database and finally we are sending a `GET` request to get the data for `/schools` API.
 
-We can confirm that the things are working fine by running the tests in debug mode and stopping once the `POST` request is made and checking in the database at the same time. Once the test is done, you can run the same SQL command to see that the table was deleted.
+We can confirm that the things are working fine by running the tests in debug mode and stopping once the `POST` request is made and checking in the database at the same time.
 
-{% include lazyload.html image_src="https://i.ibb.co/zb9CB2p/Screenshot-2020-04-24-at-1-21-29-AM.png" image_alt="Run Java Tests in Debug mode" image_title="Run Java Tests in Debug mode" %}
+{% include lazyload.html image_src="https://i.ibb.co/zb9CB2p/Screenshot-2020-04-24-at-1-21-29-AM.png" image_alt="Run Java Tests in Debug mode" image_title="Run Java Tests in Debug mode" style="text-align: left;" %}
 
-{% include lazyload.html image_src="https://i.ibb.co/LryGrDm/Screenshot-2020-04-24-at-1-23-39-AM.png" image_alt="Mysql DB select query" image_title="Mysql DB select query" %}
+Once the test is done, you can run the same SQL command to see that the table was deleted.
+
+{% include lazyload.html image_src="https://i.ibb.co/LryGrDm/Screenshot-2020-04-24-at-1-23-39-AM.png" image_alt="Mysql DB select query" image_title="Mysql DB select query" style="text-align: left;" %}
 
 Finally you can push the code to see the tests running on CircleCI.
 
