@@ -3,8 +3,8 @@ title: Integration testing of APIs in Spring-Boot( Java) with Junit | For Beginn
 date: 2019-10-18T22:48:00.000Z
 updated_date: 2020-04-10T07:40:22.826Z
 description: "Writing integration tests for your spring boot application using
-  junit without mocking Db and using different test profile is one of the best
-  things you can do for your future self. "
+  junit without mocking Db and using different test profile with setting up CI
+  using CircleCi is one of the best things you can do for your future self. "
 published: true
 image: https://i.ibb.co/C27KWdk/Untitled-presentation-1.png
 tags:
