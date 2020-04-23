@@ -160,7 +160,7 @@ mvn test
 
 ## Creating Maven Spring Boot CI pipeline using CircleCI
 
-It's very important to automate the process of running the tests before merging the code to the master branch and deploying it. [CircleCI](https://circleci.com/) is a good service which can help you to create [CI](https://en.wikipedia.org/wiki/Continuous_integration) pipelines for your project.
+It is very important to automate the process of running the tests before merging the code to the master branch and deploying it. [CircleCI](https://circleci.com/) is a good service which can help you to create [CI](https://en.wikipedia.org/wiki/Continuous_integration) pipelines for your project.
 
 CircleCI will try to run the project according to the configuration specified in a special `yml` file.
 
