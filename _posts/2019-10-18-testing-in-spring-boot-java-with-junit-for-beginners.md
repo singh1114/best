@@ -234,7 +234,7 @@ spring.jpa.hibernate.ddl-auto=create-drop
 
 #### Changes required in Test file.
 
-According to the strategy change we will change the way we write our test as well. This is how our updated test file looks like.
+According to the strategy change, we will change the way we write our test as well. This is how our updated test file looks like.
 
 ```java
 package io.singh1114.springboottut;
