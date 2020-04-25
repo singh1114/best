@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Mystery of Mutable Default Arguments in Python
-date: "2020-04-08T18:35:25.076Z"
-updated_date: "2020-04-08T18:35:25.093Z"
+date: 2020-04-08T18:35:25.076Z
+updated_date: 2020-04-08T18:35:25.093Z
 description: Mystery of Mutable Default Arguments in Python, How not to pass
   default arguments in Python and how to handle them properly?
 published: true
@@ -15,7 +15,7 @@ categories:
   - productivity
 author_name: Prashant Sharma
 author_username: sharma_pacific
-show_ads: true
+show_ads: false
 canonical_url: https://sharmapacific.in/mutable-default-arguments-in-python/
 ---
 {% include lazyload.html image_src="https://i.ibb.co/vxsfmtq/Main-Images-3-1.png" image_alt="Mystery of Mutable Default Arguments in Python" image_title="Mystery of Mutable Default Arguments in Python" %}
