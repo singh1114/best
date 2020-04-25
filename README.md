@@ -1,3 +1,13 @@
+## More new features
+
+- Inbuilt MathJax Support.
+- [Lazyloading of images](https://ranvir.xyz/blog/lazy-loading-your-images-in-jekyll-blog-improving-page-speed/)
+- Inbuilt left and right sidebars
+- [Inbuilt social share buttons](https://ranvir.xyz/blog/why-and-how-to-add-social-sharing-buttons-on-your-jekyll-blog-using-github-pages/)
+- [Inbuilt table of content](https://ranvir.xyz/blog/creating-table-of-content-in-jekyll-blog-without-plugin/)
+- [Special linking to old posts](https://ranvir.xyz/blog/how-to-link-to-your-old-posts-like-a-pro-in-github-pages-blog/)
+- [Separate category pages](https://ranvir.xyz/blog/creating-separate-category-pages-jekyll-blog/)
+
 > March, 2016: If you're on an old version of Jekyll Now and run into a) build warnings or b) syntax highlighting issues caused by [Jekyll 3 and GitHub Pages updates](https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0), just :sparkles:[update your _config.yml](https://github.com/barryclark/jekyll-now/pull/445/files):sparkles: and you'll be set!
 
 # Jekyll Now
