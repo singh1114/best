@@ -128,7 +128,7 @@ There is not much difference in the idea behind the generation of the model. In 
 
 {% include math.html math_code="$y_i(\beta_0 + \beta_1x_{i1} + \beta_2x_{i2} + ... + \beta_px_{ip}) \geq M(1 - \epsilon_{i})$" style="margin-top:0.2em;" %}
 
-{% include math.html math_code="$where\ \epsilon_i \geq 0\ and\ \sum _{i=1}^{n} \epsilon_i \leq C$" %}
+{% include math.html math_code="$where\ \epsilon_i \geq 0\ and\ \displaystyle \sum _{i=1}^{n} \epsilon_i \leq C$" %}
 
 For any given observation vector on either side of plane epsilon( also called a slack variable), it gives the point at which it located, relative to the hyperplane and margin.
 
@@ -158,7 +158,7 @@ In the Support vector Machine, we introduce another factor called the kernel, wh
 
 According to our discussions in support vector classifier, its equation can be re-written as,
 
-{% include math.html math_code="$f(x) = \beta_0 +\sum_{i=1}^n \alpha_i<x, x_i>$" style="margin-top:0.2em;" %}
+{% include math.html math_code="$f(x) = \beta_0 +\displaystyle \sum_{i=1}^n \alpha_i<x, x_i>$" style="margin-top:0.2em;" %}
 
 {% include math.html math_code="$where\ <x, x_i>\ is\ the\  inner\ product\ between\ the\ new\ point\ x\ and\ other\ x_i\ points$" %}
 
@@ -166,13 +166,13 @@ According to our discussions in support vector classifier, its equation can be r
 
 We can directly replace all the instances of the inner product with a general term called the kernel.
 
-{% include math.html math_code="$f(x) = \beta_0 +\sum_{i \epsilon S} \alpha_iK(x, x_i)$" style="margin-top:0.2em;" %}
+{% include math.html math_code="$f(x) = \beta_0 +\displaystyle \sum_{i \epsilon S} \alpha_iK(x, x_i)$" style="margin-top:0.2em;" %}
 
 as only support vectors are responsible for the creation of the hyperplane.
 
 For `p` planes equation of kernel becomes,
 
-{% include math.html math_code="$K(x_i, x_{i^`}) = (1 +\sum_{j=1}^p x_{ij}x{i`j} )^d$" style="margin-top:0.2em;" %}
+{% include math.html math_code="$K(x_i, x_{i^`}) = (1 +\displaystyle \sum_{j=1}^p x_{ij}x{i`j} )^d$" style="margin-top:0.2em;" %}
 
 which is known as a polynomial kernel of degree `d`. This type of model leads to much flexible decision boundary.
 
