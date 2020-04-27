@@ -89,8 +89,6 @@ is that our model has to allot this incoming test vector to one of the two class
 
 If the value of this function is positive, we assign it to class 1, otherwise, we assign it to class -1.
 
-A simple issue in this approach is that there are infinite number of hyperplanes possible that can divide a perfect distribution.
-
 {% include lazyload.html image_src="https://i.ibb.co/Q9X5Mdr/Screenshot-2020-04-26-at-11-50-26-PM.png" image_alt="Infinite possible hyerplanes in SVM" image_title="Infinite possible hyerplanes in SVM" %}
 
 A simple issue in this approach is that there is an infinite number of hyperplanes possible that can divide a perfect distribution.
