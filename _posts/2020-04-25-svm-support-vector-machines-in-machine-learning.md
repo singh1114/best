@@ -130,7 +130,7 @@ There is not much difference in the idea behind the generation of the model. In 
 
 {% include math.html math_code="$where\ \epsilon_i \geq 0\ and\ \displaystyle \sum _{i=1}^{n} \epsilon_i \leq C$" %}
 
-For any given observation vector on either side of plane, `epsilon`( also called a slack variable), gives the point at which it located, relative to the hyperplane and margin.
+For any given observation vector on either side of plane, `epsilon`( also called a slack variable), gives the point at which it is located, relative to the hyperplane and margin.
 
 If `i`th slack variable is on the right side of the hyperplane then the value of that variable is 0. Also, if
 
