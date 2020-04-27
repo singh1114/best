@@ -17,37 +17,37 @@ include_mathjax: true
 ---
 SVM or support vector machines are supervised learning models that analyze data and recognize patterns on its own. They are used for both classification and regression analysis.
 
-SVM model is the representation of the dataset as points in space, so that the example of the separate categories are divided by a clear gap which is as wide as possible.
+An SVM model is the representation of the dataset as points in space so that the example of the separate categories is divided by a clear gap which is as wide as possible.
 
 Any new incoming data is then mapped to one of these few categories based on which side of the gap they fall on.
 
 {% include lazyload.html image_src="https://i.ibb.co/XYgV0Yg/Screenshot-2020-04-25-at-9-02-13-PM.png" image_alt="Two dimensional SVM example" image_title="Two dimensional SVM example" %}
 
-For example, in the above image we can clearly see that there are two categories in the dataset. Category blue and category pink.
+For example, in the above image, we can clearly see that there are two categories in the dataset. Category blue and category pink.
 
-Our aim is to differentiate between the two categories. One simple way of doing that is to draw a line in between the two categories. But as we can see, there are infinite number of lines which can clearly divide dataset into two parts.
+Our aim is to differentiate between the two categories. One simple way of doing that is to draw a line between the two categories. But as we can see, there is an infinite number of lines that can clearly divide the dataset into two parts.
 
 What we actually do is that we can choose a hyperplane that maximizes the margin between the classes. The data points (Vectors) touching the two outer lines are called support vectors.
 
-This simple example of two dimension linear plots can be further used in a dataset having further more dimensions. Each time our idea will be to draw a hyperplane which can divide the data into different categories.
+This simple example of two-dimension linear plots can be further used in a dataset having more dimensions. Each time our idea will be to draw a hyperplane that can divide the data into different categories.
 
 Now we are going to talk about some related mathematics and discuss different terms related to SVM.
 
-In general the discussion of SVM is divided into three parts according to how SVM evolved.
+In general, the discussion of SVM is divided into three parts according to how SVM evolved.
 
 * Maximal Margin Classifier
 * Support Vector Classifier
 * Support Vector Machine
 
-We will slowly move the article toward the Support Vector Machine but for proper understanding of SVM's we have to go through, Maximal Margin Classifier and Support Vector Classifier.
+We will slowly move the article toward the Support Vector Machine but for a proper understanding of SVM's we have to go through, Maximal Margin Classifier and Support Vector Classifier.
 
 ## Maximal Margin Classifier
 
-Maximal Margin Classifier is a model which is used to classify the observations into two parts using a hyperplane.
+Maximal Margin Classifier is a model that is used to classify the observations into two parts using a hyperplane.
 
 ### What is a Hyperplane?
 
-Simply put, a hyperplane is a subspace in `p-dimensional` space having `p -1` dimensions. For example, in two-dimensional space the hyperplane will be of 1 dimension, or it will be a line. Similarly, in case of 3 dimensions it will be a two-dimensional plane.
+Simply put, a hyperplane is a subspace in `p-dimensional` space having `p -1` dimensions. For example, in two-dimensional space, the hyperplane will be of 1 dimension, or it will be a line. Similarly, in the case of 3 dimensions, it will be a two-dimensional plane.
 
 In two dimensions the equation of the hyperplane are given by,
 
@@ -55,9 +55,9 @@ In two dimensions the equation of the hyperplane are given by,
 
 {% include math.html math_code="$where\ vector\ (X1,\ X2)\ is\ on\ the\ hyperplane$" %}
 
-We can also find some similarity of this equation with the equation of line.
+We can also find some similarities of this equation with the equation of a line.
 
-Its fairly easy to extend this equation and find the equation of a hyperplane in `p` dimensions.
+It's fairly easy to extend this equation and find the equation of a hyperplane in `p` dimensions.
 
 {% include math.html math_code="$\beta_0 + \beta_1X_1 + \beta_2X_2 + ... + \beta_pX_p = 0$" style="margin-top:0.2em;" %}
 
@@ -77,25 +77,25 @@ If we represent the classes(labels) for all the n values,
 
 {% include math.html math_code="$y_1, ..., y_n\ \epsilon \{-1, 1\}$" style="margin-top:0.2em;" %}
 
-Where -1 represent one class and 1 represent the other class.
+Where -1 represents one class and 1 represents the other class.
 
 Our main aim for any incoming test vector,
 
 {% include math.html math_code="$x^* = (x_1^*\ ...\ x_p^*)^T$" style="margin-top:0.2em;" %}
 
-is that our model have to allot this incoming test vector to one of the two classes. This equation given the class of the incoming test vector.
+is that our model has to allot this incoming test vector to one of the two classes. This equation given the class of the incoming test vector.
 
 {% include math.html math_code="$f_x^* = \beta_0 + \beta_1x_{1}^* + \beta_2x_{2}^* + ... + \beta_px_{p}^*$" style="margin-top:0.2em;" %}
 
-If the value of this function is positive, we assign to class 1, otherwise we assign it to class -1.
+If the value of this function is positive, we assign it to class 1, otherwise, we assign it to class -1.
 
 A simple issue in this approach is that there are infinite number of hyperplanes possible that can divide a perfect distribution.
 
 {% include lazyload.html image_src="https://i.ibb.co/Q9X5Mdr/Screenshot-2020-04-26-at-11-50-26-PM.png" image_alt="Infinite possible hyerplanes in SVM" image_title="Infinite possible hyerplanes in SVM" %}
 
-The problem reduces to choosing the best hyperplane possible which divides the observations into two parts.
+A simple issue in this approach is that there is an infinite number of hyperplanes possible that can divide a perfect distribution.
 
-A natural choice is find the perpendicular distance of each observation from the  potential hyperplanes, the one which produces the maximum `margin` from both the sides is chosen as the hyperplane.
+A natural choice is to find the perpendicular distance of each observation from the potential hyperplanes, the one which produces the maximum `margin` from both the sides is chosen as the hyperplane.
 
 {% include lazyload.html image_src="https://i.ibb.co/XYgV0Yg/Screenshot-2020-04-25-at-9-02-13-PM.png" image_alt="SVM: Choosing a hyperplane" image_title="SVM: Choosing a hyperplane" %}
 
@@ -114,21 +114,21 @@ To cope with the disadvantages of Maximal Margin classifiers, we are introduced 
 
 ## Support vector classifier
 
-In case of Support vector classifiers we allow a few observations to be on the wrong side of hyperplane making the model a little more robust to individual observation and helps us to better classify other and most of the observations.
+In case of Support vector classifiers, we allow a few observations to be on the wrong side of hyperplane making the model a little more robust to individual observation and helps us to better classify others and most of the observations.
 
-> Support vector classifier is also known as soft margin classifier.
+> Support vector classifier is also known as a soft margin classifier.
 
 The observations on the wrong side of the hyperplane are obviously misclassified by the model. But this helps to improve the total accuracy of the model.
 
 {% include lazyload.html image_src="https://i.ibb.co/ZdzhYrp/Screenshot-2020-04-27-at-9-48-20-PM.png" image_alt="Infinite possible hyerplanes in SVM" image_title="Infinite possible hyerplanes in SVM" %}
 
-There is not much difference in the idea behind generation of the model. In case of support vector classifier as well, we want to maximize the value of Margin.
+There is not much difference in the idea behind the generation of the model. In case of support vector classifier as well, we want to maximize the value of Margin.
 
 {% include math.html math_code="$y_i(\beta_0 + \beta_1x_{i1} + \beta_2x_{i2} + ... + \beta_px_{ip}) \geq M(1 - \epsilon_{i})$" style="margin-top:0.2em;" %}
 
 {% include math.html math_code="$where\ \epsilon_i \geq 0\ and\ \sum _{i=1}^{n} \epsilon_i \leq C$" %}
 
-For any given observation vector on either side of plane epsilon( also called slack variable), it gives the point at which it located, relative to the hyperplane and margin.
+For any given observation vector on either side of plane epsilon( also called a slack variable), it gives the point at which it located, relative to the hyperplane and margin.
 
 If `i`th slack variable is on the right side of the hyperplane then the value of that variable is 0. Also, if
 
@@ -142,17 +142,17 @@ then the slack variable is on the wrong side of the hyperplane.
 
 If we extend this observation to the tuning variable, `C`, we can deduce that `C` is the number which determines the count and severity of the violations to the margins and the hyperplane.
 
-The value of `C` is considered as the tuning parameter which is generally chosen by cross-validation. `C` also controls the bias-variance trade off for the model.
+The value of `C` is considered as the tuning parameter which is generally chosen by cross-validation. `C` also controls the bias-variance trade-off for the model.
 
-If the value of `C` is small, we allow lesser number of observations to be on the wrong side which will fit perfectly to a data set having data with high bias and low variance and vice-versa.
+If the value of `C` is small, we allow a lesser number of observations to be on the wrong side which will fit perfectly to a data set having data with high bias and low variance and vice-versa.
 
-Again similar to Maximal Margin Classifier, it was found that all the observations doesn't get to decide the position of hyperplane of the Margin. It is only dependent on the observations in the on or inside the margins.
+Again similar to Maximal Margin Classifier, it was found that all the observations don't get to decide the position of a hyperplane of the Margin. It is only dependent on the observations in the on or inside the margins.
 
 If we expand these points a little we can get to the Support Vector Machines. Let's discuss them in some detail.
 
 ## Support Vector Machine
 
-In Support vector we introduce another factor called kernel, which is the result of enlarging of support vector classifiers in a specific way.
+In the Support vector Machine, we introduce another factor called the kernel, which is the result of enlarging of support vector classifiers in a specific way.
 
 According to our discussions in support vector classifier, its equation can be re-written as,
 
@@ -160,9 +160,9 @@ According to our discussions in support vector classifier, its equation can be r
 
 {% include math.html math_code="$where\ <x, x_i>\ is\ the\  inner\ product\ between\ the\ new\ point\ x\ and\ other\ x_i\ points$" %}
 
-> The implementation of inner product is hidden on purpose and we should be good without knowing the details of it.
+> The implementation of the inner product is hidden on purpose and we should be good without knowing the details of it.
 
-We can directly replace all the instances of inner product with a general terms called kernel.
+We can directly replace all the instances of the inner product with a general term called the kernel.
 
 {% include math.html math_code="$f(x) = \beta_0 +\sum_{i \epsilon S} \alpha_iK(x, x_i)$" style="margin-top:0.2em;" %}
 
@@ -172,7 +172,7 @@ For `p` planes equation of kernel becomes,
 
 {% include math.html math_code="$K(x_i, x_{i^`}) = (1 +\sum_{j=1}^p x_{ij}x{i`j} )^d$" style="margin-top:0.2em;" %}
 
-which is known as a polynomial kernel of degree `d`. This type of model leads to much flexible decision boundry.
+which is known as a polynomial kernel of degree `d`. This type of model leads to much flexible decision boundary.
 
 ## Support Vector Machine for more than two classes
 
@@ -184,11 +184,11 @@ We can solve these problems by extending the simple SVM in two ways.
 
 In this type of classification, we compare each class with another class one by one and trying to classify each incoming vector to one of the two possible classes chosen at the given instance.
 
-Finally, for a vector we will choose the class to which it belonged to most of time during the training of the model.
+Finally, for a vector, we will choose the class to which it belonged to most of the time during the training of the model.
 
 * One versus All Classification
 
-At each instance, we compare of the `K` class to remaining `K - 1` classes. Finally, we will assign any upcoming test vector to the class which produces the highest values of the constant, or we want to maximize.
+At each instance, we compare of the `K` class to the remaining `K - 1` classes. Finally, we will assign any upcoming test vector to the class which produces the highest values of the constant, or we want to maximize.
 
 {% include math.html math_code="$\beta_0k +\beta_{1k}x_1^* +\beta_{2k}x_2^* +...+\beta_{pk}x_p^*$" style="margin-top:0.2em;" %}
 
