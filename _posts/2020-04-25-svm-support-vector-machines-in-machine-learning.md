@@ -71,7 +71,7 @@ Then the vector is on the one side of the hyperplane and if,
 
 The vector is on the other side of the plane.
 
-To sum it up, our main aim in case of Maximal Margin Classifier is to create a hyperplane fitted on a training data of `n X p` matrix `X`, containing `n` training observations in `p`-dimensional space such that all these vector falls in one of the two classes divided by the hyperplane.
+To sum it up, our main aim in case of Maximal Margin Classifier is to create a hyperplane fitted on a training data of `n X p` matrix `X`, containing `n` training observations in `p`-dimensional space such that all these vectors falls in one of the two classes divided by the hyperplane.
 
 If we represent the classes(labels) for all the n values,
 
