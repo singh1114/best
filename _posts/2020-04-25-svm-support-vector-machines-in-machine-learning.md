@@ -110,7 +110,9 @@ This is how we define a Maximal margin classifier. There are a few issues with M
 * It doesn't work on observations where no clear hyperplane is present between different classes.
 * A small addition of observation near the hyperplane can lead to a lot of change in the hyperplane making it a lot volatile.
 
-To cope with the disadvantages of Maximal Margin classifiers, we are introduced to the concept of soft margin, or we create a hyperplane which almost separates the classes, rather than surely separating the classes. This brings us to the concept of Support Vector Classifier.
+To cope with the disadvantages of Maximal Margin classifiers, we are introduced to the concept of soft margin.
+
+Simly put, we create a hyperplane which almost separates all of the classes, rather than surely separating all of the classes. This brings us to the concept of Support Vector Classifier.
 
 ## Support vector classifier
 
