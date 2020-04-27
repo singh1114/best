@@ -8,12 +8,10 @@ tags:
   - machinelearning
   - datascience
   - python
-  - sklearn
 categories:
   - machinelearning
   - datascience
   - python
-  - sklearn
 show_ads: false
 include_mathjax: true
 ---
