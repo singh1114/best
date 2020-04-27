@@ -120,7 +120,7 @@ In case of Support vector classifiers, we allow a few observations to be on the 
 
 > Support vector classifier is also known as a soft margin classifier.
 
-The observations on the wrong side of the hyperplane are obviously misclassified by the model. But this helps to improve the total accuracy of the model.
+The observations on the wrong side of the hyperplane are obviously misclassified by the model. But this helps to improve the overall accuracy of the model.
 
 {% include lazyload.html image_src="https://i.ibb.co/ZdzhYrp/Screenshot-2020-04-27-at-9-48-20-PM.png" image_alt="Infinite possible hyerplanes in SVM" image_title="Infinite possible hyerplanes in SVM" %}
 
