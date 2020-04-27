@@ -148,7 +148,7 @@ The value of `C` is considered as the tuning parameter which is generally chosen
 
 If the value of `C` is small, we allow a lesser number of observations to be on the wrong side which will fit perfectly to a data set having data with high bias and low variance and vice-versa.
 
-Again similar to Maximal Margin Classifier, it was found that all the observations don't get to decide the position of a hyperplane of the Margin. It is only dependent on the observations in the on or inside the margins.
+Again similar to Maximal Margin Classifier, it was found that all the observations don't get to decide the position of a hyperplane of the Margin. It is only dependent on the observations on or inside the margins.
 
 If we expand these points a little we can get to the Support Vector Machines. Let's discuss them in some detail.
 
