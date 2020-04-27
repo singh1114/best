@@ -182,13 +182,13 @@ During the discussion for support vector machines, we haven't really talked abou
 
 We can solve these problems by extending the simple SVM in two ways.
 
-* One versus One Classification
+* **One versus One Classification**
 
 In this type of classification, we compare each class with another class one by one and trying to classify each incoming vector to one of the two possible classes chosen at the given instance.
 
 Finally, for a vector, we will choose the class to which it belonged to most of the time during the training of the model.
 
-* One versus All Classification
+* **One versus All Classification**
 
 At each instance, we compare of the `K` class to the remaining `K - 1` classes. Finally, we will assign any upcoming test vector to the class which produces the highest values of the constant, or we want to maximize.
 
