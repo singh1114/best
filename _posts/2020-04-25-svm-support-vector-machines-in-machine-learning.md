@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SVM "
+title: SVM | Introduction to Support Vector Machines in Machine Learning
 date: 2020-04-27T18:13:23.661Z
 updated_date: 2020-04-27T18:13:22.829Z
 published: true
