@@ -103,7 +103,7 @@ Once we have the hyperplane, it is fairly easy to predict the classes of test ob
 
 The only assumption that we are making here is that a hyperplane dividing the observations in the training set will also divide the observations in the test set, which is not always true. Therefore, this model can lead to overfitting when `p` is large.
 
-As we have already discussed that the points on dashed line are called support vectors, it has been found that the position of hyperplane only depends on support vector and is not dependent on the other observations in the dataset.
+We have already discussed that the points on dashed line are called support vectors and it has been found that the position of hyperplane only depends on support vector and is not dependent on the other observations in the dataset.
 
 This is how we define a Maximal margin classifier. There are a few issues with Maximal Margin Classifier.
 
