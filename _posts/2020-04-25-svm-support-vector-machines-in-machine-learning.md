@@ -116,7 +116,7 @@ Simly put, we create a hyperplane which almost separates all of the classes, rat
 
 ## Support vector classifier
 
-In case of Support vector classifiers, we allow a few observations to be on the wrong side of hyperplane making the model a little more robust to individual observation and helps us to better classify others and most of the observations.
+In case of Support vector classifiers, we allow a few observations to be on the wrong side of hyperplane making the model a little more robust to individual observation and helps us to better classify other and most of the observations.
 
 > Support vector classifier is also known as a soft margin classifier.
 
