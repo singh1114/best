@@ -152,7 +152,7 @@ Again similar to Maximal Margin Classifier, it was found that all the observatio
 
 If we expand these points a little we can get to the Support Vector Machines. Let's discuss them in some detail.
 
-## Support Vector Machine
+## Support Vector Machines
 
 In the Support vector Machine, we introduce another factor called the kernel, which is the result of enlarging of support vector classifiers in a specific way.
 
