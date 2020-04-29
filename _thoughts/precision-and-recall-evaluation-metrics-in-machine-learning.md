@@ -41,7 +41,7 @@ Recall is the value which gives the value of all the times you were supposed to 
 
 So, Recall is given by the intersection divided by the orange part of the Venn diagram.
 
-{% include math.html math_code="$recall = \frac{Correctly\ stopped\ shooting}{Total\ Number\ of\ survivor\ ships\ in\ front\}$" style="margin-top:0.2em;" %}
+{% include math.html math_code="$recall = \frac{Correctly\ stopped\ shooting}{Total\ Number\ of\ survivor\ ships\ in\ front}$" style="margin-top:0.2em;" %}
 
 More detailed discussion of [precision](https://ranvir.xyz/blog/how-to-evaluate-your-machine-learning-model-like-a-pro-metrics/#precision) and [recall](https://ranvir.xyz/blog/how-to-evaluate-your-machine-learning-model-like-a-pro-metrics/#recall) are done in the evaluation metric post.
 
