@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+{% include left_sidebar.html %}
+
+<article class="post">
+
+  <h1>{{ page.title }}</h1>
+  <div class="entry">
+    {{ content }}
+  </div>
+
+  <div class="container">
+    {% include subscribe.html %}
+  </div>
+  <div class="container">
+    {% include disqus.html %}
+  </div>
+  <div class="container">
+    {% include change.html file=page.file %}
+  </div>
+</article>
+
+{{page}}
