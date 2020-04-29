@@ -16,9 +16,7 @@ layout: default
   <div class="container">
     {% include subscribe.html %}
   </div>
-  <div class="container">
-    {% include change.html path=page.path %}
-  </div>
+  {% include sidebar.html path=page.path %}
   <div class="container">
     {% include disqus.html %}
   </div>
