@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: archive
 title: Confusion Matrix in Machine Learning using sklearn
 date: 2020-04-29T15:30:22.238Z
 updated_date: 2020-04-29T15:30:22.259Z
