@@ -8,6 +8,12 @@ description: Recall is defined as the number of relevant documents retrieved by
   precision is defined as the number of relevant documents retrieved by a search
   divided by the total number of documents retrieved by that search.
 published: true
+tags:
+  - machinelearning
+  - datascience
+categories:
+  - machinelearning
+  - datascience
 show_ads: false
 include_mathjax: true
 ---
