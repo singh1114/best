@@ -3,6 +3,10 @@ layout: archive
 title: Precision and Recall Evaluation Metrics in Machine Learning
 date: 2020-04-29T20:23:30.161Z
 updated_date: 2020-04-29T20:23:30.181Z
+description: Recall is defined as the number of relevant documents retrieved by
+  a search divided by the total number of existing relevant documents, while
+  precision is defined as the number of relevant documents retrieved by a search
+  divided by the total number of documents retrieved by that search.
 published: true
 show_ads: false
 include_mathjax: true
