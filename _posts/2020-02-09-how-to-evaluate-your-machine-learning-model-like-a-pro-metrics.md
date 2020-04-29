@@ -153,7 +153,7 @@ Now, we created a Venn diagram to explain the occurrences.
 
 {% include lazyload.html image_src="https://i.ibb.co/8DGyTrc/Screenshot-2020-04-30-at-2-27-56-AM.png" image_alt="Venn diagram for understanding precision and recall" image_title="Venn diagram for understanding precision and recall" %}
 
-## Precision
+### Precision
 
 Precision is the value which gives the value of number of times you took the correct action of all the times you took an action.
 
@@ -161,13 +161,13 @@ So, precision is given by the intersection divided by the blue part of the Venn 
 
 {% include math.html math_code="$precision = \frac{Correctly\ stopped\ shooting}{Total\ Number\ of\ Shooting\ stops}$" style="margin-top:0.2em;" %}
 
-## Recall
+### Recall
 
 Recall is the value which gives the value of all the times you were supposed to take an action of all the times you took an action.
 
 So, Recall is given by the intersection divided by the orange part of the Venn diagram.
 
-{% include math.html math_code="$recall = \frac{Correctly\ stopped\ shooting}{Total\ Number\ of\ survivor\ ships\ in\ front\}$" style="margin-top:0.2em;" %}
+{% include math.html math_code="$recall = \frac{Correctly\ stopped\ shooting}{Total\ Number\ of\ times\ survivor\ ships\ in\ front}$" style="margin-top:0.2em;" %}
 
 ## Accuracy vs Recall using Example.
 
