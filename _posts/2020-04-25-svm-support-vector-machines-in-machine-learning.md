@@ -197,4 +197,76 @@ At each instance, we compare of the `K` class to the remaining `K - 1` classes. 
 
 {% include math.html math_code="$\beta_0k +\beta_{1k}x_1^* +\beta_{2k}x_2^* +...+\beta_{pk}x_p^*$" style="margin-top:0.2em;" %}
 
+## Support Vector Machine using Sklearn
+
+Now we will try to train a Support Vector Machine model using sklearn. We are going to work on the already available cancer data which we have used in other posts as well.
+
+So, the idea behind the data is that, we have given some cancer patients info, for example what is the perimeter, radius and whole lot of other stuff about the cancer. Our goal is to find whether the cancer is `WDBC-Malignant` or `WDBC-Benign`.
+
+Let's import everything first.
+
+```python
+import pandas as pd
+import numpy as np
+```
+
+Let's import the data and put in a Data Frame.
+
+```python
+from sklearn.datasets import load_breast_cancer
+cancer = load_breast_cancer()
+
+df = pd.DataFrame(cancer['data'], columns=cancer['feature_names'])
+df.head()
+```
+
+{% include lazyload.html image_src="https://i.ibb.co/3ckw2d7/Screenshot-2020-05-01-at-1-56-38-AM.png" image_alt="SVM cancer dataframe head" image_title="SVM cancer dataframe head" %}
+
+Read more about data using the following code,
+
+```python
+print(cancer['DESCR'])
+```
+
+Target values are present in other key.
+
+```python
+cancer['target']
+```
+
+Let's split the data into training and test data.
+
+```python
+from sklearn.model_selection import train_test_split
+
+X_train, X_test, y_train, y_test = train_test_split(df, cancer['target'], test_size=0.40)
+```
+
+Let's train the model.
+
+```python
+from sklearn.svm import SVC
+
+model = SVC()
+model.fit(X_train, y_train)
+```
+
+{% include lazyload.html image_src="https://i.ibb.co/W6jtYHY/Screenshot-2020-05-01-at-1-59-12-AM.png" image_alt="SVM default parameters" image_title="SVM default parameters" %}
+
+You can see the default values of tuning variables is used. There are a lot of values which we can change. We will talk about them in our later posts. Please [subscribe](https://ranvir.xyz/blog/subscribe) to know when I publish that post.
+
+Let's evaluate the model.
+
+```python
+from sklearn.metrics import classification_report
+from sklearn.metrics import confusion_matrix
+
+predictions = model.predict(X_test)
+
+print(confusion_matrix(y_test, predictions))
+print(classification_report(y_test, predictions))
+```
+
+{% include lazyload.html image_src="https://i.ibb.co/3cwJJ6W/Screenshot-2020-05-01-at-2-02-38-AM.png" image_alt="Confusion matrix and classification report for SVM" image_title="Confusion matrix and classification report for SVM" %}
+
 Thats it for this version of Support Vector Machine discussion. Feel free to express your thoughts in the comments and share this post with your friends.
