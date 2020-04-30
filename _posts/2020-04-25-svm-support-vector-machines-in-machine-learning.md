@@ -197,4 +197,4 @@ At each instance, we compare of the `K` class to the remaining `K - 1` classes. 
 
 {% include math.html math_code="$\beta_0k +\beta_{1k}x_1^* +\beta_{2k}x_2^* +...+\beta_{pk}x_p^*$" style="margin-top:0.2em;" %}
 
-Thats it for this version of Support Vector Machine discussion. Feel free to express your thoughts in the comments and share this post with your freinds.
+Thats it for this version of Support Vector Machine discussion. Feel free to express your thoughts in the comments and share this post with your friends.
