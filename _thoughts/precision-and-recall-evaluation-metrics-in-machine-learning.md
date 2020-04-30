@@ -16,6 +16,7 @@ categories:
   - datascience
 show_ads: false
 include_mathjax: true
+permalink: /precision-recall-machine-learning-evaluation-metric/
 ---
 Precision and Recall are two best known and most misunderstood evaluation metrics in machine learning. In this article we are going to discuss the simplest way in which we can understand them with an example.
 
