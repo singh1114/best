@@ -9,6 +9,7 @@ tags:
 categories:
   - archive
 layout: page
+permalink: /gini-impurity/
 ---
 Gini Impurity is a measure to quantify the split that we make to the data and divide it into separate halves.
 

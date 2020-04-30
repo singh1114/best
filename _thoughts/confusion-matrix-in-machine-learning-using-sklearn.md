@@ -17,6 +17,7 @@ categories:
   - machinelearning
   - datascience
 show_ads: false
+permalink: /confusion-matrix-in-machine-learning-sklearn/
 ---
 Confusion Matrix is a `2X2` matrix which is used to evaluate a machine learning model. It is used to measure the performance of the model. It also helps you to evaluate your machine learning model in a better way and makes it easy to calculate recall, precision, f1-score, ROC curves etc.
 
