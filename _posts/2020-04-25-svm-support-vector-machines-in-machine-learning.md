@@ -257,7 +257,7 @@ model.fit(X_train, y_train)
 
 You can see the default values of tuning variables is used. There are a lot of values which we can change. We will talk about them in our later posts. Please [subscribe](https://ranvir.xyz/blog/subscribe) to know when I publish that post.
 
-Let's evaluate the model.
+Let's [evaluate the model](https://ranvir.xyz/blog/how-to-evaluate-your-machine-learning-model-like-a-pro-metrics/).
 
 ```python
 from sklearn.metrics import classification_report
