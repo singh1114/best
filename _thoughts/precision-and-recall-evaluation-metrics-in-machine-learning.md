@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: Precision and Recall Evaluation Metrics in Machine Learning
+permalink: /precision-recall-machine-learning-evaluation-metric/
 date: 2020-04-29T20:23:30.161Z
 updated_date: 2020-04-29T20:23:30.181Z
 description: Recall is defined as the number of relevant documents retrieved by
@@ -9,14 +10,11 @@ description: Recall is defined as the number of relevant documents retrieved by
   divided by the total number of documents retrieved by that search.
 published: true
 tags:
-  - machinelearning
-  - datascience
+  - archive
 categories:
-  - machinelearning
-  - datascience
+  - archive
 show_ads: false
 include_mathjax: true
-permalink: /precision-recall-machine-learning-evaluation-metric/
 ---
 Precision and Recall are two best known and most misunderstood evaluation metrics in machine learning. In this article we are going to discuss the simplest way in which we can understand them with an example.
 
