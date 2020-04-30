@@ -20,7 +20,7 @@ categories:
 show_ads: false
 include_mathjax: true
 ---
-SVM or support vector machines are supervised learning models that analyze data and recognize patterns on its own. They are used for both classification and regression analysis.
+SVM or support vector machines are [supervised learning models](https://ranvir.xyz/blog/how-to-evaluate-your-machine-learning-model-like-a-pro-metrics/#supervised-learning-and-classification-problems) that analyze data and recognize patterns on its own. They are used for both classification and regression analysis.
 
 An SVM model is the representation of the dataset as points in space so that the example of the separate categories is divided by a clear gap which is as wide as possible.
 
