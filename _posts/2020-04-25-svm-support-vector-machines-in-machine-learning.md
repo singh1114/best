@@ -7,6 +7,7 @@ description: SVM or support vector machines are supervised learning models that
   analyze data and recognize patterns on its own. They are used for both
   classification and regression analysis.
 published: true
+image: https://i.ibb.co/jyDFHsC/Main-Images-2-1.png
 tags:
   - machinelearning
   - datascience
