@@ -38,6 +38,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "archive"}
       - {label: "Title", name: "title", widget: "string", required: false}
+      - {label: "Permalink", name: "permalink", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Updated Date", name: "updated_date", widget: "datetime", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
