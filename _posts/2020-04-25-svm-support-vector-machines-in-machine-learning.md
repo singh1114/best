@@ -201,7 +201,7 @@ At each instance, we compare of the `K` class to the remaining `K - 1` classes. 
 
 ## Support Vector Machine using Sklearn
 
-Now we will try to train a Support Vector Machine model using sklearn. We are going to work on the already available cancer data which we have used in other posts as well.
+Now we will try to train a Support Vector Machine model using sklearn. We are going to work on the already available cancer data which we have used in [other posts](https://ranvir.xyz/blog/beginners-guide-to-classification-decision-trees-sklearn/#classification-trees-using-sklearn) as well.
 
 So, the idea behind the data is that, we have given some cancer patients info, for example what is the perimeter, radius and whole lot of other stuff about the cancer. Our goal is to find whether the cancer is `WDBC-Malignant` or `WDBC-Benign`.
 
