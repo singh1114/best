@@ -3,6 +3,9 @@ layout: post
 title: SVM | Introduction to Support Vector Machines in Machine Learning
 date: 2020-04-27T18:13:23.661Z
 updated_date: 2020-04-27T18:13:22.829Z
+description: SVM or support vector machines are supervised learning models that
+  analyze data and recognize patterns on its own. They are used for both
+  classification and regression analysis.
 published: true
 tags:
   - machinelearning
