@@ -14,7 +14,6 @@ categories:
   - seo
   - netlifycms
   - gatsby
-redirect_to: ""
 ---
 {% include lazyload.html image_src="https://i.imgur.com/Dq9owl5.png" image_alt="Create a React blog using Gatsby and netlify CMS" image_title="Create a React blog using Gatsby and netlify CMS" %}
 
