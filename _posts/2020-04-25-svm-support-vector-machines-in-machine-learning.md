@@ -273,3 +273,7 @@ print(classification_report(y_test, predictions))
 {% include lazyload.html image_src="https://i.ibb.co/3cwJJ6W/Screenshot-2020-05-01-at-2-02-38-AM.png" image_alt="Confusion matrix and classification report for SVM" image_title="Confusion matrix and classification report for SVM" %}
 
 Thats it for this version of Support Vector Machine discussion. Feel free to express your thoughts in the comments and share this post with your friends.
+
+Resources:
+
+1. [ISLR](https://faculty.marshall.usc.edu/gareth-james/ISL/ISLR%20Seventh%20Printing.pdf)
