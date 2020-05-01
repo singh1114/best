@@ -5,7 +5,9 @@ date: 2020-04-27T18:13:23.661Z
 updated_date: 2020-04-27T18:13:22.829Z
 description: SVM or support vector machines are supervised learning models that
   analyze data and recognize patterns on its own. They are used for both
-  classification and regression analysis.
+  classification and regression analysis. In this post we are going to talk
+  about Hyperplanes, Maximal Margin Classifier, Support vector classifier,
+  support vector machines and will create a model using sklearn.
 published: true
 image: https://i.ibb.co/jyDFHsC/Main-Images-2-1.png
 tags:
