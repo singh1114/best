@@ -79,6 +79,8 @@ plt.xlim(-5, 10)
 plt.ylim(-5, 10)
 ```
 
+{% include lazyload.html image_src="https://i.ibb.co/xz8gkb1/Screenshot-2020-05-02-at-9-35-24-PM.png" image_alt="Single vector on matplotlib" image_title="Single vector on matplotlib" %}
+
 Let's write a function that can help us to plot vectors whenever we want to,
 
 ```python
@@ -122,6 +124,8 @@ np_vector_2 = np.array([0, 0, 6, 8])
 plot_2D_vectors([np_vector_1, np_vector_2])
 ```
 
+{% include lazyload.html image_src="https://i.ibb.co/w49JNLz/Screenshot-2020-05-02-at-10-08-23-PM.png" image_alt="Two vectors on matplotlib" image_title="Two vectors on matplotlib" %}
+
 Now, let's add these two vectors and plot the new result vector.
 
 ```python
@@ -131,6 +135,8 @@ plot_2D_vector(np_vector_1)
 plot_2D_vector(np_vector_2, 'b')
 plot_2D_vector(np_vector_3, 'g')
 ```
+
+{% include lazyload.html image_src="https://i.ibb.co/PWHrNY0/Screenshot-2020-05-02-at-10-09-36-PM.png" image_alt="Adding two vectors using numpy" image_title="Adding two vectors using numpy" %}
 
 If we add two vector having obtuse angle in between them then the magnitude of the resultant vector decreases.
 
@@ -142,6 +148,8 @@ np_vector_3 = np_vector_1 + np_vector_2
 plot_2D_vectors((np_vector_1, np_vector_2, np_vector_3), ['r', 'b', 'g'])
 ```
 
+{% include lazyload.html image_src="https://i.ibb.co/59VtWJ4/Screenshot-2020-05-02-at-10-24-37-PM.png" image_alt="Adding two obtuse vectors using numpy" image_title="Adding two obtuse vectors using numpy" %}
+
 Subtraction is also similar, we can plot the subtracted vector simply using the function.
 
 ```python
@@ -151,6 +159,8 @@ np_vector_3 = np_vector_2 - np_vector_1
 
 plot_2D_vectors((np_vector_1, np_vector_2, np_vector_3), ['r', 'b', 'g'])
 ```
+
+{% include lazyload.html image_src="https://i.ibb.co/2hD40dc/Screenshot-2020-05-02-at-10-27-13-PM.png" image_alt="Subtracting two vectors using numpy" image_title="Subtracting two obtuse vectors using numpy" %}
 
 ## Dot product of two vectors
 
@@ -177,6 +187,8 @@ proj_vector = (dot_product/np.power(np.linalg.norm(np_vector_2), 2))*np_vector_2
 plot_2D_vectors((np_vector_1, np_vector_2, proj_vector), ['r', 'green', 'red'])
 ```
 
+{% include lazyload.html image_src="https://i.ibb.co/z8MbQ1Q/Screenshot-2020-05-03-at-1-03-29-AM.png" image_alt="Projection with vectors on matplotlib" image_title="Projection with vectors on matplotlib" %}
+
 Projection of vector having 90 degree between them is 0.
 
 ```python
@@ -187,6 +199,8 @@ proj_vector = (dot_product/np.power(np.linalg.norm(np_vector_2), 2))*np_vector_2
 
 plot_2D_vectors((np_vector_1, np_vector_2, proj_vector), ['r', 'green', 'red'])
 ```
+
+{% include lazyload.html image_src="https://i.ibb.co/jkm376j/Screenshot-2020-05-03-at-1-06-46-AM.png" image_alt="Projection with orthogonal vectors" image_title="Projection with orthogonal vectors" %}
 
 Mathematically, projection of one vector on another is given by,
 
