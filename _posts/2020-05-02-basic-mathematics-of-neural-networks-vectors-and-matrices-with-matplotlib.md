@@ -3,11 +3,11 @@ layout: post
 title: Basic Mathematics of Neural Networks | Vectors and Matrices with Matplotlib
 date: 2020-05-02T14:29:31.226Z
 updated_date: 2020-05-02T14:29:31.242Z
-published: false
+published: true
 show_ads: false
 include_mathjax: true
 ---
-Vector and Matrices are at the heart of all Neural Networks. Today we are going to learn about vector and Matrix mathematics with the help of `Matplotlib`.
+Vector and Matrices are at the heart of all Neural Networks. Today we are going to learn about vector and Matrix mathematics with the help of `Matplotlib` and `numpy`.
 
 First, we are going to understand different analogies in Neural Networks which correspond to Vectors and Matrices.
 
@@ -221,4 +221,4 @@ vector_1.dot(vector_2)
 
 That's it for the basic version of mathematics using `numpy` and `matplotlib`. We will talk about more extended version of mathematics in different models in later versions.
 
-Do [subscribe](https://ranvir.xyz/blog/subscribe) 
+Do [subscribe](https://ranvir.xyz/blog/subscribe) to the newsletter, so that you get to know whenever I push a new tutorial.
