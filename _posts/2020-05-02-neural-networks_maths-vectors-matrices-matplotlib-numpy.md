@@ -58,7 +58,7 @@ For example, a few data points for predicting the next phone to review.
 
 ## Vectors in Simple Mathematics and its operations
 
-In general, a vector is defined as something having both magnitude and direction. If we can plot this in the 2-D graph, it will be represented as a line pointing toward a direction.
+In general, a vector is defined as something having both magnitude and direction. If we can plot this in the 2-D graph, it will be represented as a line pointing in a direction.
 
 From now on, we will be talking about vectors in a 2-D planes to make things simple.
 
