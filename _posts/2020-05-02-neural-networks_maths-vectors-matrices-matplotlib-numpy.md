@@ -88,7 +88,7 @@ We are going to use Matplotlib's `quiver` method to plot the vector on the 2D pl
 ```python
 plt.quiver(0, 0, 5, 3,  scale_units='xy', angles='xy', scale=1, color="red")
 
-# Just to make the 
+# Just to make the plot look better.
 plt.xlim(-5, 10)
 plt.ylim(-5, 10)
 ```
