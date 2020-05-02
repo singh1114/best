@@ -123,7 +123,7 @@ def plot_2D_vectors(vectors, colors=('red', 'blue', 'green')):
     plt.ylim(min_y, max_y)
 ```
 
-This function takes two arguments, first is the vectors and the other is the colors, whose default value is red, blue and green. We are also trying to figure out what should be the boundary of the graph by running a loop to find minimum and maximum of the graph by subtracting 1 from the minimum and maximum values of x and y.
+This function takes two arguments, first is the vectors and the other is the colors, whose default value is red, blue and green. We are also trying to figure out what should be the boundary of the graph by running a loop to find minimum and maximum of the graph by subtracting 1 from the minimum and adding 1 to the maximum values of x and y.
 
 This function will help us to apply various mathematical operations on vectors.
 
