@@ -180,8 +180,8 @@ plot_2D_vectors((np_vector_1, np_vector_2, proj_vector), ['r', 'green', 'red'])
 Projection of vector having 90 degree between them is 0.
 
 ```python
-np_vector_1 = np.asarray([0, 0, 4, 0])
-np_vector_2 = np.asarray([0, 0, 0, 4])
+np_vector_1 = np.array([0, 0, 4, 0])
+np_vector_2 = np.array([0, 0, 0, 4])
 dot_product = np.dot(np_vector_1, np_vector_2)
 proj_vector = (dot_product/np.power(np.linalg.norm(np_vector_2), 2))*np_vector_2
 
@@ -192,3 +192,33 @@ Mathematically, projection of one vector on another is given by,
 
 {% include math.html math_code="$\frac{\overrightarrow{x} . \overrightarrow{y}}{\begin{Vmatrix}\overrightarrow{y}\end{Vmatrix}^2}\ \overrightarrow{y}$" style="margin-top:0.2em;" %}
 
+## Matrices in Mathematics
+
+Matrices are the collection of vectors.
+
+Mathematically they are represented as,
+
+\begin{vmatrix}x_1 & x_2 & x_3\\ x_4 & x_5 & x_6\\ x_7 & x_8 & x_9\end{vmatrix}
+
+## Matrix Multiplication.
+
+Matrix multiplication is done by multiplying and adding every row to the corresponding columns.
+
+Read the [following post](http://www.texample.net/tikz/examples/matrix-multiplication/) to understand it thoroughly.
+
+We can do the same using numpy dot product as well.
+
+```python
+vector_1 = np.array([(1, 2, 3), (4, 5, 6), (7, 8, 9)])
+vector_2 = np.array([(1, 4), (2, 5), (3, 6)])
+
+vector_1.dot(vector_2)
+
+> array([[ 14,  32],
+       [ 32,  77],
+       [ 50, 122]])
+```
+
+That's it for the basic version of mathematics using `numpy` and `matplotlib`. We will talk about more extended version of mathematics in different models in later versions.
+
+Do [subscribe](https://ranvir.xyz/blog/subscribe) 
