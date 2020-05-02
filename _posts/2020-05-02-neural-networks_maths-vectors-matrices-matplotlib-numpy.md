@@ -25,7 +25,7 @@ Also, we are going to plot some vectors and see how vector operations work.
 
 ## Vector in Machine Learning
 
-> A vector represents one of the data points of the whole dataset.
+> A vector represents one of the data points in the whole dataset.
 
 For example, let's say you are working with a YouTube video creator who makes unboxing videos of different phones and other electronic stuff.
 
@@ -45,7 +45,7 @@ This one data point can be called a vector with a number of features being the d
 
 ## Matrix representation in Machine Learning
 
-> A Matrix can be represented as a set of a few vectors. The collection of data points can be considered as a Matrix.
+> A Matrix can be represented as a set of a few vectors. The collection of data points is a Matrix.
 
 For example, a few data points for predicting the next phone to review.
 
