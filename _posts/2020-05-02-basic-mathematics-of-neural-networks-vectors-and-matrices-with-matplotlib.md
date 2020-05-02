@@ -221,4 +221,4 @@ vector_1.dot(vector_2)
 
 That's it for the basic version of mathematics using `numpy` and `matplotlib`. We will talk about more extended version of mathematics in different models in later versions.
 
-Do [subscribe](https://ranvir.xyz/blog/subscribe) to the newsletter, so that you get to know whenever I push a new tutorial.
+Do [subscribe](https://ranvir.xyz/blog/subscribe) to the newsletter, so that you get to know whenever I push a new article.
