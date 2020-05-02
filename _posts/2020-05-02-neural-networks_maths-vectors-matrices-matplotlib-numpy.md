@@ -4,6 +4,16 @@ title: Basic Mathematics for Neural Networks | Vectors and Matrices with Matplot
 date: 2020-05-02T14:29:31.226Z
 updated_date: 2020-05-02T14:29:31.242Z
 published: true
+tags:
+  - machinelearning
+  - python
+  - datascience
+  - matplotlib
+categories:
+  - machinelearning
+  - python
+  - datascience
+  - matplotlib
 show_ads: false
 include_mathjax: true
 ---
@@ -11,11 +21,13 @@ Vector and Matrices are at the heart of all Neural Networks. Today we are going 
 
 First, we are going to understand different analogies in Neural Networks which correspond to Vectors and Matrices.
 
+Also, we are going to plot some vectors and see how vector operations work.
+
 ## Vector in Machine Learning
 
-> A vector represent one of the data point of the whole dataset.
+> A vector represents one of the data points of the whole dataset.
 
-For example, let's say you are working with a YouTube video creator who make unboxing videos of different phones and other electronic stuff.
+For example, let's say you are working with a YouTube video creator who makes unboxing videos of different phones and other electronic stuff.
 
 Just for the simplicity, your task is to predict which phone to review next so that your channel can get maximum views and maximum social media shares.
 
@@ -29,7 +41,7 @@ The features available to you are:
 | Apple    | 1000  | 3                 | 5.5           | 85%      |
 ```
 
-This one data point can be called as a vector with number of features being the dimension of the plane in which this vector can be represented.
+This one data point can be called a vector with a number of features being the dimension of the plane in which this vector can be represented.
 
 ## Matrix representation in Machine Learning
 
@@ -48,7 +60,7 @@ For example, a few data points for predicting the next phone to review.
 
 In general, a vector is defined as something having both magnitude and direction. If we can plot this in the 2-D graph, it will be represented as a line pointing toward a direction.
 
-From now on, we will be talking about vectors in 2-D planes to make things simple.
+From now on, we will be talking about vectors in a 2-D planes to make things simple.
 
 In mathematics, vector is represented as,
 
@@ -109,7 +121,7 @@ def plot_2D_vectors(vectors, colors=('red', 'blue', 'green')):
     plt.ylim(min_y, max_y)
 ```
 
-This function takes two arguments, first is the vectors and other is the colors, whose default value is red, blue and green. We are also trying to figure out what should be the boundary of the graph by running a loop to find minimum and maximum of the graph by subtracting 1 from the minimum and maximum values of x and y.
+This function takes two arguments, first is the vectors and the other is the colors, whose default value is red, blue and green. We are also trying to figure out what should be the boundary of the graph by running a loop to find minimum and maximum of the graph by subtracting 1 from the minimum and maximum values of x and y.
 
 This function will help us to apply various mathematical operations on vectors.
 
@@ -138,7 +150,7 @@ plot_2D_vector(np_vector_3, 'g')
 
 {% include lazyload.html image_src="https://i.ibb.co/PWHrNY0/Screenshot-2020-05-02-at-10-09-36-PM.png" image_alt="Adding two vectors using numpy" image_title="Adding two vectors using numpy" %}
 
-If we add two vector having obtuse angle in between them then the magnitude of the resultant vector decreases.
+If we add two vectors having an obtuse angle in between them then the magnitude of the resultant vector decreases.
 
 ```python
 np_vector_1 = np.array([0, 0, -5, -3])
@@ -164,7 +176,7 @@ plot_2D_vectors((np_vector_1, np_vector_2, np_vector_3), ['r', 'b', 'g'])
 
 ## Dot product of two vectors
 
-Dot product of two vectors gives just the magnitude by multiplying the point-wise values in the vector.
+The dot product of two vectors gives just the magnitude by multiplying the point-wise values in the vector.
 
 ```python
 np.dot(np.array([3, 4]), np.array([5, -1]))
@@ -189,7 +201,7 @@ plot_2D_vectors((np_vector_1, np_vector_2, proj_vector), ['r', 'green', 'red'])
 
 {% include lazyload.html image_src="https://i.ibb.co/z8MbQ1Q/Screenshot-2020-05-03-at-1-03-29-AM.png" image_alt="Projection with vectors on matplotlib" image_title="Projection with vectors on matplotlib" %}
 
-Projection of vector having 90 degree between them is 0.
+Projection of vector having 90 degrees between them is 0.
 
 ```python
 np_vector_1 = np.array([0, 0, 4, 0])
@@ -220,7 +232,7 @@ Matrix multiplication is done by multiplying and adding every row to the corresp
 
 Read the [following post](http://www.texample.net/tikz/examples/matrix-multiplication/) to understand it thoroughly.
 
-We can do the same using numpy dot product as well.
+We can do the same using NumPy dot product as well.
 
 ```python
 vector_1 = np.array([(1, 2, 3), (4, 5, 6), (7, 8, 9)])
@@ -233,6 +245,6 @@ vector_1.dot(vector_2)
        [ 50, 122]])
 ```
 
-That's it for the basic version of mathematics using `numpy` and `matplotlib`. We will talk about more extended version of mathematics in different models in later versions.
+That's it for the basic version of mathematics using `numpy` and `matplotlib`. We will talk about a more extended version of mathematics in different models in later versions.
 
 Do [subscribe](https://ranvir.xyz/blog/subscribe) to the newsletter, so that you get to know whenever I push a new article.
