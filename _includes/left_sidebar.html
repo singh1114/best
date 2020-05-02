@@ -19,7 +19,7 @@
       title="Submit to Hacker News">
       <i class="fa fa-hacker-news"></i>
     </a>
-  <a  href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title={{ page.title }}&summary={{ page.description }}&source={{ site.title }}"
+  <a  href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title={{ page.title | remove "|"}}&summary={{ page.description }}&source={{ site.title }}"
     onclick="gtag('event', 'LinkedIn', {'event_category':'Post Shared','event_label':'LinkedIn'}); window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
     title="Share on LinkedIn" >
     <i class="fa fa-linkedin"></i>
