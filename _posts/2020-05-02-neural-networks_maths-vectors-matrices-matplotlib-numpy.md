@@ -62,7 +62,7 @@ In general, a vector is defined as something having both magnitude and direction
 
 From now on, we will be talking about vectors in a 2-D planes to make things simple.
 
-In mathematics, vector is represented as,
+In mathematics, a vector is represented as,
 
 {% include math.html math_code="$\overrightarrow{x}$" style="margin-top:0.2em;" %}
 
@@ -73,6 +73,8 @@ Let's represent a simple vector in 2-D plane using matplotlib and numpy.
 ```
 
 {% include math.html math_code="$\begin{vmatrix}0\\ 0\end{vmatrix}\ and\ \begin{vmatrix}5\\ 3\end{vmatrix}$" style="margin-top:0.2em;" %}
+
+To represent this vector in a plane, we need to import NumPy and Matplotlib.
 
 ### Import required packages
 
