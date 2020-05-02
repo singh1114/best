@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Basic Mathematics of Neural Networks | Vectors and Matrices with Matplotlib
+title: Basic Mathematics for Neural Networks | Vectors and Matrices with Matplotlib
 date: 2020-05-02T14:29:31.226Z
 updated_date: 2020-05-02T14:29:31.242Z
 published: true
