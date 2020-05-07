@@ -24,8 +24,10 @@
       <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
       </script>
     {% endif %}
-    
-    <script data-ad-client="ca-pub-1291724895555434" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    {% if page.show_ads %}
+      <script data-ad-client="ca-pub-1291724895555434" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    {% endif %}
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-73349527-8"></script>
     <script>
