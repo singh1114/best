@@ -18,9 +18,9 @@ categories:
 show_ads: false
 redirect_from: []
 ---
-{% include lazyload.html image_src="https://i.ibb.co/C27KWdk/Untitled-presentation-1.png" image_alt="Integration testing in spring boot | Java" image_title="Integration testing in spring boot | Java" %}
-
 Shipping your product without testing is like buying a car without turning on the engine.
+
+{% include lazyload.html image_src="https://i.ibb.co/C27KWdk/Untitled-presentation-1.png" image_alt="Integration testing in spring boot | Java" image_title="Integration testing in spring boot | Java" %}
 
 We have to run a few tests again and again during the development of the product and if those tests are not automated, we will have a hard time testing our application.
 
