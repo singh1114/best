@@ -29,24 +29,24 @@ That is it for the prerequisites of the task and now is the time to accomplish i
 
 
 
- 	
+
   1. First of all add the requirements in the head of the html.
 
- 	
+
   2. Now let's make a navbar using bootstrap.
 
- 	
+
   3. Give this nav a id of header. We will target this id.
 
- 	
+
   4. Then add a div that will provide the required room to see the scrolling action.
 
- 	
+
   5. Now add the  following script.
 
 
 
-    
+```
     <!DOCTYPE html>
     <html>
     <head>
@@ -59,7 +59,7 @@ That is it for the prerequisites of the task and now is the time to accomplish i
      <!-- Code for number 1 ends -->
     </head>
     <body>
-    
+```
 
 
 
