@@ -63,13 +63,11 @@ How would you feel when you don't have to worry about the incoming request param
 
 Pretty awesome, right!
 
-You will never have to make any check related to the request parameters. All these checks will be transported to the middleware.
+You will never have to make any check related to the request parameters. All these checks will be transported to this single middleware.
 
 ## What is a middleware?
 
 > Middleware is a piece of code that is used to make changes to request or response data.
-
-In terms of web development, we call them middlewares... Just a fancy name( makes sense though).
 
 Let's start by writing a simple request validation middleware.
 
