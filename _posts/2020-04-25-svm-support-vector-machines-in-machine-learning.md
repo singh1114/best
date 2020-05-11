@@ -50,6 +50,7 @@ In general, the discussion of SVM is divided into three parts according to how S
 We will slowly move the article toward the Support Vector Machine but for a proper understanding of SVM's we have to go through, Maximal Margin Classifier and Support Vector Classifier.
 
 ## Maximal Margin Classifier
+----
 
 Maximal Margin Classifier is a model that is used to classify the observations into two parts using a hyperplane.
 
