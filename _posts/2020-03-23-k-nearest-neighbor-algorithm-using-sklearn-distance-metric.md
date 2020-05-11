@@ -3,11 +3,11 @@ layout: post
 title: Introduction to KNN | K-nearest neighbor algorithm using Examples
 date: 2020-03-22T18:30:00.000Z
 updated_date: 2020-03-22T18:30:00.000Z
-description: >-
-  Introduction to K-nearest neighbor( KNN) algorithm using sklearn. Using
-  different distance metrics and why is it important to normalize KNN features?
+description: Introduction to K-nearest neighbor( KNN) algorithm using sklearn.
+  Using different distance metrics and why is it important to normalize KNN
+  features?
 published: true
-image: 'https://i.imgur.com/3rMdVO4.png'
+image: https://i.imgur.com/3rMdVO4.png
 tags:
   - python
   - sklearn
@@ -18,12 +18,12 @@ categories:
   - sklearn
   - knn
   - machinelearning
-canonical_url: ''
+canonical_url: ""
 include_mathjax: true
 ---
-{% include lazyload.html image_src="https://i.imgur.com/3rMdVO4.png" image_alt="KNN algorithm python" image_title="KNN algorithm using sklearn" %}
-
 `KNN` also known as K-nearest neighbor is a [supervised and pattern classification learning algorithm](https://ranvir.xyz/blog/how-to-evaluate-your-machine-learning-model-like-a-pro-metrics/#supervised-learning-and-classification-problems) which helps us to find which class the new input(test value) belongs to when `k` nearest neighbors are chosen and distance is calculated between them.
+
+{% include lazyload.html image_src="https://i.imgur.com/3rMdVO4.png" image_alt="KNN algorithm python" image_title="KNN algorithm using sklearn" %}
 
 > It attempts to estimate the conditional distribution of `Y` given `X`, and classify a given observation(test value) to the class with highest estimated probability.
 
@@ -47,6 +47,10 @@ The distance can be calculated using different ways which include these methods,
 * etc...
 
 For more information on distance metrics which can be used, please read [this post on KNN](https://www.saedsayad.com/k_nearest_neighbors.htm).
+
+Minkowski is the one that is used by default.
+
+{% include lazyload.html image_src="https://i.ibb.co/YPMYNXV/Screenshot-2020-05-11-at-11-48-50-PM.png" image_alt="KNN using minkowski" image_title="KNN using minkowski" %}
 
 You can use any method from the list by passing `metric` parameter to the KNN object. Here is an answer on [Stack Overflow which will help](https://stackoverflow.com/questions/21052509/sklearn-knn-usage-with-a-user-defined-metric). You can even use some random distance metric.
 
