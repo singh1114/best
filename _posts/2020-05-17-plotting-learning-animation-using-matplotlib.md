@@ -10,5 +10,5 @@ Plotting various things in the data analysis is the best part to make sense of y
 
 Plotting a plot of data using Matplotlib is fairly is easy. All you have to do is to use different functions available in Matplotlib with different `x` and `y` values and Matplotlib will plot something for you.
 
-In this post, we are not going to talk about a special type of animation plot in which you can see how your neural network is learning.
+In this post, we are going to talk about a special type of animation plot in which you can see how your neural network is learning different values of weights and threshold( Also known as bias).
 
