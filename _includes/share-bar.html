@@ -3,28 +3,28 @@
     <h4>Share this:</h4>
 
     <div class="share-buttons">
-        <a  href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+        <a  class="horizontal-share-buttons" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}"
             onclick="gtag('event', 'Facebook', {'event_category':'Post Shared','event_label':'Facebook'}); window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
             title="Share on Facebook" >
             <span class="icon-facebook2"></span>
         </a>
-        <a  href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+        <a  class="horizontal-share-buttons" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ site.baseurl }}{{ page.url }}"
             onclick="gtag('event', 'Twitter', {'event_category':'Post Shared','event_label':'Twitter'}); window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
             title="Share on Twitter" >
             <span class="icon-twitter"></span>
         </a>
-        <a  href="http://www.reddit.com/submit?url={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+        <a  class="horizontal-share-buttons" href="http://www.reddit.com/submit?url={{ site.url }}{{ site.baseurl }}{{ page.url }}"
           onclick="gtag('event', 'Reddit', {'event_category':'Post Shared','event_label':'Reddit'}); window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
           title="Share on Reddit" >
           <span class="icon-reddit"></span>
         </a>
-        <a  href="https://news.ycombinator.com/submitlink?u={{ site.url }}{{ site.baseurl }}{{ page.url }}&amp;t={{ page.title }}"
+        <a  class="horizontal-share-buttons" href="https://news.ycombinator.com/submitlink?u={{ site.url }}{{ site.baseurl }}{{ page.url }}&amp;t={{ page.title }}"
         onclick="gtag('event', 'Hacker News', {'event_category':'Post Shared','event_label':'Hacker News'}); window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
           title="Submit to Hacker News">
           <span class="icon-hackernews"></span>
         </a>
         {% assign pageTitle = page.title | remove: '|' -%}
-        <a  href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title={{ pageTitle }}&summary={{ page.description }}&source={{ site.title }}"
+        <a  class="horizontal-share-buttons" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title={{ pageTitle }}&summary={{ page.description }}&source={{ site.title }}"
           onclick="gtag('event', 'LinkedIn', {'event_category':'Post Shared','event_label':'LinkedIn'}); window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
           title="Share on LinkedIn" >
           <span class="icon-linkedin"></span>
@@ -42,9 +42,10 @@
             <i class="fa fa-tumblr share-button"> tumblr</i>
         </a> -->
 
-        <a  href="mailto:?subject={{ page.title }}&amp;body=Check out this site {{ site.url }}{{ site.baseurl }}{{ page.url }}"
-            title="Share via Email" >
-            Email
+        <a  class="horizontal-share-buttons" href="mailto:?subject={{ page.title }}&amp;body=Check out this site {{ site.url }}{{ site.baseurl }}{{ page.url }}"
+           onclick="gtag('event', 'Emain', {'event_category':'Post Shared','event_label':'Email'}); window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" 
+           title="Share via Email" >
+           Email
         </a>
     </div>
 
@@ -53,6 +54,9 @@
 /* Share Bar */
 #share-bar {
     font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    padding: 0.3em;
 }
 
 /* Title */
@@ -63,6 +67,12 @@
 
 /* All buttons */
 .share-buttons {
+}
+    
+.horizontal-share-buttons {
+    border: 1px solid #ccc;
+    border-radius: 0.2em;
+    padding: 0.2em;
 }
 
 /* Each button */
@@ -79,75 +89,45 @@
 }
 
 /* Facebook button */
-.fa-facebook-official {
+.icon-facebook2 {
     color: #3b5998;
 }
-.fa-facebook-official:hover {
+
+.icon-facebook2:hover {
     background-color: #3b5998;
 }
 
 /* Twitter button */
-.fa-twitter {
+.icon-twitter {
     color: #55acee;
 }
-.fa-twitter:hover {
+.icon-twitter:hover {
     background-color: #55acee;
 }
 
-/* Google-PLus button */
-.fa-google-plus {
-    color: #dd4b39;
-}
-.fa-google-plus:hover {
-    background-color: #dd4b39;
-}
-
-/* Pinterest button */
-.fa-pinterest-p {
-    color: #cb2027;
-}
-.fa-pinterest-p:hover {
-    background-color: #cb2027;
-}
-
-/* Tumblr button */
-.fa-tumblr {
-    color: #32506d;
-}
-.fa-tumblr:hover {
-    background-color: #32506d;
-}
-
 /* Reddit button */
-.fa-reddit-alien {
+.icon-reddit {
     color: #ff4500;
 }
-.fa-reddit-alien:hover {
+.icon-reddit:hover {
     background-color: #ff4500;
 }
 
 /* Reddit button */
-.fa-hacker-news {
+.icon-hackernews {
     color: #ff4500;
 }
-.fa-hacker-news:hover {
+
+.icon-hackernews:hover {
     background-color: #ff4500;
 }
 
 /* LinkedIn button */
-.fa-linkedin {
+.icon-linkedin {
     color: #007bb5;
 }
-.fa-linkedin:hover {
+.icon-linkedin:hover {
     background-color: #007bb5;
-}
-
-/* Email button */
-.fa-envelope {
-    color: #444444;
-}
-.fa-envelope:hover {
-    background-color: #444444;
 }
 
 </style>
