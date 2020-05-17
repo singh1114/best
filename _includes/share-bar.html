@@ -6,28 +6,28 @@
         <a  class="horizontal-share-buttons" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}"
             onclick="gtag('event', 'Facebook', {'event_category':'Post Shared','event_label':'Facebook'}); window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
             title="Share on Facebook" >
-            <span class="icon-facebook2"></span>
+            <span class="icon-facebook2">Facebook</span>
         </a>
         <a  class="horizontal-share-buttons" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ site.baseurl }}{{ page.url }}"
             onclick="gtag('event', 'Twitter', {'event_category':'Post Shared','event_label':'Twitter'}); window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
             title="Share on Twitter" >
-            <span class="icon-twitter"></span>
+            <span class="icon-twitter">Twitter</span>
         </a>
         <a  class="horizontal-share-buttons" href="http://www.reddit.com/submit?url={{ site.url }}{{ site.baseurl }}{{ page.url }}"
           onclick="gtag('event', 'Reddit', {'event_category':'Post Shared','event_label':'Reddit'}); window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
           title="Share on Reddit" >
-          <span class="icon-reddit"></span>
+          <span class="icon-reddit">Reddit</span>
         </a>
         <a  class="horizontal-share-buttons" href="https://news.ycombinator.com/submitlink?u={{ site.url }}{{ site.baseurl }}{{ page.url }}&amp;t={{ page.title }}"
         onclick="gtag('event', 'Hacker News', {'event_category':'Post Shared','event_label':'Hacker News'}); window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
           title="Submit to Hacker News">
-          <span class="icon-hackernews"></span>
+          <span class="icon-hackernews">Hackernews</span>
         </a>
         {% assign pageTitle = page.title | remove: '|' -%}
         <a  class="horizontal-share-buttons" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title={{ pageTitle }}&summary={{ page.description }}&source={{ site.title }}"
           onclick="gtag('event', 'LinkedIn', {'event_category':'Post Shared','event_label':'LinkedIn'}); window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
           title="Share on LinkedIn" >
-          <span class="icon-linkedin"></span>
+          <span class="icon-linkedin">LinkedIn</span>
         </a>
 
 <!--         <a  href="http://pinterest.com/pin/create/button/?url={{ site.url }}{{ site.baseurl }}{{ page.url }}"
@@ -73,6 +73,7 @@
     border: 1px solid #ccc;
     border-radius: 0.2em;
     padding: 0.2em;
+    margin-right: 0.2em;
 }
 
 /* Each button */
