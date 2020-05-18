@@ -5,14 +5,5 @@
     {% assign series_title = site.series_array %}
     {{series_slug}}
     {{series_title}}
-    {% if post.series_unique_code == include.series_unique_code %}
-      {{ series_unique_code }}
-      {{ series_slug | push post.slug }}
-      {{ series_pos | push post.title }}
-    {% endif %}
-  {% endfor %}
-  {% for post in series_slug %}
-    <h3>{{ series_slug[forloop.index0] }}</h3>
-    <h5>{{ series_title[forloop.index0] }}</h5>
   {% endfor %}
 {% endif %}
