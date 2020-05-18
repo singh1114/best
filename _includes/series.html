@@ -6,13 +6,13 @@
     {% if post.series_unique_code == include.series_unique_code %}
       {{ post.series_unique_code }}
       {{ post.slug }}
-      {{post.title}}
+      {{ post.title }}
       {% assign series_slug = series_slug | push: post.slug %}
       {% assign series_title = series_title | push: post.title %}
     {% endif %}
   {% endfor %}
   {% for post in series_slug %}
     <h4>{{ series_slug[forloop.index0] }}</h4>
-    <h5>{{series_slug[forloop.index0]}}</h5>
+    <h5>{{ series_slug[forloop.index0] }}</h5>
   {% endfor %}
 {% endif %}
