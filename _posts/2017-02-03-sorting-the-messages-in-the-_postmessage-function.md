@@ -6,6 +6,7 @@ comments: true
 layout: post
 link: https://ranvirsinghprojects.wordpress.com/2017/02/03/sorting-the-messages-in-the-_postmessage-function/
 wordpress_id: 623
+series_unique_code: data-science
 ---
 
 I am trying to sort the messages that I am receiving when I used the getHistory function in the Message Archiving. But till now I haven't found a success.
