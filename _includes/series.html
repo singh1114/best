@@ -1,0 +1,14 @@
+{% if include.series_unique_code %}
+  {% for post in posts %}
+    {% assign series_slug = site.series_array %}
+    {% assign series_title = site.series_array %}
+    {% if post.series_unique_code == include.series_unique_code %}
+      {{ series_slug | push post.slug }}
+      {{ series_pos | push post.title }}
+    {% endif %}
+  {% endfor %}
+  {% for post in series_slug %}
+    <h3>{{ series_slug[forloop.index0] }}</h3>
+    <h5>{{ series_title[forloop.index0] }}</h5>
+  {% endfor %}
+{% endif %}

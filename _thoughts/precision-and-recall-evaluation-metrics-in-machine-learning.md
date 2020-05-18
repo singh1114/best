@@ -19,6 +19,8 @@ need_font_awesome: true
 ---
 Precision and Recall are two best known and most misunderstood evaluation metrics in machine learning. In this article we are going to discuss the simplest way in which we can understand them with an example.
 
+{% include series.html series_unique_code="data-science" %}
+
 Consider that we were playing a simple game online. The rules of the game are pretty simple, you will have to shoot the space ships of the opposition constantly, until you see a survivor space ship coming toward you.
 
 {% include lazyload.html image_src="https://i.ibb.co/C68RwcW/Screenshot-2020-04-30-at-1-51-48-AM.png" image_alt="Space game example for understanding precision and recall" image_title="Space game example for understanding precision and recall" %}
