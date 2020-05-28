@@ -94,3 +94,15 @@ For example, We can change `Cost` feature to `Cost above > $1000` etc.
 
 Geometrically MP neuron is not very different from the [Support Vector Machine](https://ranvir.xyz/blog/svm-support-vector-machines-in-machine-learning/) model which also tries to divide the data using a line. The only thing missing in MP neurons is the Support Vectors.
 
+- Talk about the line, some mathematical equations will also work.
+- Tell how on one side the value is greater than 0 and on other side it is less than 0.
+
+## Epochs
+
+## Learning Rate
+
+## The MP neuron class itself
+
+## Training a simple model with plots
+
+## Animation plot of learning.
