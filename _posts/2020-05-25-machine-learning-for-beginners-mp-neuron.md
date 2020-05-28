@@ -106,3 +106,5 @@ Geometrically MP neuron is not very different from the [Support Vector Machine](
 ## Training a simple model with plots
 
 ## Animation plot of learning.
+
+## No Disadvantage discussion in this post
