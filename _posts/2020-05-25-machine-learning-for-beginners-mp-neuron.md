@@ -145,10 +145,6 @@ class MPModel:
         self.threshold = None
         if function == 'sum':
             self.function = self.sum_function
-        elif function == 'and':
-            self.function = self.and_function
-        elif function == 'or':
-            self.function = self.or_function    
             
     def sum_function(self, x):
         return sum(x) >= self.threshold
