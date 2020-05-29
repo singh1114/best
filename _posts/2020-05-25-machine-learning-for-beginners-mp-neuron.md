@@ -3,8 +3,19 @@ layout: post
 title: Machine learning for beginners - MP Neuron
 date: 2020-05-25T18:24:54.259Z
 updated_date: 2020-05-25T18:24:54.280Z
-published: false
-show_ads: false
+description: Introduction to Neural Networks using MP neuron with full
+  discussion on different things like threshold, loss function and learning
+  algorithm.
+published: true
+tags:
+  - machinelearning
+  - datascience
+  - numpy
+categories:
+  - machinelearning
+  - datascience
+  - numpy
+show_ads: true
 ---
 MP neuron is the first step toward opening up the doors of artificial neural networks, which was made somewhat by copying some parts of biological neural networks.
 
@@ -58,8 +69,6 @@ f(g(x)) is 1, if g(x) >= b
 
 This simply means that we are going to sum all the input variables, and if the sum of those variables is greater than or equal to some variable, `b`, we will return 1( or we will review the phone) else it will return 0( We will not review).
 
-Some people refer `g(x)` as the activation function and `f(x)` as the loss function.
-
 ## Threshold in Neural Network
 
 Wait, did I forgot to define, `b`. Sorry, my bad. `b` is term that we want to find so that we can find a clear separation between our classes( Reviewed and Not Reviewed in this case).
@@ -94,17 +103,113 @@ For example, We can change `Cost` feature to `Cost above > $1000` etc.
 
 Geometrically MP neuron is not very different from the [Support Vector Machine](https://ranvir.xyz/blog/svm-support-vector-machines-in-machine-learning/) model which also tries to divide the data using a line. The only thing missing in MP neurons is the Support Vectors.
 
-- Talk about the line, some mathematical equations will also work.
-- Tell how on one side the value is greater than 0 and on other side it is less than 0.
+The equation of the line is given by,
 
-## Epochs
+{% include math.html math_code="$x_1 + x_2 + b = 0$" style="margin-top:0.2em;" %}
 
-## Learning Rate
+This means that any point toward the one side of the line will produce +ve values and points on the other side will produce -ve values.
+
+Extending it to the Reviewed/ Not Reviewed format, we will have all reviewed phones on one side of the line and not reviewed phones on the other.
+
+## How to calculate the threshold?
+
+The main purpose of any model is to learn the correct values of these variables. `b` is the only variable in MP Neuron case. We will use a small trick so that we don't have to check every possible value in the world to compute the correct threshold.
+
+Every model is evaluated by comparing the true output with the predicted output to check how much accurate is our model. Mean Squared Error is one of those methods, which is also known as the **loss function**.
+
+{% include math.html math_code="$\sum_{i}^{n}(y - \widehat{y})^2$" style="margin-top:0.2em;" %}
+
+{% include math.html math_code="$where\ \widehat{y}\ is\ the\ predicted\ value.$" %}
+
+What we want to do is to minimize the value of the loss function.
+
+We also are aware that maximum sum that the model can have is equal to the number of features. Therefore, the value of threshold can vary from 0 to `n`.
+
+We will calculate the corresponding loss at each data point and pick the threshold having the least loss.
 
 ## The MP neuron class itself
 
-## Training a simple model with plots
+Now we will build the MP Neuron class that we can use to train our model. We will use the same format we were using before. A method called `fit` to fit the model and `predict` to predict the output.
 
-## Animation plot of learning.
+```python
+import pandas as pd
+
+import numpy as np
+from sklearn.metrics import accuracy_score
+import operator
+
+class MPModel:
+    def __init__(self, function='sum'):
+        # We can pass some initial value of threshold.
+        self.threshold = None
+        if function == 'sum':
+            self.function = self.sum_function
+        elif function == 'and':
+            self.function = self.and_function
+        elif function == 'or':
+            self.function = self.or_function    
+            
+    def sum_function(self, x):
+        return sum(x) >= self.threshold
+    
+    def and_function(self, x):
+        return all(x)
+    
+    def or_function(self, x):
+        return any(x)
+
+    def fit(self, X_DataFrame, y_DataFrame):
+        threshold_accuracy_dict = {}
+        for threshold in range(len(X_DataFrame.columns) + 1):
+            threshold_accuracy_dict[threshold] = None
+        for threshold in threshold_accuracy_dict.keys():
+            self.threshold = threshold
+            predictions = self.predict(X_DataFrame)
+            threshold_accuracy_dict[threshold] = accuracy_score(y_DataFrame, predictions)
+        self.threshold = max(threshold_accuracy_dict.items(), key=operator.itemgetter(1))[0]
+        print(self.threshold, 'threshold', threshold_accuracy_dict)
+
+    def predict(self, X_DataFrame):
+        results = np.array([])
+        for i in range(len(X_DataFrame)):
+            result = self.function(X_DataFrame.iloc[i])
+            results = np.append(results, result)
+        return results
+```
+
+## Training and predict a simple model
+
+Consider the following data which we can use to train the MP Neuron model.
+
+```python
+df_dict = {
+    'Wind': [0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0],
+    'Temp': [1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0],
+    'Played': [0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 0]
+}
+pd_df = pd.DataFrame(df_dict)
+
+
+mpm = MPModel()
+mpm.fit(pd_df[['Wind', 'Temp']], pd_df['Played'])
+
+df_dict_test = {
+    'Wind': [0, 1, 0, 0, 0],
+    'Temp': [1, 1, 1, 1, 0],
+    'Played': [0, 1, 1, 1, 0]
+}
+
+pd_df_test = pd.DataFrame(df_dict_test)
+predictions = mpm.predict(pd_df_test[['Wind', 'Temp']])
+accuracy_score(predictions, pd_df_test['Played'])
+```
+
+```python
+> 0.8
+```
 
 ## No Disadvantage discussion in this post
+
+We will not discuss anything related to what disadvantages does MP neuron have. We have moved the discussion to the next Neural Network in the list, which is a little better than this one.
+
+The reason we discussed MP Neuron is very important, It is very important to start from basics if you want to learn something. This is the model from which everything started making much more sense.
