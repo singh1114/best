@@ -118,7 +118,7 @@ The main purpose of any model is to learn the correct values of these variables.
 
 Every model is evaluated by comparing the true output with the predicted output to check how much accurate is our model. Mean Squared Error is one of those methods, which is also known as the **loss function**.
 
-{% include math.html math_code="$\sum_{i}^{n}(y - \widehat{y})^2$" style="margin-top:0.2em;" %}
+{% include math.html math_code="$\displaystyle \sum_{i}^{n}(y - \widehat{y})^2$" style="margin-top:0.2em;" %}
 
 {% include math.html math_code="$where\ \widehat{y}\ is\ the\ predicted\ value.$" %}
 
