@@ -208,8 +208,10 @@ accuracy_score(predictions, pd_df_test['Played'])
 > 0.8
 ```
 
-## No Disadvantage discussion in this post
+---
 
 We will not discuss anything related to what disadvantages does MP neuron have. We have moved the discussion to the next Neural Network in the list, which is a little better than this one.
+
+In the second it will become clear to your partner that MP neuron is indeed not a good idea for the kind of problem you are trying to solve.
 
 The reason we discussed MP Neuron is very important, It is very important to start from basics if you want to learn something. This is the model from which everything started making much more sense.
