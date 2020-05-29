@@ -16,6 +16,7 @@ categories:
   - datascience
   - numpy
 show_ads: false
+include_mathjax: true
 ---
 MP neuron is the first step toward opening up the doors of artificial neural networks, which was made somewhat by copying some parts of biological neural networks.
 
