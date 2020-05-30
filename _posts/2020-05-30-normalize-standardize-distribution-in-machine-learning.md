@@ -97,7 +97,7 @@ This standardization uses the values of mean and standard deviation to calculate
 
 {% include lazyload.html image_src="https://i.ibb.co/8Ms1K4Y/Screenshot-2020-05-12-at-12-42-38-AM.png" image_alt="KNN algorithm StandardScaler normalization" image_title="KNN algorithm StandardScaler normalization" %}
 
-## Apply Standardization on a dataset
+## Apply Normalization on a dataset
 
 ```python
 from sklearn.preprocessing import MinMaxScaler
