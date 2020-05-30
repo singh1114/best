@@ -17,7 +17,7 @@ categories:
   - testing
 show_ads: false
 ---
-It is very important to automate the process of running the tests before deploying your code. [CircleCI](https://circleci.com/) is a good service which can help you to create [CI](https://en.wikipedia.org/wiki/Continuous_integration) pipelines for your project.
+It is very important to automate the process of running the tests before deploying your code. [CircleCI](https://circleci.com/) is a platform which can you to create [CI](https://en.wikipedia.org/wiki/Continuous_integration) pipelines for your project.
 
 {% include lazyload.html image_src="https://i.ibb.co/Fgf1hTz/Main-Images-1.png" image_alt="Creating Maven based Spring Boot CI pipeline using CircleCI" image_title="Creating Maven based Spring Boot CI pipeline using CircleCI" %}
 
