@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Creating Maven Spring Boot CI pipeline using CircleCI
+title: Creating Maven based Spring Boot CI pipeline using CircleCI
 date: 2020-05-30T15:10:30.507Z
 updated_date: 2020-05-30T15:10:30.523Z
 description: Setting up continuous Integration pipeline for maven based spring
