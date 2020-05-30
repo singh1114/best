@@ -23,6 +23,8 @@ Normalizing and standardizing are the common concepts in statistics which help t
 
 Does that sound odd? Don't worry keep going and you will know what I am talking about.
 
+{% include lazyload.html image_src="https://i.ibb.co/0KKGBsN/Main-Images-1.png" image_alt="Normalizing or Standardizing distribution " image_title="Normalizing or Standardizing distribution " %}
+
 ## Why do we want to Normalize the distribution
 
 Let's first start with the `why` and then move to the further questions.
