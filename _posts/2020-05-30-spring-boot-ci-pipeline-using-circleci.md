@@ -3,7 +3,17 @@ layout: post
 title: Creating Maven Spring Boot CI pipeline using CircleCI
 date: 2020-05-30T15:10:30.507Z
 updated_date: 2020-05-30T15:10:30.523Z
+description: Setting up continuous Integration pipeline for maven based spring
+  boot application using circleci.
 published: true
+tags:
+  - java
+  - springboot
+  - testing
+categories:
+  - java
+  - springboot
+  - testing
 show_ads: false
 ---
 It is very important to automate the process of running the tests before deploying your code. [CircleCI](https://circleci.com/) is a good service which can help you to create [CI](https://en.wikipedia.org/wiki/Continuous_integration) pipelines for your project.
