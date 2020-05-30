@@ -18,7 +18,7 @@ categories:
 show_ads: false
 include_mathjax: true
 ---
-MP neuron is the first step toward opening up the doors of artificial neural networks, which was made somewhat by copying some parts of biological neural networks.
+MP neuron is the first step toward opening up the doors of artificial neural networks and artificial intelligence as a whole. It was made somewhat by copying some parts of biological neural networks.
 
 A lot of posts do a wonderful job in explaining the biological neural network. So, I am not going to step into that territory. What we are going to in this post is build the intuition for upcoming posts of more sophisticated neural networks by learning how it all started.
 
@@ -26,7 +26,7 @@ We are going to talk about things like, how MP neuron works. We will also, build
 
 So, Let's get started.
 
-First, those who are interested in knowing the workings of biological neural network can check it on [WikiPedia](https://en.wikipedia.org/wiki/Biological_neuron_model).
+First, those who are interested in knowing the workings of biological neural network can check it on [Wikipedia](https://en.wikipedia.org/wiki/Biological_neuron_model).
 
 Let's get back to the example that we used in the case of our [Mathematics for Neural Network post](https://ranvir.xyz/blog/neural-networks_maths-vectors-matrices-matplotlib-numpy/).
 
