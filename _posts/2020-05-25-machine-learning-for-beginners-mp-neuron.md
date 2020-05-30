@@ -29,7 +29,7 @@ We are going to talk about things like, how MP neuron works. We will also, build
 
 So, Let's get started.
 
-First, those who are interested in knowing the workings of biological neural network can check it on [Wikipedia](https://en.wikipedia.org/wiki/Biological_neuron_model).
+First, those who are interested in understanding the workings of biological neural network can check it on [Wikipedia](https://en.wikipedia.org/wiki/Biological_neuron_model).
 
 Let's get back to the example that we used in the case of our [Mathematics for Neural Network post](https://ranvir.xyz/blog/neural-networks_maths-vectors-matrices-matplotlib-numpy/).
 
