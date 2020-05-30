@@ -5,6 +5,16 @@ date: 2020-05-30T19:47:42.383Z
 updated_date: 2020-05-30T19:47:42.399Z
 description: How to Normalize or Standardize distribution in Machine Learning.
 published: true
+tags:
+  - machinelearning
+  - datascience
+  - sklearn
+  - python
+categories:
+  - machinelearning
+  - datascience
+  - sklearn
+  - python
 show_ads: false
 include_mathjax: true
 ---
