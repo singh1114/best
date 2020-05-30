@@ -6,6 +6,7 @@ updated_date: 2020-05-30T19:47:42.399Z
 description: How to Normalize or Standardize distribution in Machine Learning.
 published: true
 show_ads: false
+include_mathjax: true
 ---
 Normalizing and standardizing are the common concepts in statistics which help the data to bring under a common shelter without changing the relative difference between the different values present in data.
 
