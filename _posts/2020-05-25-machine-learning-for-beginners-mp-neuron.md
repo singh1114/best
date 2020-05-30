@@ -7,6 +7,7 @@ description: Introduction to Neural Networks using MP neuron with full
   discussion on different things like threshold, loss function and learning
   algorithm.
 published: true
+image: https://i.ibb.co/s296sdn/Main-Images.png
 tags:
   - machinelearning
   - datascience
@@ -18,9 +19,11 @@ categories:
 show_ads: false
 include_mathjax: true
 ---
-MP neuron is the first step toward opening up the doors of artificial neural networks and artificial intelligence as a whole. It was made somewhat by copying some parts of biological neural networks.
+MP neuron is the first step toward opening up the doors of artificial neural networks and artificial intelligence as a whole. It was made somewhat by taking inspiration from parts of biological neural networks.
 
-A lot of posts do a wonderful job in explaining the biological neural network. So, I am not going to step into that territory. What we are going to in this post is build the intuition for upcoming posts of more sophisticated neural networks by learning how it all started.
+{% include lazyload.html image_src="https://i.ibb.co/s296sdn/Main-Images.png" image_alt="Introduction to Machine learning - MP neuron" image_title="Introduction to Machine learning - MP neuron" %}
+
+A lot of posts do a wonderful job in explaining the biological neural network so, I am not going to step into that territory. What we are going to in this post is build the intuition for upcoming posts of more sophisticated neural networks by learning how it all started.
 
 We are going to talk about things like, how MP neuron works. We will also, build the MP neuron class which we can use to train our models and predict simple things.
 
@@ -32,13 +35,13 @@ Let's get back to the example that we used in the case of our [Mathematics for N
 
 > Let’s say you are working with a YouTube video creator who makes unboxing videos of different phones and other electronic stuff. Your task is to predict which phone to review next so that your channel can get maximum views and maximum social media shares.
 
-Now there are a lot of ways in which we can tackle this problem. We can go with a rule based system where we define which brands we want to review, what phone cost we want to review and many more.
+Now there are a lot of ways in which we can tackle this problem. We can go with a rule based system where we define which brands we want to review, whether we want to review phones with low cost, average cost or high cost.
 
 The YouTube channel owner interviewed someone for his last YouTube video and told him that the MP neuron is the best way to make such predictions, and he should definitely ask his Data scientist to use MP neuron.
 
 You tried to tell him about stuff like accuracy and other things, but he refuses to listen. So, you decided to show him by explaining him about the inner working of the neuron.
 
-Let's take an example of the data that you had available and try building the intuition from there.
+Let's take an example of the video data that you have available and try building the intuition from there.
 
 ```
 | Company  | Price | Number of Cameras | Screen length | Reviewed |
@@ -51,7 +54,7 @@ Let's take an example of the data that you had available and try building the in
 
 ## Building blocks of a Neural Network
 
-In case of every Neural Network, we have a simple job, we will feed the data to the neuron and it will give us some output. For example, telling us whether we should review the phone or not.
+In case of every Neural Network( even the ones we are going to talk about in the next few posts), we have a simple job, we will feed the data to the neuron and it will give us some output. For example, telling us whether we should review the phone or not.
 
 This inner algorithm which helps a neuron to come to a conclusion is known as the `Model`.
 
@@ -72,7 +75,9 @@ This simply means that we are going to sum all the input variables, and if the s
 
 ## Threshold in Neural Network
 
-Wait, did I forgot to define, `b`. Sorry, my bad. `b` is term that we want to find so that we can find a clear separation between our classes( Reviewed and Not Reviewed in this case).
+Wait, did I forgot to define, `b`? Sorry, my bad.
+
+`b` is term that we want to find so that we can find a clear separation between our classes( Reviewed and Not Reviewed in this case). It is also known as **threshold/bias**.
 
 > What are we going to do about the features having String values?
 
@@ -80,7 +85,7 @@ You might be asking yourself if we are going to sum stuff together, we won't be 
 
 Well it is partially true.
 
-Of course, we can't use it directly, but we can convert this column into few different columns like, `is_apple` or `is_samsung` which will tell whether the phone was of Company `Apple` or not and whether the phone was of Company `Samsung` or not.
+Of course, we can't use them directly, but we can convert the `Company` column to few different columns like, `is_apple` or `is_samsung` which will tell whether the phone was of Company `Apple` or not and whether the phone was of Company `Samsung` or not.
 
 We can easily do this using Pandas,
 
@@ -98,7 +103,7 @@ If you don't understand Pandas stuff, you might want to quickly, get a sneak pee
 
 Well, you might have guessed it till now and if you haven't, we can only use features having binary data. If we don't have binary features, we will have to convert it to Binary features.
 
-For example, We can change `Cost` feature to `Cost above > $1000` etc.
+For example, We can change `Cost` feature to `Cost above > $1000` etc. If the cost is less than `$1000`, we will set the value to 0 and vice-versa.
 
 ## Geometrical representation
 
@@ -106,7 +111,7 @@ Geometrically MP neuron is not very different from the [Support Vector Machine](
 
 The equation of the line is given by,
 
-{% include math.html math_code="$x_1 + x_2 + b = 0$" style="margin-top:0.2em;" %}
+{% include math.html math_code="$x_1 + x_2 - b = 0$" style="margin-top:0.2em;" %}
 
 This means that any point toward the one side of the line will produce +ve values and points on the other side will produce -ve values.
 
@@ -114,9 +119,9 @@ Extending it to the Reviewed/ Not Reviewed format, we will have all reviewed pho
 
 ## How to calculate the threshold?
 
-The main purpose of any model is to learn the correct values of these variables. `b` is the only variable in MP Neuron case. We will use a small trick so that we don't have to check every possible value in the world to compute the correct threshold.
+The main purpose of any model is to learn the correct values of the variables. `b` is the only variable in MP Neuron's case. We will use a small trick so that we don't have to check every possible value in the world to compute the correct threshold.
 
-Every model is evaluated by comparing the true output with the predicted output to check how much accurate is our model. Mean Squared Error is one of those methods, which is also known as the **loss function**.
+Every [model is evaluated](https://ranvir.xyz/blog/how-to-evaluate-your-machine-learning-model-like-a-pro-metrics/) by comparing the true output with the predicted output to check how much accurate is our model. Mean Squared Error is one of those methods, which is also known as the **loss function**.
 
 {% include math.html math_code="$\displaystyle \sum_{i}^{n}(y - \widehat{y})^2$" style="margin-top:0.2em;" %}
 
@@ -124,11 +129,11 @@ Every model is evaluated by comparing the true output with the predicted output 
 
 What we want to do is to minimize the value of the loss function.
 
-We also are aware that maximum sum that the model can have is equal to the number of features. Therefore, the value of threshold can vary from 0 to `n`.
+We also are aware that the maximum sum that the model can have is equal to the number of features as we are only allowing binary features. Therefore, the value of threshold can vary from 0 to `n`.
 
 We will calculate the corresponding loss at each data point and pick the threshold having the least loss.
 
-## The MP neuron class itself
+## The MP Neuron class
 
 Now we will build the MP Neuron class that we can use to train our model. We will use the same format we were using before. A method called `fit` to fit the model and `predict` to predict the output.
 
@@ -174,7 +179,7 @@ class MPModel:
         return results
 ```
 
-## Training and predict a simple model
+## Training and predicting a simple model
 
 Consider the following data which we can use to train the MP Neuron model.
 
@@ -191,9 +196,9 @@ mpm = MPModel()
 mpm.fit(pd_df[['Wind', 'Temp']], pd_df['Played'])
 
 df_dict_test = {
-    'Wind': [0, 1, 0, 0, 0],
-    'Temp': [1, 1, 1, 1, 0],
-    'Played': [0, 1, 1, 1, 0]
+    'Wind': [0, 1, 1, 0],
+    'Temp': [1, 1, 0, 0],
+    'Played': [1, 1, 1, 0]
 }
 
 pd_df_test = pd.DataFrame(df_dict_test)
@@ -202,13 +207,42 @@ accuracy_score(predictions, pd_df_test['Played'])
 ```
 
 ```python
-> 0.8
+> 1.0
 ```
+
+# Plotting learned values
+
+```
+import matplotlib.pyplot as plt
+
+x = np.linspace(-0.5, 1.5, 100)
+y = -x + 1
+plt.plot(x, y, '-r', label='y=2x+1')
+plt.plot()
+plt.scatter(df_dict_test['Wind'], df_dict_test['Temp'], c=df_dict_test['Played'])
+```
+
+{% include lazyload.html image_src="https://i.ibb.co/9VrPN6c/Screenshot-2020-05-30-at-3-21-26-PM.png" image_alt="MP neuron plot" image_title="MP neuron plot" %}
+
+We can clearly see that the points on one direction of the line are marked with different color and points on the other side and on the line are marked with different colors.
+
+> I chose only 2 features to show this plot so that we can see the MP neuron in action.
 
 ---
 
 We will not discuss anything related to what disadvantages does MP neuron have. We have moved the discussion to the next Neural Network in the list, which is a little better than this one.
 
-In the second post, it will become clear to your partner that MP neuron is indeed not a good idea for the kind of problem you are trying to solve.
+## Conclusion
 
-The reason we discussed MP Neuron is very important, It is very important to start from basics if you want to learn something. This is the model from which everything started making much more sense.
+These are the few takeaways of the MP Neuron.
+
+* First Model
+* Binary Input
+* Binary Output
+* Uses line to differentiate between datapoints.
+* Uses Mean Squared Error Loss function.
+* Sum all features to find the threshold.
+
+In the next post, it will become clear to your partner that MP neuron is indeed not a good idea for the kind of problem you are trying to solve.
+
+It is very important to start from thee basics if you want to learn something. This is the model from which everything started making much more sense. In the few upcoming post, it will become clear to you as well.
