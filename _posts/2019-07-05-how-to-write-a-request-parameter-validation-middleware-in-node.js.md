@@ -2,7 +2,7 @@
 layout: post
 title: How to validate your request parameters easily using middleware in node.js
 date: 2019-07-05T15:55:00.000Z
-updated_date: 2020-04-18T13:44:57.012Z
+updated_date: 2020-05-30T13:44:57.012Z
 description: Validate your request parameters using a validator middleware that
   can be plugged into any Nodejs/ Express application or using JOI or AJV.
 published: true
@@ -363,6 +363,55 @@ Wrong type of the parameter: 82.227ms( Used integer)
 ```
 
 According to the above numbers, it is pretty clear that middleware using a Simple validator does perform better by big margins. You can choose whichever you want to use.
+
+## Edit 1: Using Express-Validation for the validation
+
+[Express-Validation](https://www.npmjs.com/package/express-validation) is a package build on the top of Joi and can be used to validate your request parameters fairly easily. You don't have to worry about this writing a separate middleware.
+
+Install the package using the following command.
+
+```shell
+npm i express-validation --save
+```
+
+Adding the middleware is as simple as the following code.
+
+```javascript
+const express = require('express')
+const bodyParser = require('body-parser')
+const { validate, ValidationError, Joi } = require('express-validation')
+ 
+const loginValidation = {
+  body: Joi.object({
+    email: Joi.string()
+      .email()
+      .required(),
+    password: Joi.string()
+      .regex(/[a-zA-Z0-9]{3,30}/)
+      .required(),
+  }),
+}
+ 
+const app = express();
+app.use(bodyParser.json())
+ 
+app.post('/login', validate(loginValidation, {}, {}), (req, res) => {
+  res.json(200)
+})
+ 
+app.use(function(err, req, res, next) {
+  if (err instanceof ValidationError) {
+    return res.status(err.statusCode).json(err)
+  }
+ 
+  return res.status(500).json(err)
+})
+ 
+app.listen(3000)
+```
+
+
+{% include lazyload.html image_src="https://i.ibb.co/Pm0kkv9/Screenshot-2020-05-30-at-8-20-53-PM.png" image_alt="Express-Validation middleware" image_title="Express-Validation middleware" %}
 
 I hope you guys will like the idea behind the post. Please share it with your colleagues and let me know on social media platforms.
 
