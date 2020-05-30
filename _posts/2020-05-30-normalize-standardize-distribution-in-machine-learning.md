@@ -40,7 +40,7 @@ We generally normalize values when feature are present in the dataset having dif
 
 A standard way to normalize a distribution is to apply this formula on each and every column.
 
-{% include math.html math_code="$\frac{x - x_min}{x_max - x_min}$" style="margin-top:0.2em; margin-bottom:0.5em;" %}
+{% include math.html math_code="$\frac{x - x_{min}}{x_{max} - x_{min}}$" style="margin-top:0.2em; margin-bottom:0.5em;" %}
 
 This will distribute the values normally and reduce all the values between 0 and 1.
 
