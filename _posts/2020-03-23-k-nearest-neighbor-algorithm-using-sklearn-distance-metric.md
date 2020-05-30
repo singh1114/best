@@ -105,7 +105,7 @@ This happens because some feature has a good amount of deviation in them (values
 
 We can understand this concept in more detail if we think in terms of neural networks. Let's say we have a dataset and we are trying to find the salary of the employees given some features like, years of experience, grades in high school, university and salary in last organization different other factors.
 
-Now if we keep the data as it is, some of the features having higher values will get higher importance. So, to give a fair chance to every feature to contribute equally toward the model initially( with fixed weights), we normalize the distribution.
+Now if we keep the data as it is, some features having higher values will get higher importance. So, to give a fair chance to every feature to contribute equally toward the model initially( with fixed weights), we normalize the distribution.
 
 A standard way to normalize a distribution is to apply this formula on each and every column.
 
@@ -129,7 +129,7 @@ sc_df.head()
 
 {% include lazyload.html image_src="https://i.imgur.com/6ADY6NW.png" image_alt="KNN algorithm normalized data frame" image_title="KNN algorithm normalized data frame" %}
 
-This standadization uses the values of mean and standard deviation to calculate the new as opposed to the one of the basic `min-max` approach we discussed earlier.
+This standardization uses the values of mean and standard deviation to calculate the new as opposed to the one of the basic `min-max` approach we discussed earlier.
 
 This is better because it will account for the deviation in the data.
 
