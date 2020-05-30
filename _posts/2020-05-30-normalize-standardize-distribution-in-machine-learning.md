@@ -46,7 +46,7 @@ This will distribute the values normally and reduce all the values between 0 and
 
 For standardization, we use the following formula,
 
-{% include math.html math_code="$\frac{x - x_mean}{x_standard_deviation}$" style="margin-top:0.2em; margin-bottom:0.5em;" %}
+{% include math.html math_code="$\frac{x - x_{mean}}{x_{standard_deviation}}$" style="margin-top:0.2em; margin-bottom:0.5em;" %}
 
 ## Apply Standardization on a dataset
 
