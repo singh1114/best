@@ -1,7 +1,7 @@
 ---
 title: Integration testing of APIs in Spring-Boot( Java) with Junit | For Beginners
 date: 2019-10-18T22:48:00.000Z
-updated_date: 2020-04-10T07:40:22.826Z
+updated_date: 2020-05-30T07:40:22.826Z
 description: Writing spring boot integration tests using junit without mocking
   Db and using different test profile is one of the best things you can do for
   your future self.
