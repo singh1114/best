@@ -101,7 +101,7 @@ The head of the data clearly says that we have a few variables and a target clas
 
 As we can already see that the data in the data frame is not standardized, if we don't normalize the data the outcome will be fairly different and we won't be able to get the correct results.
 
-This happens because some feature has a good amount of deviation in them (values range from 1-1000). This will lead to a very bad plot producing a lot of defects in the model.
+This happens because some feature has a good amount of deviation in them (values range from 1-1000). This will lead to a very bad plot producing a lot of bias in the model.
 
 We can understand this concept in more detail if we think in terms of neural networks. Let's say we have a dataset and we are trying to find the salary of the employees given some features like, years of experience, grades in high school, university and salary in last organization different other factors.
 
@@ -111,7 +111,7 @@ A standard way to normalize a distribution is to apply this formula on each and 
 
 {% include math.html math_code="$\frac{x - min}{max - min}$" style="margin-top:0.2em; margin-bottom:0.5em;" %}
 
-This will distribute the values normally and reduce all of the values between 0 and 1.
+This will distribute the values normally and reduce all the values between 0 and 1.
 
 Sklearn provides a very simple way to standardize your data.
 
