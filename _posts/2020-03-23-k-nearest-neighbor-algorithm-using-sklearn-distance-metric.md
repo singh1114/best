@@ -135,6 +135,10 @@ This is better because it will account for the deviation in the data.
 
 {% include lazyload.html image_src="https://i.ibb.co/8Ms1K4Y/Screenshot-2020-05-12-at-12-42-38-AM.png" image_alt="KNN algorithm StandardScaler normalization" image_title="KNN algorithm StandardScaler normalization" %}
 
+For more information on Normalization and Standardization read the following post.
+
+{% include linked_post.html url="normalize-standardize-distribution-in-machine-learning" %}
+
 ### Test/Train split using sklearn
 
 We can simply [split the data using sklearn](https://ranvir.xyz/blog/how-to-evaluate-your-machine-learning-model-like-a-pro-metrics/#test-train-split-using-sklearn).
