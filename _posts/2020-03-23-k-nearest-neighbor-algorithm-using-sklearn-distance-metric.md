@@ -40,7 +40,7 @@ It calculates the probability of test value to be in class `j` using this functi
 
 ## Ways to calculate the distance in KNN
 
-The distance can be calculated using different ways which include these methods,
+As already discussed that we have to calculate the distance between different points, we have a number of ways in which the distance can be  calculated, the most common being the `Euclidean` one, which I believe most of us have studied in high school.
 
 * Euclidean Method
 * Manhattan Method
@@ -53,9 +53,11 @@ Minkowski is the one that is used by default.
 
 {% include lazyload.html image_src="https://i.ibb.co/YPMYNXV/Screenshot-2020-05-11-at-11-48-50-PM.png" image_alt="KNN using minkowski" image_title="KNN using minkowski" %}
 
-You can use any method from the list by passing `metric` parameter to the KNN object. Here is an answer on [Stack Overflow which will help](https://stackoverflow.com/questions/21052509/sklearn-knn-usage-with-a-user-defined-metric). You can even use some random distance metric.
+You can use any distance method from the list by passing `metric` parameter to the KNN object. Here is an answer on [Stack Overflow which will help](https://stackoverflow.com/questions/21052509/sklearn-knn-usage-with-a-user-defined-metric). You can even use some random distance metric.
 
 Also [read this answer as well](https://stackoverflow.com/questions/34408027/how-to-allow-sklearn-k-nearest-neighbors-to-take-custom-distance-metric) if you want to use your own method for distance calculation.
+
+Using different distance metric can have a different outcome on the performance of your model.
 
 ## The process of KNN with Example
 
@@ -63,7 +65,7 @@ Let's consider that we have a dataset containing heights and weights of dogs and
 
 Now whenever a new entry comes in from the test dataset, we will choose a value of `k`.
 
-For the sake of this example, let's assume that we choose 4 as the value of `k`. We will find the distance of the nearest four values and the one having the least distance will have more probability and is assumed as the winner.
+For the sake of this example, let's assume that we choose 4 as the value of `k`. We will use the distance measure to find the `K` nearest neighbour and the `test value` will belong to the one having more number of entities out of those `K` neighbours.
 
 {% include lazyload.html image_src="https://i.imgur.com/heaLl5s.png" image_alt="KNN algorithm example" image_title="KNN algorithm example" %}
 
@@ -75,7 +77,9 @@ Data source used: [GitHub of Data Source](https://github.com/singh1114/ml/blob/m
 
 In K-nearest neighbors algorithm most of the time you don't really know about the meaning of the input parameters or the classification classes available.
 
-In case of interviews, this is done to hide the real customer data from the potential employee.
+In case of interviews, you will get such data to hide the identity of the customer.
+
+You can use the following code to load it into a `DataFrame`.
 
 ```python
 
@@ -100,9 +104,9 @@ The head of the data clearly says that we have a few variables and a target clas
 
 ### Why normalize/ standardize the variables for KNN
 
-As we can already see that the data in the data frame is not standardized, if we don't normalize the data the outcome will be fairly different and we won't be able to get the correct results.
+As we can already see that the data in the data frame is not standardized, if we don't standardize it, the outcome will be fairly different and we won't be able to get the correct results.
 
-This happens because some feature has a good amount of deviation in them (values range from 1-1000). This will lead to a very bad plot producing a lot of bias in the model.
+This happens because some feature has a good amount of deviation in them (values range from 1-1000 vs values ranging from 1-10). This will lead to a bias in the model.
 
 We can understand this concept in more detail if we think in terms of neural networks. Let's say we have a dataset and we are trying to find the salary of the employees given some features like, years of experience, grades in high school, university and salary in last organization different other factors.
 
