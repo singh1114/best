@@ -22,14 +22,13 @@ categories:
 canonical_url: ""
 include_mathjax: true
 ---
-`KNN` also known as K-nearest neighbor is a [supervised and pattern classification learning algorithm](https://ranvir.xyz/blog/how-to-evaluate-your-machine-learning-model-like-a-pro-metrics/#supervised-learning-and-classification-problems) which helps us to find which class the new input(test value) belongs to when `k` nearest neighbors are chosen and distance is calculated between them.
+`KNN` or K-nearest neighbor classification algorithm is used as [supervised and pattern classification learning algorithm](https://ranvir.xyz/blog/how-to-evaluate-your-machine-learning-model-like-a-pro-metrics/#supervised-learning-and-classification-problems) which helps us to find which class the new input(test value) belongs to when `K` nearest neighbors are chosen using distance measure.
 
 {% include lazyload.html image_src="https://i.imgur.com/3rMdVO4.png" image_alt="KNN algorithm python" image_title="KNN algorithm using sklearn" %}
 
 > It attempts to estimate the conditional distribution of `Y` given `X`, and classify a given observation(test value) to the class with highest estimated probability.
 
-It first identifies the `k` points in the training data that are closest to the `test value` and calculates the distance between all those categories. The test value will belong to the category whose distance is the least.
-The distance measure is used to find the `K` nearest neighbours 
+The distance measure is used to find the `K` nearest neighbours. Once those `K` nearest neighbours are found, the new `test value` is assigned to the category having the largest number of elements out of those `K` neighbours.
 
 {% include lazyload.html image_src="https://i.imgur.com/XXWScgF.png" image_alt="KNN algorithm distance" image_title="KNN algorithm distance" %}
 
