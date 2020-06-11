@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Introduction to KNN | K-nearest neighbor algorithm using Examples
+title: Introduction to KNN | K-nearest neighbor classification algorithm using
+  Examples
 date: 2020-03-22T18:30:00.000Z
 updated_date: 2020-03-22T18:30:00.000Z
 description: Introduction to K-nearest neighbor( KNN) algorithm using sklearn.
@@ -28,6 +29,7 @@ include_mathjax: true
 > It attempts to estimate the conditional distribution of `Y` given `X`, and classify a given observation(test value) to the class with highest estimated probability.
 
 It first identifies the `k` points in the training data that are closest to the `test value` and calculates the distance between all those categories. The test value will belong to the category whose distance is the least.
+The distance measure is used to find the `K` nearest neighbours 
 
 {% include lazyload.html image_src="https://i.imgur.com/XXWScgF.png" image_alt="KNN algorithm distance" image_title="KNN algorithm distance" %}
 
