@@ -3,7 +3,7 @@
     <h4 class="share-heading">Liked it? Sing it Loud and Proud:</h4>
 
     <div class="share-buttons">
-        <a  class="horizontal-share-buttons" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+        <a class="horizontal-share-buttons" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}"
             onclick="gtag('event', 'Facebook', {'event_category':'Post Shared','event_label':'Facebook'}); window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
             title="Share on Facebook" >
             <span class="icon-facebook2">Facebook</span>
@@ -43,7 +43,7 @@
         </a> -->
 
         <a  class="horizontal-share-buttons" href="mailto:?subject={{ page.title }}&amp;body=Check out this site {{ site.url }}{{ site.baseurl }}{{ page.url }}"
-           onclick="gtag('event', 'Emain', {'event_category':'Post Shared','event_label':'Email'}); window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" 
+           onclick="gtag('event', 'Emain', {'event_category':'Post Shared','event_label':'Email'}); window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
            title="Share via Email" >
            Email
         </a>
@@ -59,7 +59,7 @@
     padding: 0.3em;
     background: rgba(125,231,123,.21)
 }
-    
+
 .share-heading {
     margin-top: 0px;
 }
@@ -73,7 +73,7 @@
 /* All buttons */
 .share-buttons {
 }
-    
+
 .horizontal-share-buttons {
     border: 1px solid #928b8b;
     border-radius: 0.2em;
