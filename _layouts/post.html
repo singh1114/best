@@ -61,9 +61,9 @@ layout: default
       {% endif %}
     {% endfor %}
   </div>
-  
+
   {% include share-bar.html %}
-  
+
   <div class="original_source">
     {% if page.author_username and page.author_username != blank and page.author_name and page.author_username != blank and page.canonical_url %}
       Original Source: <a href="{{ page.canonical_url }}">Original Post</a>
@@ -114,4 +114,5 @@ layout: default
   </div>
   <br>
   {% include disqus.html %}
+  {% include sidebar.html %}
 </article>
