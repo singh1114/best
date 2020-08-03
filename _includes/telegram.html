@@ -1,20 +1,24 @@
 <div id="change">
     <strong>Get Updates on Telegram</strong>
-    <p>We share the every post update using our telegram bot,
-        <a target="_blank" href="https://t.me/ranvirxyz_bot"
-        onclick="gtag('event', 'Join Telegram', {'event_category':'Join Telegram Click','event_label':'{{include.path}}'});">Join the chat with Bot.</a>
+    <p>
+        We share the every post update using our telegram bot,
     </p>
+    <button id="telegram-chat-button">
+        <a target="_blank" href="https://t.me/ranvirxyz_bot"
+        onclick="if (!window.__cfRLUnblockHandlers) return false;
+        gtag('event', 'Join Telegram', {'event_category':'Join Telegram Click','event_label':''});">
+            Get Updates on Telegram
+        </a>
+    </button>
 </div>
 <style type="text/css">
-    div#change {
-        margin: 2em 0 !important;
-        padding: 1em;
-        color: #494e52;
-        font-family: Georgia,Times,serif;
-        font-size: .75em !important;
-        text-indent: initial;
-        background-color: #ecf6ec;
-        border-radius: 4px;
-        box-shadow: 0 1px 1px rgba(63,166,63,0.25);
+    div#telegram-chat-button {
+        background: linear-gradient(184.43deg,#41c4f9 -18.16%,#0871c9 232.14%);
+        border-radius: 5px;
+        padding: 24px 35px;
+        color: #ffffff;
+        display: inline-block;
+        font: normal bold 24px/1 "Ubuntu", sans-serif;
+        text-align: center;
     }
 </style>
