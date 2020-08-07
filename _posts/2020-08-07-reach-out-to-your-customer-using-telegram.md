@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Reach out to your customer using telegram
+title: Reach out to your customer using Telegram
 date: 2020-08-07T19:21:48.940Z
 updated_date: 2020-08-07T19:21:48.966Z
 description: How to get more readers clicks using goweasel telegram integration
