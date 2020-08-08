@@ -44,9 +44,9 @@ Also, there is a possibility of users rarely checking their emails. Most of us h
 
 ## Reach where your customers are
 
-Today's analysis shows that people are highly using messaging platforms. If you are able to reach them on their favorite channel, you have the control.
+Today's analysis shows that people are highly using messaging platforms( Roughly 84%). If you are able to reach them on their favorite channel, you have the control.
 
-> Telegram has 300 million monthly active users with 15 billion+ messages being shared daily.
+> Telegram has 400 million monthly active users with 15 billion+ messages being shared daily.
 
 There are a lot of benefits from having more than 1 channel of sending your newsletters.
 
