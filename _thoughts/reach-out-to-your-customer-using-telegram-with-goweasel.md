@@ -20,7 +20,7 @@ show_ads: false
 
 I recently integrated [GoWeasel pop up](https://notifier.taskforge.co/) to my website which can allow my readers to get the latest updates of my blog using telegram with a single click.
 
-All you have to do is to click on the `Get updates using telegram` widget's button and start a chat with my channel and every time I come up with new updates I will directly send them to your chatbox.
+All you have to do is to click on the `Get updates using telegram` widget's button and start a chat with my channel on telegram and every time I come up with new updates I will directly send them to your chatbox.
 
 ## How do you reach your readers?
 
@@ -30,17 +30,21 @@ I had a chat with [GoWeasel's CEO](https://notifier.taskforge.co/) who helped me
 
 This was the first question that he asked me. I have been running this blog for some years now. I myself have a few hundred email subscribers in this blog. Every time I trigger a new newsletter email I see bad click rates myself and this is the main concern for him as well.
 
+> *Click rate* is the number of users who click on your email divided by the total number of users you send it to.
+
 According to him, emails are all great until you get to the click rate for emails, which is too low.
 
-Along with that, we have the concept of temporary emails.
+Along with that, we have the concept of [temporary emails](https://temp-mail.org/en/).
 
-Due to all these factors, you can’t be sure that the new user who subscribed to your newsletter will ever receive/read it.
+> *Temporary Emails* are used by people to sign up for different services without giving out their real emails. The user own the email for just a few minutes and after that, they get a new one.
 
-Also, there is a possibility of users rarely checking their emails.
+Due to all these factors, you can’t be sure that the new user who subscribed to your newsletter will ever receive/read it when you send it to him/her.
+
+Also, there is a possibility of users rarely checking their emails. Most of us have a long list of unread emails in our inbox.
 
 ## Reach where your customers are
 
-Today's analysis shows that people are highly using social platforms. If you are able to reach them on their favorite, you have the control.
+Today's analysis shows that people are highly using messaging platforms. If you are able to reach them on their favorite channel, you have the control.
 
 There are a lot of benefits from having more than 1 channel of sending your newsletters.
 
