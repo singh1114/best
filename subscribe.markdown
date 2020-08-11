@@ -24,4 +24,6 @@ date: 2019-12-10 06:27:00 Z
 </form>
 </div>
 
+{% include telegram.html %}
+
 <!--End mc_embed_signup-->
