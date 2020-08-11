@@ -20,6 +20,7 @@ categories:
   - knn
   - machinelearning
 show_ads: true
+show_telegram_signup: true
 canonical_url: ""
 include_mathjax: true
 ---
