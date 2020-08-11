@@ -16,6 +16,7 @@ categories:
   - springboot
   - testing
 show_ads: false
+show_telegram_signup: true
 redirect_from: []
 ---
 Shipping your product without testing is like buying a car without turning on the engine.
