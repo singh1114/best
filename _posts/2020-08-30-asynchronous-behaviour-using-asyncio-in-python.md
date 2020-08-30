@@ -3,9 +3,18 @@ layout: post
 title: Asynchronous behaviour using asyncio in Python
 date: 2020-08-30T13:34:22.747Z
 updated_date: 2020-08-30T13:34:22.766Z
-published: false
+description: Asyncio helps you to write asynchronous functions using python
+  making your application a lot faster with better user experience with its easy
+  to use syntax.
+published: true
+tags:
+  - python
+  - django
+categories:
+  - python
+  - django
 show_ads: false
-show_telegram_signup: false
+show_telegram_signup: true
 ---
 A lot has changed since I last published my post on handling long-running async tasks in Python using celery. Last time we used it to run a few async tasks to fetch data from some service. You can read more about it in the post below.
 
@@ -108,6 +117,8 @@ asyncio.run(main())
 ```
 
 I have defined 4 different functions doing almost the same thing. Let's assume there is a long-running function called `async_sleep` which is doing some IO operation.
+
+`asyncio.gather` is used to run the tasks passed to it concurrently.
 
 The response after running this code is as follows.
 
@@ -254,4 +265,48 @@ So, the async function is of type `coroutine`.
 
 This [GeeksForGeeks article](https://www.geeksforgeeks.org/coroutine-in-python/) does a very good job of explaining coroutines and subroutines.
 
-To sum up what they say
+To sum up what they wrote in the post, **subroutines** are the set of instructions that have one entry point and are executed serially.
+
+On the other hand, **Coroutines** can suspend or give away the control to other Coroutines, allowing multiple tasks to run at the same time.
+
+Python uses this concept to allow async behavior.
+
+## Handling timeout
+
+It is awesome to have a timeout for waiting for the task to get completed. We are not supposed to wait forever for it to complete. `asyncio` also provided the ability to add a timeout to the async function so that you can skip the execution before its completion.
+
+A practical application of this can be a case when you are calling a third party API in your application and the third party itself is down. In that case, you don't want to wait for a long time.
+
+You can use the `timeout` method to solve your problem. See the code for example:
+
+```python
+async def async_sleep():
+    await asyncio.sleep(2)
+    print('Execution completed')
+
+async def main():
+    try:
+        await asyncio.wait_for(async_sleep(), timeout=1.0)
+    except asyncio.TimeoutError:
+        print('Timeout error')
+
+asyncio.run(main())
+```
+
+The async function will raise `TimeoutError` if the coroutine doesn't return before the given `timeout` is passed.
+
+Response after executing the above code is
+
+```python
+Timeout error
+```
+
+There are other awesome methods in the `asyncio` module.
+
+You can check them at the [python website](https://docs.python.org/3/library/asyncio-task.html).
+
+## Conclusion
+
+If you want to provide a better and faster experience to your users, you can start using the `asyncio` for your application. This will definitely help you find cases in which you can reduce the execution time of your class.
+
+Just forcing yourself to write in this way for few months can yield big returns in the future. 
