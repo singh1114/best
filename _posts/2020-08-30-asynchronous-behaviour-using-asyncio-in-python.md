@@ -17,6 +17,8 @@ categories:
 show_ads: false
 show_telegram_signup: false
 ---
+{% include lazyload.html image_src="https://i.ibb.co/SPSdFf8/Main-Images-2-2.png" image_alt="Asynchronous behavior using asyncio in Python" image_title="Asynchronous behavior using asyncio in Python" %}
+
 A lot has changed since I last published my post on handling long-running async tasks in Python using celery. Last time we used it to run a few async tasks to fetch data from some service which took around 1-5 minutes. You can read more about it in the post below.
 
 {% include linked_post.html url="using-celery-to-run-long-running-task-asynchronously" %}
