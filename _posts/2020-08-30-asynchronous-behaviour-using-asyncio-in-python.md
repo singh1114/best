@@ -16,7 +16,7 @@ categories:
 show_ads: false
 show_telegram_signup: true
 ---
-A lot has changed since I last published my post on handling long-running async tasks in Python using celery. Last time we used it to run a few async tasks to fetch data from some service. You can read more about it in the post below.
+A lot has changed since I last published my post on handling long-running async tasks in Python using celery. Last time we used it to run a few async tasks to fetch data from some service which took more than 5 minutes. You can read more about it in the post below.
 
 {% include linked_post.html url="using-celery-to-run-long-running-task-asynchronously" %}
 
