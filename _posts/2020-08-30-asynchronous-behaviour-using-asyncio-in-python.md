@@ -1,12 +1,13 @@
 ---
 layout: post
-title: Asynchronous behaviour using asyncio in Python
+title: Asynchronous behavior using asyncio in Python
 date: 2020-08-30T13:34:22.747Z
 updated_date: 2020-08-30T13:34:22.766Z
 description: Asyncio helps you to write asynchronous functions using python
   making your application a lot faster with better user experience with its easy
   to use syntax.
 published: true
+image: https://i.ibb.co/SPSdFf8/Main-Images-2-2.png
 tags:
   - python
   - django
@@ -22,11 +23,11 @@ A lot has changed since I last published my post on handling long-running async 
 
 Although I will still use celery for these types of long-running tasks, there is a subset of tasks that are better handled inside the execution thread itself. Today we will discuss a way of handling such operations.
 
-To the people who know me, I have started working on Node.js over a year now and have been working on it since then. During my time working on Node.js and building APIs using it, I have started loving the way in which we can handle Async behavior and long-running tasks.
+To the people who know me, I switched to a new role which allowed me to write Node.js over a year ago and I have been working on it since then. During my time working and building APIs using it, I have started falling for the way in which Node handles Async behavior and long-running tasks.
 
 {% include linked_post.html url="basic-introduction-to-node.js-async-await" %}
 
-The idea is simple, if the task is taking more than usual time, we will run it asynchronously. Only the part that needs it, will wait for it.
+The idea is simple, if the task is waiting for some IO, we can run some other task in the mean-time. Only the part that needs it, will wait for it.
 
 I wanted to use the same concept in Python. Fortunately, in Python version `3.4`, they have introduced `asyncio` for the same purpose. In this post, we are going to talk a little about it and try to understand its importance.
 
@@ -116,9 +117,9 @@ async def main():
 asyncio.run(main())
 ```
 
-I have defined 4 different functions doing almost the same thing. Let's assume there is a long-running function called `async_sleep` which is doing some IO operation.
+I have defined 4 different functions doing almost the same thing. Let's assume there is a long-running function called `async_sleep` which is doing some IO operation. For example: Fetching data from the database.
 
-`asyncio.gather` is used to run the tasks passed to it concurrently.
+> `asyncio.gather` is used to run the tasks passed to it concurrently.
 
 The response after running this code is as follows.
 
@@ -130,7 +131,7 @@ started func 4: 5
 Completed after: 1.1852593421936035
 ```
 
-The function completes the execution somewhere between 1-2 seconds.
+The function completes the execution somewhere between 1-2 seconds for every execution. (Ran it 5 times to check).
 
 Now let's try to run the `sync` version of the same code.
 
@@ -191,7 +192,7 @@ This saved us `~3` seconds for executing 4 functions. Now if we wanted to run 10
 
 That's awesome, right.
 
-These small savings can be very important to provide better user experience to your customers.
+Even if we are just running 2-3 such functions in each iteration these small savings can be very important to provide better user experience to your customers.
 
 Now that we have understood the advantage of using `async` functions, we must know a few more things about it.
 
@@ -249,9 +250,9 @@ Completed after: 0.9764895439147949
 
 After the release of Python 3.8, which moved the `asyncio.run()` method to stable API, you can start using it without any problem.
 
-The only issue with moving from a `synchronous` approach to an async one is to change the way of thinking about the problem. You have to change the way you think about solving every problem. Once you reach that point, believe me, you will love it.
+The only issue with moving from a `synchronous` approach to an async one, is to change the way of thinking about the problems. You have to change the way you think about every little detail. Once you reach that point of thinking in terms of async functions, believe me, you will love it.
 
-## How does it work?
+## How does it work under the hood?
 
 Let's check the type of the async function.
 
@@ -263,7 +264,7 @@ type(main())
 
 So, the async function is of type `coroutine`.
 
-This [GeeksForGeeks article](https://www.geeksforgeeks.org/coroutine-in-python/) does a very good job of explaining coroutines and subroutines.
+This [GeeksForGeeks article](https://www.geeksforgeeks.org/coroutine-in-python/) does a very good job of explaining coroutines.
 
 To sum up what they wrote in the post, **subroutines** are the set of instructions that have one entry point and are executed serially.
 
@@ -271,9 +272,9 @@ On the other hand, **Coroutines** can suspend or give away the control to other 
 
 Python uses this concept to allow async behavior.
 
-## Handling timeout
+## Handling timeout in async functions
 
-It is awesome to have a timeout for waiting for the task to get completed. We are not supposed to wait forever for it to complete. `asyncio` also provided the ability to add a timeout to the async function so that you can skip the execution before its completion.
+It is necessary to have a timeout for waiting for the task to get completed. We are not supposed to wait forever for it to complete. `asyncio` also provided the ability to add a timeout to the async function so that you can skip the execution before its completion.
 
 A practical application of this can be a case when you are calling a third party API in your application and the third party itself is down. In that case, you don't want to wait for a long time.
 
@@ -303,10 +304,10 @@ Timeout error
 
 There are other awesome methods in the `asyncio` module.
 
-You can check them at the [python website](https://docs.python.org/3/library/asyncio-task.html).
+You can check them at [python's official website](https://docs.python.org/3/library/asyncio-task.html).
 
 ## Conclusion
 
-If you want to provide a better and faster experience to your users, you can start using the `asyncio` for your application. This will definitely help you find cases in which you can reduce the execution time of your class.
+If you want to provide a better and faster experience to your users, you can start using the `asyncio` module in your application. This will definitely help you find cases in which you can reduce the execution time of your API or whatever else that you are doing.
 
-Just forcing yourself to write in this way for few months can yield big returns in the future. 
+Just forcing yourself to write in this way for a few months can yield big returns in the future. 
