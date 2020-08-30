@@ -121,7 +121,7 @@ asyncio.run(main())
 
 I have defined 4 different functions doing almost the same thing. Let's assume there is a long-running function called `async_sleep` which is doing some IO operation. For example: Fetching data from the database.
 
-> `asyncio.gather` is used to run the tasks passed to it concurrently.
+> `asyncio.gather()` is used to run the tasks passed to it concurrently.
 
 The response after running this code is as follows.
 
