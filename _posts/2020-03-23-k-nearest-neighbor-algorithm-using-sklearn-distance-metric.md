@@ -19,8 +19,8 @@ categories:
   - sklearn
   - knn
   - machinelearning
-show_ads: true
-show_telegram_signup: true
+show_ads: false
+show_telegram_signup: false
 canonical_url: ""
 include_mathjax: true
 ---
