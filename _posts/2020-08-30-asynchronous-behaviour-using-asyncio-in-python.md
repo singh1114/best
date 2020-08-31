@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Asynchronous behavior using asyncio in Python
+title: Achieving asynchronous behavior using asyncio in Python
 date: 2020-08-30T13:34:22.747Z
 updated_date: 2020-08-30T13:34:22.766Z
 description: Asyncio helps you to write asynchronous functions using python
