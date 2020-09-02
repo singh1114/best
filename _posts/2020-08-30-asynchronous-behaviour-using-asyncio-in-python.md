@@ -47,7 +47,7 @@ This is how we write a basic async function in Python.
 import asyncio
 
 async def func1(a):
-    print("started func 1: {}", a + 1)
+    print(f"started func 1: {a + 1}")
     await asyncio.sleep(1)
     return a + 1
 
@@ -88,25 +88,25 @@ async def async_sleep():
     
 
 async def func1(a):
-    print("started func 1: {}", a + 1)
+    print(f"started func 1: {a + 1}")
     await async_sleep()
     return a + 1
 
 
 async def func2(a):
-    print("started func 2: {}", a + 2)
+    print(f"started func 2: {a + 2}")
     await async_sleep()
     return a + 2
 
 
 async def func3(a):
-    print("started func 3: {}", a + 3)
+    print(f"started func 3: {a + 3}")
     await async_sleep()
     return a + 3
 
 
 async def func4(a):
-    print("started func 4: {}", a + 4)
+    print(f"started func 4: {a + 4}")
     await async_sleep()
     return a + 4
 
@@ -114,7 +114,7 @@ async def func4(a):
 async def main():
     tasks = (func1(1), func2(1), func3(1), func4(1))
     await asyncio.gather(*tasks)
-    print("Completed after: {}", time.time() - start)
+    print(f"Completed after: {time.time() - start}")
 
 asyncio.run(main())
 ```
@@ -147,25 +147,25 @@ def sync_sleep():
 
 
 def func1(a):
-    print("started func 1: {}".format(a + 1))
+    print(f"started func 1: {a + 1}")
     sync_sleep()
     return a + 1
 
 
 def func2(a):
-    print("started func 2: {}".format(a + 2))
+    print(f"started func 2: {a + 2}")
     sync_sleep()
     return a + 2
 
 
 def func3(a):
-    print("started func 3: {}".format(a + 3))
+    print(f"started func 3: {a + 3}")
     sync_sleep()
     return a + 3
 
 
 def func4(a):
-    print("started func 4: {}".format(a + 4))
+    print(f"started func 4: {a + 4}")
     sync_sleep()
     return a + 4
 
@@ -175,7 +175,7 @@ def main():
     func2(1)
     func3(1)
     func4(1)
-    print("Completed after: {}".format(time.time() - start))
+    print(f"Completed after: {time.time() - start}")
 
 main()
 ```
@@ -225,14 +225,14 @@ async def async_sleep():
 
 async def func1(a):
     await async_sleep()
-    print("completed func {}: {}".format(a, a + 1))
+    print("completed func {a}: {a + 1}")
     return a + 1
 
 
 async def main():
     tasks = [func1(a) for a in range(0, 5)]
     await asyncio.gather(*tasks)
-    print("Completed after: {}".format(time.time() - start))
+    print("Completed after: {time.time() - start}")
 
 asyncio.run(main())
 ``` 
