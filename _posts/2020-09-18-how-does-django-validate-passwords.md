@@ -43,7 +43,7 @@ I traced it back and found a package `django.contrib.auth.management.commands` c
 
 ## The changepassword command
 
-Since I had never used/ heard about the `changepassword` command. I thought of trying it first and to my great pleasure, it worked. You have to pass the username as the first argument.
+Since I had never used/ heard about the `changepassword` command, I thought of trying it first and to my great pleasure, it worked. You have to pass the username as the first argument.
 
 ```python
 python manage.py changepassword username
