@@ -59,7 +59,7 @@ Now let's get back to the business and look into the `createsuperuser` command c
 
 If you have been using Django for some time, you would know that Django allows you to change a lot of things depending upon the settings you define.
 
-This also includes using some random model as your Base User model. This is the first thing that the superuser creation `__init__` constructor method checks for.
+This also includes using some random model as your base User model. This is the first thing that the superuser creation `__init__` constructor method checks for.
 
 ## Creating the superuser without interaction
 
