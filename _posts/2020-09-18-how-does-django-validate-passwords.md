@@ -26,7 +26,7 @@ First thing first, I tried to create the superuser after creating the local data
 python manage.py createsuperuser
 ```
 
-When I passed in a password similar to the username it failed saying, `The password is too similar to the username.`
+When I passed a password similar to the username it failed saying, `The password is too similar to the username.`
 
 {% include lazyload.html image_src="https://i.ibb.co/94D2x9G/Screenshot-2020-09-19-at-1-32-17-AM.png" image_alt="The password is too similar to the username" image_title="The password is too similar to the username" %}
 
