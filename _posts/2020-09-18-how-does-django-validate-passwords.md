@@ -49,7 +49,7 @@ Since I had never used/ heard about the `changepassword` command, I thought of t
 python manage.py changepassword username
 ```
 
-{% include lazyload.html image_src="https://i.ibb.co/BsJ9sBM/Screenshot-2020-09-19-at-1-47-43-AM.png" image_alt="python manage.py changepassword" image_title="python manage.py changepassword" %}
+{% include lazyload.html image_src="https://i.ibb.co/YRfMkYW/Screenshot-2020-09-19-at-3-10-09-AM.png" image_alt="python manage.py changepassword" image_title="python manage.py changepassword" %}
 
 Sometimes you find gold when you read the code, right? 😍
 
