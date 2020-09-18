@@ -30,7 +30,7 @@ When I passed a password similar to the username it failed saying, `The password
 
 {% include lazyload.html image_src="https://i.ibb.co/94D2x9G/Screenshot-2020-09-19-at-1-32-17-AM.png" image_alt="The password is too similar to the username" image_title="The password is too similar to the username" %}
 
-This error triggered me to find how was this working.
+This error triggered me to check the working behind this password validation feature.
 
 The first thing that I looked into was the `manage.py` file itself which in turn was importing and executing a method called, `execute_from_command_line`.
 
