@@ -16,6 +16,8 @@ categories:
 show_ads: false
 show_telegram_signup: false
 ---
+{% include lazyload.html image_src="https://i.ibb.co/n3YzYyF/Main-Images-4-1.png" image_alt="How does Django validate passwords" image_title="How does Django validate passwords" %}
+
 A few days ago, I was working with one of my old Django projects. It was running an old version of Django and I wanted to keep it updated with the latest changes that we have with the framework.
 
 First thing first, I tried to create the superuser after creating the local database.
@@ -26,7 +28,7 @@ python manage.py createsuperuser
 
 When I passed in a password similar to the username it failed saying, `The password is too similar to the username.`
 
-{{image}}
+{% include lazyload.html image_src="https://i.ibb.co/94D2x9G/Screenshot-2020-09-19-at-1-32-17-AM.png" image_alt="The password is too similar to the username" image_title="The password is too similar to the username" %}
 
 This error triggered me to find how was this working.
 
@@ -46,7 +48,7 @@ Since I had never used or heard `changepassword` command. I thought of trying it
 python manage.py changepassword username
 ```
 
-{{image}}
+{% include lazyload.html image_src="https://i.ibb.co/BsJ9sBM/Screenshot-2020-09-19-at-1-47-43-AM.png" image_alt="python manage.py changepassword" image_title="python manage.py changepassword" %}
 
 Sometimes you find gold when you read the code, right? 😍
 
@@ -66,7 +68,7 @@ You can use a version of the command that allows you to create the superuser wit
 python manage.py createsuperuser --username ranvir --email abc@abc.com --no-input
 ```
 
-{{image}}
+{% include lazyload.html image_src="https://i.ibb.co/7Xm1ytM/Screenshot-2020-09-19-at-2-01-09-AM.png" image_alt="python manage.py createsuperuser no-input" image_title="python manage.py createsuperuser no-input" %}
 
 Although the user created using this process will have no password. We can create the password either using the `changepassword` command or the admin panel.
 
@@ -76,13 +78,13 @@ For the default `User` model, `email` is the only required field but you can cha
 
 In the interactive mode( which is the default mode as well), the first thing that the prompt asks you to fill, is the username.
 
-Django tries to smartly suggest you the current system username as the default username. (Just Wow)
+Django tries to smartly suggest the current system username as the default username. (Just Wow)
 
-{{image}}
+{% include lazyload.html image_src="https://i.ibb.co/pr1Z1Qw/Screenshot-2020-09-19-at-2-14-46-AM.png" image_alt="django suggest the current system username" image_title="django suggest the current system username" %}
 
 It won't suggest the system username if it is already taken. (That's AI for me 😂)
 
-{{image}}
+{% include lazyload.html image_src="https://i.ibb.co/r3YxbKL/Screenshot-2020-09-19-at-2-15-41-AM.png" image_alt="django doens't suggest the current system username if already taken" image_title="django doens't suggest the current system username if already taken" %}
 
 After the username, you have to fill in the required field which is the email field for the default User model.
 
