@@ -20,7 +20,7 @@ show_telegram_signup: false
 
 A few days ago, I was working on one of my old Django projects. It was running an old version of Django and I wanted to keep it updated with the latest changes of the framework.
 
-First thing first, I tried to create the superuser after creating the local database.
+So to check the admin site, I tried to create the superuser after connection to the local database.
 
 ```python
 python manage.py createsuperuser
@@ -34,12 +34,13 @@ This error triggered me to check the working behind this password validation fea
 
 The first thing that I looked into was the `manage.py` file itself which in turn was importing and executing a method called, `execute_from_command_line`.
 
-I traced it back and found a package `django.contrib.auth.management.commands`. This directory had two files.
+I traced it back and found a package `django.contrib.auth.management.commands` containing everything that I wanted to know. This directory had two files.
 
 ```python
 1. createsuperuser.py
 2. changepassword.py
 ```
+
 ## The changepassword command
 
 Since I had never used or heard `changepassword` command. I thought of trying it first and to my great pleasure, it worked. You have to pass the username as the first argument.
