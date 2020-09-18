@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How does Django validate passwords
+title: How does Django validate passwords?
 date: 2020-09-18T19:52:26.288Z
 updated_date: 2020-09-18T19:52:26.305Z
 description: Django default password validation on the User model with
