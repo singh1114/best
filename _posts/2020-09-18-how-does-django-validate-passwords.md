@@ -34,7 +34,7 @@ This error triggered me to check the working behind this password validation fea
 
 The first thing that I looked into was the `manage.py` file itself which in turn was importing and executing a method called, `execute_from_command_line`.
 
-I traced it back and found a package `django.contrib.auth.management.commands` containing everything that I wanted to know. This directory had two files.
+I traced it back and found a package `commands` containing everything that I wanted to know. This directory had two files.
 
 ```python
 1. createsuperuser.py
