@@ -18,7 +18,7 @@ show_telegram_signup: false
 ---
 {% include lazyload.html image_src="https://i.ibb.co/n3YzYyF/Main-Images-4-1.png" image_alt="How does Django validate passwords" image_title="How does Django validate passwords" %}
 
-A few days ago, I was working with one of my old Django projects. It was running an old version of Django and I wanted to keep it updated with the latest changes that we have with the framework.
+A few days ago, I was working on one of my old Django projects. It was running an old version of Django and I wanted to keep it updated with the latest changes that we have with the framework.
 
 First thing first, I tried to create the superuser after creating the local database.
 
