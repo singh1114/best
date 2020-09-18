@@ -69,7 +69,7 @@ You can use a version of the command that allows you to create the superuser wit
 python manage.py createsuperuser --username ranvir --email abc@abc.com --no-input
 ```
 
-{% include lazyload.html image_src="https://i.ibb.co/7Xm1ytM/Screenshot-2020-09-19-at-2-01-09-AM.png" image_alt="python manage.py createsuperuser no-input" image_title="python manage.py createsuperuser no-input" %}
+{% include lazyload.html image_src="https://i.ibb.co/LJtHHq5/Screenshot-2020-09-19-at-3-17-49-AM.png" image_alt="python manage.py createsuperuser no-input" image_title="python manage.py createsuperuser no-input" %}
 
 Although the user created using this process will have no password. We can create the password either using the `changepassword` command or the admin panel.
 
