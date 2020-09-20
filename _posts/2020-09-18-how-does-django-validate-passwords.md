@@ -20,6 +20,8 @@ show_telegram_signup: false
 
 A few days ago, I was working on one of my old Django projects. It was running an old version of Django and I wanted to keep it updated with the latest changes of the framework.
 
+{% include linked_post.html url="asynchronous-behaviour-using-asyncio-in-python" %}
+
 So to check the admin site, I tried to create the superuser after connection to the local database.
 
 ```python
