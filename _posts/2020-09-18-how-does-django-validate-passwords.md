@@ -22,7 +22,7 @@ A few days ago, I was working on one of my old Django projects. It was running a
 
 {% include linked_post.html url="asynchronous-behaviour-using-asyncio-in-python" %}
 
-So to check the admin site, I tried to create the superuser after connection to the local database.
+So to check the [admin site](https://ranvir.xyz/blog/django-admin-tips-and-tricks/), I tried to create the superuser after connection to the local database.
 
 ```python
 python manage.py createsuperuser
