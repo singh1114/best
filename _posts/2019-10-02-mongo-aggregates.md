@@ -35,7 +35,7 @@ As the hype began to settle, people started realizing the movement of the stack 
 
 MongoDB is a document-based, distributed database. In production, people tend to run it with 3 replicas. 1 is the master and the other two being the slaves. This provides redundancy and [high availability](https://en.wikipedia.org/wiki/High_availability).
 
-You can configure these to follow any guidelines but by default reads and writes are handled by the primary replica and the new data is moved on to the replica sets on each writes.
+You can configure these to follow any guidelines but by default reads and writes are handled by the primary replica and the new data is moved on to the replica sets on each database write.
 
 As the mongo doesn't have a well-defined schema, it's pretty hard to make queries from the data.
 
