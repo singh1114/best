@@ -297,6 +297,17 @@ db.getCollection("author").explain().aggregate([
 	}
 ])
 ```
+or from shell,
+
+```javascript
+db.author.explain().aggregate([
+	{
+		$match: {
+		    "email" : "hello@heaven.god"
+		}
+	}
+])
+```
 
 This will generate a simple output like this.
 
@@ -336,6 +347,10 @@ This will generate a simple output like this.
     "ok" : 1.0
 }
 ```
+
+For example:
+
+{% include lazyload.html image_src="https://i.ibb.co/jgBKBRg/Screenshot-2020-10-04-at-3-14-07-PM.png" image_alt="Mongodb explain" image_title="Mongodb explain" %}
 
 `winningplan` contains an object which tells us more about the winning plan which was used to run the query and `queryPlanner` contains an `Array` of plans which were tried. Mongo chooses the best plans and uses it for running the queries.
 
