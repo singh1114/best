@@ -41,7 +41,7 @@ As the mongo doesn't have a well-defined schema, it's pretty hard to make querie
 
 Mongoose is a library that can help you with this. It provides a lot of benefits, like creating hooks and indexes easily on the collections.
 
-BTW, tables equivalent in Mongo are known as `collections` and rows equivalents are known as `documents`.
+> BTW, tables equivalent in Mongo are known as `collections` and rows equivalents are known as `documents`.
 
 ## Mongo Aggregates
 
