@@ -135,6 +135,11 @@ select student_name, student_age from students;
 
 `_id` field is added by default in the result. You can use `_id: 0`, if you don't want to include that field.
 
+{% include lazyload.html image_src="
+https://i.ibb.co/CWs0PGh/Screenshot-2020-10-04-at-2-57-35-PM.png" image_alt="Project in mongo" image_title="Project in mongo" %}
+
+I hope you have started to understand the usage of aggregates in a better way.
+
 ## Grouping in Mongo Aggregate
 
 Group is used to group different things together, for example, if you want to calculate the sum of the age of students in different standards, the query will look something like this.
