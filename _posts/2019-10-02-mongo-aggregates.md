@@ -85,6 +85,12 @@ or
 { $match: { "class": 5 }}
 ```
 
+Corresponding SQL query for this would be
+
+```
+select * from student where class = 5;
+```
+
 This query will return all the documents which satisfy the given query.
 
 For all further parts of the pipeline, you can keep adding it to the main array of the pipeline.
@@ -99,6 +105,13 @@ You should use `$match` as early as possible to make use of `indexes`.
 
 Always try to explain the `$match` part of your queries and prefer to create compound indexes according to your queries.
 
+### Match vs find in mongo
+
+`$match` produces the same results as of `find` query that is why it's hard to understand the difference between the aggregates and normal queries if you start by studying `match` queries but please tolerate me for some more time. You will know what we are talking about in some time.
+
+{% include lazyload.html image_src="
+https://i.ibb.co/N2thD1M/Screenshot-2020-10-04-at-2-48-37-PM.png" image_alt="Match vs find in mongo" image_title="match vs find in mongo" %}
+
 ## Project in Mongo Aggregate
 
 Project is the part where you tell the query which keys to pick from the given document.
@@ -112,9 +125,13 @@ Project is the part where you tell the query which keys to pick from the given d
 }
 ```
 
-This will pick up only the fields with value `1` in the document. It is important to reduce of data being transferred to next part of the pipeline.
+This will pick up only the fields with value `1` in the document. It is important to reduce the data being transferred to the next part of the pipeline.
 
 It can also be used to change the name of the field. This is the `SELECT` equivalent of `SQL` commands.
+
+```
+select student_name, student_age from students;
+```
 
 `_id` field is added by default in the result. You can use `_id: 0`, if you don't want to include that field.
 
