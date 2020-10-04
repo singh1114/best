@@ -142,7 +142,7 @@ I hope you have started to understand the usage of aggregates in a better way.
 
 ## Grouping in Mongo Aggregate
 
-Group is used to group different things together, for example, if you want to calculate the sum of the age of students in different standards, the query will look something like this.
+Group command is used to group different things together, for example, if you want to calculate the sum of the age of students in different standards, the query will look something like this.
 
 ```
 db.students.aggregate([
