@@ -49,7 +49,7 @@ Read more about the differences at [GeeksforGeeks](https://www.geeksforgeeks.org
 
 {% include lazyload.html image_src="https://webassets.mongodb.com/_com_assets/cms/mongodb_logo1-76twgcu2dm.png" image_alt="Mongo DB" image_title="Mongo DB" %}
 
-Mongo DB aggregates make it easier to query data from any collection. It involves things like matching, getting data from other collections, selecting fields and many more.
+Mongo DB aggregates make it easier to query data from different collections. It involves things like matching, getting data from other collections, selecting fields and many more.
 
 Let's discuss a few of these aggregate queries.
 
