@@ -348,10 +348,6 @@ This will generate a simple output like this.
 }
 ```
 
-For example:
-
-{% include lazyload.html image_src="https://i.ibb.co/jgBKBRg/Screenshot-2020-10-04-at-3-14-07-PM.png" image_alt="Mongodb explain" image_title="Mongodb explain" %}
-
 `winningplan` contains an object which tells us more about the winning plan which was used to run the query and `queryPlanner` contains an `Array` of plans which were tried. Mongo chooses the best plans and uses it for running the queries.
 
 If you use the `explain` with `executionStats` it will give you things like `docs Returned` and `docs Examined` which can be helpful in finding the best suitable `index` for your `collection`.
@@ -367,6 +363,10 @@ db.getCollection("author").explain("executionStats").aggregate([
 ```
 
 {% include lazyload.html image_src="https://i.imgur.com/gls7IHT.jpg" image_alt="Explain mongo aggregate queries" image_title="Explain mongo aggregate queries" %}
+
+In the following example, 
+
+{% include lazyload.html image_src="https://i.ibb.co/K5sZVK4/Screenshot-2020-10-04-at-3-34-03-PM.png" image_alt="Mongodb explain" image_title="Mongodb explain" %}
 
 ## Conclusion
 
