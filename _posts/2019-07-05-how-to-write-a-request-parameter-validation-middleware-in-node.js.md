@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to validate your request parameters easily using middleware in node.js
+title: Faster validation of request parameters using middleware in node.js
 date: 2019-07-05T15:55:00.000Z
 updated_date: 2020-05-30T13:44:57.012Z
 description: Validate your request parameters using a validator middleware that
