@@ -364,9 +364,17 @@ db.getCollection("author").explain("executionStats").aggregate([
 
 {% include lazyload.html image_src="https://i.imgur.com/gls7IHT.jpg" image_alt="Explain mongo aggregate queries" image_title="Explain mongo aggregate queries" %}
 
-In the following example, 
+In the following example, the query is examining all 5 rows before giving the result.
 
 {% include lazyload.html image_src="https://i.ibb.co/K5sZVK4/Screenshot-2020-10-04-at-3-34-03-PM.png" image_alt="Mongodb explain" image_title="Mongodb explain" %}
+
+We can reduce that by indexing the `item` field.
+
+{% include lazyload.html image_src="https://i.ibb.co/PY1yqSf/Screenshot-2020-10-04-at-3-41-50-PM.png" image_alt="Create index in mongodb" image_title="Create index in mongodb" %}
+
+Now when we apply the `executionStats` command we get a better docs examined ratio.
+
+{% include lazyload.html image_src="https://i.ibb.co/ds9n5XG/Screenshot-2020-10-04-at-3-43-12-PM.png" image_alt="execution stats after index" image_title="execution stats after index" %}
 
 ## Conclusion
 
