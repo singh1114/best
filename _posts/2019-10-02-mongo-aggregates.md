@@ -2,11 +2,10 @@
 title: Mongo Aggregates and How to explain Aggregate queries
 date: 2019-10-02T12:03:00.000Z
 updated_date: 2020-04-04T19:57:13.529Z
-description: >-
-  Mongo aggregate explain with match, project, lookup, group and finally
-  analysing how your aggregate query performed in mongo winningplan
+description: Mongo aggregate explain with match, project, lookup, group and
+  finally analysing how your aggregate query performed in mongo winningplan
 published: true
-image: 'https://i.imgur.com/vlIEICJ.jpg'
+image: https://i.imgur.com/vlIEICJ.jpg
 tags:
   - database
   - mongo
@@ -22,17 +21,19 @@ categories:
 
 Today we are going to talk about Mongo Aggregates. A framework that helps us to run complex queries in Mongo DB. One of the best things that happened to Mongo.
 
-Let's start by pulling out a few differences between the normal and Mongo database.
+Let's start by pulling out a few differences between the normal( SQL) and Mongo(NoSQL) database.
+
+## Difference between SQL and NoSQL database
 
 Mongo belongs to one of those NoSQL databases which disrupted the internet a few years ago. Everyone in the industry was talking about them. Everyone wanted to move their stack to these flexible databases.
 
 Everyone was talking about how the data needs to move to that direction and so on.
 
-As the hype began to settle, people started realizing the movement of the stack will help only if they implement it correctly and for most of them shift wasn't even necessary.
+As the hype began to settle, people started realizing the movement of the stack will help only if they implement it correctly and for most of them, the shift wasn't even necessary.
 
-`NoSQL` is a wide term and consists of a variety of database models. Mongo is also one of them, others being `Cassandra`, `Apache Spark` and many more.
+`NoSQL` is a wide term and that is used by a variety of databases. Mongo is also one of them, others being `Cassandra`, `Apache Spark` and many more.
 
-MongoDB is the document-based, distributed database. In production, people tend to run it with 3 replicas. 1 is the master and the other two being the slaves. This provides redundancy and high data availability.
+MongoDB is a document-based, distributed database. In production, people tend to run it with 3 replicas. 1 is the master and the other two being the slaves. This provides redundancy and [high availability](https://en.wikipedia.org/wiki/High_availability).
 
 You can configure these to follow any guidelines but by default reads and writes are handled by the primary replica and the new data is moved on to the replica sets on each writes.
 
