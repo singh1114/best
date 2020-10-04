@@ -3,7 +3,7 @@ title: Mongo Aggregates and How to explain Aggregate queries
 date: 2019-10-02T12:03:00.000Z
 updated_date: 2020-04-04T19:57:13.529Z
 description: Mongo aggregate explain with match, project, lookup, group and
-  finally analysing how your aggregate query performed in mongo winningplan
+  finally analysing how your aggregate query performed in mongo winningplan.
 published: true
 image: https://i.imgur.com/vlIEICJ.jpg
 tags:
