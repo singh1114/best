@@ -51,6 +51,8 @@ Read more about the differences at [GeeksforGeeks](https://www.geeksforgeeks.org
 
 Mongo DB aggregates make it easier to query data from different collections. It involves things like matching, getting data from other collections, selecting fields and many more.
 
+> An aggregate is basically a set of operations where the result of one operation is passed on as an input to the next operation where each operation is applying some logic to get further insight from the passed data.
+
 Let's discuss a few of these aggregate queries.
 
 ### Starting out a Mongo Aggregate
