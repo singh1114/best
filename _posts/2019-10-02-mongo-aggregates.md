@@ -280,7 +280,11 @@ We will get the following result,
 
 Check this on [Mongo playground](https://mongoplayground.net/p/iQsvZ3ZJ7AT).
 
-## How to Explain mongo aggregate queries
+## Mongo Aggregation Pipeline
+
+When data is passed on from multiple such aggregation layers of `match`, `lookup`, `project` etc, it is called Mongo Aggregation Pipeline. (Just a fancy term)
+
+## How to Explain mongo aggregate queries using Mongodb Explain command
 
 To explain the queries, you will have to use the options in the aggregate to find the way in which queries are run.
 
