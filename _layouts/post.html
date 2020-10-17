@@ -19,14 +19,9 @@ layout: default
     {% else %}
       {% assign categories = page.categories %}
     {% endif %}
-    {% assign prefix = "#ccc, #fff, #111, red" | split: ", " %}
-    {% assign min = 0 %}
-    {% assign max = prefix.size %}
-    {% assign diff = max | minus: min %}
-    {% assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min %}
-    {{randomNumber}}
     {% for category in categories %}
-        <a href="{{site.baseurl}}/categories/#{{category|slugize}}" style="background: {{prefix[randomNumber]}};"> {{category}}</a>
+      <a href="{{site.baseurl}}/categories/#{{category|slugize}}"
+      style="background: #4CAF50; color: #fff; text-decoration: none; padding: 2px 13px; border-radius: 50px; font-size: 14.5px;"> {{category}}</a>
     {% endfor %}
   </div>
 
