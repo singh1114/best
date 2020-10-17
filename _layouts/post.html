@@ -10,6 +10,8 @@ layout: default
   <div class="author" style="font-size: 0.8em;">
     {% if page.author_username and page.author_username != blank and page.author_name and page.author_username != blank %}
       <a href="{{ page.author_username }}">{{ page.author_name }}</a> &middot; {% include read_time.html content=page.content %}
+    {% else %}
+    {% include read_time.html content=page.content %}
     {% endif %}
   </div>
 
