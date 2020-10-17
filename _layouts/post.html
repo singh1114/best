@@ -9,26 +9,24 @@ layout: default
 
   <div class="author" style="font-size: 0.8em;">
     {% if page.author_username and page.author_username != blank and page.author_name and page.author_username != blank %}
-      <strong>Written by: </strong><a href="{{ site.baseurl }}/{{ page.author_username }}">{{ page.author_name }}</a>
+      <a href="{{ page.author_username }}">{{ page.author_name }}</a> &middot; {% include read_time.html content=page.content %}
     {% endif %}
   </div>
 
-  <div class="date" style="font-size: 0.8em;">
-    {% include read_time.html content=page.content %}
-  </div>
-
-  <div class="post-categories" style="font-size: 0.8em;">
+  <div class="post-categories">
     {% if post %}
       {% assign categories = post.categories %}
     {% else %}
       {% assign categories = page.categories %}
     {% endif %}
-    <strong style="align:right;">
-        Categories:
-    </strong>
+    {% assign prefix = "#ccc, #fff, #111, red" | split: ", " %}
+    {% assign min = 0 %}
+    {% assign max = prefix.size %}
+    {% assign diff = max | minus: min %}
+    {% assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min %}
+    {{randomNumber}}
     {% for category in categories %}
-        <a href="{{site.baseurl}}/categories/#{{category|slugize}}"> {{category}}</a>
-      {% unless forloop.last %}&nbsp;{% endunless %} <strong>|</strong>
+        <a href="{{site.baseurl}}/categories/#{{category|slugize}}" style="background: {{prefix[randomNumber]}};"> {{category}}</a>
     {% endfor %}
   </div>
 
