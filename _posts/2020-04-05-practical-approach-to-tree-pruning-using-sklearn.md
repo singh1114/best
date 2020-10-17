@@ -5,7 +5,7 @@ date: 2020-04-05T14:32:51.943Z
 updated_date: 2020-04-05T14:32:51.958Z
 description: >-
   Tree pruning and finding prune subtree using cost complexity pruning or and
-  finding optimal alpha value using sklearn 
+  finding optimal alpha value using sklearn
 published: true
 image: 'https://i.ibb.co/XWMPn8d/Main-Images-2-1.png'
 tags:
@@ -19,6 +19,9 @@ categories:
   - python
   - datascience
 include_mathjax: true
+author_name: Ranvir Singh
+author_username: ranvir_xyz
+canonical_url: https://ranvir.xyz/blog/how-does-django-validate-passwords/
 ---
 {% include lazyload.html image_src="https://i.ibb.co/XWMPn8d/Main-Images-2-1.png" image_alt="Practical approach to tree pruning using sklearn" image_title="Practical approach to tree pruning using sklearn" %}
 
@@ -112,7 +115,7 @@ This gives,
 
 This contains two [Numpy Arrays](https://ranvir.xyz/blog/data-science-i-all-things-you-need-to-know-about-numpy/) of `alpha` and `impurities`.
 
-We can plot this on a graph to see the relation. 
+We can plot this on a graph to see the relation.
 
 ```python
 ccp_alphas, impurities = path.ccp_alphas, path.impurities

@@ -9,6 +9,9 @@ comments: true
 layout: post
 link: https://ranvirsinghprojects.wordpress.com/2016/08/03/how-to-create-a-session-variable-in-django/
 wordpress_id: 246
+author_name: Ranvir Singh
+author_username: ranvir_xyz
+canonical_url: https://ranvir.xyz/blog/how-does-django-validate-passwords/
 ---
 
 Long time ago browser developers recognized that we need to store the data produced during a user session so that we can refer to that data in the future. The user actions can lead to some calculations and after doing this cumbersome calculations we don't want to do the calculations again and again.
@@ -27,14 +30,14 @@ I also want to tell that this might not be the only solution to this kind of pro
 
 Now it's time to dive right into the coding part:
 
-    
+
     <code>var1 = "ranvirsingh"
     request.session['name'] = var1</code>
 
 
 This code stores the variable 'name' with a value 'ranvirsingh'. Now whenever you want to show this code on the browser you need to 'get' this variable and then you can show on that page.
 
-    
+
     <code>var1 = request.session.get('name')
     </code>
 

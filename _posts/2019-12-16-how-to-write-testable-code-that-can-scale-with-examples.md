@@ -3,6 +3,9 @@ title: What have I learned about testing as a full-stack developer
 published: true
 date: 2019-12-16T00:00:00.000Z
 image: 'https://i.imgur.com/OQXgcRy.jpg'
+author_name: Ranvir Singh
+author_username: ranvir_xyz
+canonical_url: https://ranvir.xyz/blog/how-does-django-validate-passwords/
 tags:
   - testing
   - python

@@ -6,6 +6,9 @@ description: >-
   Subprocess module is used to run bash commands with the Python scripts simply
   by calling subprocess.run
 published: true
+author_name: Ranvir Singh
+author_username: ranvir_xyz
+canonical_url: https://ranvir.xyz/blog/how-does-django-validate-passwords/
 tags:
   - GSoC-2017
   - python
@@ -26,7 +29,7 @@ We have made the models which were a hectic task because we don't really know wh
 
 According to python docs, subprocess can be used as an alternative for the following purposes.
 
-```python 
+```python
     os.system
     os.spawn*
     os.popen*
@@ -85,7 +88,7 @@ ls.wait()
 
 Or an alternative of `communicate()` is to use.
 
-```python 
+```python
 >>> grep.wait()
 >>> print grep.stdout.read()
 ```

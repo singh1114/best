@@ -3,6 +3,9 @@ layout: post
 title: Data Science II - Introduction to Pandas
 date: 2020-02-06T17:44:47.959Z
 published: true
+author_name: Ranvir Singh
+author_username: ranvir_xyz
+canonical_url: https://ranvir.xyz/blog/how-does-django-validate-passwords/
 tags:
   - machinelearning
   - datascience

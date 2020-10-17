@@ -22,6 +22,9 @@ categories:
   - sklearn
 show_ads: false
 include_mathjax: true
+author_name: Ranvir Singh
+author_username: ranvir_xyz
+canonical_url: https://ranvir.xyz/blog/how-does-django-validate-passwords/
 ---
 SVM or support vector machines are [supervised learning models](https://ranvir.xyz/blog/how-to-evaluate-your-machine-learning-model-like-a-pro-metrics/#supervised-learning-and-classification-problems) that analyze data and recognize patterns on its own. They are used for both classification and regression analysis.
 

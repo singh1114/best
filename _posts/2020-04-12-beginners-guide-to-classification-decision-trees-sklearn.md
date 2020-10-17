@@ -21,6 +21,9 @@ categories:
   - sklearn
 show_ads: false
 include_mathjax: true
+author_name: Ranvir Singh
+author_username: ranvir_xyz
+canonical_url: https://ranvir.xyz/blog/how-does-django-validate-passwords/
 ---
 {% include lazyload.html image_src="https://i.ibb.co/1rhJkq4/Main-Images-1.png" image_alt="Beginners guide to classification tree using sklearn" image_title="Beginners guide to classification tree using sklearn" %}
 
@@ -98,7 +101,7 @@ We will discuss it further while creating the model using Information Gain.
 
 ## Gini Index in Classification Trees
 
-This is the default metric that the Sklearn Decision Tree classifier tends to increase. 
+This is the default metric that the Sklearn Decision Tree classifier tends to increase.
 
 It is used to quantify the split made in the tree at any given moment of node selection.
 

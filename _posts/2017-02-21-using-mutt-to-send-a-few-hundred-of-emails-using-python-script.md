@@ -7,6 +7,9 @@ tags:
   - python
 categories:
   - python
+author_name: Ranvir Singh
+author_username: ranvir_xyz
+canonical_url: https://ranvir.xyz/blog/how-does-django-validate-passwords/
 ---
 
 So this was my first encounter with the powerful email client MUTT. According to the official website of MUTT, "All web clients sucks but this one sucks less". This is the best way to explain something.

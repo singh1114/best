@@ -8,6 +8,9 @@ comments: true
 layout: post
 link: https://ranvirsinghprojects.wordpress.com/2017/02/12/automating-the-action-of-creating-the-presentations/
 wordpress_id: 625
+author_name: Ranvir Singh
+author_username: ranvir_xyz
+canonical_url: https://ranvir.xyz/blog/how-does-django-validate-passwords/
 ---
 
 GitHub repository : [https://github.com/singh1114/automatingPresentations/](https://github.com/singh1114/automatingPresentations/)
@@ -22,26 +25,26 @@ The file that contains the whole of the text, differentiate each slide with some
 
 Now was the time to think something about the procedure that we were going to follow. I wrote some of the pseudo code to start with.
 
-    
+
     Read the file:
-    
+
       whenever the line starts with *:
-    
+
         read each character:
-    
+
           if the letters are capital:
             give heading h1
-    
+
           if the * is first in the group:
             raise the height by 50%
-    
+
           if there is nothing after *
             do nothing
-    
+
       if the line starts with References:
         write the code for new slides
-    
-    
+
+
 
 
 We decided to use python for completing the job. So let the work begin.
@@ -54,10 +57,10 @@ For opening a file, we can use the function open(). The parameter that we pass a
 
 
 
- 	
+
   1. The file name
 
- 	
+
   2. The mode in which we want to open the file
 
 
@@ -67,10 +70,10 @@ read() function is used to read the content of the file and write() function is 
 
 Now talking about the script, I used a temporary variable to check for all types of cases but still two cases are not under the hood (There might be more but for now we only know about two of them). They are as follows:
 
- 	
+
   1. Even if the first word is in upper case it takes it a header text
 
- 	
+
   2. Paragraphs are not handled properly.
 
 

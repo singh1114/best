@@ -7,6 +7,9 @@ description: >-
   Mac). direnv apply your env variables whenever you enter the working
   directory.
 published: true
+author_name: Ranvir Singh
+author_username: ranvir_xyz
+canonical_url: https://ranvir.xyz/blog/how-does-django-validate-passwords/
 image: 'https://i.imgur.com/Bo6A3zh.png'
 tags:
   - python
@@ -101,12 +104,12 @@ What this line does is that, whenever you do anything on your shell, like openin
 
 Now go to a directory where you want to launch the environment variables.
 
-As long as you stay in that directory the value of environment variables will not change. 
+As long as you stay in that directory the value of environment variables will not change.
 
 Use the following commands to create a file
 
 ```bash
-$ touch .envrc 
+$ touch .envrc
 ```
 
 Open the file in your favourite text editor and add the following content. I myself prefer Vim. Read more about Vim on following post.
@@ -114,7 +117,7 @@ Open the file in your favourite text editor and add the following content. I mys
 {% include linked_post.html url="vim-the-best-text-editor" %}
 
 ```bash
-export DB_NAME=abc                                                          
+export DB_NAME=abc
 export DB_USER=root
 ```
 

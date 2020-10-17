@@ -18,6 +18,9 @@ categories:
   - python
 show_ads: false
 include_mathjax: true
+author_name: Ranvir Singh
+author_username: ranvir_xyz
+canonical_url: https://ranvir.xyz/blog/how-does-django-validate-passwords/
 ---
 Normalizing and standardizing are the common concepts in statistics which help the data to bring under a common shelter without changing the relative difference between the different values present in data.
 
@@ -37,7 +40,7 @@ We generally normalize values when feature are present in the dataset having dif
 
 *Normalization* doesn't lead to change in the real range of the dataset.
 
-*Standardization* leads to reduction of dataset between values in such a way that mean of the distribution is set to 0 and standard deviation is set to 1. 
+*Standardization* leads to reduction of dataset between values in such a way that mean of the distribution is set to 0 and standard deviation is set to 1.
 
 ## How to normalize/ standardize distribution
 

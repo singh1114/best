@@ -9,6 +9,9 @@ comments: true
 layout: post
 link: https://ranvirsinghprojects.wordpress.com/2016/07/31/adding-a-tuple-to-the-end-of-the-basic-tuple-in-python/
 wordpress_id: 239
+author_name: Ranvir Singh
+author_username: ranvir_xyz
+canonical_url: https://ranvir.xyz/blog/how-does-django-validate-passwords/
 ---
 
 Another problem was encountered while working on the python web framework, Django. But this time the problem was more of the language oriented rather than being framework oriented. As I am not a python programmer so I never knew these basic things. So, first of all I was getting an error, whose statement went like this :
@@ -17,7 +20,7 @@ First of all I will like to tell the things that I wanted to iterate over were s
 
 
 
-    
+
     <code>[('name1'), ('name2')]</code>
 
 
@@ -25,7 +28,7 @@ There was a large list of names. The only plus point in this journey was that I 
 
 
 
-    
+
     <code>(('abc1','xyz1'),('abc2', 'xyz2'))</code>
 
 
@@ -33,7 +36,7 @@ So, The first thing I did was that I converted the list into the tuple if 'l' is
 
 **Convert a python list into tuple**
 
-    
+
     <code>l=tuple(l)</code>
 
 
@@ -47,7 +50,7 @@ For this I went forward to create a loop which can add a new items in the end of
 
 But the problem was solved by using this code in the for loop:
 
-    
+
     <code>x = 0
     for q in name:
     	z=((q.id, q.Name),)+z

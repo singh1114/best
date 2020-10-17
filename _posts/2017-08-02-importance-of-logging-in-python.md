@@ -8,6 +8,9 @@ comments: true
 link: https://ranvirsinghprojects.wordpress.com/2017/08/03/importance-of-logging-in-python/
 wordpress_id: 849
 layout: post
+author_name: Ranvir Singh
+author_username: ranvir_xyz
+canonical_url: https://ranvir.xyz/blog/how-does-django-validate-passwords/
 ---
 
 Not in the mood of writing much today so will probably leave the link which I found useful and will definitely help us if we want to know more about logging.

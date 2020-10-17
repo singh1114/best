@@ -4,6 +4,9 @@ layout: post
 author: Ranvir Singh
 title: 'Serialization in Django: How to serialize models with Foreign keys'
 date: 2017-07-21T22:53:00.000Z
+author_name: Ranvir Singh
+author_username: ranvir_xyz
+canonical_url: https://ranvir.xyz/blog/how-does-django-validate-passwords/
 description: >-
   Explaining the process of serialization in Django containing the models with
   Foreign keys and create JSON response for the APIs.

@@ -16,6 +16,9 @@ categories:
   - matplotlib
 show_ads: false
 include_mathjax: true
+author_name: Ranvir Singh
+author_username: ranvir_xyz
+canonical_url: https://ranvir.xyz/blog/how-does-django-validate-passwords/
 ---
 Vector and Matrices are at the heart of all Neural Networks. Today we are going to learn about vector and Matrix mathematics with the help of `Matplotlib` and `numpy`.
 
@@ -105,7 +108,7 @@ def plot_2D_vectors(vectors, colors=('red', 'blue', 'green')):
     min_y = 0
     max_y = 0
     i = -1
-    for points in vectors:    
+    for points in vectors:
         for a in range(0, 4):
             if a % 2 == 0:
                 if points[a] <= min_x:

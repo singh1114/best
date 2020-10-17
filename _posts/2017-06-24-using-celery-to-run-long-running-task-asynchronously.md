@@ -7,6 +7,9 @@ date: 2017-06-24T18:41:00.000Z
 updated_date: 2020-04-22T16:53:44.753Z
 published: true
 comments: true
+author_name: Ranvir Singh
+author_username: ranvir_xyz
+canonical_url: https://ranvir.xyz/blog/how-does-django-validate-passwords/
 tags:
   - celery
   - python

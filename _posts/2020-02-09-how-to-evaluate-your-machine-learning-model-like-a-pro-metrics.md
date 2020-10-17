@@ -6,6 +6,9 @@ updated_date: 2020-04-10T18:30:00.000Z
 description: Evaluating your machine learning model can be done using accuracy,
   recall, precision, F1-score and/or mean absolute error or mean square error.
 published: true
+author_name: Ranvir Singh
+author_username: ranvir_xyz
+canonical_url: https://ranvir.xyz/blog/how-does-django-validate-passwords/
 image: https://i.imgur.com/oWQcLd6.png
 tags:
   - machinelearning

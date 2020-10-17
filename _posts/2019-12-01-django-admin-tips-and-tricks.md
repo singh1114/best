@@ -7,6 +7,9 @@ description: >-
   many more tips.
 published: true
 image: 'https://i.imgur.com/KtIEJsx.png'
+author_name: Ranvir Singh
+author_username: ranvir_xyz
+canonical_url: https://ranvir.xyz/blog/how-does-django-validate-passwords/
 tags:
   - django
   - django-admin
@@ -15,7 +18,6 @@ categories:
   - django
   - django-admin
   - python
-canonical_url: ''
 ---
 {% include lazyload.html image_src="https://i.imgur.com/KtIEJsx.png" image_alt="Django Admin tips and tricks" image_title="Django Admin tips and tricks" %}
 Django is one of the best Python frameworks to get started with web development and get out with your product in no time. With Django, you don't have to worry about any of the things like security, databases or most importantly admin panel.
@@ -317,7 +319,7 @@ Always remember to add foreign keys to `readonly` fields, otherwise, it will loa
 ```python
 @admin.register(Class)
 class ClassAdmin(admin.ModelAdmin):
-    
+
     readonly_fields = ('school',)
 ```
 

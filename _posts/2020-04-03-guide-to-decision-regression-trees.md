@@ -7,6 +7,9 @@ description: Beginner's guide to Regression Trees including the equation,
   Pruning, Prediction using stratification of features in decision Trees using
   sklearn.
 published: true
+author_name: Ranvir Singh
+author_username: ranvir_xyz
+canonical_url: https://ranvir.xyz/blog/how-does-django-validate-passwords/
 image: https://i.ibb.co/vsJ5X6N/Main-Images-1.png
 tags:
   - python

@@ -3,6 +3,9 @@ title: Breaking out of Software Developer-I role as a web developer
 date: 2019-12-04T20:01:00.000Z
 published: true
 image: 'https://i.imgur.com/aV8yfFk.jpg'
+author_name: Ranvir Singh
+author_username: ranvir_xyz
+canonical_url: https://ranvir.xyz/blog/how-does-django-validate-passwords/
 tags:
   - discuss
   - programming

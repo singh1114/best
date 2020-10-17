@@ -9,6 +9,9 @@ comments: true
 link: https://ranvirsinghprojects.wordpress.com/2016/07/18/how-to-install-django-using-virtual-environment/
 wordpress_id: 214
 layout: post
+author_name: Ranvir Singh
+author_username: ranvir_xyz
+canonical_url: https://ranvir.xyz/blog/how-does-django-validate-passwords/
 ---
 
 A virtual environment is made when you want to run a different version of a single system. It is a clean way of handling different Python projects in your machine.

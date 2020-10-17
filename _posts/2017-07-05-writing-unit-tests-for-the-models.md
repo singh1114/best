@@ -4,6 +4,9 @@ title: Writing unit tests for the Django models and why is it important?
 date: "2017-07-05T19:41:00.000Z"
 updated_date: "2020-04-08T17:39:29.652Z"
 published: true
+author_name: Ranvir Singh
+author_username: ranvir_xyz
+canonical_url: https://ranvir.xyz/blog/how-does-django-validate-passwords/
 tags:
   - testing
   - django
@@ -61,7 +64,7 @@ As your tests start taking shape you will feel more confident about your code.
 
 Let's have a coding sample:
 
-```python    
+```python
 from django.test import TestCase
 class ScanInfoTestCase(TestCase):
     def test_scan_info_added(self):
@@ -75,7 +78,7 @@ class ScanInfoTestCase(TestCase):
 In the first line, we import the `TestCase` from django.test. After that, in the `ScanInfoTestCase` we inherited this `TestCase` and used `assertTrue` and `assertEqual` method to check if the tests pass or not. The `assertTrue` method is used to check if the value is True or not. Similarly, assertEqual checks if the two variables are equal or not.
 
 For running tests in Django, apply:
-    
+
 `$ python manage.py test`
 
 ## Conclusion

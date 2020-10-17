@@ -20,9 +20,10 @@ categories:
   - knn
   - machinelearning
 show_ads: false
-show_telegram_signup: false
-canonical_url: ""
 include_mathjax: true
+author_name: Ranvir Singh
+author_username: ranvir_xyz
+canonical_url: https://ranvir.xyz/blog/how-does-django-validate-passwords/
 ---
 `KNN` or K-nearest neighbor classification algorithm is used as [supervised and pattern classification learning algorithm](https://ranvir.xyz/blog/how-to-evaluate-your-machine-learning-model-like-a-pro-metrics/#supervised-learning-and-classification-problems) which helps us to find which class the new input(test value) belongs to when `K` nearest neighbors are chosen using distance measure.
 

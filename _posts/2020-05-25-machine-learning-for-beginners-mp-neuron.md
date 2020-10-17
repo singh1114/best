@@ -18,6 +18,9 @@ categories:
   - numpy
 show_ads: false
 include_mathjax: true
+author_name: Ranvir Singh
+author_username: ranvir_xyz
+canonical_url: https://ranvir.xyz/blog/how-does-django-validate-passwords/
 ---
 MP neuron is the first step toward opening up the doors of artificial neural networks and artificial intelligence as a whole. It was made somewhat by taking inspiration from parts of biological neural networks.
 
@@ -150,13 +153,13 @@ class MPModel:
         self.threshold = None
         if function == 'sum':
             self.function = self.sum_function
-            
+
     def sum_function(self, x):
         return sum(x) >= self.threshold
-    
+
     def and_function(self, x):
         return all(x)
-    
+
     def or_function(self, x):
         return any(x)
 

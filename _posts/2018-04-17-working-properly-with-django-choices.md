@@ -6,6 +6,9 @@ description: >-
   Default django choices implementation forces us to repeat a lot of code. With
   the usage of this we are django choices we are trying to reduce it.
 published: true
+author_name: Ranvir Singh
+author_username: ranvir_xyz
+canonical_url: https://ranvir.xyz/blog/how-does-django-validate-passwords/
 tags:
   - python
   - django
@@ -21,7 +24,7 @@ While writing models you expect that you might be looking at neat fields that ar
 By default, Django choices are written as tuples inside tuples. A simple example can be a fancy animal problem.
 
 ## Default choices implementation in Django docs
-    
+
 ```python
 animal = (
     ('cat', '0'),
@@ -46,24 +49,24 @@ You can use this module as follows.
 ```python
 # choices.py
 from djchoices import DjangoChoices, ChoiceItem
-    
+
 class PersonType(DjangoChoices):
     customer = ChoiceItem("C")
     employee = ChoiceItem("E")
     groundhog = ChoiceItem("G")
-```    
-   
+```
+
 
 While in the models file.
 
 ```python
 # models.py
-    
+
 from .choices import PersonType
-    
+
 class Person(models.Model):
     type = models.CharField(max_length=1, choices=PersonType.choices)
-``` 
+```
 
 This way you can differentiate the implementation of the choices and database implementation separate. The only downside of using this is updating the real choice values in the future. You have to write a custom migration to make those changes live.
 

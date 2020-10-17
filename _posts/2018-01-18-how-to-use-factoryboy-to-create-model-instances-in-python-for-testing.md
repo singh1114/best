@@ -6,6 +6,9 @@ description: >-
   Using FactoryBoy to create model objects automatically for the purpose of
   testing.
 published: true
+author_name: Ranvir Singh
+author_username: ranvir_xyz
+canonical_url: https://ranvir.xyz/blog/how-does-django-validate-passwords/
 tags:
   - testing
   - python
@@ -16,7 +19,7 @@ categories:
   - django
   - testing
 ---
-Testing is one of the basic and most important parts of the development process that is needed to be done every time you write or change any part of the code. It gives you the authority confidence in the code that you are writing. 
+Testing is one of the basic and most important parts of the development process that is needed to be done every time you write or change any part of the code. It gives you the authority confidence in the code that you are writing.
 
 I have already discussed testing in one of my earlier posts.
 
@@ -44,33 +47,33 @@ from my_app.models import Person
 
 class DataBaseStore(TestCase):
     def setUp(self):
-        # Creating all the models   
-        Person.objects.create(gender='male', age=20, name='ranvir')  
-    
+        # Creating all the models
+        Person.objects.create(gender='male', age=20, name='ranvir')
+
     def test_something(self):
         # test all the things that you want to.
         pass
 ```
- 
 
-On the other hand, it is always nice to separate your setting up `method` from the testing method. For this sometimes we have to write long code in the beginning which helps us in the future by allowing us to write smaller code. 
+
+On the other hand, it is always nice to separate your setting up `method` from the testing method. For this sometimes we have to write long code in the beginning which helps us in the future by allowing us to write smaller code.
 
 We can write factories anywhere but it's always a good idea to write it in a separate file named factories.py inside the root directory of your app.
 
 Write following in the `factories.py` file inside your root directory.
 
 ## Creating model objects with FactoryBoy
- 
-```python
-from factory.django import DjangoModelFactory  
-from my_app.models import Person  
 
-class PersonFactory(DjangoModelFactory):  
-    class Meta:  
-        model = Person  
-    name = 'ranvir'  
-    age = 20  
-    gender = 'male'  
+```python
+from factory.django import DjangoModelFactory
+from my_app.models import Person
+
+class PersonFactory(DjangoModelFactory):
+    class Meta:
+        model = Person
+    name = 'ranvir'
+    age = 20
+    gender = 'male'
 ```
 
 Now we can simply call these factories during the test generation and create as many instances of models as we want to. This is a pretty simple case but we really can do a lot more. We can create instances of varies types by making use of `FuzzyText` and Sequence.
@@ -86,8 +89,8 @@ We can get random values for the purpose we specify to the `Faker` method. The v
 ```python
 from factory import Faker
 
-class PersonFactory(DjangoModelFactory):  
-    class Meta:  
+class PersonFactory(DjangoModelFactory):
+    class Meta:
         model = Person
     name = Faker('name')
     age = 20
@@ -103,8 +106,8 @@ Sometimes our tests fail for some random value and not for all of them. So, `fac
 ```python
 from factory.random import reseed_random
 
-class PersonFactory(DjangoModelFactory):  
-    class Meta:  
+class PersonFactory(DjangoModelFactory):
+    class Meta:
         model = Person
     name = reseed_random('Bill Clinton')
     age = 20
@@ -118,8 +121,8 @@ There are some cases in which you want to use the values which are dependent on 
 ```python
 from factory import Faker, LazyAttribute
 
-class PersonFactory(DjangoModelFactory):  
-    class Meta:  
+class PersonFactory(DjangoModelFactory):
+    class Meta:
         model = Person
     first_name = Faker('first_name')
     second_name = Faker('last_name')
@@ -133,8 +136,8 @@ With random function, there is a chance that after some time the values will sta
 ```python
 from factory import Sequence
 
-class PersonFactory(DjangoModelFactory):  
-    class Meta:  
+class PersonFactory(DjangoModelFactory):
+    class Meta:
         model = Person
     email = Sequence(lambda n: 'person{0}@ranvir.xyz'.format(n))
 ```
@@ -146,13 +149,13 @@ If your field is a foreign key, you can directly use that whole factory all toge
 ```python
 from factory import Sequence
 
-class PersonFactory(DjangoModelFactory):  
-    class Meta:  
+class PersonFactory(DjangoModelFactory):
+    class Meta:
         model = Person
     email = Sequence(lambda n: 'person{0}@ranvir.xyz'.format(n))
 
-class SocietyFactory(DjangoModelFactory):  
-    class Meta:  
+class SocietyFactory(DjangoModelFactory):
+    class Meta:
         model = Person
     society_number = Sequence(lambda n: 'Society {0}'.format(n))
     person = factory.SubFactory(PersonFactory)
