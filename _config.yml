@@ -34,7 +34,7 @@ url: https://pythonprogramming.org
 baseurl: ""
 permalink: "/:title/"
 version: v1.2.0
-sidebar: false
+sidebar: true
 kramdown:
   input: GFM
   syntax_highlighter: rouge
@@ -65,3 +65,4 @@ include:
 - _authors
 - _thoughts
 series_array: []
+telegram_bot: pythonprogrammingorgbot
