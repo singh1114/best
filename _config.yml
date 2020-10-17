@@ -45,11 +45,11 @@ gems:
 - jekyll-sitemap
 - jekyll-redirect-from
 plugins:
-- jekyll-seo-tag
-- jekyll-sitemap
-- jekyll-sitemap
-- jekyll-feed
-- jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
 exclude:
 - Gemfile
 - Gemfile.lock
