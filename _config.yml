@@ -1,5 +1,5 @@
 ---
-title: Ranvir's Blog
+title: Python Programming Blog
 timezone: UTC
 collections:
   posts:
@@ -11,27 +11,27 @@ collections:
   thoughts:
     title: Archives
     output: true
-name: Ranvir Singh
-description: Open-source enthusiast.
+name: Python Programming Blog
+description: Wide range of Python tutorials
 avatar: https://ranvir.xyz/blog/images/project-management.svg
 footer-links:
   dribbble:
-  email: ranvir.singh1114@gmail.com
+  email: pythonprogrammingorg@gmail.com
   facebook: "loyalseo"
   flickr:
   github: singh1114
   instagram:
-  linkedin: ranvir-singh-03b0811a9/
+  linkedin:
   pinterest:
   rss:
-  twitter: ranvirsingh1114
+  twitter:
   stackoverflow:
   youtube:
   googleplus:
 disqus: ranvir-singh
 google_analytics:
-url: https://ranvir.xyz
-baseurl: "/blog"
+url: https://pythonprogramming.org
+baseurl: ""
 permalink: "/:title/"
 version: v1.2.0
 kramdown:
