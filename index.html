@@ -16,7 +16,6 @@ layout: default
     </article>
   {% endfor %}
 
-  <!-- pagination -->
   {% if paginator.total_pages > 1 %}
   <div class="pagination">
     {% if paginator.previous_page %}
@@ -27,7 +26,7 @@ layout: default
 
     {% for page in (1..paginator.total_pages) %}
       {% if page == paginator.page %}
-        <span class="ranvirxyz">{{ page }}</span>
+        <span class="webjeda">{{ page }}</span>
       {% elsif page == 1 %}
         <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
       {% else %}
@@ -41,4 +40,5 @@ layout: default
       <span>Next &raquo;</span>
     {% endif %}
   </div>
+  {% endif %}
 </div>
