@@ -59,7 +59,7 @@ layout: default
         </div>
         <br>
       {% endif %}
-      {% assign para_number_telegram = forloop.index | modulo: 13 %}
+      {% assign para_number_telegram = forloop.index | modulo: 10 %}
       {% if para_number_telegram == 0 and page.show_telegram_signup %}
         {% include telegram.html %}
       {% endif %}
@@ -118,5 +118,7 @@ layout: default
   </div>
   <br>
   {% include disqus.html %}
-  {% include sidebar.html %}
+  {% if site.sidebar %}
+    {% include sidebar.html %}
+  {% endif %}
 </article>

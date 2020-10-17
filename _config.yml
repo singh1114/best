@@ -34,6 +34,7 @@ url: https://pythonprogramming.org
 baseurl: ""
 permalink: "/:title/"
 version: v1.2.0
+sidebar: false
 kramdown:
   input: GFM
   syntax_highlighter: rouge

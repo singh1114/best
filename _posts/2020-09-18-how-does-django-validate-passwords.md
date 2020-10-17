@@ -14,7 +14,7 @@ categories:
   - python
   - django
 show_ads: false
-show_telegram_signup: true
+show_telegram_signup: false
 ---
 {% include lazyload.html image_src="https://i.ibb.co/n3YzYyF/Main-Images-4-1.png" image_alt="How does Django validate passwords" image_title="How does Django validate passwords" %}
 
