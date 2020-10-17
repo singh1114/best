@@ -7,21 +7,17 @@ layout: default
 <article class="post">
   <h1>{{ page.title }}</h1>
 
-  <div class="author">
+  <div class="author" style="font-size: 0.8em;">
     {% if page.author_username and page.author_username != blank and page.author_name and page.author_username != blank %}
-      <strong>Author: </strong><a href="https://ranvir.xyz/blog/{{ page.author_username }}">{{ page.author_name }}</a>
+      <strong>Written by: </strong><a href="{{ site.baseurl }}/{{ page.author_username }}">{{ page.author_name }}</a>
     {% endif %}
   </div>
 
-  <div class="date">
-    {% if page.updated_date %}
-      <strong>Updated on:</strong> {{ page.updated_date | date: "%B %e, %Y" }} &middot; {% include read_time.html content=page.content %}
-    {% else %}
-      {{ page.date | date: "%B %e, %Y" }} &middot; {% include read_time.html content=page.content %}
-    {% endif %}
+  <div class="date" style="font-size: 0.8em;">
+    {% include read_time.html content=page.content %}
   </div>
 
-  <div class="post-categories">
+  <div class="post-categories" style="font-size: 0.8em;">
     {% if post %}
       {% assign categories = post.categories %}
     {% else %}
@@ -112,9 +108,6 @@ layout: default
   </div>
   <div class="container">
     {% include feedback.html %}
-  </div>
-  <div class="container">
-    {% include subscribe.html %}
   </div>
   <br>
   {% include disqus.html %}
