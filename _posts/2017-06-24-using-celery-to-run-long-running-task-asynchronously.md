@@ -17,6 +17,9 @@ categories:
   - celery
   - python
   - django
+author_name: Ranvir Singh
+author_username: ranvir_xyz
+canonical_url: https://ranvir.xyz/blog/using-celery-to-run-long-running-task-asynchronously/
 ---
 
 Celery is used to run some special part of code which you don't want to run in the main thread. We use celery when we don't want the response of the task in the same request.
@@ -55,13 +58,13 @@ If you compare the URL of the one giving the output to wait and the URL that sho
 
 Basically, I used a small trick up here. I coded the following model.
 
-    
+
 ```python
 class CeleryScan(models.Model):
     scan_id = models.AutoField(primary_key = True)
     scan_results = models.CharField(max_length = 20000, null=True, blank=True)
     is_complete = models.BooleanField(default = False)
-    
+
     def __str__(self):
         return str(self.scan_id)
 ```
@@ -156,7 +159,7 @@ Now you will have to add the `broker` configuration in your settings file.
 REDIS_HOST = 'localhost'
 REDIS_PORT = '6379'
 BROKER_URL = 'redis://' + REDIS_HOST + ':' + REDIS_PORT + '/0'
-BROKER_TRANSPORT_OPTIONS = {'visibility_timeout': 3600} 
+BROKER_TRANSPORT_OPTIONS = {'visibility_timeout': 3600}
 CELERY_RESULT_BACKEND = 'redis://' + REDIS_HOST + ':' + REDIS_PORT + '/0'
 ```
 

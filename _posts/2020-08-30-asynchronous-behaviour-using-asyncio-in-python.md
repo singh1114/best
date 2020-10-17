@@ -16,6 +16,9 @@ categories:
   - django
 show_ads: false
 show_telegram_signup: false
+author_name: Ranvir Singh
+author_username: ranvir_xyz
+canonical_url: https://ranvir.xyz/blog/asynchronous-behaviour-using-asyncio-in-python/
 ---
 {% include lazyload.html image_src="https://i.ibb.co/SPSdFf8/Main-Images-2-2.png" image_alt="Asynchronous behavior using asyncio in Python" image_title="Asynchronous behavior using asyncio in Python" %}
 
@@ -41,7 +44,7 @@ I am using `Python 3.8` for this tutorial and you might want to use the same to 
 
 ## Basic async function in Python
 
-This is how we write a basic async function in Python. 
+This is how we write a basic async function in Python.
 
 ```python
 import asyncio
@@ -85,7 +88,7 @@ start = time.time()
 
 async def async_sleep():
     await asyncio.sleep(1)
-    
+
 
 async def func1(a):
     print(f"started func 1: {a + 1}")
@@ -235,7 +238,7 @@ async def main():
     print(f"Completed after: {time.time() - start}")
 
 asyncio.run(main())
-``` 
+```
 
 The response to the following code is,
 
@@ -312,4 +315,4 @@ You can check them at [python's official website](https://docs.python.org/3/libr
 
 If you want to provide a better and faster experience to your users, you can start using the `asyncio` module in your application. This will definitely help you find cases in which you can reduce the execution time of your API or whatever else that you are doing.
 
-Just forcing yourself to write in this way for a few months can yield big returns in the future. 
+Just forcing yourself to write in this way for a few months can yield big returns in the future.

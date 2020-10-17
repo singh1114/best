@@ -15,6 +15,9 @@ categories:
   - django
 show_ads: false
 show_telegram_signup: false
+author_name: Ranvir Singh
+author_username: ranvir_xyz
+canonical_url: https://ranvir.xyz/blog/how-does-django-validate-passwords/
 ---
 {% include lazyload.html image_src="https://i.ibb.co/n3YzYyF/Main-Images-4-1.png" image_alt="How does Django validate passwords" image_title="How does Django validate passwords" %}
 
