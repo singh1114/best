@@ -15,7 +15,7 @@ categories:
 author_name: Prashant Sharma
 author_username: sharma_pacific
 show_ads: false
-show_telegram_signup: true
+show_telegram_signup: false
 canonical_url: https://sharmapacific.in/metaclasses-in-python/
 ---
 {% include lazyload.html image_src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" image_alt="Deep dive into Python Metaclasses" image_title="Deep dive into Python Metaclasses" %}
