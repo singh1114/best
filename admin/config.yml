@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: singh1114/blog
+  repo: singh1114/pythonprogramming
   branch: gh-pages
 
 media_folder: "images"
