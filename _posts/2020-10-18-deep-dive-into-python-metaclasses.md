@@ -8,6 +8,7 @@ image: https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2
 tags:
   - python
   - programming
+  - productivity
 categories:
   - python
   - programming
