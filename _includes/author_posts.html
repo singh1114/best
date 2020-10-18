@@ -1,5 +1,8 @@
+{{page.slug}}
 {% for post in site.posts %}
     {% if post.author_username == page.slug %}
+        {{page.slug}}
+        {{post.author_username}}
         <div class="linked_post_div">
             <article class="post">
                 <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
