@@ -3,17 +3,10 @@
     <h5><strong>{{ page.series_title }}</strong></h5><hr>
   {% endif %}
   <h5><strong>{{}}</strong></h5>
-  {% assign next_title = "" %}
-  {% assign prev_title = "" %}
 {% for post in site.posts %}
   {% if post.series_unique_code == page.series_unique_code %}
     {% assign should_update_prev = 1 %}
     {% assign should_update_next = 0 %}
-    {% if should_update_next == 1 %}
-      {% assign next_title = post.title %}
-      {% assign next_url = post.url %}
-      {% assing should_update_next = 0 %}
-    {% endif %}
       {% if post.url == page.url %}
         <a href="{{ post.url }}"
         style="padding: 2px 13px;
@@ -26,7 +19,6 @@
           {% endif %}
         </a><br>
         {% assign should_update_prev = 0 %}
-        {% assign should_update_next = 1 %}
       {% else %}
         <a href="{{ post.url }}">
           {% if post.series_page_title %}
@@ -34,7 +26,6 @@
           {% else %}
             {{ post.title }}
           {% endif %}
-          {% assign should_update_next = 0 %}
         </a><br>
         {% assign should_update_prev = 1 %}
       {% endif %}
@@ -45,8 +36,6 @@
       {% endif %}
   {% endif %}
 {% endfor %}
-{{ next_title }}
-{{ prev_title }}
 </div>
 
 <style>
