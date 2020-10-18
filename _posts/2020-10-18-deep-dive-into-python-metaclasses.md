@@ -10,7 +10,6 @@ tags:
 categories:
   - python
   - programming
-  - ""
 author_name: Prashant Sharma
 author_username: sharma_pacific
 show_ads: false
