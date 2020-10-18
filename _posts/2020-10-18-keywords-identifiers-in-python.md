@@ -46,7 +46,3 @@ python, django, webdev
 Second part of series
 
 python, django, webdev
-
-{% for post in site.posts %}
-    {{post.title}}
-{% endfor %}
