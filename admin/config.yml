@@ -31,6 +31,10 @@ collections:
       - {label: "Include math equations", name: "include_mathjax", widget: boolean, required: false}
       - {label: "Redirect From List", name: "redirect_from", widget: "list", required: false, field: {label: "redirect from", name: "redirect_from_num", widget: "string"}}
       - {label: "Redirect To", name: "redirect_to", widget: "string", required: false}
+      - {label: "Series Unique Code", name: "series_unique_code", widget: "string", required: false}
+      - {label: "Series Part number", name: "series_part", widget: "string", required: false}
+      - {label: "Series Page title", name: "series_page_title", widget: "string", required: false}
+      - {label: "Series Title", name: "series_title", widget: "string", required: false}
   - name: "thoughts"
     label: "Archive" # Used in the UI
     folder: "_thoughts" # The path to the folder where the documents are stored
