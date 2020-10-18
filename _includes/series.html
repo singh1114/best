@@ -1,11 +1,26 @@
 <div class="left-bar">
 {% for post in site.posts %}
-  {% assign series_url = "" | split: ',' %}
-  {% assign series_title = "" | split: ',' %}
   {% if post.series_unique_code == page.series_unique_code %}
-    <a href="{{ post.url }}"><strong>{{ post.title }}</strong></a><br>
-    {% assign series_url = series_url | push: post.url %}
-    {% assign series_title = series_title | push: post.title %}
+      {% if post.url == page.url %}
+        <a href="{{ post.url }}"
+        style="padding: 2px 13px;
+         color: white; background: #4CAF50;
+         border-radius: 50px;"><strong>
+          {% if post.series_title %}
+            {{ post.series_title }}
+          {% else %}
+            {{ post.title }}
+          {% endif %}
+        </strong></a><br>
+      {% else %}
+        <a href="{{ post.url }}"><strong>
+          {% if post.series_title %}
+            {{ post.series_title }}
+          {% else %}
+            {{ post.title }}
+          {% endif %}
+        </strong></a><br>
+      {% endif %}
   {% endif %}
 {% endfor %}
 </div>
@@ -27,6 +42,13 @@
       transform: translateY(-50%);
       left: 0px;
       font-size: 0.7em;
+      margin-top: 2em;
+      border: 1px solid #ccc;
+      border-radius: 0.5em;
+    }
+
+    .left-bar a {
+      text-decoration: none;
     }
   }
 </style>

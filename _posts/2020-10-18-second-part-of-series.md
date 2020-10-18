@@ -9,5 +9,6 @@ show_ads: false
 show_telegram_signup: false
 series_unique_code: python_beginner_series
 series_part: 1
+series_title: Part 2
 ---
 Second part of series
