@@ -7,8 +7,7 @@ description: Second part of series
 published: true
 categories:
   - python
-  - django
-  - webdev
+  - beginners
 author_name: Ranvir Singh
 author_username: ranvir_xyz
 show_ads: false

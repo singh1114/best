@@ -9,3 +9,5 @@ Greetings! My name is Ranvir,
 An Engineering professional with 3+ years of experience in Software development.
 
 [Website](https://ranvir.xyz/)
+
+{% include author_posts.html %}
