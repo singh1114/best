@@ -2,6 +2,7 @@
 title: Ranvir Singh
 permalink: "/ranvir_xyz/"
 layout: page
+author_page: true
 ---
 
 Greetings! My name is Ranvir,
