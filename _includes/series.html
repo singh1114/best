@@ -3,12 +3,10 @@
   {% assign series_url = "" | split: ',' %}
   {% assign series_title = "" | split: ',' %}
   {% if post.series_unique_code == page.series_unique_code %}
-    <a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
+    <a href="{{ post.url }}"><strong>{{ post.title }}</strong></a><br>
     {% assign series_url = series_url | push: post.url %}
     {% assign series_title = series_title | push: post.title %}
   {% endif %}
-  {{ series_url }}
-  {{ series_title }}
 {% endfor %}
 </div>
 
@@ -23,7 +21,7 @@
       visibility: visible;
       position: absolute;
       top: 5%;
-      max-width: 300px;
+      width: 180px;
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
       transform: translateY(-50%);
