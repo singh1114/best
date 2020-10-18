@@ -9,6 +9,8 @@ categories:
   - python
   - django
   - webdev
+author_name: Ranvir Singh
+author_username: ranvir_xyz
 show_ads: false
 series_title: Python Introduction
 series_page_title: Part 1
