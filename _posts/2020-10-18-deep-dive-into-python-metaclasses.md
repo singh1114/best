@@ -4,6 +4,7 @@ title: Deep dive into Python Metaclasses
 date: 2020-10-18T18:57:45.478Z
 updated_date: 2020-10-18T18:57:45.498Z
 published: true
+image: https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
 tags:
   - python
   - programming
@@ -16,6 +17,8 @@ show_ads: false
 show_telegram_signup: true
 canonical_url: https://sharmapacific.in/metaclasses-in-python/
 ---
+{% include lazyload.html image_src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" image_alt="Deep dive into Python Metaclasses" image_title="Deep dive into Python Metaclasses" %}
+
 In most programming languages, classes are just pieces of code that define the rules for an object, but in Python, as you must hear that everything is an object: it turns out that this is true of classes themselves. Classes are actually first-class objects, they can be created at runtime, passed as parameters, returned from functions, and assigned to variables.
 
 Let's look at the below example -
@@ -30,7 +33,7 @@ print(Tutorial())
 # <__main__.Tutorial object at 0x7fd92c1500f0>
 ```
 
-as we can see the instance of the `Tutorial` class tells us that this is an object of the main Tutorial object at some location.
+As we can see the instance of the `Tutorial` class tells us that this is an object of the main Tutorial object at some location.
 
 Now just print the class itself -
 
