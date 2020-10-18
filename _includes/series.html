@@ -17,7 +17,12 @@
 </div>
 
 <style>
-  @media only screen and (min-width: 1150px) {
+  .left-bar {
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+  }
+  @media (min-width: 1150px) {
     .left-bar {
       visibility: visible;
       position: absolute;
@@ -30,12 +35,4 @@
       left: 0px;
     }
   }
-  @media only screen and (max-width: 1150px) {
-    .left-bar {
-      visibility: hidden;
-      width: 0px;
-      height: 0px;
-    }
-  }
-
 </style>
