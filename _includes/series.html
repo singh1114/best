@@ -1,12 +1,13 @@
-<h4>Reached here</h4>
+<div class="left-bar">
+  <h4>Reached here</h4>
 {% for post in site.posts %}
   {% assign series_slug = "" | split: ',' %}
   {% assign series_title = "" | split: ',' %}
-  {% if post.series_unique_code == include.series_unique_code %}
-    {{ post.series_unique_code }}
-    {{ post.slug }}
-    {{ post.title }}
-    {{post}}
+  {% if post.series_unique_code == page.series_unique_code %}
+    Series code: {{ post.series_unique_code }}<br>
+    Slug: {{ post.slug }}<br>
+    Title: {{ post.title }}<br>
+    Url: {{post.url}}<br>
     {% assign series_slug = series_slug | push: post.slug %}
     {% assign series_title = series_title | push: post.title %}
   {% endif %}
@@ -15,3 +16,15 @@
   <h4>{{ series_slug[forloop.index0] }}</h4>
   <h5>{{ series_slug[forloop.index0] }}</h5>
 {% endfor %}
+</div>
+
+<style>
+  .left-bar {
+  position: fixed;
+  margin-left: -5em;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+</style>
