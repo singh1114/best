@@ -2,7 +2,7 @@
 title: Adding a tuple to the end of the basic tuple in python
 date: 2016-07-30 20:50:03 Z
 categories:
-- Django
+- django
 - Six weeks training
 author: ranvirsingh1114
 comments: true

@@ -2,7 +2,7 @@
 title: How to create a session variable in Django
 date: 2016-08-03 17:45:34 Z
 categories:
-- Django
+- django
 - Six weeks training
 author: ranvirsingh1114
 comments: true
