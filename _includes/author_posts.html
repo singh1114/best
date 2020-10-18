@@ -1,4 +1,5 @@
-{% for post in site.posts %}
+<div id="linked_post">
+    {% for post in site.posts %}
     {% assign page_slug = page.url | replace: "/", "" %}
     {% if post.author_username == page_slug %}
         <div class="linked_post_div">
@@ -16,3 +17,4 @@
         </div>
     {% endif %}
 {% endfor %}
+</div>
