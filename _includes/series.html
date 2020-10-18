@@ -3,11 +3,7 @@
   {% assign series_url = "" | split: ',' %}
   {% assign series_title = "" | split: ',' %}
   {% if post.series_unique_code == page.series_unique_code %}
-    Series code: {{ post.series_unique_code }}<br>
-    Slug: {{ post.slug }}<br>
-    Title: {{ post.title }}<br>
-    Url: {{post.url}}<br>
-
+    <a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
     {% assign series_url = series_url | push: post.url %}
     {% assign series_title = series_title | push: post.title %}
   {% endif %}
@@ -26,13 +22,13 @@
     .left-bar {
       visibility: visible;
       position: absolute;
-      margin-left: -15em;
       top: 5%;
       max-width: 300px;
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
       transform: translateY(-50%);
       left: 0px;
+      font-size: 0.7em;
     }
   }
 </style>
