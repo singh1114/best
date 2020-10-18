@@ -1,9 +1,8 @@
-<p>{{page}}</p>
 {% for post in site.posts %}
-    {{post}}
-    {% if post.author_username == page.slug %}
-        {{page.slug}}
-        {{post.author_username}}
+    {% assign page_slug = page.url | replace: "/", "" %}
+    {% if post.author_username == page_slug %}
+        {{ page_slug }}
+        {{ post.author_username }}
         <div class="linked_post_div">
             <article class="post">
                 <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
