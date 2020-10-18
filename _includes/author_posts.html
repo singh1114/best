@@ -1,5 +1,6 @@
-{{page.slug}}
+<p>{{page}}</p>
 {% for post in site.posts %}
+    {{post}}
     {% if post.author_username == page.slug %}
         {{page.slug}}
         {{post.author_username}}
