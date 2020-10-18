@@ -15,3 +15,5 @@ He is a Post-graduate in CS from National Institute of Technology Calicut.
 [Contact Him](mailto:sharma.pacific1@gmail.com)
 
 [Website](https://sharmapacific.in/)
+
+{% include author_posts.html %}
