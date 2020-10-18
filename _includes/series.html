@@ -6,6 +6,7 @@
     {{ post.series_unique_code }}
     {{ post.slug }}
     {{ post.title }}
+    {{post}}
     {% assign series_slug = series_slug | push: post.slug %}
     {% assign series_title = series_title | push: post.title %}
   {% endif %}
