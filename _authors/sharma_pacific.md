@@ -1,7 +1,7 @@
 ---
 title: Prashant Sharma
 permalink: "/sharma_pacific/"
-layout: post
+layout: page
 ---
 
 ![Profile Image](https://sharmapacific.in/assets/images/PrashantSharma.jpg)
