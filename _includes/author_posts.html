@@ -1,1 +1,6 @@
-Nothing special
+{% for post in site.posts %}
+    {% assign page_slug = page.url | replace: "/", "" %}
+    {% if post.author_username == page_slug %}
+        {{post.title}}
+    {% endif %}
+{% endfor %}
