@@ -15,7 +15,7 @@ categories:
 author_name: osohq
 author_username: osohq
 show_ads: false
-show_telegram_signup: false
+show_telegram_signup: true
 canonical_url: https://www.osohq.com/post/django-list-view
 ---
 At oso, our goal is to enable users to cleanly separate authorization logic from the rest of their application code. This separation is particularly challenging to achieve for list endpoints that return multiple records.
