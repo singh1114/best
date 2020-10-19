@@ -4,7 +4,7 @@ title: Generating Django QuerySet filters from oso policies
 date: 2020-10-19T18:11:18.477Z
 updated_date: 2020-10-19T18:11:18.515Z
 published: true
-image: https://pbs.twimg.com/card_img/1316764629587177473/i4tiKpnL?format=jpg&name=medium
+image: https://i.ibb.co/Vv2sQx3/i4tiKpnL.png
 tags:
   - python
   - django
