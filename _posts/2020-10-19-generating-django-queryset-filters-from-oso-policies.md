@@ -19,7 +19,7 @@ show_ads: false
 show_telegram_signup: true
 canonical_url: https://www.osohq.com/post/django-list-view
 ---
-![](https://pbs.twimg.com/card_img/1316764629587177473/i4tiKpnL?format=jpg&name=medium)
+{% include lazyload.html image_src="https://i.ibb.co/Vv2sQx3/i4tiKpnL.png" image_alt="Generating Django QuerySet filters from oso policies" image_title="Generating Django QuerySet filters from oso policies" %}
 
 At oso, our goal is to enable users to cleanly separate authorization logic from the rest of their application code. This separation is particularly challenging to achieve for list endpoints that return multiple records.
 
