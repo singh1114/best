@@ -17,7 +17,9 @@ author_username: osohq
 show_ads: false
 show_telegram_signup: false
 ---
-At oso, our goal is to enable users to cleanly separate authorization logic from the rest of their application code. This separation is particularly challenging to achieve for list endpoints that return multiple records. When we started thinking about list views, we realized a single yes or no authorization result was not sufficient because it only enables filtering a collection of records that are already in the application. Below, we will discuss a solution that allows authorization rules to output filters that can be evaluated more efficiently at the data retrieval layer.
+At oso, our goal is to enable users to cleanly separate authorization logic from the rest of their application code. This separation is particularly challenging to achieve for list endpoints that return multiple records.
+
+When we started thinking about list views, we realized a single yes or no authorization result was not sufficient because it only enables filtering a collection of records that are already in the application. Below, we will discuss a solution that allows authorization rules to output filters that can be evaluated more efficiently at the data retrieval layer.
 
 ## List authorization now
 
