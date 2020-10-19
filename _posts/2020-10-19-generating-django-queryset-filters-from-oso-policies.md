@@ -4,6 +4,7 @@ title: Generating Django QuerySet filters from oso policies
 date: 2020-10-19T18:11:18.477Z
 updated_date: 2020-10-19T18:11:18.515Z
 published: true
+image: https://pbs.twimg.com/card_img/1316764629587177473/i4tiKpnL?format=jpg&name=medium
 tags:
   - python
   - django
@@ -18,6 +19,8 @@ show_ads: false
 show_telegram_signup: true
 canonical_url: https://www.osohq.com/post/django-list-view
 ---
+![](https://pbs.twimg.com/card_img/1316764629587177473/i4tiKpnL?format=jpg&name=medium)
+
 At oso, our goal is to enable users to cleanly separate authorization logic from the rest of their application code. This separation is particularly challenging to achieve for list endpoints that return multiple records.
 
 When we started thinking about list views, we realized a single yes or no authorization result was not sufficient because it only enables filtering a collection of records that are already in the application. Below, we will discuss a solution that allows authorization rules to output filters that can be evaluated more efficiently at the data retrieval layer.
