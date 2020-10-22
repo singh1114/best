@@ -11,11 +11,12 @@
           <h5><a href="{{ author_page.permalink }}">{{ author_page.title }}</a></h5>
           {% if author_page.description %}
             {{ author_page.description }}
+            <br>
           {% else %}
             {{ author_page.excerpt }}
           {% endif %}
           {% if author_username and author_username != blank and author_name and author_username != blank and canonical_url %}
-              Original Source: <a href="{{ canonical_url }}">Original Post</a>
+            Original Source: <a href="{{ canonical_url }}">Original Post</a>
           {% endif %}
         </article>
       </div>
