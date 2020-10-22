@@ -5,4 +5,14 @@
   {% if author_username and author_username != blank and author_name and author_username != blank and canonical_url %}
     Original Source: <a href="{{ canonical_url }}">Original Post</a>
   {% endif %}
+  {% for author_page in site.authors %}
+    <div class="linked_post_div">
+      <article class="post">
+        <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ author_page.title }}</a></h3>
+        <p style="color: #969494; margin: 10px 0px; font-size: 18px;">
+          <br><br>
+        </p>
+      </article>
+    </div>
+  {% endfor %}
 </div>
