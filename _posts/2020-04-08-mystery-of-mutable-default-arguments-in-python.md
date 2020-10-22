@@ -133,4 +133,4 @@ I hope you like the explanation of Mutable Default Arguments in Python. Still, i
 
 References:
 
-[https://docs.python.org/3/reference/datamodel.html#the-standard-type-hierarchy](https://docs.python.org/3/reference/datamodel.html#the-standard-type-hierarchy)
+[Datamodel: The standard type hierarchy](https://docs.python.org/3/reference/datamodel.html#the-standard-type-hierarchy)
