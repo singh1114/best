@@ -5,15 +5,14 @@
   {% for author_page in site.authors %}
     {% assign author_page_username = author_page.permalink | replace: "/", "" %}
     {% if author_username == author_page_username %}
-      <div class="linked_post_div">
+      <div class="linked_post_div" style="margin: 10px 0px; font-size: 14.5px;">
         <article class="post">
-          <h3><a href="{{ author_page.permalink }}">{{ author_page.title }}</a></h3>
-          <p  class="entry" style="color: #969494; margin: 10px 0px; font-size: 18px;">
-            {{ author_page.excerpt }}
-            {% if author_username and author_username != blank and author_name and author_username != blank and canonical_url %}
+          <h3>About Author</h3>
+          <h5><a href="{{ author_page.permalink }}">{{ author_page.title }}</a></h5>
+          {{ author_page.excerpt }}
+          {% if author_username and author_username != blank and author_name and author_username != blank and canonical_url %}
               Original Source: <a href="{{ canonical_url }}">Original Post</a>
-            {% endif %}
-          </p>
+          {% endif %}
         </article>
       </div>
     {% endif %}
