@@ -59,11 +59,9 @@ layout: default
 
   {% include share-bar.html %}
 
-  <div class="original_source">
-    {% if page.author_username and page.author_username != blank and page.author_name and page.author_username != blank and page.canonical_url %}
-      Original Source: <a href="{{ page.canonical_url }}">Original Post</a>
-    {% endif %}
-  </div>
+  {% if page.author_username %}
+    {% include author_details.html author_username=page.author_username canonical_url=page.canonical_url author_name=page.author_name %}
+  {% endif %}
 
   <div class="relatedPosts">
 

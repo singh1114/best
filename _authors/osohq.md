@@ -13,5 +13,6 @@ We also have integrations for Flask and Django. oso launched in summer 2020 and 
 We'd love to hear feedback or questions as we continue to build new features – [join us on Slack](https://oso-oss.slack.com/join/shared_invite/zt-gpma9cye-yVfWh75rY3YUUrKanbKeKA#/) or [open an issue](https://github.com/osohq/oso).
 
 [Visit the website](https://www.osohq.com/)
+[Twitter](https://twitter.com/osoHQ)
 
 {% include author_posts.html %}

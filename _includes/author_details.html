@@ -1,0 +1,8 @@
+<div class="original_source">
+  {% assign author_username = include.author_username %}
+  {% assign author_name = include.author_name %}
+  {% assign canonical_url = include.canonical_url %}
+  {% if author_username and author_username != blank and author_name and author_username != blank and canonical_url %}
+    Original Source: <a href="{{ canonical_url }}">Original Post</a>
+  {% endif %}
+</div>
