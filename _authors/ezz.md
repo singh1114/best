@@ -9,7 +9,9 @@ description: Ezz is a Data Platform Engineer at Affectiva, Electronics and Commu
 
 Ezz is a Data Platform Engineer at Affectiva, Electronics and Communications Engineering graduate from Ain Shams University.
 
-Despite his early career shift, he had two data science internships and now a full-time job in the software industry even after 14 months of military service. Ezz was also active during college, he co-founded Pi; a scientific student activity.
+Despite his early career shift, he had two data science internships and now a full-time job in the software industry even after 14 months of military service.
+
+Ezz was also active during college, he co-founded Pi; a scientific student activity.
 
 During his free time, he writes blogs about software, problem-solving, and even self-improvement.
 
