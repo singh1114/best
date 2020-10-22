@@ -8,8 +8,8 @@ collections:
   uploads:
     title: Uploads
     output: true
-  thoughts:
-    title: Archives
+  authors:
+    title: Posts
     output: true
 name: Python Programming Blog
 description: Wide range of Python tutorials
