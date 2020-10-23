@@ -31,8 +31,8 @@ Per each test, you're given a string of binary characters (0's and 1's) and you'
 
 This problem has two inputs:
 
-*   input for test cases
-*   input for each string of binary characters per each test case
+* input for test cases
+* input for each string of binary characters per each test case
 
 You can think of this problem as capturing all consecutive ones in the string first and then we can make a decision on which 1's we should focus on to make Alice win. 
 
@@ -55,16 +55,15 @@ That's how I thought about this problem and below is my implementations in Pytho
 ## Python Solution
 
 ‍```python
-
 N = int(input())
-s = []
+s = \[]
 for _ in range(N):
     s.append(input())
 
 for n in range(N):
-    ones = []
+    ones = \[]
     count = 0
-    for c in s[n]:
+    for c in s\[n]:
         if c == '1':
             count += 1
         else:
@@ -73,11 +72,11 @@ for n in range(N):
                 count = 0
     if count:
         ones.append(count)
-
-    onessorted = sorted(ones, reverse=True)
-    print(sum(onessorted[0::2]))
+onessorted = sorted(ones, reverse=True)
+print(sum(onessorted[0::2]))
 ```
 
 ## Shoutout
 
 I'd like to share [this video](https://www.youtube.com/watch?v=xE8qf5sfn4Y&ab_channel=codeExplainer) because the idea of solving this solution is from this guy. Check out his solution in C++ if you're interested.
+```
