@@ -16,7 +16,7 @@ categories:
 author_name: EzzEddin Abdullah
 author_username: ezz
 show_ads: false
-show_telegram_signup: false
+show_telegram_signup: true
 ---
 ## Understanding the Problem
 
@@ -24,13 +24,16 @@ show_telegram_signup: false
 
 ## Initial thoughts
 
-Let us take this example, having `[2, 2]` as the target array and we want to know the minimum number of operations to reach that array. So we start off with \[0, 0\] adding 1 to each element (2 operations now) reaching `[1, 1]` and then multiply the whole array by 2 (1 operation) reaching the target array we want `[2, 2]` so we have 3 operations to reach the desired array for this example as shown below:
+Let us take this example, having `[2, 2]` as the target array and we want to know the minimum number of operations to reach that array.
 
-‍![](https://uploads-ssl.webflow.com/5f359c073455c743bc873ee4/5f909c229bb26b9bb634e788_min_num_func_calls_1.png)
+So we start off with `[0, 0]` adding 1 to each element (2 operations now) reaching `[1, 1]` and then multiply the whole array by 2 (1 operation) reaching the target array we want `[2, 2]` so we have 3 operations to reach the desired array for this example as shown below:
+
+{% include lazyload.html image_src="https://uploads-ssl.webflow.com/5f359c073455c743bc873ee4/5f909c229bb26b9bb634e788_min_num_func_calls_1.png" image_alt="Minimum Numbers of Function Calls to Make Target Array With Python" image_title="Minimum Numbers of Function Calls to Make Target Array With Python" %}
+
 
 But it's hard to move from `[0, 0]` to reach `[2, 2]` because of the possibility of wrong guessing of the next array we want to reach. What we can better do, is to move backward from `[2, 2]` to `[0, 0]` as indicated below:
 
-![](https://uploads-ssl.webflow.com/5f359c073455c743bc873ee4/5f909ddd15cb0a10a04b26d4_min_num_func_calls_2.png)
+{% include lazyload.html image_src="https://uploads-ssl.webflow.com/5f359c073455c743bc873ee4/5f909ddd15cb0a10a04b26d4_min_num_func_calls_2.png" image_alt="Minimum Numbers of Function Calls to Make Target Array With Python" image_title="Minimum Numbers of Function Calls to Make Target Array With Python" %}
 
 In this case, we can divide instead of multiplying and subtracting instead of adding as shown in orange and we'll end up with the same number of operations.
 
