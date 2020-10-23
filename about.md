@@ -6,6 +6,16 @@ layout: page
 
 Wide range of Python tutorials by our great authors.
 
+---
+
+### Contact Python Programming
+
+Become an author of [pythonprogramming.org](https://pythonprogramming.org) by emailing us.
+
+**email:** [Email](mailto:pythonprogrammingorg@gmail.com)
+
+---
+
 ### Our Authors
 
 <div class="original_source">
@@ -23,11 +33,3 @@ Wide range of Python tutorials by our great authors.
     </div>
   {% endfor %}
 </div>
-
----
-
-### Contact Python Programming
-
-Become an author of [pythonprogramming.org](https://pythonprogramming.org) by emailing us.
-
-**email:** [Email](mailto:pythonprogrammingorg@gmail.com)
