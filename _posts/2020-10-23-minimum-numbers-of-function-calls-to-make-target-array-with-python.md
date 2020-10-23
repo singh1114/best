@@ -18,6 +18,8 @@ author_username: ezz
 show_ads: false
 show_telegram_signup: true
 ---
+Minimum Numbers of Function Calls to Make Target Array is problem number 1558 on leetcode and I am going to solve it using Python today.
+
 ## Understanding the Problem
 
 [Minimum Numbers of Function Calls to Make Target Array](https://leetcode.com/problems/minimum-numbers-of-function-calls-to-make-target-array/) is a medium problem at leetcode, I hope you have read the problem carefully and have tried solving it. This problem requires you to get the least number of operations that you can do in order to get to the desired array. The question now, how we can do such operations to count its numbers to reach the target array in the least possible way.
