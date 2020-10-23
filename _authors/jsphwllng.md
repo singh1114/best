@@ -7,10 +7,6 @@ description: Developer fluent in Rails, MERN and Python. Now learning Go and loo
 
 Developer fluent in Rails, MERN and Python. Now learning Go and looking for a position in Berlin.
 
-Github: [https://github.com/jsphwllng](https://github.com/jsphwllng)
-
-Twitter: [https://twitter.com/jsphWllng](https://twitter.com/jsphWllng)
-
 👨‍💻 I'm currently looking for a position in Berlin
 
 💻 I like to use .py, .js, .rb, .html, .css, .psd
@@ -24,5 +20,9 @@ Twitter: [https://twitter.com/jsphWllng](https://twitter.com/jsphWllng)
 🎨 I like ping pong, yoga and brewing in my spare time.
 
 🙆‍♂️ My pronouns are he/him
+
+Github: [https://github.com/jsphwllng](https://github.com/jsphwllng)
+
+Twitter: [https://twitter.com/jsphWllng](https://twitter.com/jsphWllng)
 
 {% include author_posts.html %}
