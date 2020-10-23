@@ -15,11 +15,15 @@ Developer fluent in Rails, MERN and Python. Now learning Go and looking for a po
 
 🗣 Please message me about ruby, javascript, python or twitter bots
 
-🐦 I tweet here: twitter.com/jsphwllng
+🐦 I tweet here: [twitter.com/jsphwllng](https://twitter.com/jsphWllng)
 
 🎨 I like ping pong, yoga and brewing in my spare time.
 
 🙆‍♂️ My pronouns are he/him
+
+---
+
+## Contact
 
 Github: [https://github.com/jsphwllng](https://github.com/jsphwllng)
 
