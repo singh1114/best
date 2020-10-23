@@ -6,6 +6,7 @@ updated_date: 2020-10-23T19:26:30.193Z
 description: Minimum Numbers of Function Calls to Make Target Array With Python
   Leetcode question with explanation on pythonprogramming.org
 published: true
+image: https://i.ibb.co/6wZXXWp/ezz1.png
 tags:
   - python
   - competitiveprogramming
