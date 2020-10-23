@@ -17,6 +17,7 @@ author_name: EzzEddin Abdullah
 author_username: ezz
 show_ads: false
 show_telegram_signup: true
+canonical_url: https://www.ezzeddinabdullah.com/posts/substring-removal-game-with-python-and-javascript
 ---
 {% include lazyload.html image_src="https://i.ibb.co/n11fXtn/carbon-6-1.png" image_alt="Substring Removal Game with Python" image_title="Substring Removal Game with Python" %}
 
