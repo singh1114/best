@@ -54,7 +54,7 @@ That's how I thought about this problem and below is my implementations in Pytho
 
 ## Python Solution
 
-‍```python
+```python
 N = int(input())
 s = []
 for _ in range(N):
