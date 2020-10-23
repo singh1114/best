@@ -4,6 +4,7 @@ title: How to create a webscraping twitter bot in Python
 date: 2020-10-23T22:19:39.640Z
 updated_date: 2020-10-23T22:19:39.687Z
 published: false
+image: https://i.ibb.co/2s7RcYy/carbon-8-1.png
 show_ads: false
 show_telegram_signup: false
 ---
