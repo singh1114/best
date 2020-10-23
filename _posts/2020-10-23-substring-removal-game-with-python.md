@@ -35,15 +35,15 @@ This problem has two inputs:
 
 You can think of this problem as capturing all consecutive ones in the string first and then we can make a decision on which 1's we should focus on to make Alice win. 
 
-For example, if the input is 01111001 this means that we have 4 consecutive 1's and then just 1; to make Alice win in this case, we should make her take that move which is obviously her first move already and then Bob can take the second move which is the last 1 in the string.
+For example, if the input is `01111001` this means that we have 4 consecutive 1's and then just 1; to make Alice win in this case, we should make her take that move which is obviously her first move already and then Bob can take the second move which is the last 1 in the string.
 
 Let's have another example, 111111 these are 6 ones which can be the first move for Alice so 6 moves will be her win.
 
-How about this tricky one: 101010101?
+How about this tricky one: `101010101`?
 
 So there are 5 ones... which of them should be Alice's moves? That would be the first and the third and the fifth... so here 3 moves for Alice.
 
-What for this one: 011011110111?
+What for this one: `011011110111`?
 
 Here, we have 2 consecutive ones, 4 consecutive ones, and 3 consecutive ones. Which moves can make Alice win?
 
