@@ -90,7 +90,7 @@ The Python code is mutual work with my best friend [Nour](https://github.com/nou
 ## Motivated by
 
 *   [Array.prototype.some()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)‍
-*   [Minimum Numbers of Function Calls to Make Target Array | Leetcode 1558](https://www.youtube.com/watch?v=4z6sgk9NELo&ab_channel=CompetitiveCoding)‍
+*   [Minimum Numbers of Function Calls to Make Target Array](https://www.youtube.com/watch?v=4z6sgk9NELo&ab_channel=CompetitiveCoding)‍
 *   [map(), filter(), and reduce() in Python with Examples](https://stackabuse.com/map-filter-and-reduce-in-python-with-examples/)
 *   [Map, Filter and Reduce](https://book.pythontips.com/en/latest/map_filter.html)‍
 *   [Integer division with remainder in JavaScript?](https://stackoverflow.com/a/4228376/4604121)
