@@ -3,16 +3,23 @@ layout: post
 title: Monitor your internet with python
 date: 2020-10-23T21:41:01.542Z
 updated_date: 2020-10-23T21:41:01.598Z
-published: false
+description: Monitor your internet with python and visualizations using
+  matplotlib on pythonprogramming.org
+published: true
+image: " https://i.ibb.co/TgcDyYk/carbon-7-1.png"
 tags:
   - python
+  - machinelearning
 categories:
   - python
+  - machinelearning
 author_name: Joseph
 author_username: jsphwllng
 show_ads: false
 show_telegram_signup: true
 ---
+{% include lazyload.html image_src="https://i.ibb.co/TgcDyYk/carbon-7-2.png" image_alt="Monitor your internet with python" image_title="Monitor your internet with python" %}
+
 I live in Germany and Germany is known for its diversity. The people are diverse, the culture is diverse and the quality of internet connections are equally as diverse.
 
 Having spoken to my internet provider who insisted I had no problems with my internet connection I decided to write a program to monitor my upload and download speed.
