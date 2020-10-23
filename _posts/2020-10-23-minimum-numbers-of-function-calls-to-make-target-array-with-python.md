@@ -4,6 +4,12 @@ title: Minimum Numbers of Function Calls to Make Target Array With Python
 date: 2020-10-23T19:26:30.167Z
 updated_date: 2020-10-23T19:26:30.193Z
 published: true
+tags:
+  - python
+  - competitiveprogramming
+categories:
+  - python
+  - competitiveprogramming
 author_username: ezz
 show_ads: false
 show_telegram_signup: false
