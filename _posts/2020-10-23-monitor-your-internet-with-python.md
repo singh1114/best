@@ -4,8 +4,14 @@ title: Monitor your internet with python
 date: 2020-10-23T21:41:01.542Z
 updated_date: 2020-10-23T21:41:01.598Z
 published: false
+tags:
+  - python
+categories:
+  - python
+author_name: Joseph
+author_username: jsphwllng
 show_ads: false
-show_telegram_signup: false
+show_telegram_signup: true
 ---
 I live in Germany and Germany is known for its diversity. The people are diverse, the culture is diverse and the quality of internet connections are equally as diverse.
 
