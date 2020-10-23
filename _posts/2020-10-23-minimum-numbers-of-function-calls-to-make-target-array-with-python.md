@@ -17,6 +17,7 @@ author_name: EzzEddin Abdullah
 author_username: ezz
 show_ads: false
 show_telegram_signup: true
+canonical_url: https://www.ezzeddinabdullah.com/posts/minimum-numbers-of-function-calls-to-make-target-array-with-python-and-javascript
 ---
 {% include lazyload.html image_src="https://i.ibb.co/48LcZ1Z/carbon-3-2.png" image_alt="Minimum Numbers of Function Calls to Make Target Array With Python" image_title="Minimum Numbers of Function Calls to Make Target Array With Python" %}
 
