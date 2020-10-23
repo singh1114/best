@@ -10,6 +10,7 @@ tags:
 categories:
   - python
   - competitiveprogramming
+author_name: EzzEddin Abdullah
 author_username: ezz
 show_ads: false
 show_telegram_signup: false
