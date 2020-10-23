@@ -18,6 +18,8 @@ author_username: ezz
 show_ads: false
 show_telegram_signup: true
 ---
+{% include lazyload.html image_src="https://i.ibb.co/n11fXtn/carbon-6-1.png" image_alt="Substring Removal Game with Python" image_title="Substring Removal Game with Python" %}
+
 ## Understanding the Problem
 
 [Substring Removal Game](https://codeforces.com/contest/1398/problem/B) is an 800-point problem at codeforces, I hope you have read the problem carefully and have tried thinking about solving it. This problem basically states as its name sounds to say, to remove a substring.
