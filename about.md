@@ -14,6 +14,8 @@ Become an author of [pythonprogramming.org](https://pythonprogramming.org) by em
 
 **email:** [Email](mailto:pythonprogrammingorg@gmail.com)
 
+Twitter: [https://twitter.com/pythonprogramm9](https://twitter.com/pythonprogramm9)
+
 ---
 
 ### Our Authors
