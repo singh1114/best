@@ -3,11 +3,23 @@ layout: post
 title: How to create a webscraping twitter bot in Python
 date: 2020-10-23T22:19:39.640Z
 updated_date: 2020-10-23T22:19:39.687Z
-published: false
+description: How to create a webscraping twitter bot in Python with tweety and
+  Beautifulsoup on pythonprogramming.org
+published: true
 image: https://i.ibb.co/2s7RcYy/carbon-8-1.png
+tags:
+  - python
+  - webscrapping
+categories:
+  - python
+  - webscrapping
+author_name: Joseph
+author_username: jsphwllng
 show_ads: false
-show_telegram_signup: false
+show_telegram_signup: true
 ---
+{% include lazyload.html image_src="https://i.ibb.co/BcDGgCJ/carbon-8-2.png" image_alt="How to create a webscraping twitter bot in Python" image_title="How to create a webscraping twitter bot in Python" %}
+
 Let's look at building a twitter bot that scrapes information from one part of the web and then spits it out on twitter.
 
 There are a few good examples if you want to generate ideas for a twitter bot such as [@bbcbweaking](https://twitter.com/bbcbweaking?lang=en), [@poemexe](https://twitter.com/poem_exe) and my own [@rnghaiku](https://twitter.com/rnghaiku).
