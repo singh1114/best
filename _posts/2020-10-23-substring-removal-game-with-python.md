@@ -34,7 +34,7 @@ This problem has two inputs:
 * input for test cases
 * input for each string of binary characters per each test case
 
-You can think of this problem as capturing all consecutive ones in the string first and then we can make a decision on which 1's we should focus on to make Alice win. 
+You can think of this problem as capturing all consecutive ones in the string first and then we can make a decision on which 1's we should focus on to make Alice win.
 
 For example, if the input is `01111001` this means that we have 4 consecutive 1's and then just 1; to make Alice win in this case, we should make her take that move which is obviously her first move already and then Bob can take the second move which is the last 1 in the string.
 
@@ -56,14 +56,14 @@ That's how I thought about this problem and below is my implementations in Pytho
 
 ‍```python
 N = int(input())
-s = \[]
+s = []
 for _ in range(N):
     s.append(input())
 
 for n in range(N):
-    ones = \[]
+    ones = []
     count = 0
-    for c in s\[n]:
+    for c in s[n]:
         if c == '1':
             count += 1
         else:
@@ -79,4 +79,3 @@ print(sum(onessorted[0::2]))
 ## Shoutout
 
 I'd like to share [this video](https://www.youtube.com/watch?v=xE8qf5sfn4Y&ab_channel=codeExplainer) because the idea of solving this solution is from this guy. Check out his solution in C++ if you're interested.
-```
