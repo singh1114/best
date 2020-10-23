@@ -4,7 +4,7 @@ permalink: "/about/"
 layout: page
 ---
 
-Wide range of Python tutorials
+Wide range of Python tutorials by our great authors.
 
 ### Our Authors
 
@@ -24,6 +24,10 @@ Wide range of Python tutorials
   {% endfor %}
 </div>
 
+---
+
 ### Contact Python Programming
+
+Become an author of [pythonprogramming.org](https://pythonprogramming.org) by emailing us.
 
 **email:** [Email](mailto:pythonprogrammingorg@gmail.com)
