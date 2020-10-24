@@ -32,6 +32,8 @@ category_name: django
 layout: category
 ```
 
+![category]({{site.baseurl}}/images/category.png "category")
+
 All the posts with category `django` will be shown on a separate `/django/` page.
 
 ## What is Lorem Ipsum I?
