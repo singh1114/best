@@ -24,7 +24,7 @@ skip_toc: true
 
 Just add the following code in the Front matter.
 
-```jekyll
+```
 series_title: Series Post part I
 series_unique_code: python_beginner_series
 series_part: 1

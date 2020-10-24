@@ -24,7 +24,7 @@ skip_toc: true
 
 Just add the following code in the Front matter. To define the second part, keep incrementing the series part value.
 
-```jekyll
+```
 series_title: Series Post part II
 series_unique_code: python_beginner_series
 series_part: 2
