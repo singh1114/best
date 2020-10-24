@@ -20,6 +20,8 @@ series_page_title: Series Post part II
 skip_toc: true
 ---
 
+Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+
 ## How to create series with Best Jekyll theme
 
 Just add the following code in the Front matter. To define the second part, keep incrementing the series part value.

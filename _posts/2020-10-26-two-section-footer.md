@@ -1,41 +1,28 @@
 ---
 layout: post
-title: First part of series
-date: 2019-02-10T08:42:00.000Z
-updated_date: 2019-02-10T08:42:00.000Z
+title: Two section Footer
+date: 2020-02-10T08:42:00.000Z
+updated_date: 2020-02-10T08:42:00.000Z
 description: First part of series
 published: true
 categories:
   - python
   - django
-  - webdev
   - machinelearning
-  - blogging
-author_name: Ranvir Singh
-author_username: ranvir_xyz
-series_title: Series Posts
-series_unique_code: python_beginner_series
-series_part: 1
-series_page_title: Series Post part I
+author_name: John Doe
+author_username: john
 skip_toc: true
 ---
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 
-## How to create series with Best Jekyll theme
+## Add more links to the footer
 
-Just add the following code in the Front matter.
+Two section footer helps you to add more links to the footer.
 
-```
-series_title: Series Posts - Title of the series
-series_unique_code: python_beginner_series - Unique code for each series
-series_part: 1 - Series part number
-series_page_title: Series Post part I - Title of the series in the widget
-```
+![footer]({{site.baseurl}}/images/footer.png "footer")
 
-For reference check the frontmatter of this blog. The series post data is shown on the left hand side for the bigger screens.
-
-![series]({{site.baseurl}}/images/series.png "series")
+You can add more links by editing `_includes/link_footer.html`
 
 ## What is Lorem Ipsum I?
 
