@@ -1,5 +1,5 @@
 ---
-title: Best Programming Blog
+title: Best Blog Theme
 timezone: UTC
 collections:
   posts:
@@ -11,8 +11,8 @@ collections:
   authors:
     title: Posts
     output: true
-name: Best Programming Blog
-description: Best Programming Blog
+name: Best Blog Theme
+description: Best Blog Theme
 avatar: https://pythonprogramming.org/images/python.svg
 footer-links:
   dribbble:
