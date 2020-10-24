@@ -28,10 +28,12 @@ Just add the following code in the Front matter.
 series_title: Series Posts
 series_unique_code: python_beginner_series
 series_part: 1
-series_page_title: Getting started
+series_page_title: Series Post part I
 ```
 
-For reference check the frontmatter of this blog.
+For reference check the frontmatter of this blog. The series post data is shown on the left hand side for the bigger screens.
+
+![](/images/series.png)
 
 ## What is Lorem Ipsum I?
 
