@@ -25,15 +25,15 @@ skip_toc: true
 Just add the following code in the Front matter.
 
 ```
-series_title: Series Posts
-series_unique_code: python_beginner_series
-series_part: 1
-series_page_title: Series Post part I
+series_title: Series Posts - Title of the series
+series_unique_code: python_beginner_series - Unique code for each series
+series_part: 1 - Series part number
+series_page_title: Series Post part I - Title of the series in the widget
 ```
 
 For reference check the frontmatter of this blog. The series post data is shown on the left hand side for the bigger screens.
 
-![series](/images/series.png "series")
+![series]({{site.baseurl}}/images/series.png "series")
 
 ## What is Lorem Ipsum I?
 
