@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Code Highlighting
+title: Lazyloading of Image
 date: 2020-02-10T08:42:00.000Z
 updated_date: 2020-02-10T08:42:00.000Z
-description: Code Highlighting
+description: Lazyloading of Image
 published: true
 categories:
   - python
@@ -14,16 +14,15 @@ author_username: john
 skip_toc: true
 ---
 
-```python
-def function():
-    a = [1, 3, 5, 7]
-    b = [c for x in a]
-    return a + b
-```
+{% include lazyload.html image_src="https://i.ibb.co/RYRBpBq/images.gif" image_alt="Lazyloading of Image" image_title="Lazyloading of Image" %}
 
-## Code Highlighting
+## Lazyloading of Image
 
-Great level of code highlighting is allowed. This theme is inspired by another blog.
+Images in this theme are lazily loaded. All you have to do is replace the way you declare images posts.
+
+Use the following code to lazyload your images.
+
+<script src="https://gist.github.com/singh1114/e5cfa80c4539fef26f2213f56b676e3e.js"></script>
 
 ## What is Lorem Ipsum I?
 
