@@ -33,7 +33,7 @@ series_page_title: Series Post part I
 
 For reference check the frontmatter of this blog. The series post data is shown on the left hand side for the bigger screens.
 
-![](/images/series.png)
+![series](/images/series.png "series")
 
 ## What is Lorem Ipsum I?
 
