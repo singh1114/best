@@ -2,7 +2,8 @@
 title: John Doe
 permalink: "/john/"
 layout: page
-description: John Doe is a Data Platform Engineer at Google, Electronics and Communications Engineering graduate from Hogwarts University.
+description: John Doe is a Data Platform Engineer at Google, Electronics and Communications
+  Engineering graduate from Hogwarts University.
   John was also active during college, he co-founded Facebook; a space travel company.
 ---
 

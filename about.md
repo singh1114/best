@@ -24,7 +24,7 @@ There a lot of features in the blog. Each feature is a separate blog post availa
   {% for author_page in site.authors %}
     <div class="linked_post_div" style="margin: 10px 0px; font-size: 14.5px;">
       <article class="post">
-        <h3>About Author &middot; <a href="{{ author_page.permalink }}">{{ author_page.title }}</a></h3>
+        <h3>About Author &middot; <a href="{{site.baseurl}}{{ author_page.permalink }}">{{ author_page.title }}</a></h3>
         {% if author_page.description %}
           {{ author_page.description }}
           <br>
