@@ -9,6 +9,8 @@ categories:
   - python
   - django
   - webdev
+  - machinelearning
+  - blogging
 author_name: Ranvir Singh
 author_username: ranvir_xyz
 series_title: Python Introduction
