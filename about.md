@@ -8,14 +8,14 @@ Wide range of Python tutorials by our great authors.
 
 ---
 
-### Contact Python Programming
+### Best Blog Theme
 
-Become an author of [pythonprogramming.org](https://pythonprogramming.org) by emailing us.
+`Best` blog theme is inspired by [Barry clark's Jekyll Now](https://github.com/barryclark/jekyll-now) and few inspirations
+taken from other blogs as well.
 
-**email:** [Email](mailto:pythonprogrammingorg@gmail.com)
+There a lot of features in the blog. Each feature is a separate blog post available.
 
-Twitter: [https://twitter.com/pythonprogramm9](https://twitter.com/pythonprogramm9)
-
+{% if site.show_authors %}
 ---
 
 ### Our Authors
@@ -35,3 +35,4 @@ Twitter: [https://twitter.com/pythonprogramm9](https://twitter.com/pythonprogram
     </div>
   {% endfor %}
 </div>
+{% endif %}
