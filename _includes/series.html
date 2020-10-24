@@ -6,7 +6,7 @@
 {% for post in site.posts %}
   {% if post.series_unique_code == page.series_unique_code %}
       {% if post.url == page.url %}
-        <a href="{{site.baseurl}}/{{ post.url }}"
+        <a href="{{site.baseurl}}{{ post.url }}"
         style="padding: 2px 13px;
          color: white; background: #4CAF50;
          border-radius: 50px;">
@@ -17,7 +17,7 @@
           {% endif %}
         </a><br>
       {% else %}
-        <a href="{{site.baseurl}}/{{ post.url }}">
+        <a href="{{site.baseurl}}{{ post.url }}">
           {% if post.series_page_title %}
             {{ post.series_page_title }}
           {% else %}

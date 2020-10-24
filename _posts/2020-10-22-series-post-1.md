@@ -1,8 +1,8 @@
 ---
 layout: post
 title: First part of series
-date: 2019-02-13T08:42:00.000Z
-updated_date: 2019-02-13T08:42:00.000Z
+date: 2019-02-10T08:42:00.000Z
+updated_date: 2019-02-10T08:42:00.000Z
 description: First part of series
 published: true
 categories:
@@ -13,10 +13,10 @@ categories:
   - blogging
 author_name: Ranvir Singh
 author_username: ranvir_xyz
-series_title: Series Post part I
+series_title: Series Posts
 series_unique_code: python_beginner_series
 series_part: 1
-series_page_title: Getting started
+series_page_title: Series Post part I
 skip_toc: true
 ---
 
@@ -25,7 +25,7 @@ skip_toc: true
 Just add the following code in the Front matter.
 
 ```
-series_title: Series Post part I
+series_title: Series Posts
 series_unique_code: python_beginner_series
 series_part: 1
 series_page_title: Getting started

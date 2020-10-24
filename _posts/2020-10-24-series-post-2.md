@@ -13,7 +13,7 @@ categories:
   - blogging
 author_name: Ranvir Singh
 author_username: ranvir_xyz
-series_title: Python Introduction
+series_title: Series Posts
 series_unique_code: python_beginner_series
 series_part: 2
 series_page_title: Series Post part II
@@ -25,7 +25,7 @@ skip_toc: true
 Just add the following code in the Front matter. To define the second part, keep incrementing the series part value.
 
 ```
-series_title: Series Post part II
+series_title: Series Posts
 series_unique_code: python_beginner_series
 series_part: 2
 series_page_title: Series Post part II
