@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Second part of series
-date: 2019-02-13T08:42:00.000Z
-updated_date: 2019-02-13T08:42:00.000Z
-description: Second part of series
+title: First part of series
+date: 2019-02-10T08:42:00.000Z
+updated_date: 2019-02-10T08:42:00.000Z
+description: First part of series
 published: true
 categories:
   - python
@@ -15,20 +15,20 @@ author_name: Ranvir Singh
 author_username: ranvir_xyz
 series_title: Series Posts
 series_unique_code: python_beginner_series
-series_part: 2
-series_page_title: Series Post part II
+series_part: 1
+series_page_title: Series Post part I
 skip_toc: true
 ---
 
 ## How to create series with Best Jekyll theme
 
-Just add the following code in the Front matter. To define the second part, keep incrementing the series part value.
+Just add the following code in the Front matter.
 
 ```
 series_title: Series Posts
 series_unique_code: python_beginner_series
-series_part: 2
-series_page_title: Series Post part II
+series_part: 1
+series_page_title: Series Post part I
 ```
 
 For reference check the frontmatter of this blog. The series post data is shown on the left hand side for the bigger screens.
