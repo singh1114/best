@@ -28,7 +28,7 @@ footer-links:
   stackoverflow:
   youtube:
 disqus: ranvir-singh
-google_analytics:
+google_analytics: UA-73349527-12
 url: https://ranvir.xyz
 baseurl: "/best"
 permalink: "/:title/"
